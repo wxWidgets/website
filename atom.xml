@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[wxWidgets]]></title>
+  <link href="http://www.wxwidgets.org/atom.xml" rel="self"/>
+  <link href="http://www.wxwidgets.org/"/>
+  <updated>2012-05-07T01:07:43-06:00</updated>
+  <id>http://www.wxwidgets.org/</id>
+  <author>
+    <name><![CDATA[wxWidgets Team]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
