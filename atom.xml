@@ -4,7 +4,7 @@
   <title><![CDATA[wxWidgets]]></title>
   <link href="http://wxWidgets.github.com/atom.xml" rel="self"/>
   <link href="http://wxWidgets.github.com/"/>
-  <updated>2012-05-07T09:07:51-06:00</updated>
+  <updated>2012-05-08T08:29:28-06:00</updated>
   <id>http://wxWidgets.github.com/</id>
   <author>
     <name><![CDATA[wxWidgets Team]]></name>
@@ -18,18 +18,14 @@
     <link href="http://wxWidgets.github.com/blog/2012/05/02/google-drive-uses-wxwidgets/"/>
     <updated>2012-05-02T22:29:00-06:00</updated>
     <id>http://wxWidgets.github.com/blog/2012/05/02/google-drive-uses-wxwidgets</id>
-    <content type="html"><![CDATA[<p>The recently released [Google Drive][1] system desktop client
-[uses wxPython][2]. Considering that [Dropbox][3] desktop client is also
+    <content type="html"><![CDATA[<p>The recently released <a href="https://drive.google.com/">Google Drive</a> system desktop client
+<a href="https://support.google.com/drive/bin/answer.py?hl=en&amp;answer=1716931&amp;p=settings_licenses">uses wxPython</a>. Considering that <a href="https://www.dropbox.com/">Dropbox</a> desktop client is also
 written in wxPython it could be taken as a proof that wxWidgets provides a
 solid foundation for cloud-based systems!</p>
 
 <p>And as Google Drive application uses wxWidgets 2.9.3, it should hopefully help
 answering the often-asked question if 2.9 series is good enough for production
 use.</p>
-
-<p>[1] https://drive.google.com/
-[2] https://support.google.com/drive/bin/answer.py?hl=en&amp;answer=1716931&amp;p=settings_licenses
-[3] https://www.dropbox.com/</p>
 ]]></content>
   </entry>
   
@@ -41,11 +37,8 @@ use.</p>
     <content type="html"><![CDATA[<p>We are looking for developers and/or funding to help us with developing
 wxAndroid port. If you are interested in working on this project yourself or
 would like to donate to see it happen, please contact us or visit the
-[funding page][1]. See the original [forum post][2] about this campaign for
+<a href="http://www.cofundos.org/project.php?id=115601">funding page</a>. See the original <a href="http://forums.wxwidgets.org/viewtopic.php?f=27&amp;t=34910">forum post</a> about this campaign for
 more details.</p>
-
-<p>[1] http://www.cofundos.org/project.php?id=115601
-[2] http://forums.wxwidgets.org/viewtopic.php?f=27&amp;t=34910</p>
 ]]></content>
   </entry>
   
@@ -55,8 +48,8 @@ more details.</p>
     <updated>2011-12-14T21:04:00-07:00</updated>
     <id>http://wxWidgets.github.com/blog/2011/12/14/wxwidgets-2-9-3-released</id>
     <content type="html"><![CDATA[<p>wxWidgets 2.9.3 has been officially released. It is available from the usual
-locations at [SourceForge][1] and [FTP mirror][2]. Please read the
-[change log][3] if you&#8217;re upgrading from a previous version. And please see
+locations at <a href="https://sourceforge.net/downloads/wxwindows/2.9.3/">SourceForge</a> and <a href="ftp://ftp.wxwidgets.org/pub/2.9.3/">FTP mirror</a>. Please read the
+<a href="https://sourceforge.net/projects/wxwindows/files/2.9.3/changes.txt">change log</a> if you&#8217;re upgrading from a previous version. And please see
 online documentation for more details.</p>
 
 <p>2.9 series bring many improvements compared to 2.8 series such as much better
@@ -64,8 +57,8 @@ and simpler to use support for Unicode and the new wxOSX/Cocoa port, suitable
 for development of 64 bit GUI applications under OS X, as well as a huge number
 of other new features and bug fixes. Compared to the previous 2.9.2 release,
 the most important change in this release is the integration of the new
-[wxWebView][4] library. Other additions include [wxTreeListCtrl][5],
-[wxTimePickerCtrl][6], [wxRichToolTip][7] and [wxBannerWindow][8] as well as
+<a href="http://docs.wxwidgets.org/trunk/group__group__class__webview.html">wxWebView</a> library. Other additions include <a href="http://docs.wxwidgets.org/trunk/classwx_tree_list_ctrl.html">wxTreeListCtrl</a>,
+<a href="http://docs.wxwidgets.org/trunk/classwx_time_picker_ctrl.html">wxTimePickerCtrl</a>, <a href="http://docs.wxwidgets.org/trunk/classwx_rich_tool_tip.html">wxRichToolTip</a> and <a href="http://docs.wxwidgets.org/trunk/classwx_banner_window.html">wxBannerWindow</a> as well as
 many incremental improvements and bug fixes to the existing classes.</p>
 
 <p>While this is still officially a development release because some API details
@@ -73,15 +66,6 @@ are still not frozen, we believe that 2.9.3 can be used in production
 environment, especially for the new projects for which (small) changes in
 behaviour since 2.8 are not a problem. Give it a try and let us know what do
 you think!</p>
-
-<p>[1] https://sourceforge.net/downloads/wxwindows/2.9.3/
-[2] ftp://ftp.wxwidgets.org/pub/2.9.3/
-[3] https://sourceforge.net/projects/wxwindows/files/2.9.3/changes.txt
-[4] http://docs.wxwidgets.org/trunk/group<strong>group</strong>class__webview.html
-[5] http://docs.wxwidgets.org/trunk/classwx_tree_list_ctrl.html
-[6] http://docs.wxwidgets.org/trunk/classwx_time_picker_ctrl.html
-[7] http://docs.wxwidgets.org/trunk/classwx_rich_tool_tip.html
-[8] http://docs.wxwidgets.org/trunk/classwx_banner_window.html</p>
 ]]></content>
   </entry>
   

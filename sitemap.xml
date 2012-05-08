@@ -1,27 +1,2 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
-    <url>
-        <loc>http://wxWidgets.github.com/blog/2011/12/14/wxwidgets-2-9-3-released/</loc>
-        <lastmod>2012-05-07T09:07:51-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://wxWidgets.github.com/blog/2012/05/02/wxwidgets-for-android-campaign/</loc>
-        <lastmod>2012-05-07T09:07:51-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://wxWidgets.github.com/blog/2012/05/02/google-drive-uses-wxwidgets/</loc>
-        <lastmod>2012-05-07T09:07:51-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://wxWidgets.github.com/</loc>
-        <lastmod>2012-05-07T08:54:03-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://wxWidgets.github.com/blog/</loc>
-        <lastmod>2012-05-07T08:54:03-06:00</lastmod>
-    </url>
-    <url>
-        <loc>http://wxWidgets.github.com/blog/archives/</loc>
-        <lastmod>2012-05-07T08:54:03-06:00</lastmod>
-    </url>
-</urlset>
+<urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'/>

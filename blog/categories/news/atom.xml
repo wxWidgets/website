@@ -4,7 +4,7 @@
   <title><![CDATA[Category: News | wxWidgets]]></title>
   <link href="http://wxWidgets.github.com/blog/categories/news/atom.xml" rel="self"/>
   <link href="http://wxWidgets.github.com/"/>
-  <updated>2012-05-07T09:07:51-06:00</updated>
+  <updated>2012-05-08T08:29:28-06:00</updated>
   <id>http://wxWidgets.github.com/</id>
   <author>
     <name><![CDATA[wxWidgets Team]]></name>
@@ -18,18 +18,14 @@
     <link href="http://wxWidgets.github.com/blog/2012/05/02/google-drive-uses-wxwidgets/"/>
     <updated>2012-05-02T22:29:00-06:00</updated>
     <id>http://wxWidgets.github.com/blog/2012/05/02/google-drive-uses-wxwidgets</id>
-    <content type="html"><![CDATA[<p>The recently released [Google Drive][1] system desktop client
-[uses wxPython][2]. Considering that [Dropbox][3] desktop client is also
+    <content type="html"><![CDATA[<p>The recently released <a href="https://drive.google.com/">Google Drive</a> system desktop client
+<a href="https://support.google.com/drive/bin/answer.py?hl=en&amp;answer=1716931&amp;p=settings_licenses">uses wxPython</a>. Considering that <a href="https://www.dropbox.com/">Dropbox</a> desktop client is also
 written in wxPython it could be taken as a proof that wxWidgets provides a
 solid foundation for cloud-based systems!</p>
 
 <p>And as Google Drive application uses wxWidgets 2.9.3, it should hopefully help
 answering the often-asked question if 2.9 series is good enough for production
 use.</p>
-
-<p>[1] https://drive.google.com/
-[2] https://support.google.com/drive/bin/answer.py?hl=en&amp;answer=1716931&amp;p=settings_licenses
-[3] https://www.dropbox.com/</p>
 ]]></content>
   </entry>
   
