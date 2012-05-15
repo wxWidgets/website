@@ -8,7 +8,9 @@
     <meta name="author" content="wxWidgets Team">
 
     
-    <meta name="description" content="wxWidgets is a C++ library that lets developers create applications for Windows, Mac OS X, Linux and UNIX on 32-bit and 64-bit architectures as well &hellip;">
+    <meta name="description" content="The recently released Google Drive system desktop client
+uses wxPython. Considering that Dropbox desktop client is also
+written in wxPython it could &hellip;">
     
 
     
@@ -32,18 +34,17 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script src="/javascripts/bootstrap.min.js"></script>
     
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', 'UA-794025-1']);
-    _gaq.push(['_trackPageview']);
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-794025-1']);
+  _gaq.push(['_trackPageview']);
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-  </script>
-
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
 
   </head>
 <body >
@@ -52,7 +53,7 @@
 
     <header>
         <a href="/" title="wxWidgets - Cross-Platform GUI Library">
-	<img src="/images/logo-388.png" alt="wxWidgets - Cross-Platform GUI Library"/>
+	<img src="/images/logo-388.png" alt="wxWidgets - Cross-Platform GUI Library" width="388" height="80" />
 </a>
     </header>
 
@@ -141,14 +142,101 @@
 		</p>
 	</div>
 </div>
-      
-        <footer>
-          
-          
-        </footer>
-      
+
+<h1 style="text-align: center;">Latest News</h1>
+
+
+
+
+<article>
+	
+  
+  <h2 class="entry-title"><a href="/blog/2012/05/02/google-drive-uses-wxwidgets/">Google Drive Uses wxWidgets</a></h2>
+  
+  
+  <p class="meta">
+<span class="byline author vcard">Posted by <span class="fn">wxWidgets Team</span></span> 
+
+
+on <time datetime="2012-05-02T22:29:00-06:00" pubdate>May 2<span>nd</span>, 2012</time></p>
+  
+
+
+
+  <div class="entry-content"><p>The recently released <a href="https://drive.google.com/">Google Drive</a> system desktop client
+<a href="https://support.google.com/drive/bin/answer.py?hl=en&amp;answer=1716931&amp;p=settings_licenses">uses wxPython</a>. Considering that <a href="https://www.dropbox.com/">Dropbox</a> desktop client is also
+written in wxPython it could be taken as a proof that wxWidgets provides a
+solid foundation for cloud-based systems!</p>
+
+<p>And as Google Drive application uses wxWidgets 2.9.3, it should hopefully help
+answering the often-asked question if 2.9 series is good enough for production
+use.</p>
+</div>
+  
+  
+
+
+</article>
+
+
+<article>
+	
+  
+  <h2 class="entry-title"><a href="/blog/2012/05/02/wxwidgets-for-android-campaign/">wxWidgets for Android Campaign</a></h2>
+  
+  
+  <p class="meta">
+<span class="byline author vcard">Posted by <span class="fn">wxWidgets Team</span></span> 
+
+
+on <time datetime="2012-05-02T12:30:00-06:00" pubdate>May 2<span>nd</span>, 2012</time></p>
+  
+
+
+
+  <div class="entry-content"><p>We are looking for developers and/or funding to help us with developing
+wxAndroid port. If you are interested in working on this project yourself or
+would like to donate to see it happen, please contact us or visit the
+<a href="http://www.cofundos.org/project.php?id=115601">funding page</a>. See the original <a href="http://forums.wxwidgets.org/viewtopic.php?f=27&amp;t=34910">forum post</a> about this campaign for
+more details.</p>
+</div>
+  
+  
+
+
+</article>
+
+
+<article>
+	
+  
+  <h2 class="entry-title"><a href="/blog/2011/12/14/wxwidgets-2-9-3-released/">wxWidgets 2.9.3 Released</a></h2>
+  
+  
+  <p class="meta">
+<span class="byline author vcard">Posted by <span class="fn">wxWidgets Team</span></span> 
+
+
+on <time datetime="2011-12-14T21:04:00-07:00" pubdate>Dec 14<span>th</span>, 2011</time></p>
+  
+
+
+
+  <div class="entry-content"><p>wxWidgets 2.9.3 has been officially released. It is available from the usual
+locations at <a href="https://sourceforge.net/downloads/wxwindows/2.9.3/">SourceForge</a> and <a href="ftp://ftp.wxwidgets.org/pub/2.9.3/">FTP mirror</a>. Please read the
+<a href="https://sourceforge.net/projects/wxwindows/files/2.9.3/changes.txt">change log</a> if you&#8217;re upgrading from a previous version. And please see
+online documentation for more details.</p>
+
+</div>
+  
+  
+    <p><a rel="full-article" href="/blog/2011/12/14/wxwidgets-2-9-3-released/">Read on &rarr;</a></p>
+  
+
+
+</article>
+
     </article>
-    
   </div>
   <div class="span3">
     <div class="well sidebar-nav">
@@ -202,38 +290,34 @@
 
 
 
-
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) {return;}
+  if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=135268563229304";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
 
-
-  <script type="text/javascript">
-    (function() {
-      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
-      script.src = 'https://apis.google.com/js/plusone.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
-    })();
-  </script>
-
+<script type="text/javascript">
+  (function() {
+    var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+    script.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+  })();
+</script>
 
 
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
+<script type="text/javascript">
+  (function(){
+    var twitterWidgets = document.createElement('script');
+    twitterWidgets.type = 'text/javascript';
+    twitterWidgets.async = true;
+    twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+    document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+  })();
+</script>
 
 
 </body>
