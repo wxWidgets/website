@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: News | wxWidgets]]></title>
-  <link href="http://wxWidgets.github.com/blog/categories/news/atom.xml" rel="self"/>
-  <link href="http://wxWidgets.github.com/"/>
-  <updated>2012-05-15T02:15:38-06:00</updated>
-  <id>http://wxWidgets.github.com/</id>
+  <title><![CDATA[News | wxWidgets]]></title>
+  <link href="http://www.wxwidgets.org/blog/categories/news/atom.xml" rel="self"/>
+  <link href="http://www.wxwidgets.org/"/>
+  <updated>2012-05-16T01:43:58-06:00</updated>
+  <id>http://www.wxwidgets.org/</id>
   <author>
     <name><![CDATA[wxWidgets Team]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Google Drive Uses wxWidgets]]></title>
-    <link href="http://wxWidgets.github.com/blog/2012/05/02/google-drive-uses-wxwidgets/"/>
+    <link href="http://www.wxwidgets.org/blog/2012/05/02/google-drive-uses-wxwidgets/"/>
     <updated>2012-05-02T22:29:00-06:00</updated>
-    <id>http://wxWidgets.github.com/blog/2012/05/02/google-drive-uses-wxwidgets</id>
+    <id>http://www.wxwidgets.org/blog/2012/05/02/google-drive-uses-wxwidgets</id>
     <content type="html"><![CDATA[<p>The recently released <a href="https://drive.google.com/">Google Drive</a> system desktop client
 <a href="https://support.google.com/drive/bin/answer.py?hl=en&amp;answer=1716931&amp;p=settings_licenses">uses wxPython</a>. Considering that <a href="https://www.dropbox.com/">Dropbox</a> desktop client is also
 written in wxPython it could be taken as a proof that wxWidgets provides a
@@ -31,9 +31,9 @@ use.</p>
   
   <entry>
     <title type="html"><![CDATA[wxWidgets for Android Campaign]]></title>
-    <link href="http://wxWidgets.github.com/blog/2012/05/02/wxwidgets-for-android-campaign/"/>
+    <link href="http://www.wxwidgets.org/blog/2012/05/02/wxwidgets-for-android-campaign/"/>
     <updated>2012-05-02T12:30:00-06:00</updated>
-    <id>http://wxWidgets.github.com/blog/2012/05/02/wxwidgets-for-android-campaign</id>
+    <id>http://www.wxwidgets.org/blog/2012/05/02/wxwidgets-for-android-campaign</id>
     <content type="html"><![CDATA[<p>We are looking for developers and/or funding to help us with developing
 wxAndroid port. If you are interested in working on this project yourself or
 would like to donate to see it happen, please contact us or visit the
@@ -44,9 +44,9 @@ more details.</p>
   
   <entry>
     <title type="html"><![CDATA[wxWidgets 2.9.3 Released]]></title>
-    <link href="http://wxWidgets.github.com/blog/2011/12/14/wxwidgets-2-9-3-released/"/>
+    <link href="http://www.wxwidgets.org/blog/2011/12/14/wxwidgets-2-9-3-released/"/>
     <updated>2011-12-14T21:04:00-07:00</updated>
-    <id>http://wxWidgets.github.com/blog/2011/12/14/wxwidgets-2-9-3-released</id>
+    <id>http://www.wxwidgets.org/blog/2011/12/14/wxwidgets-2-9-3-released</id>
     <content type="html"><![CDATA[<p>wxWidgets 2.9.3 has been officially released. It is available from the usual
 locations at <a href="https://sourceforge.net/downloads/wxwindows/2.9.3/">SourceForge</a> and <a href="ftp://ftp.wxwidgets.org/pub/2.9.3/">FTP mirror</a>. Please read the
 <a href="https://sourceforge.net/projects/wxwindows/files/2.9.3/changes.txt">change log</a> if you're upgrading from a previous version. And please see

@@ -1,27 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://wxWidgets.github.com/blog/2011/12/14/wxwidgets-2-9-3-released/</loc>
-        <lastmod>2012-05-15T01:17:33-06:00</lastmod>
+        <loc>http://www.wxwidgets.org/blog/2011/12/14/wxwidgets-2-9-3-released/</loc>
+        <lastmod>2012-05-16T01:32:46-06:00</lastmod>
     </url>
     <url>
-        <loc>http://wxWidgets.github.com/blog/2012/05/02/wxwidgets-for-android-campaign/</loc>
-        <lastmod>2012-05-15T01:17:42-06:00</lastmod>
+        <loc>http://www.wxwidgets.org/blog/2012/05/02/wxwidgets-for-android-campaign/</loc>
+        <lastmod>2012-05-16T01:32:46-06:00</lastmod>
     </url>
     <url>
-        <loc>http://wxWidgets.github.com/blog/2012/05/02/google-drive-uses-wxwidgets/</loc>
-        <lastmod>2012-05-15T01:17:17-06:00</lastmod>
+        <loc>http://www.wxwidgets.org/blog/2012/05/02/google-drive-uses-wxwidgets/</loc>
+        <lastmod>2012-05-16T01:32:46-06:00</lastmod>
     </url>
     <url>
-        <loc>http://wxWidgets.github.com/</loc>
-        <lastmod>2012-05-15T02:11:47-06:00</lastmod>
+        <loc>http://www.wxwidgets.org/</loc>
+        <lastmod>2012-05-16T01:40:43-06:00</lastmod>
     </url>
     <url>
-        <loc>http://wxWidgets.github.com/blog/</loc>
-        <lastmod>2012-05-15T02:12:07-06:00</lastmod>
+        <loc>http://www.wxwidgets.org/blog/</loc>
+        <lastmod>2012-05-16T01:39:26-06:00</lastmod>
     </url>
     <url>
-        <loc>http://wxWidgets.github.com/blog/archives/</loc>
-        <lastmod>2012-05-15T02:13:15-06:00</lastmod>
+        <loc>http://www.wxwidgets.org/blog/archives/</loc>
+        <lastmod>2012-05-16T01:39:18-06:00</lastmod>
+    </url>
+    <url>
+        <loc>http://www.wxwidgets.org/about/</loc>
+        <lastmod>2012-05-16T01:32:37-06:00</lastmod>
     </url>
 </urlset>
