@@ -3,16 +3,18 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Introduction - wxWidgets</title>
+    <title>The Team - wxWidgets</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="wxWidgets Team">
 
     
-    <meta name="description" content="Introduction Introduction to wxWidgets (Flash Presentation, 340KB) wxWidgets was started in 1992 by Julian Smart at the University of Edinburgh. &hellip;">
+    <meta name="description" content="The Team This is a list of the main wxWidgets developers and their current projects.
+Please let me know if there are people or
+projects I have &hellip;">
     
 
     
-    <link rel="canonical" href="http://www.wxwidgets.org/about">
+    <link rel="canonical" href="http://www.wxwidgets.org/about/team">
     <link href="/atom.xml" rel="alternate" title="wxWidgets" type="application/atom+xml">
 
     <link href="/favicon.ico" rel="icon">
@@ -103,27 +105,106 @@
   <div class="span9">
     <article role="article">
       
-        <h1>Introduction</h1>
+        <h1>The Team</h1>
       
-      <p>Introduction to wxWidgets (Flash Presentation, 340KB)</p>
+      <p>This is a list of the main wxWidgets developers and their current projects.
+Please <a href="mailto:julian@wxwidgets.org">let me know</a> if there are people or
+projects I have forgotten, or if an existing entry needs modification.</p>
 
-<p>wxWidgets was started in 1992 by Julian Smart at the University of Edinburgh.
-Initially started as a project for creating applications portable across Unix
-and Windows, it has grown to support the Mac platform, WinCE, and many other
-toolkits and platforms. The number of developers contributing to the project is
-now in the dozens and the toolkit has a strong userbase that includes everyone
-from open source developers to corporations such as AOL. So what is special
-about wxWidgets compared with other cross-platform GUI toolkits?</p>
+<h2>Core Team</h2>
 
-<p>wxWidgets gives you a single, easy-to-use API for writing GUI applications on
-multiple platforms that still utilize the native platform&#8217;s controls and
-utilities. Link with the appropriate library for your platform
-(Windows/Unix/Mac, others coming shortly) and compiler (almost any popular C++
-compiler), and your application will adopt the look and feel appropriate to
-that platform. On top of great GUI functionality, wxWidgets gives you: online
-help, network programming, streams, clipboard and drag and drop,
-multithreading, image loading and saving in a variety of popular formats,
-database support, HTML viewing and printing, and much much more.</p>
+<ul>
+<li><p><a href="mailto:robert@roebling.de">Dr. Robert Roebling</a> - Robert Roebling has
+written the initial GTK+ port and has overseen its development since then.</p></li>
+<li><p><a href="mailto:vadim@wxwidgets.org">Dr. Vadim Zeitlin</a> - Vadim is a lynch-pin of the
+wxWidgets project, working on most of the ports and responsible for some
+monumental reengineering work and many important new classes. He also wrote
+most of the wxUniversal widget set and maintains the
+<a href="http://mahogany.sf.net/">Mahogany</a> mail client. Vadim contributes
+prolifically to the mailing lists, both helping &#8216;newbies&#8217; and discussing
+complex C++ and design issues. Vadim is based in France and runs his own
+consultancy company, <a href="http://www.tt-solutions.com/">TT-Solutions</a>.</p></li>
+<li><p><a href="mailto:csomor@advancedconcepts.ch">Dr. Stefan Csomor</a> - Another medical
+doctor, Stefan Csomor wrote and maintains the wxMac, the port to OS X. He
+runs <a href="http://www.advanced.ch/">Advanced Concepts AG</a>, a Swiss software
+consultancy specialising in medical software.</p></li>
+<li><p><a href="julian@anthemion.co.uk">Dr. Julian Smart</a> - Julian Smart started the
+wxWidgets project at the University of Edinburgh in 1992. He works on various
+aspects of the project, including wxX11, wxWinCE, release engineering, and
+web site maintenance. Julian&#8217;s company
+<a href="http://www.anthemion.co.uk/">Anthemion Software Ltd.</a> produces consumer and
+developer products, including the story development software
+<a href="http://www.writerscafe.co.uk/">StoryLines</a>, and the wxWidgets dialog editor
+<a href="http://www.anthemion.co.uk/dialogblocks">DialogBlocks</a>.</p></li>
+<li><p><a href="vaclav.slavik@matfyz.cz">Václav Slavík</a> - Václav Slavík works on wxHTML, the
+XRC system, the new build system, wxMGL, and other areas. He also works on a
+variety of other <a href="http://sourceforge.net/users/vaclavslavik/">open source projects</a>.</p></li>
+<li><p><a href="robin@alldunn.com">Robin Dunn</a> - Robin works on general wxWidgets
+maintenance as well as the widely used <a href="http://wxpython.org/">wxPython</a>
+system. He is also working for a major wxPython user, the
+<a href="http://www.osafoundation.org/">Open Source Applications Foundation</a>, headed
+up by industry leader Mitch Kapor.</p></li>
+</ul>
+
+
+<h2>Major Contributors</h2>
+
+<p>This list is mainly based on SVN write access but there are of course many more
+people who make important contributions to wxWidgets.</p>
+
+<ul>
+<li><p><a href="mailto:bryan@ibaku.net">Bryan Petty</a> - Bryan contributed the refactoring of
+the wxVScrolledWindow for the additions of the wxHScrolledWindow and
+wxHVScrolledWindow, as well as several patches to the wxAUI library. He also
+worked with Francesco Montorsi on the conversion of the reference manual from
+LaTeX to Doxygen, designed the wxWidgets logo, and hosts this website, the
+wxWiki, and the online reference manuals.</p></li>
+<li><p><a href="mailto:mbarbon@dsi.unive.it">Mattia Barbon</a> - Mattia wrote
+<a href="http://wxperl.sourceforge.net/">wxPerl</a>, and works on container classes,
+wxMotif, and other aspects of wxWidgets.</p></li>
+<li><p><a href="mailto:biol75@york.ac.uk">Chris Elliott</a> - Chris wrote
+<a href="http://biolpc22.york.ac.uk/wx/wxhatch/help/">wxHatch</a>, and works on Borland
+C++ and OpenWatcom compatibility among other things.</p></li>
+<li><p><a href="mailto:abx@abx.art.pl">Włodzimierz &#8216;ABX&#8217; Skiba</a> - ABX does extraordinary
+amounts of painstaking testing and provides fixes for bugs and warnings in
+widely used ports. He also explores new wxWidgets ports focusing mainly on
+mobile devices; and he helps in improving the bakefile build system.</p></li>
+<li><p><a href="mailto:f18m_cpp217828@yahoo.it">Francesco Montorsi</a> - Francesco contributed
+the wxCollapsiblePane, wxSimpleHtmlListBox, wxHyperlinkCtrl,
+wxColour/Dir/File/Font/PickerCtrl widgets. He also contributed in other areas
+like wxPlatformInfo, wxDir, wxFileName, wxHtmlWindow events,
+indeterminate-mode for wxGauge, positional parameter support for wxVsnprintf,
+wxPresets for bakefile, wxAnimationCtrl, stock item support for wxGTK.
+Francesco was a Google Summer of Code student (2006) working on the wxWidgets
+Project Manager.</p></li>
+<li><p><a href="mailto:hockkn@yahoo.com">Kevin Hock</a> - Kevin the secondary author of the
+wxWidgets book, and has made significant contributions to the wxSocket code,
+especially making it functional on OS X. He has also done extensive testing
+and tweaking on the OS X port, and enhancements and bug fixes to the main
+three ports (e.g. wxPasswordEntryDialog), with some emphasis in consistency
+among ports&#8217; behavior.</p></li>
+<li><p><a href="mailto:kevino@theolliviers.com">Kevin Ollivier</a> - Kevin works on the release
+scripts, wxWebKit for Mac OS X, the web site, and many other aspects of
+wxWidgets.</p></li>
+<li><p><a href="mailto:mike.wetherell@ntlworld.com">Michael Wetherell</a> - Contributed the
+wxArchive classes and has worked on many other aspects of wxWidgets.</p></li>
+<li><p><a href="mailto:wxml-paul@bullseye.com">Paul Cornett</a> - Paul works on various aspects
+of code maintainance, improving consistency between ports, and improving the
+wxGTK port in particular.</p></li>
+<li><p><a href="mailto:Stefan.Neis@t-online.de">Stefan Neis</a> - Stefan works on wxOS2 and
+wxMotif.</p></li>
+<li><p><a href="mailto:leio@dustbite.net">Mart Raudsepp</a> - Mart is working mainly on
+enhancements to the GTK+ port of wxWidgets and is the Gentoo Linux wxWidgets
+maintainer.</p></li>
+<li><p><a href="mailto:jrgadd2@cs.latrobe.edu.au">Jamie Gadd</a> - Jamie works on improving the
+look and feel and conformity to native behaviour of the Windows port.</p></li>
+<li><p><a href="http://www.osafoundation.org/">OSAF (Open Source Applications Foundation)</a> -
+Members of OSAF including David Surovell, John Anderson and Jed Burgess are
+active contributors to wxWidgets, especially to the Mac port. Their work on
+wxPython for OSAF&#8217;s Chandler application can be found
+<a href="http://wiki.osafoundation.org/bin/view/Projects/WxPythonProject">here</a>.</p></li>
+</ul>
+
 
     </article>
   </div>
