@@ -1,0 +1,12 @@
+about/i18n
+----------
+
+- Add i18n-status.js datetime file info into the page
+- Generate directories and related translators page indexes (markdown source?)
+  for each language
+
+A possible replacement to a cron job could be using a post recieve hook in
+the wx source repository, so update the i18n-status.js file and push it in the
+wx website one; I still didn't try this,
+I've included an example in the githooks directory.
+

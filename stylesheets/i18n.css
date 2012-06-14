@@ -1,0 +1,35 @@
+/* ------------- Translations statistics ------------------- */
+table.translations
+{
+    border: solid;
+    border-width: 1px;
+    text-align: left;
+    width: 100%;
+}
+.incomplete
+{
+    background-color: #C8D4E0;
+}
+.untrans
+{
+    color: #d42323;
+    text-align: right;
+}
+.trans
+{
+    color: #1B6C00;
+    text-align: right;
+}
+.fuzzy
+{
+    color: #05359B;
+    text-align: right;
+}
+.graph
+{
+    text-align: center;
+}
+.template
+{
+    font-style: italic;
+}

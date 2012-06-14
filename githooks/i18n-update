@@ -1,0 +1,54 @@
+#!/bin/sh
+############################################################################
+## Name:        i18n-update
+## Purpose:     Update the required i18n-status.js script for the web stat.
+##              (based on update_i18n.sh)
+## Author:      Andrea Zanellato
+## Modified by: 
+## Created:     2011/06/12
+## Revision:    $Hash$
+## Licence:     wxWindows licence
+############################################################################
+echo "[Executing i18n hook]"
+
+wxGD_GIT_DIR="$(pwd)"
+wxGD_LOCALE_DIR="$wxGD_GIT_DIR/locale"
+wxGD_STATUS_FILE="$wxGD_LOCALE_DIR/i18n-status.js"
+
+#git checkout master > /dev/null 2>&1
+
+cd $wxGD_LOCALE_DIR
+
+echo 'catStatus = new Array();' > $wxGD_STATUS_FILE.tmp
+
+i=0
+for poFilePath in ${wxGD_LOCALE_DIR}/*.po ; do
+    catName=`basename $poFilePath .po`
+    if test "x$catName" != "xwxstd" ; then
+        data=`msgfmt --verbose -o /dev/null $poFilePath 2>&1 | sed -e 's/[a-zA-Z. ]//g'`
+
+        if [ $data = "0" ]; then
+            data="0,0,0"
+        fi
+
+        echo "catStatus[$i] = new Array(\"$catName\",$data);" >> $wxGD_STATUS_FILE.tmp
+        i=$(( $i + 1 ))
+    fi
+done
+
+mv -f $wxGD_STATUS_FILE.tmp $wxGD_STATUS_FILE
+
+# hash1=`git hash-object $wxGD_STATUS_FILE.tmp`
+# sleep 1
+# hash2=`git hash-object $wxGD_STATUS_FILE`
+# if [ $hash1 != $hash2 ]; then
+#     echo "New locale catalogs: updating stat file..."
+#     mv -f $wxGD_STATUS_FILE.tmp $wxGD_STATUS_FILE
+# else
+#     echo "No changes in catalog files, exiting."
+#     rm -f $wxGD_STATUS_FILE.tmp
+#     exit 0
+# fi
+
+#git-push $wxGD_STATUS_FILE ... 
+
