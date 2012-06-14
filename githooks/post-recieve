@@ -1,0 +1,4 @@
+# ...
+
+wxGD_GIT_DIR="$(pwd)/$(git rev-parse --git-dir)"
+$wxGD_GIT_DIR/hooks/i18n-update
