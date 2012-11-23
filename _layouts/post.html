@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <div class="container">
+      {% include header.html %}
+      <div class="row">
+        <div class="span9">
+          <article>
+            <h1>{{ page.title | escape }}</h1>
+            {% if page.date %}<p>Posted on <time datetime="{{ page.date | datetime | date_to_xmlschema }}" pubdate>{{ page.date | date: "%B %d, %Y" }}</time></p>{% endif %}
+            {{ content }}
+            {% if page.comments and site.disqus_shortname %}
+              <h2>Comments</h2>
+              <div id="disqus_thread"></div>
+              <noscript>Please enable JavaScript to view the comments.</noscript>
+            {% endif %}
+          </article>
+        </div>
+        <div class="span3">
+          <aside>
+            {% include aside.html %}
+          </aside>
+        </div>
+      </div>
+      {% include footer.html %}
+    </div>
+    {% include scripts.html %}
+    {% if page.comments and site.disqus_shortname %}
+    <script type="text/javascript">
+      var disqus_shortname = "{{ site.disqus_shortname }}";
+      var disqus_identifier = "{{ page.id | escape }}";
+      var disqus_url = "{{ page.url }}";
+      var e = document.createElement('div');
+      e.innerHTML = "{{ page.title | escape }}";
+      var disqus_title = e.childNodes[0].nodeValue;
+      (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+      (function () {
+      }());
+    </script>
+    {% endif %}
+  </body>
+</html>

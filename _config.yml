@@ -1,0 +1,11 @@
+# Jekyll Site Generator Settings
+
+url: http://wxwidgets.github.com
+permalink: /news/:year/:month/:title/
+lsi: false
+pygments: true
+markdown: rdiscount
+
+# Custom Settings
+
+disqus_shortname: wxwidgets
