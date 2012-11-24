@@ -1,5 +1,8 @@
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
+{% for script in page.footer_scripts %}
+<script src="{{ script }}"></script>
+{% endfor %}
 <script type="text/javascript">
   // fix for Bootstrap issue #4550 - https://github.com/twitter/bootstrap/issues/4550
   !function ($) {

@@ -21,9 +21,11 @@ h3 {
 article {
 	margin-bottom: 1.5em;
 }
-div.sharing {
-	margin: 1.5em 0;
-	text-align: center;
+th.header {
+	cursor: pointer;
+}
+table .progress {
+	margin-bottom: 0;
 }
 
 .highlight  { background: #ffffff; }
