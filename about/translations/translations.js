@@ -5,6 +5,8 @@ $(document).ready(function(){
     document.getElementById('translation_loading')
   );
 
+  var download_url = 'http://svn.wxwidgets.org/svn/wx/wxWidgets/trunk/locale/';
+
   var languages = {
     "af":"Afrikaans",
     "ar":"Arabic",
@@ -54,7 +56,7 @@ $(document).ready(function(){
     cache: true,
     jsonp: false, // Don't append callback method query variable.
     jsonpCallback: 'processTranslationStats',
-    success: function(data, textStatus, jqXHR) {
+    success: function(data) {
 
       $.each(data, function(locale, stats) {
         var translated   = stats[0];
@@ -65,11 +67,10 @@ $(document).ready(function(){
 
         var pct_translated   = (total == 0 ? 0 : 100 * (translated / total));
         var pct_fuzzy        = (total == 0 ? 0 : 100 * (fuzzy / total));
-        var pct_untranslated = (total == 0 ? 0 : 100 * (untranslated / total));
 
         $('#translations tbody').append(
           '<tr>' +
-            '<td>' + languages[locale] + ' (' + locale + ')</td>' +
+            '<td><a href="' + download_url + locale + '.po">' + languages[locale] + ' (' + locale + ')</a></td>' +
             '<td>' + Math.round(pct_translated) + '%</td>' +
             '<td width="30%"><div class="progress">' +
               '<div class="bar bar-success" style="width: ' + pct_translated + '%;"></div>' +
@@ -86,8 +87,8 @@ $(document).ready(function(){
           // }
       });
 
-      spinner.stop();
       $('#translation_loading').hide();
+      spinner.stop();
       $("#translations").show();
 
     }
