@@ -7,16 +7,15 @@ footer_scripts:
   - "translations.js"
 ---
 
-wxWidgets uses a certain number of user-readable strings such as "help" or
-"Load file" which should be translated to the users language if it is different
-from English. wxWidgets has built in support for translations which allow for
-this to happen automatically if the translations to the current language are
-available.
+wxWidgets presents many user-readable strings such as "help" or "Load file" to
+users of any wxWidgets-based application that need to be translated to the
+user's language if it is different from English. wxWidgets has built in support
+for this, and will automatically translate these strings if the translation for
+the current language is available.
 
-The list list below shows all current translations. Also, please see below if
-you would like to help translate wxWidgets to your language. It is often
-helpful to have several translators for one language at least for proof
-reading.
+The list below shows all currently supported translations. If you would like to
+help translate wxWidgets to your language, please see the instructions below.
+It is often helpful to have several translators for every language.
 
 ## Available Translations
 
@@ -32,9 +31,9 @@ reading.
 
 ## How to Help
 
-wxWidgets uses the standard GNU gettext tools for i18n so if you are already
-familiar with them you shouldn't have any problems with working on wxWidgets
-translations. Here are the the steps you should follow:
+wxWidgets uses the standard GNU gettext tools for translations so if you are
+already familiar with them you shouldn't have any problems with working on
+wxWidgets translations. Here are the the steps you should follow:
 
 * Get the latest version of the file `wxstd.pot` from the wxWidgets source
   tree. If you're using SVN or the daily snapshots, you should already have it,
@@ -58,7 +57,7 @@ where special announcements for translators are announced.
 
 [1]: http://svn.wxwidgets.org/svn/wx/wxWidgets/trunk/locale/wxstd.pot
 [2]: http://www.loc.gov/standards/iso639-2/php/English_list.php
-[3]: http://www.iso.ch/iso/en/prods-services/iso3166ma/02iso-3166-code-lists/list-en1.html
+[3]: http://www.iso.org/iso/prods-services/iso3166ma/02iso-3166-code-lists/country_names_and_code_elements
 [4]: http://www.poedit.net/
 [5]: mailto:vadim@wxwidgets.org
 [6]: /support/maillst2.htm#translators
