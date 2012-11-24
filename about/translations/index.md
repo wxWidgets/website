@@ -10,7 +10,7 @@ footer_scripts:
 <div id="translation_loading" style="text-align: center; margin: 2em 0 2em 0; display: none;">
   <p style="padding-top: 6em;">Loading Translations...</p>
 </div>
-<table id="translations" class="table table-striped" style="display: none;">
+<table id="translations" class="table table-hover" style="display: none;">
   <caption>Translation status of all languages supported by wxWidgets.</caption>
   <thead><tr><th>Language</th><th colspan="2">Status</th></tr></thead>
   <tbody></tbody>

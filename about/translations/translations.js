@@ -74,7 +74,6 @@ $(document).ready(function(){
             '<td width="30%"><div class="progress">' +
               '<div class="bar bar-success" style="width: ' + pct_translated + '%;"></div>' +
               '<div class="bar bar-warning" style="width: ' + pct_fuzzy + '%;"></div>' +
-              '<div class="bar bar-danger" style="width: ' + pct_untranslated + '%;"></div>' +
             '</div></td>' +
           '</tr>'
         );
