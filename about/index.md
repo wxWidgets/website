@@ -1,24 +1,146 @@
 ---
 layout: default
-title: "Introduction"
+title: "Overview"
 ---
-
-Introduction to wxWidgets (Flash Presentation, 340KB)
 
 wxWidgets was started in 1992 by Julian Smart at the University of Edinburgh.
 Initially started as a project for creating applications portable across Unix
-and Windows, it has grown to support the Mac platform, WinCE, and many other
-toolkits and platforms. The number of developers contributing to the project is
-now in the dozens and the toolkit has a strong userbase that includes everyone
-from open source developers to corporations such as AOL. So what is special
-about wxWidgets compared with other cross-platform GUI toolkits?
+and Windows, it has grown to support Mac OS X, GTK+, and many other toolkits
+and platforms. The number of developers contributing to the project is now in
+the dozens and the toolkit has a strong userbase that includes everyone from
+open source developers to corporations. So what is special about wxWidgets
+compared with other cross-platform GUI toolkits?
 
 wxWidgets gives you a single, easy-to-use API for writing GUI applications on
 multiple platforms that still utilize the native platform's controls and
-utilities. Link with the appropriate library for your platform
-(Windows/Unix/Mac, others coming shortly) and compiler (almost any popular C++
-compiler), and your application will adopt the look and feel appropriate to
-that platform. On top of great GUI functionality, wxWidgets gives you: online
-help, network programming, streams, clipboard and drag and drop,
-multithreading, image loading and saving in a variety of popular formats,
-database support, HTML viewing and printing, and much much more.
+utilities. Link with the appropriate library for your platform and compiler,
+and your application will adopt the look and feel appropriate to that platform.
+On top of great GUI functionality, wxWidgets gives you: online help, network
+programming, streams, clipboard and drag and drop, multithreading, image
+loading and saving in a variety of popular formats, database support, HTML
+viewing and printing, and much more.
+
+Although wxWidgets is written in C++, you can use it with a variety of
+languages including Python, Perl, and C#. If using wxWidgets with C++, you will
+link your code to a different version of the library on each platform. Since
+the wxWidgets libraries are built and compiled in C++ rather than a language
+like Java, they are high-performance and nearly as fast as using the native
+toolkits themselves.
+
+
+## Supported Platforms
+
+wxWidgets currently supports the following platforms:
+
+* **wxGTK**: The recommended port for Linux and other Unix variants, using the
+  GTK+ widget set.
+* **wxMSW**: The port for 32-bit and 64-bit Windows variants including Windows
+  2000/NT/XP, Windows 7, and Windows 8.
+* **wxMac**: For delivering Carbon applications on Mac OS 9 and Max OS X 10.2
+  and above.
+* **wxOSX/Carbon**: For delivering Carbon-based applications on Mac OS X 10.4
+  and above.
+* **wxOSX/Cocoa**: For delivering Cocoa-based applications on Mac OS X 10.4 and
+  above.
+* **wxX11**: A port for Linux and Unix variants targetting X11 displays using
+  wxWidgets' own widget set.
+* **wxMotif**: A port for Linux and Unix variants using OpenMotif or Lesstif
+  widget sets.
+* **wxMGL**: A port for the MGL toolkit from SciTech Software Inc.
+
+
+## Features and Functionality
+
+wxWidgets has hundreds of classes covering many areas of application
+development, which we cannot adequately summarize in this short document. GUI
+components range from a simple button component to an HTML list box; from a
+basic message box to a print preview window. Other areas include:
+
+* Window Layout Using Sizers
+* Device Contexts (along with pens, brushes and fonts)
+* Comprehensive Event Handling System
+* HTML Help Viewer
+* Sound and Video Playback
+* Unicode and Internationalization Support
+* Document/View Architecture
+* Printing Archiecture
+* Sockets
+* Multithreading
+* File and Directory Manipulation
+* Online and Context-Sensitive Help
+* HTML Rendering
+* Basic Containers
+* Image Loading, Saving, Drawing and Manipulation
+* Date-Time Library and Timers
+* Error Handling
+* Clipboard and Drag-and-Drop
+
+You may find it helpful to browse the [reference manual][1] to get a feel for
+supported functionality.
+
+[1]: http://docs.wxwidgets.org/trunk/page_class_cat.html
+
+
+## The wxWidgets License
+
+The wxWidgets library is distributed under the [wxWindows License][2], which is
+based on the L-GPL but with an exception clause. The exception clause allows
+you to link your application either dynamically or statically to wxWidgets
+without the requirement to distribute the source for your your own application.
+In other words, you can use wxWidgets for either free or commercial projects,
+at no cost. The license encourages you to give back enhancements you make to
+the wxWidgets library itself.
+
+[2]: http://docs.wxwidgets.org/trunk/page_copyright_wxlicense.html
+
+
+## Who uses wxWidgets?
+
+wxWidgets is used by a huge range of organisations and individuals all over the
+world. It’s equally at home being the basis for a consumer product selling
+hundreds of thousands of copies as it is in university or open source projects.
+wxWidgets has been used to help companies create leading-edge chips, to help
+drill for oil, to control pilotless aircraft, and to test components of space
+telescopes. Many companies are dependent on wxWidgets and the cross-platform
+advantage it gives them. Some of the better-known organisations who have used
+wxWidgets include AOL, AMD, Lockheed Martin, Xerox, NASA, and the Open Source
+Applications Foundation (OSAF). wxWidgets applications that you may be familiar
+with include AVG AntiVirus, Forte Agent, Audacity, Filezilla, iPodder, and
+Tortoise CVS. It’s impossible to know how many wxWidgets developers there are
+but there is a very active wxWidgets community with over 1,800 subscribers to
+the bulletin board alone.
+
+
+## What are the benefits of using wxWidgets?
+
+The benefits include the following:
+
+* Cost savings from writing code once that will run on Windows, Unix, Mac OS X,
+  and other platforms.
+* Customer satisfaction from delivering stable, fast, attractive applications
+  with a native look and feel.
+* Increased productivity from the wide variety of classes that wxWidgets
+  provides, both for creating great GUIs and for general application development.
+* Increased market share due to support for platforms you may not have
+  previously considered, and the ability to internationalize your applications.
+* Support from a large, active wxWidgets community that answers questions
+  helpfully and provides prompt bug-fixing.
+* Access to the source, for enhancement and trouble-shooting.
+
+
+## How do I learn wxWidgets using C++?
+
+When you download wxWidgets, you get a 3,000 page reference manual and around
+80 samples and demos. This provides a mass of information to help you get
+started, and you can also buy the 700 page book
+[Cross-Platform GUI Programming With wxWidgets][3], by Julian Smart and Kevin
+Hock with Stefan Csomor. The dialog editor on the accompanying CD will help you
+get to grips with sizers, a flexible layout mechanism.
+
+[3]: /book/
+
+When you get stuck, developers and users are available on the forum and
+wx-users mailing list to answer your questions. Although wxWidgets is a large
+library, you do not need to learn it all at once, and users have often observed
+that the API is intuitive and "just makes sense". If you have used MFC, you
+will find many familiar concepts.
