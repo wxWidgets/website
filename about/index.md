@@ -4,12 +4,15 @@ title: "Overview"
 ---
 
 wxWidgets was started in 1992 by Julian Smart at the University of Edinburgh.
-Initially started as a project for creating applications portable across Unix
-and Windows, it has grown to support Mac OS X, GTK+, and many other toolkits
-and platforms. The number of developers contributing to the project is now in
-the hundreds and the toolkit has a strong userbase that includes everyone from
-open source developers to corporations. So what is special about wxWidgets
-compared with other cross-platform GUI toolkits?
+Initially started as a project for creating applications that were portable
+across Unix and Windows, it has grown to support Mac OS X, GTK+, and many other
+toolkits and platforms (see the [history page][12] for more details). The
+number of developers contributing to the project is now in the hundreds and the
+toolkit has a strong userbase that includes everyone from open source
+developers to corporations. So what is special about wxWidgets compared with
+other cross-platform GUI toolkits?
+
+[12]: /about/history/
 
 wxWidgets gives you a single, easy-to-use API for writing GUI applications on
 multiple platforms that still utilize the native platform's controls and
@@ -38,10 +41,10 @@ wxWidgets currently supports the following platforms:
   2000/NT/XP, Windows 7, and Windows 8.
 * **wxMac**: For delivering Carbon applications on Mac OS 9 and Max OS X 10.2
   and above.
-* **wxOSX/Carbon**: For delivering Carbon-based applications on Mac OS X 10.4
-  and above.
-* **wxOSX/Cocoa**: For delivering Cocoa-based applications on Mac OS X 10.4 and
-  above.
+* **wxOSX/Carbon**: For delivering 32-bit Carbon-based applications on Mac OS X
+  10.4 and above.
+* **wxOSX/Cocoa**: For delivering 32-bit and 64-bit Cocoa-based applications on
+  Mac OS X 10.4 and above.
 * **wxX11**: A port for Linux and Unix variants targetting X11 displays using
   wxWidgets' own widget set.
 * **wxMotif**: A port for Linux and Unix variants using OpenMotif or Lesstif
