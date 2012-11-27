@@ -132,15 +132,39 @@ The benefits include the following:
 
 When you download wxWidgets, you get a 3,000 page reference manual and around
 80 samples and demos. This provides a mass of information to help you get
-started, and you can also buy the 700 page book
-[Cross-Platform GUI Programming With wxWidgets][3], by Julian Smart and Kevin
-Hock with Stefan Csomor. The dialog editor on the accompanying CD will help you
-get to grips with sizers, a flexible layout mechanism.
+started, but the [Cross-Platform GUI Programming With wxWidgets][3] book by
+Julian Smart and Kevin Hock with Stefan Csomor is also a very valuable
+resource. The dialog editor on the accompanying CD will help you get to grips
+with sizers, a flexible layout mechanism.
 
-[3]: /book/
+[3]: /docs/book/
 
-When you get stuck, developers and users are available on the forum and
-wx-users mailing list to answer your questions. Although wxWidgets is a large
-library, you do not need to learn it all at once, and users have often observed
-that the API is intuitive and "just makes sense". If you have used MFC, you
-will find many familiar concepts.
+
+## How do I learn wxWidgets using Python?
+
+The wxPython wiki provides an excellent guide for [getting started][4], but if
+you still need additional help, take a look at the [wxPython in Action][5] book
+or the newer [wxPython 2.8 Application Development Cookbook][7]. Check out the
+[wxPython website][6] to download the wxPython libraries, along with the docs
+and demos package. The docs and demos package contains an application showing
+the use of nearly every class available in wxWidgets, and the demos are
+dynamically editable so that you can make changes and see the effects in real-
+time. This is an excellent way to learn how the toolkit works.
+
+[4]: http://wiki.wxpython.org/How%20to%20Learn%20wxPython
+[5]: http://www.manning.com/rappin/
+[6]: http://www.wxpython.org/
+[7]: http://www.amazon.com/exec/obidos/ASIN/1849511780/thmovsthpy-20/
+
+
+## Additional Support
+
+You can find free community support from fellow developers on the [forums][8]
+and [mailing lists][9]. The community-edited [wxWiki][11] contains many guides
+that help supplement the official documentation, and [commercial support][10]
+is also available from several companies.
+
+[8]: http://forums.wxwidgets.org/
+[9]: /support/maillst2.htm
+[10]: /support/support.htm
+[11]: http://wiki.wxwidgets.org/

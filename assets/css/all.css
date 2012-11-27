@@ -27,6 +27,9 @@ th.header {
 table .progress {
 	margin-bottom: 0;
 }
+blockquote {
+	margin: 20px 0 20px 0;
+}
 
 .highlight  { background: #ffffff; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
