@@ -7,7 +7,7 @@ wxWidgets was started in 1992 by Julian Smart at the University of Edinburgh.
 Initially started as a project for creating applications portable across Unix
 and Windows, it has grown to support Mac OS X, GTK+, and many other toolkits
 and platforms. The number of developers contributing to the project is now in
-the dozens and the toolkit has a strong userbase that includes everyone from
+the hundreds and the toolkit has a strong userbase that includes everyone from
 open source developers to corporations. So what is special about wxWidgets
 compared with other cross-platform GUI toolkits?
 
@@ -168,3 +168,8 @@ is also available from several companies.
 [9]: /support/maillst2.htm
 [10]: /support/support.htm
 [11]: http://wiki.wxwidgets.org/
+
+
+<p style="margin-top: 2.5em; text-align: center;">
+  <a href="/download/" class="btn btn-primary btn-large"><i class="icon-download icon-white"></i> Download now &raquo;</a>
+</p>
