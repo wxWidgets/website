@@ -277,7 +277,7 @@ The acommpanying CD-ROM contains the following:
   supplied for Windows, Linux and Mac OS X.
 * **Windows Compilers**: The following Windows compilers are supplied, and all
   may be used to compile wxWidgets (using DialogBlocks or other means).
-  * [OpenWatcom C++][5] 1.3. Maintained by SciTech Software Inc., Sybase and
+  * [OpenWatcom C++][4] 1.3. Maintained by SciTech Software Inc., Sybase and
     the open source community, OpenWatcom C++ has everything required for
     building Windows applications.
   * [MinGW](http://www.mingw.org/) 3.1.0-1
