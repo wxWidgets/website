@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Translations"
-footer_scripts:
+scripts:
   - "/assets/js/jquery.tablesorter.min.js"
   - "/assets/js/spin.min.js"
   - "translations.js"

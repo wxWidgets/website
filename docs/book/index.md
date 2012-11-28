@@ -6,7 +6,12 @@ title: "Cross-Platform GUI Programming with wxWidgets"
 wxWidgets has its own 700-page book to help you learn or brush up on your
 cross-platform programming skills. Written by Julian Smart and Kevin Hock with
 Stefan Csomor, "Cross-Platform GUI Programming with wxWidgets" was published on
-July 27th 2005 by Prentice Hall. It's part of Bruce Perens' Open Source Series.
+July 27th 2005 by Prentice Hall as part of Bruce Perens' Open Source Series.
+
+The book comes packed with useful information and samples. The accompanying
+CD-ROM contains source code, compilers and tools, and includes DialogBlocks, a
+powerful dialog editor for Windows, Linux and Mac OS X which will also help you
+compile your applications and wxWidgets itself.
 
 > "Cross-Platform GUI Programming with wxWidgets is the best way for beginning
 > developers to learn wxWidgets programming in C++, and is a valuable resource

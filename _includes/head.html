@@ -11,3 +11,6 @@
 <link rel="apple-touch-icon-precomposed" href="/assets/ico/apple-touch-icon-57-precomposed.png">
 <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
 <link href="/assets/css/all.css" rel="stylesheet">
+{% for stylesheet in page.stylesheets %}
+<link href="{{ stylesheet }}" rel="stylesheet">
+{% endfor %}
