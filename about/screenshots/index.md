@@ -9,10 +9,102 @@ scripts:
  - "screenshots.js"
 ---
 
-This is a small taste of what can be done with wxWidgets. You can also find
-more screenshots on the [wxPython website][1].
+This is a small taste of some of the applications built with wxWidgets.
 
-[1]: http://wxpython.org/wxpshots.php
+
+## Audacity
+
+<ul class="thumbnails">
+  <li class="span2">
+    <a data-fancybox-group="audacity" href="audacity-msw.png"
+      title="Audacity on Windows" class="thumbnail fancybox">
+      <img src="audacity-msw-thumb.jpg" alt="Audacity on Windows">
+    </a>
+  </li>
+  <li class="span2">
+    <a data-fancybox-group="audacity" href="audacity-mac.png"
+      title="Audacity on Mac OS X" class="thumbnail fancybox">
+      <img src="audacity-mac-thumb.jpg" alt="Audacity on Mac OS X">
+    </a>
+  </li>
+  <li class="span2">
+    <a data-fancybox-group="audacity" href="audacity-linux.png"
+      title="Audacity on Linux" class="thumbnail fancybox">
+      <img src="audacity-linux-thumb.jpg" alt="Audacity on Linux">
+    </a>
+  </li>
+</ul>
+
+[Audacity][audacity] is a free, easy-to-use and multilingual audio editor and
+recorder for Windows, Mac OS X, GNU/Linux and other operating systems. You can
+use Audacity to record live audio, convert tapes and records into digital
+recordings or CDs, edit sound files, cut/copy/splice or mix sounds together,
+and change the speed or pitch of a recording.
+
+[audacity]: http://audacity.sourceforge.net/
+
+
+## Poedit
+
+<ul class="thumbnails">
+  <li class="span2">
+    <a data-fancybox-group="poedit" href="poedit-msw.png"
+      title="Poedit on Windows" class="thumbnail fancybox">
+      <img src="poedit-msw-thumb.jpg" alt="Poedit on Windows">
+    </a>
+  </li>
+  <li class="span2">
+    <a data-fancybox-group="poedit" href="poedit-mac.png"
+      title="Poedit on Mac OS X" class="thumbnail fancybox">
+      <img src="poedit-mac-thumb.jpg" alt="Poedit on Mac OS X">
+    </a>
+  </li>
+  <li class="span2">
+    <a data-fancybox-group="poedit" href="poedit-linux.png"
+      title="Poedit on Linux" class="thumbnail fancybox">
+      <img src="poedit-linux-thumb.jpg" alt="Poedit on Linux">
+    </a>
+  </li>
+</ul>
+
+[Poedit][poedit] is cross-platform gettext catalogs editor for translators
+which runs on Unix, Windows and Mac OS X. Unlike other editors, Poedit provides
+compact view of data and very effective UI.
+
+[poedit]: http://www.poedit.net/
+
+
+## Transcribe!
+
+<ul class="thumbnails">
+  <li class="span2">
+    <a data-fancybox-group="transcribe" href="transcribe-msw.png"
+      title="Transcribe! on Windows" class="thumbnail fancybox">
+      <img src="transcribe-msw-thumb.jpg" alt="Transcribe! on Windows">
+    </a>
+  </li>
+  <li class="span2">
+    <a data-fancybox-group="transcribe" href="transcribe-mac.png"
+      title="Transcribe! on Mac OS X" class="thumbnail fancybox">
+      <img src="transcribe-mac-thumb.jpg" alt="Transcribe! on Mac OS X">
+    </a>
+  </li>
+  <li class="span2">
+    <a data-fancybox-group="transcribe" href="transcribe-linux.png"
+      title="Transcribe! on Linux" class="thumbnail fancybox">
+      <img src="transcribe-linux-thumb.jpg" alt="Transcribe! on Linux">
+    </a>
+  </li>
+</ul>
+
+[Transcribe!][transcribe] is an assistant for people who want to work out a
+piece of music from a recording, in order to write it out, or play it
+themselves, or both. It doesn't do the transcribing for you, but it is
+essentially a specialised player program which is optimised for the purpose of
+transcription. It has many transcription-specific features not found on
+conventional music players.
+
+[transcribe]: http://www.seventhstring.com/xscribe/overview.html
 
 
 ## BOINC
@@ -26,33 +118,15 @@ more screenshots on the [wxPython website][1].
   </li>
 </ul>
 
-[BOINC][2] is software that uses the idle time on your computer (Windows, Mac,
-or Linux) to cure diseases, study global warming, discover pulsars, and do many
-other types of scientific research.
+[BOINC][boinc] is software that uses the idle time on your computer (Windows,
+Mac, or Linux) to cure diseases, study global warming, discover pulsars, and do
+many other types of scientific research.
 
 One project that uses BOINC is SETI@home, a scientific experiment that uses
 Internet-connected computers in the Search for Extraterrestrial Intelligence
 (SETI).
 
-[2]: http://boinc.berkeley.edu/
-
-
-## SYSmark 2012
-
-<ul class="thumbnails">
-  <li class="span2">
-    <a data-fancybox-group="sysmark2012" href="sysmark2012.jpg"
-      title="SYSmark 2012 on Windows" class="thumbnail fancybox">
-      <img src="sysmark2012-thumb.jpg" alt="SYSmark 2012 on Windows">
-    </a>
-  </li>
-</ul>
-
-[SYSmark 2012][3] is an application-based benchmark that reflects usage patterns
-of business users in the areas of office productivity, data/financial
-analysis, system management, media creation, 3D modeling and web development.
-
-[3]: http://www.bapco.com/products/sysmark-2012
+[boinc]: http://boinc.berkeley.edu/
 
 
 ## Game Develop
@@ -72,15 +146,15 @@ analysis, system management, media creation, 3D modeling and web development.
   </li>
 </ul>
 
-[Game Develop][4] is game development software, using wxWidgets for all GUI
-related tasks, allowing creation of any kind of 2D game without needing any
-knowledge in a specific language. Everything is made using visual editors and
-the software uses an event-based system, using conditions which have to be
+[Game Develop][gamedevelop] is game development software, using wxWidgets for
+all GUI related tasks, allowing creation of any kind of 2D game without needing
+any knowledge in a specific language. Everything is made using visual editors
+and the software uses an event-based system, using conditions which have to be
 filled so as to execute actions, to manage the game logic. These events are
 compiled by Game Develop to machine code. Games can be compiled and distributed
 for Windows and Ubuntu.
 
-[4]: http://www.en.compilgames.net/
+[gamedevelop]: http://www.en.compilgames.net/
 
 
 ## Audio Evolution
@@ -100,13 +174,13 @@ for Windows and Ubuntu.
   </li>
 </ul>
 
-[Audio Evolution][5], by eXtream Software Development, is a multi-platform
-audio and MIDI sequencing application with a focus on user-friendliness and
-simplicity. Compose your music using multi-channel recording, mixing,
-non-destructive editing, real-time effects and a lot more for a very affordable
-price!
+[Audio Evolution][audio-evolution], by eXtream Software Development, is a
+multi-platform audio and MIDI sequencing application with a focus on
+user-friendliness and simplicity. Compose your music using multi-channel
+recording, mixing, non-destructive editing, real-time effects and a lot more
+for a very affordable price!
 
-[5]: http://www.audio-evolution.com/
+[audio-evolution]: http://www.audio-evolution.com/
 
 
 ## Ginkgo CADx
@@ -120,12 +194,12 @@ price!
   </li>
 </ul>
 
-[Ginkgo CADx][6], by MetaEmotion S.L., is a multi-platform Open Source Medical
-Imaging Software which provides a complete DICOM Viewer solution with advanced
-capabilities and extensions support. Ginkgo CADx works on Windows, Linux and
-MacOS X.
+[Ginkgo CADx][ginkgo], by MetaEmotion S.L., is a multi-platform Open Source
+Medical Imaging Software which provides a complete DICOM Viewer solution with
+advanced capabilities and extensions support. Ginkgo CADx works on Windows,
+Linux and MacOS X.
 
-[6]: http://ginkgo-cadx.com/en/
+[ginkgo]: http://ginkgo-cadx.com/en/
 
 
 ## GIMIAS
@@ -151,13 +225,32 @@ MacOS X.
   </li>
 </ul>
 
-[GIMIAS][7] is a workflow-oriented environment focused on biomedical image
+[GIMIAS][gimias] is a workflow-oriented environment focused on biomedical image
 computing and simulation. The open source framework is extensible through
 plug-ins and is focused on building research and clinical software prototypes.
 Gimias has been used to develop clinical prototypes in the fields of cardiac
 imaging and simulation, angiography imaging and simulation, and neurology.
 
-[7]: http://www.gimias.org/
+[gimias]: http://www.gimias.org/
+
+
+## SYSmark 2012
+
+<ul class="thumbnails">
+  <li class="span2">
+    <a data-fancybox-group="sysmark2012" href="sysmark2012.jpg"
+      title="SYSmark 2012 on Windows" class="thumbnail fancybox">
+      <img src="sysmark2012-thumb.jpg" alt="SYSmark 2012 on Windows">
+    </a>
+  </li>
+</ul>
+
+[SYSmark 2012][sysmark2012] is an application-based benchmark that reflects
+usage patterns of business users in the areas of office productivity,
+data/financial analysis, system management, media creation, 3D modeling and web
+development.
+
+[sysmark2012]: http://www.bapco.com/products/sysmark-2012
 
 
 ## WebsitePainter
@@ -177,13 +270,13 @@ imaging and simulation, angiography imaging and simulation, and neurology.
   </li>
 </ul>
 
-[WebsitePainter][8] is a web editor for creating professional looking Websites,
-without HTML knowledge and programming. With a few clicks it is possible to
-create web pages with elements like Web2.0 buttons, gradients, round borders,
-hover effects, transparencies, continuous text and more. WebsitePainter works
-on Windows and Mac OS X.
+[WebsitePainter][websitepainter] is a web editor for creating professional
+looking Websites, without HTML knowledge and programming. With a few clicks it
+is possible to create web pages with elements like Web2.0 buttons, gradients,
+round borders, hover effects, transparencies, continuous text and more.
+WebsitePainter works on Windows and Mac OS X.
 
-[8]: http://www.ambiera.com/websitepainter/index.html
+[websitepainter]: http://www.ambiera.com/websitepainter/index.html
 
 
 ## Trident
@@ -209,13 +302,13 @@ on Windows and Mac OS X.
   </li>
 </ul>
 
-Trident, by [USCS][9], is designed as a satellite application to the CADDS-5
-system, as well as operating as a standalone program, to be used in
+Trident, by [USCS][trident], is designed as a satellite application to the
+CADDS-5 system, as well as operating as a standalone program, to be used in
 shipbuilding. It is a modularized application, running on Win32, Solaris and
 Linux platforms. Presently there are 3 working modules: paint area estimation,
 hull draw generation, and CADDS-5 hiding procedure editor.
 
-[9]: http://www.uscs.hr/
+[trident]: http://www.uscs.hr/
 
 
 ## Kirix Strata
@@ -235,14 +328,14 @@ hull draw generation, and CADDS-5 hiding procedure editor.
   </li>
 </ul>
 
-[Kirix Strata][10] is an ad hoc data analysis and reporting tool for business
-analysts and IT workers. Strata enables you to explore and work with structured
-data much more effectively than with common data tools like spreadsheets and
-desktop databases. With Strata, you can access data from just about anywhere
-(including the Web), work with unlimited file sizes, and use a wealth of
-analytic tools to quickly accomplish your tasks.
+[Kirix Strata][kirix] is an ad hoc data analysis and reporting tool for
+business analysts and IT workers. Strata enables you to explore and work with
+structured data much more effectively than with common data tools like
+spreadsheets and desktop databases. With Strata, you can access data from just
+about anywhere (including the Web), work with unlimited file sizes, and use a
+wealth of analytic tools to quickly accomplish your tasks.
 
-[10]: http://www.kirix.com/
+[kirix]: http://www.kirix.com/
 
 
 ## Caedium
@@ -268,11 +361,80 @@ analytic tools to quickly accomplish your tasks.
   </li>
 </ul>
 
-Symscape's [Caedium][11] provides an affordable, unified simulation environment
-for 3D fluid flow analysis and visualization on Windows, Macintosh, and Linux.
-Caedium uses state-of-the-art Computational Fluid Dynamics (CFD) to simulate
-the fluid flow and heat transfer over almost any configuration. Caedium
-combines intuitive drag and drop model configuration with affordable pricing
-and free trials, bringing CFD within the reach of everyone.
+Symscape's [Caedium][caedium] provides an affordable, unified simulation
+environment for 3D fluid flow analysis and visualization on Windows, Macintosh,
+and Linux. Caedium uses state-of-the-art Computational Fluid Dynamics (CFD) to
+simulate the fluid flow and heat transfer over almost any configuration.
+Caedium combines intuitive drag and drop model configuration with affordable
+pricing and free trials, bringing CFD within the reach of everyone.
 
-[11]: http://www.symscape.com/product/symlab
+[caedium]: http://www.symscape.com/product/symlab
+
+
+## KiCad
+
+<ul class="thumbnails">
+  <li class="span2">
+    <a data-fancybox-group="kicad" href="kicad-linux.png"
+      title="KiCad on Linux" class="thumbnail fancybox">
+      <img src="kicad-linux-thumb.jpg" alt="KiCad on Linux">
+    </a>
+  </li>
+  <li class="span2">
+    <a data-fancybox-group="kicad" href="kicad-msw.jpg"
+      title="KiCad on Windows" class="thumbnail fancybox">
+      <img src="kicad-msw-thumb.jpg" alt="KiCad on Windows">
+    </a>
+  </li>
+</ul>
+
+[KiCad][kicad] is an open source (GPL) application for designing electronic
+schematic diagrams and printed circuit board artwork. Available for Windows and
+Linux.
+
+[kicad]: http://iut-tice.ujf-grenoble.fr/kicad/index.html
+
+
+## Kephra
+
+<ul class="thumbnails">
+  <li class="span2">
+    <a data-fancybox-group="kephra" href="kephra-msw.png"
+      title="Kephra on Windows" class="thumbnail fancybox">
+      <img src="kephra-msw-thumb.png" alt="Kephra on Windows">
+    </a>
+  </li>
+</ul>
+
+[Kephra][kephra] is a programmer's GUI text editor which is based on Scintilla
+and written in Perl, using the wxPerl bindings. The interface is designed along
+the Perl principles "there is more than one way to do it" and "keep easy things
+easy and the hard possible". It runs on Linux, Mac and Windows.
+
+[kephra]: http://kephra.sourceforge.net/
+
+
+## Writer's Café
+
+<ul class="thumbnails">
+  <li class="span2">
+    <a data-fancybox-group="storylines" href="storylines-linux.jpg"
+      title="Writer's Café on Linux" class="thumbnail fancybox">
+      <img src="storylines-linux-thumb.jpg" alt="Writer's Café on Linux">
+    </a>
+  </li>
+  <li class="span2">
+    <a data-fancybox-group="storylines" href="storylines-msw.jpg"
+      title="Writer's Café on Windows" class="thumbnail fancybox">
+      <img src="storylines-msw-thumb.jpg" alt="Writer's Café on Windows">
+    </a>
+  </li>
+</ul>
+
+[Writer's Café][storylines] is a set of power tools for all fiction writers,
+whether experienced or just starting out. The heart of Writer's Café is
+StoryLines, a powerful but simple to use story development tool that
+dramatically accelerates the creation and structuring of your novel or
+screenplay.
+
+[storylines]: http://www.writerscafe.co.uk/
