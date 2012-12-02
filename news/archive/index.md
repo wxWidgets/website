@@ -522,7 +522,7 @@ title: News Archive
 *   wxWindows is changing its name to wxWidgets. Please read [this page][40]
     for more details.
 
-[40]: /about/name.htm
+[40]: /about/name-change/
 
 #### February 10th, 2004
 

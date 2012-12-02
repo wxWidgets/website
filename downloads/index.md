@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Downloads"
+mirror: "https://sourceforge.net/projects/wxwindows/files"
 ---
 
 <div class="alert">
@@ -19,18 +20,18 @@ title: "Downloads"
   <div class="span6">
     <div class="well well-small">
       <p><strong>Source Code</strong></p>
-      <a href="https://sourceforge.net/projects/wxwindows/files/2.9.4/wxWidgets-2.9.4.zip/download">Windows ZIP</a> (27.2 MB)<br>
-      <a href="https://sourceforge.net/projects/wxwindows/files/2.9.4/wxWidgets-2.9.4.7z/download">Windows 7Z</a> (13.9 MB)<br>
-      <a href="https://sourceforge.net/projects/wxwindows/files/2.9.4/wxMSW-Setup-2.9.4.exe/download">Windows Installer</a> (33.5 MB)<br>
-      <a href="https://sourceforge.net/projects/wxwindows/files/2.9.4/wxWidgets-2.9.4.tar.bz2/download">Source for Linux, OS X, etc</a> (17.0 MB)
+      <a href="{{ page.mirror }}/2.9.4/wxWidgets-2.9.4.zip">Windows ZIP</a> (27.2 MB)<br>
+      <a href="{{ page.mirror }}/2.9.4/wxWidgets-2.9.4.7z">Windows 7Z</a> (13.9 MB)<br>
+      <a href="{{ page.mirror }}/2.9.4/wxMSW-Setup-2.9.4.exe">Windows Installer</a> (33.5 MB)<br>
+      <a href="{{ page.mirror }}/2.9.4/wxWidgets-2.9.4.tar.bz2">Source for Linux, OS X, etc</a> (17.0 MB)
     </div>
   </div>
   <div class="span6">
     <div class="well well-small">
       <p><strong>Documentation</strong></p>
-      <a href="https://sourceforge.net/projects/wxwindows/files/2.9.4/wxWidgets-docs-html-2.9.4.zip/download">Manual (HTML) ZIP</a> (53.4 MB)<br>
-      <a href="https://sourceforge.net/projects/wxwindows/files/2.9.4/wxWidgets-docs-html-2.9.4.tar.bz2/download">Manual (HTML) BZIP</a> (34.5 MB)<br>
-      <a href="https://sourceforge.net/projects/wxwindows/files/2.9.4/wxWidgets-docs-chm-2.9.4.zip/download">Manual (CHM)</a> (21.9 MB)
+      <a href="{{ page.mirror }}/2.9.4/wxWidgets-docs-html-2.9.4.zip">Manual (HTML) ZIP</a> (53.4 MB)<br>
+      <a href="{{ page.mirror }}/2.9.4/wxWidgets-docs-html-2.9.4.tar.bz2">Manual (HTML) BZIP</a> (34.5 MB)<br>
+      <a href="{{ page.mirror }}/2.9.4/wxWidgets-docs-chm-2.9.4.zip">Manual (CHM)</a> (21.9 MB)
     </div>
   </div>
 </div>
@@ -40,7 +41,7 @@ title: "Downloads"
 * Experimental Download: [Binaries for Visual C++ 2005-2010][bin]
   (see [this post][bininfo] for more details)
 
-[bin]: https://sourceforge.net/projects/wxwindows/files/2.9.4/binaries/
+[bin]: {{ page.mirror }}/2.9.4/binaries/
 [bininfo]: http://wxwidgets.blogspot.fr/2012/08/how-to-use-294-wxmsw-binaries.html
 
 
@@ -57,23 +58,23 @@ title: "Downloads"
   <div class="span6">
     <div class="well well-small">
       <p><strong>Source Code</strong></p>
-      wxAll: <a href="http://prdownloads.sourceforge.net/wxwindows/wxWidgets-2.8.12.tar.gz">GZIP</a> 19MB, <a href="http://prdownloads.sourceforge.net/wxwindows/wxWidgets-2.8.12.zip">ZIP</a> 23MB<br>
-      wxMSW: <a href="http://prdownloads.sourceforge.net/wxwindows/wxMSW-2.8.12-Setup.exe">Installer</a> 13MB, <a href="http://prdownloads.sourceforge.net/wxwindows/wxMSW-2.8.12.zip">ZIP</a> 17MB<br>
-      <a href="http://prdownloads.sourceforge.net/wxwindows/wxGTK-2.8.12.tar.gz">wxGTK</a> 13MB<br>
-      <a href="http://prdownloads.sourceforge.net/wxwindows/wxMac-2.8.12.tar.gz">wxMac</a> 14MB (see <a href="http://wiki.wxwidgets.org/Development:_wxMac#Building_under_10.6_Snow_Leopard">10.6+ notes</a>)<br>
-      <a href="http://prdownloads.sourceforge.net/wxwindows/wxX11-2.8.12.tar.gz">wxX11</a> 13MB<br>
+      wxAll: <a href="{{ page.mirror }}/2.8.12/wxWidgets-2.8.12.tar.gz">GZIP</a> 19MB, <a href="{{ page.mirror }}/2.8.12/wxWidgets-2.8.12.zip">ZIP</a> 23MB<br>
+      wxMSW: <a href="{{ page.mirror }}/2.8.12/wxMSW-2.8.12-Setup.exe">Installer</a> 13MB, <a href="{{ page.mirror }}/2.8.12/wxMSW-2.8.12.zip">ZIP</a> 17MB<br>
+      <a href="{{ page.mirror }}/2.8.12/wxGTK-2.8.12.tar.gz">wxGTK</a> 13MB<br>
+      <a href="{{ page.mirror }}/2.8.12/wxMac-2.8.12.tar.gz">wxMac</a> 14MB (see <a href="http://wiki.wxwidgets.org/Development:_wxMac#Building_under_10.6_Snow_Leopard">10.6+ notes</a>)<br>
+      <a href="{{ page.mirror }}/2.8.12/wxX11-2.8.12.tar.gz">wxX11</a> 13MB<br>
     </div>
   </div>
   <div class="span6">
     <div class="well well-small">
       <p><strong>Documentation</strong></p>
-      <a href="http://prdownloads.sourceforge.net/wxwindows/readme-2.8.12.txt">Readme</a><br>
-      <a href="http://prdownloads.sourceforge.net/wxwindows/changes-2.8.12.txt">Changes</a><br>
-      <a href="http://prdownloads.sourceforge.net/wxwindows/wxWidgets-2.8.12-HTML.zip">Manual (HTML)</a> (2.6 MB)<br>
-      <a href="http://prdownloads.sourceforge.net/wxwindows/wxWidgets-2.8.12-CHM.zip">Manual (CHM)</a> (3.7 MB)<br>
-      <a href="http://prdownloads.sourceforge.net/wxwindows/wxWidgets-2.8.12-PDF.zip">Manual (PDF)</a> (10.3 MB)<br>
-      <a href="http://prdownloads.sourceforge.net/wxwindows/wxWidgets-2.8.12-HLP.zip">Manual (WinHelp)</a> (2.9 MB)<br>
-      <a href="http://prdownloads.sourceforge.net/wxwindows/wxWidgets-2.8.12-HTB.zip">Manual (HTB)</a> (2.2 MB)
+      <a href="{{ page.mirror }}/2.8.12/readme-2.8.12.txt">Readme</a><br>
+      <a href="{{ page.mirror }}/2.8.12/changes-2.8.12.txt">Changes</a><br>
+      <a href="{{ page.mirror }}/2.8.12/wxWidgets-2.8.12-HTML.zip">Manual (HTML)</a> (2.6 MB)<br>
+      <a href="{{ page.mirror }}/2.8.12/wxWidgets-2.8.12-CHM.zip">Manual (CHM)</a> (3.7 MB)<br>
+      <a href="{{ page.mirror }}/2.8.12/wxWidgets-2.8.12-PDF.zip">Manual (PDF)</a> (10.3 MB)<br>
+      <a href="{{ page.mirror }}/2.8.12/wxWidgets-2.8.12-HLP.zip">Manual (WinHelp)</a> (2.9 MB)<br>
+      <a href="{{ page.mirror }}/2.8.12/wxWidgets-2.8.12-HTB.zip">Manual (HTB)</a> (2.2 MB)
     </div>
   </div>
 </div>

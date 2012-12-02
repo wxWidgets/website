@@ -39,12 +39,11 @@ wxWidgets currently supports the following platforms:
   GTK+ widget set.
 * **wxMSW**: The port for 32-bit and 64-bit Windows variants including Windows
   2000/NT/XP, Windows 7, and Windows 8.
-* **wxMac**: For delivering Carbon applications on Mac OS 9 and Max OS X 10.2
-  and above.
+* **wxMac**: For delivering Carbon applications on Mac OS X 10.2 through 10.6.
 * **wxOSX/Carbon**: For delivering 32-bit Carbon-based applications on Mac OS X
-  10.4 and above.
+  10.5 and above.
 * **wxOSX/Cocoa**: For delivering 32-bit and 64-bit Cocoa-based applications on
-  Mac OS X 10.4 and above.
+  Mac OS X 10.5 and above.
 * **wxX11**: A port for Linux and Unix variants targetting X11 displays using
   wxWidgets' own widget set.
 * **wxMotif**: A port for Linux and Unix variants using OpenMotif or Lesstif
@@ -123,7 +122,8 @@ The benefits include the following:
 * Customer satisfaction from delivering stable, fast, attractive applications
   with a native look and feel.
 * Increased productivity from the wide variety of classes that wxWidgets
-  provides, both for creating great GUIs and for general application development.
+  provides, both for creating great GUIs and for general application
+  development.
 * Increased market share due to support for platforms you may not have
   previously considered, and the ability to internationalize your applications.
 * Support from a large, active wxWidgets community that answers questions
