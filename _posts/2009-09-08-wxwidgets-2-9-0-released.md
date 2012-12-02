@@ -12,4 +12,4 @@ Unicode builds, and a reworked Mac OS X architecture, supporting both 32-bit
 Carbon and 32-bit/64-bit Cocoa variants (wxOSX/Cocoa at alpha stage). You can
 get wxWidgets 2.9.0 from the [download page][1].
 
-[1]: http://www.wxwidgets.org/downloads/
+[1]: /downloads/

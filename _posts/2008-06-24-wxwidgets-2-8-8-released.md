@@ -10,4 +10,4 @@ functions, see the [announcement][1] for more details. Upgrading is recommended
 for all wxWidgets users. To get wxWidgets, please go to the [download page][2].
 
 [1]: http://lists.wxwidgets.org/pipermail/wx-announce/2008-June/000140.html
-[2]: http://www.wxwidgets.org/downloads/
+[2]: /downloads/

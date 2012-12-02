@@ -1,5 +1,11 @@
 <meta charset="utf-8">
-<title>{% if page.title %}{{ page.title | escape }} - {% endif %}wxWidgets</title>
+<title>
+  {% if page.title %}
+  	{{ page.title | escape }} - wxWidgets
+  {% else %}
+  	wxWidgets: Cross-Platform GUI Library
+  {% endif %}
+</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="author" content="wxWidgets Team">
 <link href="/atom.xml" rel="alternate" title="wxWidgets News" type="application/atom+xml" />

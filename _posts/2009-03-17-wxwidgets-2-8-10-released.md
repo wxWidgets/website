@@ -9,4 +9,4 @@ stable release in the 2.8 series contains a number of bug fixes, and upgrading
 is recommended for all wxWidgets users. To get wxWidgets, please go to the
 [download page][1].
 
-[1]: http://www.wxwidgets.org/downloads/
+[1]: /downloads/
