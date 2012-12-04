@@ -654,6 +654,10 @@ title: News Archive
 
 *   wxCRP 1.2 has been released - it's a cool template wizard, very
     customisable, and now with an HTTP update facility.
+*   Linux Journal has published [wxWindows for Cross-Platform Coding][lp111]
+    written by Taran Rampersad outlining many good reasons for using wxWindows.
+
+[lp111]: http://www.linuxjournal.com/article/6778
 
 #### May 21st, 2003
 
@@ -963,6 +967,15 @@ title: News Archive
 
 *   wxWidgets 2.1.16 contains fixes for wxGTK, wxMSW and wxMotif. It is hoped
     that this is the last release before the stable 2.2 version.
+
+#### May 1st, 2000
+
+*   [Sams Teach Yourself C++ for Linux in 21 Days][sams] has a chapter on GUI
+    programming with several pages devoted to wxWidgets. This chapter was
+    written by Jonathan Parry-McCulloch. The accompanying CD-ROM contains a
+    wxWidgets distribution.
+
+[sams]: http://www.amazon.com/exec/obidos/ASIN/0672318954/ref=rm_item
 
 #### March 28th, 2000
 
