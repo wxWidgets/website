@@ -35,8 +35,8 @@ toolkits themselves.
 
 wxWidgets currently supports the following platforms:
 
-* **wxGTK**: The recommended port for Linux and other Unix variants, using the
-  GTK+ widget set.
+* **wxGTK**: The recommended port for Linux and other Unix variants, using GTK+
+  version 2.6 or higher.
 * **wxMSW**: The port for 32-bit and 64-bit Windows variants including Windows
   2000/NT/XP, Windows 7, and Windows 8.
 * **wxMac**: For delivering Carbon applications on Mac OS X 10.2 through 10.6.
@@ -44,11 +44,10 @@ wxWidgets currently supports the following platforms:
   10.5 and above.
 * **wxOSX/Cocoa**: For delivering 32-bit and 64-bit Cocoa-based applications on
   Mac OS X 10.5 and above.
-* **wxX11**: A port for Linux and Unix variants targetting X11 displays using
-  wxWidgets' own widget set.
+* **wxX11**: A port for Linux and Unix variants targetting X11 displays using a
+  generic widget set.
 * **wxMotif**: A port for Linux and Unix variants using OpenMotif or Lesstif
   widget sets.
-* **wxMGL**: A port for the MGL toolkit from SciTech Software Inc.
 
 
 ## Features and Functionality
