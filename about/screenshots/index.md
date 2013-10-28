@@ -14,26 +14,26 @@ This is a small taste of some of the applications built with wxWidgets.
 
 ## Audacity
 
-<ul class="thumbnails">
-  <li class="span2">
+<div class="row thumbnails">
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="audacity" href="audacity-msw.png"
-      title="Audacity on Windows" class="thumbnail fancybox">
-      <img src="audacity-msw-thumb.jpg" alt="Audacity on Windows">
+      title="Audacity on Windows" class="fancybox">
+      <img src="audacity-msw-thumb.jpg" class="img-thumbnail" alt="Audacity on Windows">
     </a>
-  </li>
-  <li class="span2">
+  </div>
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="audacity" href="audacity-mac.png"
-      title="Audacity on Mac OS X" class="thumbnail fancybox">
-      <img src="audacity-mac-thumb.jpg" alt="Audacity on Mac OS X">
+      title="Audacity on Mac OS X" class="fancybox">
+      <img src="audacity-mac-thumb.jpg" class="img-thumbnail" alt="Audacity on Mac OS X">
     </a>
-  </li>
-  <li class="span2">
+  </div>
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="audacity" href="audacity-linux.png"
-      title="Audacity on Linux" class="thumbnail fancybox">
-      <img src="audacity-linux-thumb.jpg" alt="Audacity on Linux">
+      title="Audacity on Linux" class="fancybox">
+      <img src="audacity-linux-thumb.jpg" class="img-thumbnail" alt="Audacity on Linux">
     </a>
-  </li>
-</ul>
+  </div>
+</div>
 
 [Audacity][audacity] is a free, easy-to-use and multilingual audio editor and
 recorder for Windows, Mac OS X, GNU/Linux and other operating systems. You can
@@ -46,26 +46,26 @@ and change the speed or pitch of a recording.
 
 ## Poedit
 
-<ul class="thumbnails">
-  <li class="span2">
+<div class="row thumbnails">
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="poedit" href="poedit-msw.png"
-      title="Poedit on Windows" class="thumbnail fancybox">
-      <img src="poedit-msw-thumb.jpg" alt="Poedit on Windows">
+      title="Poedit on Windows" class="fancybox">
+      <img src="poedit-msw-thumb.jpg" class="img-thumbnail" alt="Poedit on Windows">
     </a>
-  </li>
-  <li class="span2">
+  </div>
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="poedit" href="poedit-mac.png"
-      title="Poedit on Mac OS X" class="thumbnail fancybox">
-      <img src="poedit-mac-thumb.jpg" alt="Poedit on Mac OS X">
+      title="Poedit on Mac OS X" class="fancybox">
+      <img src="poedit-mac-thumb.jpg" class="img-thumbnail" alt="Poedit on Mac OS X">
     </a>
-  </li>
-  <li class="span2">
+  </div>
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="poedit" href="poedit-linux.png"
-      title="Poedit on Linux" class="thumbnail fancybox">
-      <img src="poedit-linux-thumb.jpg" alt="Poedit on Linux">
+      title="Poedit on Linux" class="fancybox">
+      <img src="poedit-linux-thumb.jpg" class="img-thumbnail" alt="Poedit on Linux">
     </a>
-  </li>
-</ul>
+  </div>
+</div>
 
 [Poedit][poedit] is cross-platform gettext catalogs editor for translators
 which runs on Unix, Windows and Mac OS X. Unlike other editors, Poedit provides
@@ -76,26 +76,26 @@ compact view of data and very effective UI.
 
 ## Transcribe!
 
-<ul class="thumbnails">
-  <li class="span2">
+<div class="row thumbnails">
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="transcribe" href="transcribe-msw.png"
-      title="Transcribe! on Windows" class="thumbnail fancybox">
-      <img src="transcribe-msw-thumb.jpg" alt="Transcribe! on Windows">
+      title="Transcribe! on Windows" class="fancybox">
+      <img src="transcribe-msw-thumb.jpg" class="img-thumbnail" alt="Transcribe! on Windows">
     </a>
-  </li>
-  <li class="span2">
+  </div>
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="transcribe" href="transcribe-mac.png"
-      title="Transcribe! on Mac OS X" class="thumbnail fancybox">
-      <img src="transcribe-mac-thumb.jpg" alt="Transcribe! on Mac OS X">
+      title="Transcribe! on Mac OS X" class="fancybox">
+      <img src="transcribe-mac-thumb.jpg" class="img-thumbnail" alt="Transcribe! on Mac OS X">
     </a>
-  </li>
-  <li class="span2">
+  </div>
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="transcribe" href="transcribe-linux.png"
-      title="Transcribe! on Linux" class="thumbnail fancybox">
-      <img src="transcribe-linux-thumb.jpg" alt="Transcribe! on Linux">
+      title="Transcribe! on Linux" class="fancybox">
+      <img src="transcribe-linux-thumb.jpg" class="img-thumbnail" alt="Transcribe! on Linux">
     </a>
-  </li>
-</ul>
+  </div>
+</div>
 
 [Transcribe!][transcribe] is an assistant for people who want to work out a
 piece of music from a recording, in order to write it out, or play it
@@ -109,14 +109,14 @@ conventional music players.
 
 ## BOINC
 
-<ul class="thumbnails">
-  <li class="span2">
+<div class="row thumbnails">
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="boinc" href="boinc.jpg"
-      title="BOINC on Windows" class="thumbnail fancybox">
-      <img src="boinc-thumb.jpg" alt="BOINC on Windows">
+      title="BOINC on Windows" class="fancybox">
+      <img src="boinc-thumb.jpg" class="img-thumbnail" alt="BOINC on Windows">
     </a>
-  </li>
-</ul>
+  </div>
+</div>
 
 [BOINC][boinc] is software that uses the idle time on your computer (Windows,
 Mac, or Linux) to cure diseases, study global warming, discover pulsars, and do
@@ -131,20 +131,20 @@ Internet-connected computers in the Search for Extraterrestrial Intelligence
 
 ## Game Develop
 
-<ul class="thumbnails">
-  <li class="span2">
+<div class="row thumbnails">
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="gamedevelop" href="gamedevelop_win.jpg"
-      title="Game Develop on Windows" class="thumbnail fancybox">
-      <img src="gamedevelop_win-thumb.jpg" alt="Game Develop on Windows">
+      title="Game Develop on Windows" class="fancybox">
+      <img src="gamedevelop_win-thumb.jpg" class="img-thumbnail" alt="Game Develop on Windows">
     </a>
-  </li>
-  <li class="span2">
+  </div>
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="gamedevelop" href="gamedevelop_linux.jpg"
-      title="Game Develop on Linux" class="thumbnail fancybox">
-      <img src="gamedevelop_linux-thumb.jpg" alt="Game Develop on Linux">
+      title="Game Develop on Linux" class="fancybox">
+      <img src="gamedevelop_linux-thumb.jpg" class="img-thumbnail" alt="Game Develop on Linux">
     </a>
-  </li>
-</ul>
+  </div>
+</div>
 
 [Game Develop][gamedevelop] is game development software, using wxWidgets for
 all GUI related tasks, allowing creation of any kind of 2D game without needing
@@ -159,20 +159,20 @@ for Windows and Ubuntu.
 
 ## Audio Evolution
 
-<ul class="thumbnails">
-  <li class="span2">
+<div class="row thumbnails">
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="audio-evolution" href="audio-evolution-msw.png"
-      title="Audio Evolution on Windows" class="thumbnail fancybox">
-      <img src="audio-evolution-msw-thumb.jpg" alt="Audio Evolution on Windows">
+      title="Audio Evolution on Windows" class="fancybox">
+      <img src="audio-evolution-msw-thumb.jpg" class="img-thumbnail" alt="Audio Evolution on Windows">
     </a>
-  </li>
-  <li class="span2">
+  </div>
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="audio-evolution" href="audio-evolution-mac.png"
-      title="Audio Evolution on Mac OS X" class="thumbnail fancybox">
-      <img src="audio-evolution-mac-thumb.jpg" alt="Audio Evolution on Mac OS X">
+      title="Audio Evolution on Mac OS X" class="fancybox">
+      <img src="audio-evolution-mac-thumb.jpg" class="img-thumbnail" alt="Audio Evolution on Mac OS X">
     </a>
-  </li>
-</ul>
+  </div>
+</div>
 
 [Audio Evolution][audio-evolution], by eXtream Software Development, is a
 multi-platform audio and MIDI sequencing application with a focus on
@@ -185,14 +185,14 @@ for a very affordable price!
 
 ## Ginkgo CADx
 
-<ul class="thumbnails">
-  <li class="span2">
+<div class="row thumbnails">
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="ginkgo" href="ginkgo-windows.jpg"
-      title="Ginkgo CADx on Windows" class="thumbnail fancybox">
-      <img src="ginkgo-windows-thumb.jpg" alt="Ginkgo CADx on Windows">
+      title="Ginkgo CADx on Windows" class="fancybox">
+      <img src="ginkgo-windows-thumb.jpg" class="img-thumbnail" alt="Ginkgo CADx on Windows">
     </a>
-  </li>
-</ul>
+  </div>
+</div>
 
 [Ginkgo CADx][ginkgo], by MetaEmotion S.L., is a multi-platform Open Source
 Medical Imaging Software which provides a complete DICOM Viewer solution with
@@ -204,26 +204,26 @@ Linux and MacOS X.
 
 ## GIMIAS
 
-<ul class="thumbnails">
-  <li class="span2">
+<div class="row thumbnails">
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="gimias" href="gimias-msw.jpg"
-      title="GIMIAS on Windows" class="thumbnail fancybox">
-      <img src="gimias-msw-thumb.jpg" alt="GIMIAS on Windows">
+      title="GIMIAS on Windows" class="fancybox">
+      <img src="gimias-msw-thumb.jpg" class="img-thumbnail" alt="GIMIAS on Windows">
     </a>
-  </li>
-  <li class="span2">
+  </div>
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="gimias" href="gimias-mac.jpg"
-      title="GIMIAS on Mac OS X" class="thumbnail fancybox">
-      <img src="gimias-mac-thumb.jpg" alt="GIMIAS on Mac OS X">
+      title="GIMIAS on Mac OS X" class="fancybox">
+      <img src="gimias-mac-thumb.jpg" class="img-thumbnail" alt="GIMIAS on Mac OS X">
     </a>
-  </li>
-  <li class="span2">
+  </div>
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="gimias" href="gimias-linux.jpg"
-      title="GIMIAS on Linux" class="thumbnail fancybox">
-      <img src="gimias-linux-thumb.jpg" alt="GIMIAS on Linux">
+      title="GIMIAS on Linux" class="fancybox">
+      <img src="gimias-linux-thumb.jpg" class="img-thumbnail" alt="GIMIAS on Linux">
     </a>
-  </li>
-</ul>
+  </div>
+</div>
 
 [GIMIAS][gimias] is a workflow-oriented environment focused on biomedical image
 computing and simulation. The open source framework is extensible through
@@ -236,14 +236,14 @@ imaging and simulation, angiography imaging and simulation, and neurology.
 
 ## SYSmark 2012
 
-<ul class="thumbnails">
-  <li class="span2">
+<div class="row thumbnails">
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="sysmark2012" href="sysmark2012.jpg"
-      title="SYSmark 2012 on Windows" class="thumbnail fancybox">
-      <img src="sysmark2012-thumb.jpg" alt="SYSmark 2012 on Windows">
+      title="SYSmark 2012 on Windows" class="fancybox">
+      <img src="sysmark2012-thumb.jpg" class="img-thumbnail" alt="SYSmark 2012 on Windows">
     </a>
-  </li>
-</ul>
+  </div>
+</div>
 
 [SYSmark 2012][sysmark2012] is an application-based benchmark that reflects
 usage patterns of business users in the areas of office productivity,
@@ -255,20 +255,20 @@ development.
 
 ## WebsitePainter
 
-<ul class="thumbnails">
-  <li class="span2">
+<div class="row thumbnails">
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="websitepainter" href="websitepainter-msw.jpg"
-      title="WebsitePainter on Windows" class="thumbnail fancybox">
-      <img src="websitepainter-msw-thumb.jpg" alt="WebsitePainter on Windows">
+      title="WebsitePainter on Windows" class="fancybox">
+      <img src="websitepainter-msw-thumb.jpg" class="img-thumbnail" alt="WebsitePainter on Windows">
     </a>
-  </li>
-  <li class="span2">
+  </div>
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="websitepainter" href="websitepainter-mac.jpg"
-      title="WebsitePainter on Mac OS X" class="thumbnail fancybox">
-      <img src="websitepainter-mac-thumb.jpg" alt="WebsitePainter on Mac OS X">
+      title="WebsitePainter on Mac OS X" class="fancybox">
+      <img src="websitepainter-mac-thumb.jpg" class="img-thumbnail" alt="WebsitePainter on Mac OS X">
     </a>
-  </li>
-</ul>
+  </div>
+</div>
 
 [WebsitePainter][websitepainter] is a web editor for creating professional
 looking Websites, without HTML knowledge and programming. With a few clicks it
@@ -281,26 +281,26 @@ WebsitePainter works on Windows and Mac OS X.
 
 ## Trident
 
-<ul class="thumbnails">
-  <li class="span2">
+<div class="row thumbnails">
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="trident" href="trident-msw.jpg"
-      title="Trident on Windows" class="thumbnail fancybox">
-      <img src="trident-msw-thumb.jpg" alt="Trident on Windows">
+      title="Trident on Windows" class="fancybox">
+      <img src="trident-msw-thumb.jpg" class="img-thumbnail" alt="Trident on Windows">
     </a>
-  </li>
-  <li class="span2">
+  </div>
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="trident" href="trident-linux.jpg"
-      title="Trident on Linux" class="thumbnail fancybox">
-      <img src="trident-linux-thumb.jpg" alt="Trident on Linux">
+      title="Trident on Linux" class="fancybox">
+      <img src="trident-linux-thumb.jpg" class="img-thumbnail" alt="Trident on Linux">
     </a>
-  </li>
-  <li class="span2">
+  </div>
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="trident" href="trident-solaris.jpg"
-      title="Trident on Solaris" class="thumbnail fancybox">
-      <img src="trident-solaris-thumb.jpg" alt="Trident on Solaris">
+      title="Trident on Solaris" class="fancybox">
+      <img src="trident-solaris-thumb.jpg" class="img-thumbnail" alt="Trident on Solaris">
     </a>
-  </li>
-</ul>
+  </div>
+</div>
 
 Trident, by [USCS][trident], is designed as a satellite application to the
 CADDS-5 system, as well as operating as a standalone program, to be used in
@@ -313,20 +313,20 @@ hull draw generation, and CADDS-5 hiding procedure editor.
 
 ## Kirix Strata
 
-<ul class="thumbnails">
-  <li class="span2">
+<div class="row thumbnails">
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="kirix-strata" href="kirix-strata-msw.png"
-      title="Kirix Strata on Windows" class="thumbnail fancybox">
-      <img src="kirix-strata-msw-thumb.jpg" alt="Kirix Strata on Windows">
+      title="Kirix Strata on Windows" class="fancybox">
+      <img src="kirix-strata-msw-thumb.jpg" class="img-thumbnail" alt="Kirix Strata on Windows">
     </a>
-  </li>
-  <li class="span2">
+  </div>
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="kirix-strata" href="kirix-strata-linux.jpg"
-      title="Kirix Strata on Linux" class="thumbnail fancybox">
-      <img src="kirix-strata-linux-thumb.jpg" alt="Kirix Strata on Linux">
+      title="Kirix Strata on Linux" class="fancybox">
+      <img src="kirix-strata-linux-thumb.jpg" class="img-thumbnail" alt="Kirix Strata on Linux">
     </a>
-  </li>
-</ul>
+  </div>
+</div>
 
 [Kirix Strata][kirix] is an ad hoc data analysis and reporting tool for
 business analysts and IT workers. Strata enables you to explore and work with
@@ -340,26 +340,26 @@ wealth of analytic tools to quickly accomplish your tasks.
 
 ## Caedium
 
-<ul class="thumbnails">
-  <li class="span2">
+<div class="row thumbnails">
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="caedium" href="caedium-msw.jpg"
-      title="Caedium on Windows" class="thumbnail fancybox">
-      <img src="caedium-msw-thumb.jpg" alt="Caedium on Windows">
+      title="Caedium on Windows" class="fancybox">
+      <img src="caedium-msw-thumb.jpg" class="img-thumbnail" alt="Caedium on Windows">
     </a>
-  </li>
-  <li class="span2">
+  </div>
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="caedium" href="caedium-mac.jpg"
-      title="Caedium on Mac OS X" class="thumbnail fancybox">
-      <img src="caedium-mac-thumb.jpg" alt="Caedium on Mac OS X">
+      title="Caedium on Mac OS X" class="fancybox">
+      <img src="caedium-mac-thumb.jpg" class="img-thumbnail" alt="Caedium on Mac OS X">
     </a>
-  </li>
-  <li class="span2">
+  </div>
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="caedium" href="caedium-linux.jpg"
-      title="Caedium on Linux" class="thumbnail fancybox">
-      <img src="caedium-linux-thumb.jpg" alt="Caedium on Linux">
+      title="Caedium on Linux" class="fancybox">
+      <img src="caedium-linux-thumb.jpg" class="img-thumbnail" alt="Caedium on Linux">
     </a>
-  </li>
-</ul>
+  </div>
+</div>
 
 Symscape's [Caedium][caedium] provides an affordable, unified simulation
 environment for 3D fluid flow analysis and visualization on Windows, Macintosh,
@@ -373,20 +373,20 @@ pricing and free trials, bringing CFD within the reach of everyone.
 
 ## KiCad
 
-<ul class="thumbnails">
-  <li class="span2">
+<div class="row thumbnails">
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="kicad" href="kicad-linux.png"
-      title="KiCad on Linux" class="thumbnail fancybox">
-      <img src="kicad-linux-thumb.jpg" alt="KiCad on Linux">
+      title="KiCad on Linux" class="fancybox">
+      <img src="kicad-linux-thumb.jpg" class="img-thumbnail" alt="KiCad on Linux">
     </a>
-  </li>
-  <li class="span2">
+  </div>
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="kicad" href="kicad-msw.jpg"
-      title="KiCad on Windows" class="thumbnail fancybox">
-      <img src="kicad-msw-thumb.jpg" alt="KiCad on Windows">
+      title="KiCad on Windows" class="fancybox">
+      <img src="kicad-msw-thumb.jpg" class="img-thumbnail" alt="KiCad on Windows">
     </a>
-  </li>
-</ul>
+  </div>
+</div>
 
 [KiCad][kicad] is an open source (GPL) application for designing electronic
 schematic diagrams and printed circuit board artwork. Available for Windows and
@@ -397,14 +397,14 @@ Linux.
 
 ## Kephra
 
-<ul class="thumbnails">
-  <li class="span2">
+<div class="row thumbnails">
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="kephra" href="kephra-msw.png"
-      title="Kephra on Windows" class="thumbnail fancybox">
-      <img src="kephra-msw-thumb.png" alt="Kephra on Windows">
+      title="Kephra on Windows" class="fancybox">
+      <img src="kephra-msw-thumb.png" class="img-thumbnail" alt="Kephra on Windows">
     </a>
-  </li>
-</ul>
+  </div>
+</div>
 
 [Kephra][kephra] is a programmer's GUI text editor which is based on Scintilla
 and written in Perl, using the wxPerl bindings. The interface is designed along
@@ -416,20 +416,20 @@ easy and the hard possible". It runs on Linux, Mac and Windows.
 
 ## Writer's Café
 
-<ul class="thumbnails">
-  <li class="span2">
+<div class="row thumbnails">
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="storylines" href="storylines-linux.jpg"
-      title="Writer's Café on Linux" class="thumbnail fancybox">
-      <img src="storylines-linux-thumb.jpg" alt="Writer's Café on Linux">
+      title="Writer's Café on Linux" class="fancybox">
+      <img src="storylines-linux-thumb.jpg" class="img-thumbnail" alt="Writer's Café on Linux">
     </a>
-  </li>
-  <li class="span2">
+  </div>
+  <div class="col-xs-6 col-sm-3">
     <a data-fancybox-group="storylines" href="storylines-msw.jpg"
-      title="Writer's Café on Windows" class="thumbnail fancybox">
-      <img src="storylines-msw-thumb.jpg" alt="Writer's Café on Windows">
+      title="Writer's Café on Windows" class="fancybox">
+      <img src="storylines-msw-thumb.jpg" class="img-thumbnail" alt="Writer's Café on Windows">
     </a>
-  </li>
-</ul>
+  </div>
+</div>
 
 [Writer's Café][storylines] is a set of power tools for all fiction writers,
 whether experienced or just starting out. The heart of Writer's Café is

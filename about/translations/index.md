@@ -17,17 +17,20 @@ The list below shows all currently supported translations. If you would like to
 help translate wxWidgets to your language, please see the instructions below.
 It is often helpful to have several translators for every language.
 
-## Available Translations
-
-<div id="translation_loading" style="text-align: center; margin: 2em 0 2em 0; display: none;">
-  <p style="padding-top: 6em;">Loading Translations...</p>
+<div class="panel panel-primary">
+  <div class="panel-heading"><h2 class="panel-title">Available Translations</h2></div>
+  <div class="panel-body">
+    <div id="translation_loading" style="text-align: center; margin: 2em 0 2em 0; display: none;">
+      <p style="padding-top: 6em;">Loading Translations...</p>
+    </div>
+    <p id="translation_caption" style="display: none;">Translation status of all languages supported by wxWidgets. Yellow indicates fuzzy translations. This table can be sorted by language or by status by clicking the appropriate header.</p>
+    <noscript>Please enable JavaScript to view translation status information.</noscript>
+  </div>
+  <table id="translations" class="table table-hover" style="display: none;">
+    <thead><tr><th>Language</th><th colspan="2">Status</th></tr></thead>
+    <tbody></tbody>
+  </table>
 </div>
-<table id="translations" class="table table-hover" style="display: none;">
-  <caption>Translation status of all languages supported by wxWidgets.</caption>
-  <thead><tr><th>Language</th><th colspan="2">Status</th></tr></thead>
-  <tbody></tbody>
-</table>
-<noscript>Please enable JavaScript to view translation status information.</noscript>
 
 ## How to Help
 

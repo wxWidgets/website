@@ -4,20 +4,20 @@ title: "Downloads"
 mirror: "https://sourceforge.net/projects/wxwindows/files"
 ---
 
-<div class="alert">
+<div class="alert alert-info">
   <strong>Not using C++?</strong>
   Get wxWidgets from the
-  <a href="http://wxpython.org/download.php" target="_new">wxPython</a>,
-  <a href="http://wxperl.eu/download.html" target="_new">wxPerl</a>, or
-  <a href="http://wxnet.sourceforge.net/binary.html" target="_new">wx.NET</a>
+  <a href="http://wxpython.org/download.php" class="alert-link" target="_new">wxPython</a>,
+  <a href="http://wxperl.eu/download.html" class="alert-link" target="_new">wxPerl</a>, or
+  <a href="http://wxnet.sourceforge.net/binary.html" class="alert-link" target="_new">wx.NET</a>
   download sites.
 </div>
 
 
 ## Development Release: 2.9.4
 
-<div class="row-fluid">
-  <div class="span6">
+<div class="row">
+  <div class="col-sm-6">
     <div class="well well-small">
       <p><strong>Source Code</strong></p>
       <a href="{{ page.mirror }}/2.9.4/wxWidgets-2.9.4.zip">Windows ZIP</a> (27.2 MB)<br>
@@ -26,7 +26,7 @@ mirror: "https://sourceforge.net/projects/wxwindows/files"
       <a href="{{ page.mirror }}/2.9.4/wxWidgets-2.9.4.tar.bz2">Source for Linux, OS X, etc</a> (17.0 MB)
     </div>
   </div>
-  <div class="span6">
+  <div class="col-sm-6">
     <div class="well well-small">
       <p><strong>Documentation</strong></p>
       <a href="{{ page.mirror }}/2.9.4/wxWidgets-docs-html-2.9.4.zip">Manual (HTML) ZIP</a> (53.4 MB)<br>
@@ -47,15 +47,15 @@ mirror: "https://sourceforge.net/projects/wxwindows/files"
 
 ## Stable Release: 2.8.12
 
-<div class="alert">
+<div class="alert alert-info">
   <strong>Ubuntu and Debian packages are available.</strong>
   Please see
-  <a href="http://wiki.wxpython.org/InstallingOnUbuntuOrDebian" target="_new">this page</a>
+  <a href="http://wiki.wxpython.org/InstallingOnUbuntuOrDebian" class="alert-link" target="_new">this page</a>
   for more details.
 </div>
 
-<div class="row-fluid">
-  <div class="span6">
+<div class="row">
+  <div class="col-sm-6">
     <div class="well well-small">
       <p><strong>Source Code</strong></p>
       wxAll: <a href="{{ page.mirror }}/2.8.12/wxWidgets-2.8.12.tar.gz">GZIP</a> 19MB, <a href="{{ page.mirror }}/2.8.12/wxWidgets-2.8.12.zip">ZIP</a> 23MB<br>
@@ -65,7 +65,7 @@ mirror: "https://sourceforge.net/projects/wxwindows/files"
       <a href="{{ page.mirror }}/2.8.12/wxX11-2.8.12.tar.gz">wxX11</a> 13MB<br>
     </div>
   </div>
-  <div class="span6">
+  <div class="col-sm-6">
     <div class="well well-small">
       <p><strong>Documentation</strong></p>
       <a href="{{ page.mirror }}/2.8.12/readme-2.8.12.txt">Readme</a><br>

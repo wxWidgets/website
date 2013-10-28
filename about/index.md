@@ -173,5 +173,5 @@ is also available from several companies.
 
 
 <p style="margin-top: 2.5em; text-align: center;">
-  <a href="/downloads/" class="btn btn-primary btn-large"><i class="icon-download icon-white"></i> Download now &raquo;</a>
+  <a href="/downloads/" class="btn btn-lg btn-primary"><i class="glyphicon glyphicon-download"></i> Download now &raquo;</a>
 </p>

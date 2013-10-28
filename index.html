@@ -2,7 +2,7 @@
 layout: home
 ---
 
-<div class="hero-unit" style="padding: 30px;">
+<div class="jumbotron" style="padding: 30px;">
   <p>
     wxWidgets is a C++ library that lets developers create applications for
     Windows, Mac OS X, Linux and other platforms with a single code base. It
@@ -15,11 +15,17 @@ layout: home
     uses the platform's native API rather than emulating the GUI. It's also
     extensive, free, open-source and mature.
   </p>
-  <div style="text-align: center; margin-top: 20px; line-height: 3em;">
-    <p>
-      <a href="/about/" class="btn btn-primary btn-large"><i class="icon-info-sign icon-white"></i> Learn more &raquo;</a> &nbsp; or &nbsp;
-      <a href="/downloads/" class="btn btn-primary btn-large"><i class="icon-download icon-white"></i> Download now &raquo;</a>
-    </p>
+  <div style="margin-top: 20px;">
+    <div class="visible-xs btn-group-vertical">
+        <a href="/about/" class="btn btn-lg btn-primary"><i class="glyphicon glyphicon-info-sign"></i> Learn more &raquo;</a>
+        <a href="/downloads/" class="btn btn-lg btn-primary"><i class="glyphicon glyphicon-download"></i> Download now &raquo;</a>
+    </div>
+    <div class="hidden-xs text-center">
+      <p>
+        <a href="/about/" class="btn btn-lg btn-primary"><i class="glyphicon glyphicon-info-sign"></i> Learn more &raquo;</a> &nbsp; or &nbsp;
+        <a href="/downloads/" class="btn btn-lg btn-primary"><i class="glyphicon glyphicon-download"></i> Download now &raquo;</a>
+      </p>
+    </div>
   </div>
 </div>
 
@@ -38,6 +44,6 @@ layout: home
 {% endfor %}
 
 <p style="text-align: center; margin-top: 2em; font-size: 120%;">
-  <i class="icon-calendar"></i>
+  <i class="glyphicon glyphicon-calendar"></i>
   <strong><a href="/news/archive/">News Archive</a></strong>
 </p>

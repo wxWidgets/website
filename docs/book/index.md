@@ -31,16 +31,12 @@ applications.
 
 ## Where to Buy
 
-<ul class="thumbnails" style="float: right; margin: 0 10px 10px 10px;">
-  <li>
-    <div class="thumbnail">
-      <a href="http://www.amazon.com/exec/obidos/redirect?link_code=ur2&amp;tag=wxwidgets-20&amp;camp=1789&amp;creative=9325&amp;path=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fproduct%2F0131473816">
-        <img src="wxbook.jpg" alt="Cross-Platform GUI Programming with wxWidgets">
-      </a>
-      <a class="btn btn-block btn-primary" style="margin-top: 5px;" href="http://www.amazon.com/exec/obidos/redirect?link_code=ur2&amp;tag=wxwidgets-20&amp;camp=1789&amp;creative=9325&amp;path=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fproduct%2F0131473816">Buy on Amazon.com</a>
-    </div>
-  </li>
-</ul>
+<div class="pull-right" style="margin-left: 0.6em; margin-bottom: 0.6em;">
+  <a href="http://www.amazon.com/exec/obidos/redirect?link_code=ur2&amp;tag=wxwidgets-20&amp;camp=1789&amp;creative=9325&amp;path=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fproduct%2F0131473816">
+    <img src="wxbook.jpg" class="img-thumbnail" alt="Cross-Platform GUI Programming with wxWidgets">
+  </a>
+  <a class="btn btn-lg btn-block btn-primary" style="margin-top: 5px;" href="http://www.amazon.com/exec/obidos/redirect?link_code=ur2&amp;tag=wxwidgets-20&amp;camp=1789&amp;creative=9325&amp;path=http%3A%2F%2Fwww.amazon.com%2Fgp%2Fproduct%2F0131473816">Buy on Amazon.com</a>
+</div>
 
 We recommend purchasing a copy from [Amazon][1], which will help us earn a bit
 extra from each sale.

@@ -51,7 +51,7 @@ $(document).ready(function(){
   };
 
   $.ajax({
-    url: 'https://raw.github.com/gist/4138161/translation_stats.js',
+    url: 'https://gist.github.com/tierra/4138161/raw/translation_stats.js',
     dataType: 'jsonp',
     cache: true,
     jsonp: false, // Don't append callback method query variable.
@@ -73,8 +73,8 @@ $(document).ready(function(){
             '<td><a href="' + download_url + locale + '.po">' + languages[locale] + ' (' + locale + ')</a></td>' +
             '<td>' + Math.round(pct_translated) + '%</td>' +
             '<td width="30%"><div class="progress">' +
-              '<div class="bar bar-success" style="width: ' + pct_translated + '%;"></div>' +
-              '<div class="bar bar-warning" style="width: ' + pct_fuzzy + '%;"></div>' +
+              '<div class="progress-bar progress-bar-success" style="width: ' + pct_translated + '%;"></div>' +
+              '<div class="progress-bar progress-bar-warning" style="width: ' + pct_fuzzy + '%;"></div>' +
             '</div></td>' +
           '</tr>'
         );
@@ -88,6 +88,7 @@ $(document).ready(function(){
       });
 
       $('#translation_loading').hide();
+      $('#translation_caption').show();
       spinner.stop();
       $("#translations").show();
 

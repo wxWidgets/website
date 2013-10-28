@@ -1,6 +1,6 @@
 # Jekyll Site Generator Settings
 
-url: http://wxwidgets.github.com
+url: http://www.wxwidgets.org
 permalink: /news/:year/:month/:title/
 lsi: false
 pygments: true

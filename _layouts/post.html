@@ -4,10 +4,11 @@
     {% include head.html %}
   </head>
   <body>
+    <a href="#content" class="sr-only">Skip to content</a>
     <div class="container">
       {% include header.html %}
-      <div class="row">
-        <div class="span9">
+      <div class="row" id="content">
+        <div class="col-md-9">
           <article>
             <h1>{{ page.title | escape }}</h1>
             {% if page.date %}<p>Posted on <time datetime="{{ page.date | datetime | date_to_xmlschema }}" pubdate>{{ page.date | date: "%B %d, %Y" }}</time></p>{% endif %}
@@ -19,7 +20,7 @@
             {% endif %}
           </article>
         </div>
-        <div class="span3">
+        <div class="col-md-3">
           <aside>
             {% include aside.html %}
           </aside>
