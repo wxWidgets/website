@@ -67,5 +67,7 @@ permalink: .htaccess
 
     RewriteRule ^develop/cvs\.htm   /develop/svn.htm            [R=301,NC,L]
     RewriteRule ^snapshots.*        http://biolpc22.york.ac.uk/pub/Daily_HEAD/  [R=301,NC,L]
+    RewriteRule ^wxxrc$             http://svn.wxwidgets.org/svn/wx/wxWidgets/trunk/misc/schema/xrc_schema.rnc  [R=302,L]
+
     RewriteRule (\.svn)/(.*?)       -                           [F,L]
 </IfModule>

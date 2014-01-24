@@ -2,7 +2,6 @@
 layout: post
 title: "Google Drive Uses wxWidgets"
 date: 2012-05-02 22:29
-comments: true
 ---
 
 The recently released [Google Drive][1] system desktop client

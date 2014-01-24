@@ -2,7 +2,6 @@
 layout: post
 title: "wxWidgets 2.9.4 Released"
 date: 2012-07-09
-comments: true
 ---
 
 wxWidgets 2.9.4 has been officially released. It is available right now from

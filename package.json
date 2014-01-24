@@ -1,0 +1,30 @@
+{
+  "name": "wxwidgets-website",
+  "version": "0.1.0",
+  "author": "Bryan Petty <bryan@ibaku.net>",
+  "homepage": "http://www.wxwidgets.org/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wxWidgets/wxwidgets.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wxWidgets/wxwidgets.github.io/issues"
+  },
+  "licenses": [
+    {
+      "type": "wxWindows Free Documentation Licence, Version 3",
+      "url": "http://www.wxwidgets.org/about/lic_doc.txt"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-uglify": "~0.2.4",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-less": "~0.8.1",
+    "grunt-recess": "~0.5.0"
+  }
+}

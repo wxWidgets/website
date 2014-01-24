@@ -23,11 +23,21 @@ It is often helpful to have several translators for every language.
     <div id="translation_loading" style="text-align: center; margin: 2em 0 2em 0; display: none;">
       <p style="padding-top: 6em;">Loading Translations...</p>
     </div>
-    <p id="translation_caption" style="display: none;">Translation status of all languages supported by wxWidgets. Yellow indicates fuzzy translations. This table can be sorted by language or by status by clicking the appropriate header.</p>
+    <p id="translation_caption" style="display: none;">
+      Translation status of all languages supported by wxWidgets. This table
+      can be sorted by language or by status by clicking the appropriate header.
+      <p class="text-center">
+        <span class="label label-success">Complete</span>
+        <span class="label label-warning">Fuzzy</span>
+      </p>
+    </p>
     <noscript>Please enable JavaScript to view translation status information.</noscript>
   </div>
   <table id="translations" class="table table-hover" style="display: none;">
-    <thead><tr><th>Language</th><th colspan="2">Status</th></tr></thead>
+    <thead><tr>
+      <th>Language</th>
+      <th colspan="2">Status</th>
+    </tr></thead>
     <tbody></tbody>
   </table>
 </div>
@@ -83,6 +93,7 @@ where special announcements for translators are announced.
   * mrfx <<mrfx@fm365.com>>
   * Liu XiaoXi <<liouxiao@hotmail.com>>
   * Huang Jiawei <<hjiawei@gmail.com>>
+  * William Jiang <<williamroot777@qq.com>>
 * Chinese (zh_TW)
   * pal.tw <<pal.tw@yahoo.com.tw>>
 * Czech (cs)
@@ -168,6 +179,7 @@ where special announcements for translators are announced.
   * José Eduardo de Carvalho Diniz <<jecdiniz@yahoo.com.br>>
   * Adiel Mittmann <<adiel@inf.ufsc.br>>
   * Allann Jones <<allanjos@gmail.com>>
+  * Felipe <<felipefpl@ig.com.br>>
 * Romanian (ro)
   * Manuel Ciosici <<manuelciosici@yahoo.com>>
   * Cătălin Răceanu <<cata_sr@yahoo.com>>

@@ -2,7 +2,6 @@
 layout: post
 title: "wxWidgets for Android Campaign"
 date: 2012-05-02 12:30
-comments: true
 ---
 
 We are looking for developers and/or funding to help us with developing
