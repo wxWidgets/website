@@ -6,6 +6,13 @@ lsi: false
 pygments: true
 markdown: rdiscount
 
+exclude:
+  - Gruntfile.js
+  - node_modules
+  - package.json
+  - README.md
+  - Vagrantfile
+
 # Custom Settings
 
 disqus_shortname: wxwidgets
