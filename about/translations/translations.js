@@ -9,6 +9,7 @@ $(document).ready(function(){
 
   var languages = {
     "af":"Afrikaans",
+    "an":"Aragonese",
     "ar":"Arabic",
     "ca":"Catalan",
     "ca@valencia":"Valencian (Southern Catalan)",
@@ -51,12 +52,15 @@ $(document).ready(function(){
   };
 
   $.ajax({
-    url: 'https://gist.github.com/tierra/4138161/raw/translation_stats.js',
+    url: 'stats.js',
     dataType: 'jsonp',
     cache: true,
     jsonp: false, // Don't append callback method query variable.
     jsonpCallback: 'processTranslationStats',
-    success: function(data) {
+    success: function(data, text_status, xhr) {
+
+      var last_modified = xhr.getResponseHeader('Last-Modified');
+      if(last_modified) $('#stats_updated_date').text(last_modified);
 
       $.each(data, function(locale, stats) {
         var translated   = stats[0];

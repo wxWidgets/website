@@ -23,14 +23,18 @@ It is often helpful to have several translators for every language.
     <div id="translation_loading" style="text-align: center; margin: 2em 0 2em 0; display: none;">
       <p style="padding-top: 6em;">Loading Translations...</p>
     </div>
-    <p id="translation_caption" style="display: none;">
-      Translation status of all languages supported by wxWidgets. This table
-      can be sorted by language or by status by clicking the appropriate header.
+    <div id="translation_caption" style="display: none;">
+      <p>
+        Translation status of all languages supported by wxWidgets. This table
+        can be sorted by language or by status by clicking the appropriate
+        header.
+      </p>
+      <p>Last Updated: <span id="stats_updated_date">Unknown</span></p>
       <p class="text-center">
         <span class="label label-success">Complete</span>
         <span class="label label-warning">Fuzzy</span>
       </p>
-    </p>
+    </div>
     <noscript>Please enable JavaScript to view translation status information.</noscript>
   </div>
   <table id="translations" class="table table-hover" style="display: none;">
@@ -79,10 +83,13 @@ where special announcements for translators are announced.
 
 * Afrikaans (af)
   * Petri Jooste <<rkwjpj@puk.ac.za>>
+  * Friedel Wolff <<friedel@translate.org.za>>
 * Albanian (sq)
   * Besnik Bleta <<besnik@programeshqip.org>>
 * Arabic (ar)
   * Abdullah Abouzekry <<abouzekry@gmail.com>>
+* Aragonese (an)
+  * Jorge Pérez <<jorgtum@gmail.com>>
 * Basque (eu)
   * 3ARRANO Euskalgintza Taldea <<3arrano@euskalerria.org>>
   * Xabier Aramendi <<azpidatziak@gmail.com>>
@@ -121,6 +128,7 @@ where special announcements for translators are announced.
 * Galician (gl_ES)
   * Leandro Regueiro <<leandro.regueiro@gmail.com>>
   * Adrián González Alba <<correoadrian82@hotmail.com>>
+  * Nuria Andión <<nandiez@gmail.com>>
 * German (de)
   * Daniel Reith <<danr@gmx.de>>
   * Gerhard Gruber <<sparhawk@aon.at>>
@@ -174,6 +182,7 @@ where special announcements for translators are announced.
   * Mario Pereira <<marionrpereira76@hotmail.com>>
   * Antonio Cardoso Martins <<digiplan.pt@gmail.com>>
   * Carlos Gonçalves <<mail@cgoncalves.info>>
+  * Manuela Silva <<manuela.silva@sky.com>>
 * Portuguese (pt_BR)
   * E.A. Tacao <<e.a.tacao@terra.com.br>>
   * José Eduardo de Carvalho Diniz <<jecdiniz@yahoo.com.br>>
@@ -189,6 +198,7 @@ where special announcements for translators are announced.
   * Roman Rolinsky <<rolinsky@mema.ucl.ac.be>>
   * Vadim Zeitlin <<vadim@wxwidgets.org>>
   * Andrew V. Samoilov <<kai@cmail.ru>>
+  * Dmitry Levichev <<d.levichev@gmail.com>>
 * Slovak (sk)
   * Ivan Masar <<helix84@centrum.sk>>
 * Slovenian (sl)

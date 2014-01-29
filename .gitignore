@@ -5,3 +5,7 @@
 # Compiled Assets
 /assets/css/global.min.css
 /assets/js/global.min.js
+
+# Translations Build Files
+/_cron/locale/
+/about/translations/stats.js
