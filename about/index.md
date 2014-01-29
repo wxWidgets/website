@@ -92,7 +92,7 @@ In other words, you can use wxWidgets for either free or commercial projects,
 at no cost. The license encourages you to give back enhancements you make to
 the wxWidgets library itself.
 
-[2]: http://docs.wxwidgets.org/trunk/page_copyright_wxlicense.html
+[2]: /about/licence/
 
 
 ## Who uses wxWidgets?
