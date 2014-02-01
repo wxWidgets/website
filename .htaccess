@@ -1,8 +1,26 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteRule ^about/credits\.htm              /about/credits/                     [R=301,NC,L]
-    RewriteRule ^about/datasheets\.htm           /about/                             [R=301,NC,L]
-    RewriteRule ^about/feature2\.htm             /about/                             [R=301,NC,L]
+
+    RewriteRule ^about/credits\.htm         /about/credits/       [R=301,NC,L]
+    RewriteRule ^about/datasheets\.htm      /about/               [R=301,NC,L]
+    RewriteRule ^about/feature2\.htm        /about/               [R=301,NC,L]
+    RewriteRule ^about/index\.htm           /about/               [R=301,NC,L]
+    RewriteRule ^about/whychoos\.htm        /about/               [R=301,NC,L]
+    RewriteRule ^about/history\.htm         /about/history/       [R=301,NC,L]
+    RewriteRule ^about/i18n\.php            /about/translations/  [R=301,NC,L]
+    RewriteRule ^about/licence\.htm         /about/licence/       [R=301,NC,L]
+    RewriteRule ^about/newlicen\.htm        /about/licence/       [R=301,NC,L]
+    RewriteRule ^about/lic_doc\.txt         /about/licence/       [R=301,NC,L]
+    RewriteRule ^about/license(1|2|3)\.txt  /about/licence/       [R=301,NC,L]
+    RewriteRule ^about/preamble\.txt        /about/licence/       [R=301,NC,L]
+    RewriteRule ^about/name\.htm            /about/name/          [R=301,NC,L]
+    RewriteRule ^about/screen(.*)+\.htm     /about/screenshots/   [R=301,NC,L]
+    RewriteRule ^about/whowhat\.htm         /about/team/          [R=301,NC,L]
+
+    RewriteRule ^about/news/news\.htm       /news/archive/        [R=301,NC,L]
+
+    RewriteRule ^docs/book/index\.htm       /docs/book/           [R=301,NC,L]
+    RewriteRule ^docs/book/errata\.htm      /docs/book/errata/    [R=301,NC,L]
 
     RewriteRule ^docs/platform\.htm     http://wiki.wxwidgets.org/Supported_Platforms               [R=301,NC,L]
     RewriteRule ^docs/supported\.htm    http://wiki.wxwidgets.org/Development:_Supported_Classes    [R=301,NC,L]
