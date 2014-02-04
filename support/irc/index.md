@@ -10,6 +10,17 @@ wxWidgets and are often willing to help.
 
 [1]: http://freenode.net/
 
+<div class="row" style="margin-top: 2em; margin-bottom: 2em;">
+  <div class="col-sm-6 col-sm-offset-3">
+    <a href="http://webchat.freenode.net/?channels=%23wxwidgets&amp;uio=OT10cnVlJjExPTIxNQ6c" target="_new" class="btn btn-lg btn-default btn-block">
+      <i class="fa fa-globe fa-fw"></i> Launch Web Client
+    </a>
+    <a href="irc://irc.freenode.net/wxwidgets" class="btn btn-lg btn-default btn-block">
+      <i class="fa fa-desktop fa-fw"></i> Launch Desktop Client
+    </a>
+  </div>
+</div>
+
 
 ## Tips for Getting Help
 
