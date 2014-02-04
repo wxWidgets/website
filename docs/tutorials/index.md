@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Tutorials"
-permalink: tutorials.htm
 ---
 
 For a more extensive list of tutorials, please see the [Guides & Tutorials][1]
@@ -17,12 +16,6 @@ page on the community wiki.
     <h4 class="list-group-item-heading">'Hello world' in wxWidgets: A Very Short Tutorial</h4>
     <p class="list-group-item-text">
       A tiny tutorial with code, by Robert Roebling.
-    </p>
-  </a>
-  <a href="technote/tn0008.htm" class="list-group-item">
-    <h4 class="list-group-item-heading">How to learn wxWidgets programming</h4>
-    <p class="list-group-item-text">
-      A personal view of how to learn a GUI framework, by Edward Ream.
     </p>
   </a>
   <a href="http://neume.sourceforge.net/sizerdemo/" class="list-group-item">
@@ -101,57 +94,28 @@ page on the community wiki.
 ## Miscellaneous
 
 <div class="list-group">
-  <a href="tutorials/help.htm" class="list-group-item">
+  <a href="/docs/tutorials/writing-online-help/" class="list-group-item">
     <h4 class="list-group-item-heading">Writing Online Help</h4>
     <p class="list-group-item-text">
       Options available when writing online help for wxWidgets applications.
     </p>
   </a>
-  <a href="technote/crosscmp.htm" class="list-group-item">
-    <h4 class="list-group-item-heading">Cross-compiling Windows applications on Linux</h4>
-    <p class="list-group-item-text">
-      Phil Blecker has contributed these notes for creating a cross-compiler
-      that is capable of producing DOS/Windows binaries from a Linux host.
-    </p>
-  </a>
-  <a href="tutorials/opengl.htm" class="list-group-item">
-    <h4 class="list-group-item-heading">Using OpenGL with wxWidgets</h4>
-    <p class="list-group-item-text">
-      Using OpenGL or Mesa and wxWidgets, using the wxGLCanvas class bundled
-      with wxWidgets.
-    </p>
-  </a>
-  <a href="technote/install.htm" class="list-group-item">
-    <h4 class="list-group-item-heading">Writing installers for your application</h4>
+  <a href="/docs/tutorials/building-installers/" class="list-group-item">
+    <h4 class="list-group-item-heading">Building Installers</h4>
     <p class="list-group-item-text">
       Some ways to distribute your wxWidgets application in a friendly way.
     </p>
   </a>
-  <a href="technote/resource.htm" class="list-group-item">
-    <h4 class="list-group-item-heading">How to use Windows resource files to store wxWidgets .wxr files</h4>
-    <p class="list-group-item-text">
-      Using wxLoadUserResource to load WXR files from an application's
-      resources.
-    </p>
-  </a>
-  <a href="tutorials/access.htm" class="list-group-item">
-    <h4 class="list-group-item-heading">wxWidgets and Active Accessibility</h4>
+  <a href="/docs/tutorials/accessibility/" class="list-group-item">
+    <h4 class="list-group-item-heading">Accessibility Support</h4>
     <p class="list-group-item-text">
       The current status of accessibility support in wxWidgets.
     </p>
   </a>
-  <a href="technote/wxaccesstips.htm" class="list-group-item">
-    <h4 class="list-group-item-heading">Building accessible wxWidgets apps</h4>
+  <a href="/docs/tutorials/using-mnemonics/" class="list-group-item">
+    <h4 class="list-group-item-heading">Using Mnemonics</h4>
     <p class="list-group-item-text">
-      An article contributed by AOL describing how to build accessible
-      wxWidgets applications.
-    </p>
-  </a>
-  <a href="technote/accesskey.htm" class="list-group-item">
-    <h4 class="list-group-item-heading">wxWidgets mnemonic FAQ</h4>
-    <p class="list-group-item-text">
-      An article contributed by AOL describing mnemonics (for executing
-      commands via the keyboard).
+      Optimizing menus and controls for quick use and accessibility.
     </p>
   </a>
 </div>

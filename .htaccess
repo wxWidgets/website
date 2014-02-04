@@ -21,9 +21,17 @@
 
     RewriteRule ^docs/book/index\.htm       /docs/book/           [R=301,NC,L]
     RewriteRule ^docs/book/errata\.htm      /docs/book/errata/    [R=301,NC,L]
+    RewriteRule ^docs/tutorials\.htm        /docs/tutorials/      [R=301,NC,L]
 
-    RewriteRule ^docs/platform\.htm     http://wiki.wxwidgets.org/Supported_Platforms               [R=301,NC,L]
-    RewriteRule ^docs/supported\.htm    http://wiki.wxwidgets.org/Development:_Supported_Classes    [R=301,NC,L]
+    RewriteRule ^docs/access\.htm             /docs/tutorials/accessibility/       [R=301,NC,L]
+    RewriteRule ^docs/tutorials/access\.htm   /docs/tutorials/accessibility/       [R=301,NC,L]
+    RewriteRule ^docs/tutorials/help\.htm     /docs/tutorials/writing-online-help/ [R=301,NC,L]
+    RewriteRule ^docs/technote/install\.htm   /docs/tutorials/building-installers/ [R=301,NC,L]
+    RewriteRule ^docs/technote/accesskey\.htm /docs/tutorials/using-mnemonics/     [R=301,NC,L]
+
+    RewriteRule ^docs/platform\.htm        http://wiki.wxwidgets.org/Supported_Platforms               [R=301,NC,L]
+    RewriteRule ^docs/supported\.htm       http://wiki.wxwidgets.org/Development:_Supported_Classes    [R=301,NC,L]
+    RewriteRule ^docs/technote/vc_ide\.htm http://wiki.wxwidgets.org/Microsoft_Visual_C%2B%2B_Guide    [R=301,NC,L]
 
     RewriteRule ^develop/cvs\.htm   /develop/svn.htm            [R=301,NC,L]
     RewriteRule ^snapshots.*        http://biolpc22.york.ac.uk/pub/Daily_HEAD/  [R=301,NC,L]
