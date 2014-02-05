@@ -15,19 +15,19 @@ This is a small taste of some of the applications built with wxWidgets.
 
 <div class="row thumbnails">
   <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="storylines" href="ecmerge-linux.png"
+    <a data-fancybox-group="ecmerge" href="ecmerge-linux.png"
       title="ECMerge on Linux" class="fancybox">
       <img src="ecmerge-linux-thumb.png" class="img-thumbnail" alt="ECMerge on Linux">
     </a>
   </div>
   <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="storylines" href="ecmerge-msw.png"
+    <a data-fancybox-group="ecmerge" href="ecmerge-msw.png"
       title="ECMerge on Windows" class="fancybox">
       <img src="ecmerge-msw-thumb.png" class="img-thumbnail" alt="ECMerge on Windows">
     </a>
   </div>
   <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="storylines" href="ecmerge-mac.png"
+    <a data-fancybox-group="ecmerge" href="ecmerge-mac.png"
       title="ECMerge on Mac OS X" class="fancybox">
       <img src="ecmerge-mac-thumb.png" class="img-thumbnail" alt="ECMerge on Mac OS X">
     </a>
