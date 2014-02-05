@@ -86,7 +86,7 @@ users know about the framework's internals.
   problem yourself, rather than asking for examples at every step.
 
 [manual]: http://docs.wxwidgets.org/stable/
-[faq]: /docs/faq.htm
+[faq]: /docs/faq/
 [wiki]: http://wiki.wxwidgets.org/
 
 

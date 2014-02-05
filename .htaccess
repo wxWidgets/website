@@ -29,6 +29,16 @@
     RewriteRule ^docs/technote/install\.htm   /docs/tutorials/building-installers/ [R=301,NC,L]
     RewriteRule ^docs/technote/accesskey\.htm /docs/tutorials/using-mnemonics/     [R=301,NC,L]
 
+    RewriteRule ^docs/faq\.htm     /docs/faq/          [R=301,NC,L]
+    RewriteRule ^docs/faqcmn\.htm  /docs/faq/common/   [R=301,NC,L]
+    RewriteRule ^docs/faqgen\.htm  /docs/faq/general/  [R=301,NC,L]
+    RewriteRule ^docs/faqgtk\.htm  /docs/faq/gtk/      [R=301,NC,L]
+    RewriteRule ^docs/faqmac\.htm  /docs/faq/osx/      [R=301,NC,L]
+    RewriteRule ^docs/faqmot\.htm  /docs/faq/motif/    [R=301,NC,L]
+    RewriteRule ^docs/faqmsw\.htm  /docs/faq/windows/  [R=301,NC,L]
+    RewriteRule ^docs/faqunx\.htm  /docs/faq/common/   [R=301,NC,L]
+    RewriteRule ^docs/faqx11\.htm  /docs/faq/x11/      [R=301,NC,L]
+
     RewriteRule ^docs/platform\.htm        http://wiki.wxwidgets.org/Supported_Platforms               [R=301,NC,L]
     RewriteRule ^docs/supported\.htm       http://wiki.wxwidgets.org/Development:_Supported_Classes    [R=301,NC,L]
     RewriteRule ^docs/technote/vc_ide\.htm http://wiki.wxwidgets.org/Microsoft_Visual_C%2B%2B_Guide    [R=301,NC,L]

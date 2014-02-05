@@ -185,10 +185,7 @@ the wxAccessible hierarchy.
 
 ## References
 
-* [Building accessible wxWidgets apps](../technote/wxaccesstips.htm): an
-  article contributed by AOL describing how to build accessible wxWidgets
-  applications.
-* [wxWidgets mnemonic FAQ](../technote/accesskey.htm): An article contributed
+* [Using Mnemonics](/docs/tutorials/using-mnemonics/): An article contributed
   by AOL describing mnemonics (for executing commands via the keyboard).
 * [Section 508](http://www.section508.gov/index.cfm?FuseAction=Content&ID=11)
   of the Rehabilitation Act (USA)
