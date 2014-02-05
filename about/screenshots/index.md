@@ -15,29 +15,30 @@ This is a small taste of some of the applications built with wxWidgets.
 
 <div class="row thumbnails">
   <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="storylines" href="ecmerge-linux.jpg"
+    <a data-fancybox-group="storylines" href="ecmerge-linux.png"
       title="ECMerge on Linux" class="fancybox">
-      <img src="ecmerge-linux-thumb.jpg" class="img-thumbnail" alt="ECMerge on Linux">
+      <img src="ecmerge-linux-thumb.png" class="img-thumbnail" alt="ECMerge on Linux">
     </a>
   </div>
   <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="storylines" href="ecmerge-msw.jpg"
+    <a data-fancybox-group="storylines" href="ecmerge-msw.png"
       title="ECMerge on Windows" class="fancybox">
-      <img src="ecmerge-msw-thumb.jpg" class="img-thumbnail" alt="ECMerge on Windows">
+      <img src="ecmerge-msw-thumb.png" class="img-thumbnail" alt="ECMerge on Windows">
     </a>
   </div>
   <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="storylines" href="ecmerge-mac.jpg"
+    <a data-fancybox-group="storylines" href="ecmerge-mac.png"
       title="ECMerge on Mac OS X" class="fancybox">
-      <img src="ecmerge-mac-thumb.jpg" class="img-thumbnail" alt="ECMerge on Mac OS X">
+      <img src="ecmerge-mac-thumb.png" class="img-thumbnail" alt="ECMerge on Mac OS X">
     </a>
   </div>
 </div>
 
 [ECMerge][ecmerge] is a comparison, synchronization and merge tool. It is
-advanced tool primarily targeted to the developer to compare source code, images
-and trees of source, but it's interface is easy enough to use by commercials and
-laywers to compare conracts. ECMerge runs on Linux, Mac and Windows.
+advanced tool primarily targeted to the developer to compare source code,
+images and trees of source, but it's interface is easy enough to use by
+commercials and laywers to compare conracts. ECMerge runs on Linux, Mac and
+Windows.
 
 [ecmerge]: http://www.elliecomputing.com/
 
