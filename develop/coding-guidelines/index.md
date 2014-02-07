@@ -109,7 +109,7 @@ which supports _any_ feature from the list below.
 
 <a name="no_templates"></a>
 
-#### Don't use C++ templates
+#### <i class="fa fa-check-square-o fa-fw"></i> Don't use C++ templates
 
 Besides the reasons mentioned above, template usage also makes the program
 compile much slower (200%-300% is not uncommon) and their support even in the
@@ -125,7 +125,7 @@ reason to use static arrays or type-less (passing by `void*`) containers.
 
 <a name="no_exceptions"></a>
 
-#### Don't use C++ exceptions
+#### <i class="fa fa-check-square-o fa-fw"></i> Don't use C++ exceptions
 
 The C++ exception system is an error-reporting mechanism. Another reasons not
 to use it, besides portability, are the performance penalty it imposes (small,
@@ -210,7 +210,7 @@ which might help here:
 
 <a name="no_rtti"></a>
 
-#### Don't use RTTI
+#### <i class="fa fa-check-square-o fa-fw"></i> Don't use RTTI
 
 RTTI stands for Run-Time Type Information and there is probably no other reason
 not to use it except the portability issue and the fact that it adds
@@ -223,7 +223,7 @@ macros instead of the (horrible looking, BTW) `dynamic_cast`.
 
 <a name="no_namespaces"></a>
 
-#### Don't use namespaces
+#### <i class="fa fa-check-square-o fa-fw"></i> Don't use namespaces
 
 This topic is subject to change with time, however for the moment all wxWidgets
 classes and methods live in the global namespace.
@@ -232,7 +232,7 @@ classes and methods live in the global namespace.
 
 <a name="no_stl"></a>
 
-#### Don't use STL
+#### <i class="fa fa-check-square-o fa-fw"></i> Don't use STL
 
 STL is the new C++ standard library, proposing all kinds of template containers
 and generic algorithm implementations. Templates are the heart (and almost
@@ -248,7 +248,7 @@ class (typedef to be precise).
 
 <a name="no_fordecl"></a>
 
-#### Don't declare variables inside `for()`
+#### <i class="fa fa-check-square-o fa-fw"></i> Don't declare variables inside `for()`
 
 The scope of a variable declared inside `for()` statement changed several years
 ago, however many compilers still will complain about second declaration of `i`
@@ -284,7 +284,7 @@ local loop variables.
 
 <a name="no_nestedclasses"></a>
 
-#### Don't use nested classes
+#### <i class="fa fa-check-square-o fa-fw"></i> Don't use nested classes
 
 Nested classes are, without doubt, a very good thing because they allow to hide
 "private" (in the sense that they're used only inside the library) classes and,
@@ -324,7 +324,7 @@ a more general interface/implementation separation idea).
 
 <a name="no_newlogicalops"></a>
 
-#### Don't use new logical operators keywords
+#### <i class="fa fa-check-square-o fa-fw"></i> Don't use new logical operators keywords
 
 The C++ standard has introduced the following new reserved words: `or`, `and`,
 `not`, `xor`, `bitand`, `bitor`, `compl`, `and_eq`, `or_eq`, `not_eq`, `or_eq`
@@ -353,7 +353,7 @@ compile on another platform and/or with another compiler.
 
 <a name="no_ternarywithobjects"></a>
 
-#### Use ternary operator `?:` carefully
+#### <i class="fa fa-check-square-o fa-fw"></i> Use ternary operator `?:` carefully
 
 The ternary operator `?:` shouldn't be used with objects (i.e. if any of
 its operands are objects) because some compilers (notably Borland C++) fail to
@@ -373,7 +373,7 @@ compile such code.
 
 <a name="no_autoaggregate"></a>
 
-#### Don't use initializers with automatic arrays
+#### <i class="fa fa-check-square-o fa-fw"></i> Don't use initializers with automatic arrays
 
 The initializers for automatic array variables are not supported by some older
 compilers. For example, the following line will fail to compile with HP-UX C++
@@ -389,7 +389,7 @@ should initialize each element separately.
 
 <a name="no_dtorswithoutctor"></a>
 
-#### Always have at least one constructor in a class with destructor
+#### <i class="fa fa-check-square-o fa-fw"></i> Always have at least one constructor in a class with destructor
 
 It is a good rule to follow in general, but some compilers (HP-UX) enforce it.
 So even if you are sure that the default constructor for your class is ok but
@@ -407,7 +407,7 @@ which are less important.
 
 <a name="no_cppcommentsinc"></a>
 
-#### No C++ comments in C code
+#### <i class="fa fa-check-square-o fa-fw"></i> No C++ comments in C code
 
 Never use C++ comments in C code -- not all C compilers/preprocessors
 understand them. Although we're mainly concerned with C++ here, there are
@@ -421,7 +421,7 @@ compiler.
 
 <a name="no_globals"></a>
 
-#### No global variables with constructors
+#### <i class="fa fa-check-square-o fa-fw"></i> No global variables with constructors
 
 In C++, the constructors of global variables are called before the `main()`
 function (or `WinMain()` or any other program entry point) starts executing.
@@ -446,7 +446,7 @@ overloads them) and `delete` will be the overloaded operator.
 
 <a name="no_warnings"></a>
 
-#### Turn on all warnings and eradicate them
+#### <i class="fa fa-check-square-o fa-fw"></i> Turn on all warnings and eradicate them
 
 Give the compiler a chance to help you -- turn on all warnings! You should
 always use the maximum available warning level of your compiler and understand
@@ -457,7 +457,7 @@ may be avoided (not suppressed!) with minimal changes to your code.
 
 <a name="no_assume_sizeof"></a>
 
-#### Don't rely on `sizeof(int) == 2`
+#### <i class="fa fa-check-square-o fa-fw"></i> Don't rely on `sizeof(int) == 2`
 
 You should never assume any absolute constraints on data type sizes. Currently,
 we have 16-bit, 32-bit and 64-bit machines and even inside each class data type
@@ -507,7 +507,7 @@ sizes are different. A small table illustrates it quite well:
 
 <a name="no_assignment_in_if"></a>
 
-#### No assignments in conditional expressions
+#### <i class="fa fa-check-square-o fa-fw"></i> No assignments in conditional expressions
 
 Although close to the heart of many C programmers (I plead guilty), code like
 classical `if ( (c = getchar()) != EOF )` is bad because it prevents you
@@ -517,7 +517,7 @@ from enabling "assignment in conditional expression" warning (see also
 
 <a name="no_comment_code"></a>
 
-#### Use `#if 0` rather than comments to temporarily disable blocks of code
+#### <i class="fa fa-check-square-o fa-fw"></i> Use `#if 0` rather than comments to temporarily disable blocks of code
 
 If you have to temporarily disable some code, use
 
@@ -536,7 +536,7 @@ disabled code, the second version will, of course, miserably fail.
 
 <a name="no_overloaded_virtuals"></a>
 
-#### Avoid overloaded virtual functions
+#### <i class="fa fa-check-square-o fa-fw"></i> Avoid overloaded virtual functions
 
 You should avoid having overloaded virtual methods in a base class because if
 any of them is overriden in a derived class, then all others must be overriden
@@ -596,7 +596,7 @@ many overloaded versions of commonly used methods such as `SetSize()`.
 
 <a name="no_bool_params"></a>
 
-#### Don't use boolean function arguments
+#### <i class="fa fa-check-square-o fa-fw"></i> Don't use boolean function arguments
 
 Using boolean parameters in the public function usually is a bad API design
 idea for two reasons which are explained below using the example of wxWidgets
@@ -638,7 +638,7 @@ in fact, quite general:
 
 <a name="no_extra_semicolon"></a>
 
-#### Don't use extra semi-colons on top level
+#### <i class="fa fa-check-square-o fa-fw"></i> Don't use extra semi-colons on top level
 
 Some compilers don't pay any attention to extra semicolons on top level, like:
 
@@ -658,7 +658,7 @@ here.
 
 <a name="use_cpp_ext"></a>
 
-#### Use .cpp for C++ source file extension
+#### <i class="fa fa-check-square-o fa-fw"></i> Use .cpp for C++ source file extension
 
 There is, unfortunately, no standard extension for C++ source files. Different
 people use .C, .cc, .cpp, .cxx, .c++ and probably several others I forgot. Some
@@ -671,7 +671,7 @@ for the header files is .h.
 
 <a name="no_backslash"></a>
 
-#### Don't use backslash ('\\') in #includes
+#### <i class="fa fa-check-square-o fa-fw"></i> Don't use backslash ('\\') in #includes
 
 Although it's too silly to mention, please don't use backslashes in `#include`
 preprocessor statement. Not all Windows compilers even accept it, without
@@ -679,7 +679,7 @@ speaking about all other ones.
 
 <a name="no_carriagereturn"></a>
 
-#### Avoid carriage returns in cross-platform code
+#### <i class="fa fa-check-square-o fa-fw"></i> Avoid carriage returns in cross-platform code
 
 This problem will hopefully not arise at all, with SVN taking care of this
 stuff, however it is perhaps not useless to remember that many Unix compilers
@@ -688,7 +688,7 @@ in C/C++ code.
 
 <a name="no_caps_in_filenames"></a>
 
-#### Use only lower case filenames
+#### <i class="fa fa-check-square-o fa-fw"></i> Use only lower case filenames
 
 DOS/Windows 3.1 isn't case sensitive, Windows 95/NT are case preserving, but
 not case sensitive. To avoid all kinds of problems with compiling under Unix
@@ -697,7 +697,7 @@ the filenames.
 
 <a name="no_incomplete_files"></a>
 
-#### Terminate the files with a new-line
+#### <i class="fa fa-check-square-o fa-fw"></i> Terminate the files with a new-line
 
 While DOS/Windows compilers don't seem to mind, their Unix counterparts don't
 like files without terminating new-line. Such files also give a warning message
@@ -706,7 +706,7 @@ think about terminating the last line.
 
 <a name="no_case_only_diff"></a>
 
-#### Avoid globals differing by case only
+#### <i class="fa fa-check-square-o fa-fw"></i> Avoid globals differing by case only
 
 The linker on VMS is case-insensitive. Therefore all external variables and
 functions which differ only in case are not recognized by the linker as
@@ -722,7 +722,7 @@ not wxWidgets-specific meaning.
 
 <a name="naming_conv"></a>
 
-#### Naming conventions: use `m_` for members
+#### <i class="fa fa-check-square-o fa-fw"></i> Naming conventions: use `m_` for members
 
 We all know how important it is to write readable code. One of the first steps
 in this direction is the choice of naming convention. It may be quite vague or
@@ -797,7 +797,7 @@ no sense in C++.
 
 <a name="no_void_param"></a>
 
-#### Don't use `void` for functions without arguments
+#### <i class="fa fa-check-square-o fa-fw"></i> Don't use `void` for functions without arguments
 
 In ANSI C, `void Foo()` takes an arbitrary number of arbitrarily typed
 arguments (although the form `void Foo(...)` is preferred) and `void Foo(void)`
@@ -809,7 +809,7 @@ case.
 
 <a name="no_const_int"></a>
 
-#### Don't use `const` for non pointer/reference arguments
+#### <i class="fa fa-check-square-o fa-fw"></i> Don't use `const` for non pointer/reference arguments
 
 In both C and C++ an argument passed by value cannot be modified -- or, more
 precisely, if it is modified in the called function, only the local copy is
@@ -824,7 +824,7 @@ Of course, it doesn't apply to functions such as
 
 <a name="null_not_zero"></a>
 
-#### Use `NULL` rather than `0`
+#### <i class="fa fa-check-square-o fa-fw"></i> Use `NULL` rather than `0`
 
 We have chosen to use the standard `NULL` macro in the expressions involving
 the pointers instead of just the constant `0`. Although both are perfectly
@@ -843,7 +843,7 @@ A related advice is to use `'\0'` instead of `0` in the expressions involving
 
 <a name="file_locations"></a>
 
-#### File locations
+#### <i class="fa fa-check-square-o fa-fw"></i> File locations
 
 The wxWidgets files for each supported platform have their own subdirectories
 in "include" and "src". So, for example, there is "src/msw", "include/gtk" etc.
@@ -875,7 +875,7 @@ compiler.
 
 <a name="include_guards"></a>
 
-#### Include guards
+#### <i class="fa fa-check-square-o fa-fw"></i> Include guards
 
 To minimize the compile time C++ programmers often use so called include
 guards: for example, in the header file foo.h you might have
@@ -896,7 +896,7 @@ case you should use `_FOO_H_BASE_`.
 
 <a name="pch"></a>
 
-#### Precompiled headers
+#### <i class="fa fa-check-square-o fa-fw"></i> Precompiled headers
 
 The precompiled headers greatly (we're speaking about orders of hundreds of
 percent here) reduce the compilation time. wxWidgets uses them if the target
@@ -930,7 +930,7 @@ The start of a cpp implementation file after the heading might look like this:
 
 <a name="wxwin_header"></a>
 
-#### wxWidgets standard header
+#### <i class="fa fa-check-square-o fa-fw"></i> wxWidgets standard header
 
 All wxWidgets files should start with the following standard header:
 
@@ -949,7 +949,7 @@ copyright may differ.
 
 <a name="indentation"></a>
 
-#### Indent your code with 4 spaces (no tabs!)
+#### <i class="fa fa-check-square-o fa-fw"></i> Indent your code with 4 spaces (no tabs!)
 
 If you use Emacs, you can put the following in your .emacs file to help get
 indentation right:
@@ -1024,7 +1024,7 @@ If you use vi(m), you can add the following line to your ~/.vimrc or ~/.exrc:
 
 <a name="class_decl"></a>
 
-#### Order of parts in a class declarations
+#### <i class="fa fa-check-square-o fa-fw"></i> Order of parts in a class declarations
 
 By convention, please put the public parts of the class first, then protected,
 then private. The idea is to be able to quickly see the public API of a class
@@ -1041,13 +1041,13 @@ reading the file.
 
 <a name="wx_prefix"></a>
 
-#### Use wx or WX prefix for all public symbols
+#### <i class="fa fa-check-square-o fa-fw"></i> Use wx or WX prefix for all public symbols
 
 The prefix `wx` should be used for functions and classes, and `WX` for macros.
 
 <a name="wxdllexport"></a>
 
-#### Use WXDLLEXPORT with all classes/functions in wxMSW/common code
+#### <i class="fa fa-check-square-o fa-fw"></i> Use WXDLLEXPORT with all classes/functions in wxMSW/common code
 
 The title says it all -- every public (in the sense that it is not internal to
 the library) function or class should have `WXDLLEXPORT` macro in its
@@ -1062,7 +1062,7 @@ keyword ordering for exporting data.
 
 <a name="set_get"></a>
 
-#### Use Set/Get prefixes for accessors
+#### <i class="fa fa-check-square-o fa-fw"></i> Use Set/Get prefixes for accessors
 
 There is a convention in wxWidgets to prefix the accessors (i.e. any simple, in
 general, inline function which does nothing else except changing or returning
@@ -1070,7 +1070,7 @@ the value of a member variable) with either `Set` or `Get`.
 
 <a name="constants"></a>
 
-#### wxNAMING_CONSTANTS
+#### <i class="fa fa-check-square-o fa-fw"></i> wxNAMING_CONSTANTS
 
 The constants in wxWidgets code should be defined using `enum` C++ keyword (and
 not with `#define` or `static const int`). They should be declared in the
@@ -1096,37 +1096,37 @@ documentation.
 
 <a name="wellformed"></a>
 
-#### Use well-formed language for messages, not abbreviations or psuedo-English
+#### <i class="fa fa-check-square-o fa-fw"></i> Use well-formed language for messages, not abbreviations or psuedo-English
 
 <a name="startcapital"></a>
 
-#### Always starts a sentence with a capital letter
+#### <i class="fa fa-check-square-o fa-fw"></i> Always starts a sentence with a capital letter
 
 <a name="endperiod"></a>
 
-#### Always end a sentence with a period or other appropriate punctuation.
+#### <i class="fa fa-check-square-o fa-fw"></i> Always end a sentence with a period or other appropriate punctuation.
 
 <a name="noellipsis"></a>
 
-#### Never use "..." unless absolutely necessary.
+#### <i class="fa fa-check-square-o fa-fw"></i> Never use "..." unless absolutely necessary.
 
 <a name="nopling"></a>
 
-#### Avoid "!" wherever possible
+#### <i class="fa fa-check-square-o fa-fw"></i> Avoid "!" wherever possible
 
 It's rarely necessary to emphasise a point this much (the same applies to
 documentation).
 
 <a name="onespace"></a>
 
-#### Use only one space after a period and before a new sentence.
+#### <i class="fa fa-check-square-o fa-fw"></i> Use only one space after a period and before a new sentence.
 
 Don't add a lone space after a period if it's not going to be followed by
 another sentence.
 
 <a name="limitparenth"></a>
 
-#### Don't use unnecessary parentheses in messages and documentation.
+#### <i class="fa fa-check-square-o fa-fw"></i> Don't use unnecessary parentheses in messages and documentation.
 
 Instead, rearrange the sentence.
 
@@ -1135,7 +1135,7 @@ Instead, rearrange the sentence.
 
 <a name="forward_decl"></a>
 
-#### Use forward declarations whenever possible
+#### <i class="fa fa-check-square-o fa-fw"></i> Use forward declarations whenever possible
 
 It's a really trivial piece of advice, but remember that using forward
 declarations instead of including the header of corresponding class is better
@@ -1147,7 +1147,7 @@ from a header file.
 
 <a name="debug_macros"></a>
 
-#### Use debugging macros
+#### <i class="fa fa-check-square-o fa-fw"></i> Use debugging macros
 
 wxWidgets provides the debugging macros `wxASSERT, wxFAIL` and `wxCHECK_RET` in
 file. Please use them as often as you can -- they will never do you any harm
