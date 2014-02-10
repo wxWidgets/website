@@ -2,7 +2,6 @@
 layout: post
 title: "wxWidgets 3.0.0 Released"
 date: 2013-11-11
-comments: true
 ---
 
 The final version of wxWidgets 3.0, the first new stable wxWidgets release in
