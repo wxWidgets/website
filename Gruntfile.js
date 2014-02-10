@@ -19,8 +19,13 @@ module.exports = function(grunt) {
       dist: {
         files: {
           'assets/js/global.min.js': [
+            '_assets/js/jquery.min.js',
             '_assets/js/bootstrap.min.js',
+            '_assets/js/jquery.fancybox.pack.js',
+            '_assets/js/jquery.mousewheel-3.0.6.pack.js',
+            '_assets/js/featured_app.js',
             '_assets/js/sponsor.js',
+            '_assets/js/thumbnails.js',
             '_assets/js/analytics.js'
           ]
         }

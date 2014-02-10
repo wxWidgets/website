@@ -1,12 +1,6 @@
 ---
 layout: default
 title: "Screenshots"
-stylesheets:
- - "/assets/css/jquery.fancybox.css"
-scripts:
- - "/assets/js/jquery.mousewheel-3.0.6.pack.js"
- - "/assets/js/jquery.fancybox.pack.js"
- - "screenshots.js"
 ---
 
 This is a small taste of some of the applications built with wxWidgets.
