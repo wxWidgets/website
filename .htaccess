@@ -1,3 +1,23 @@
+AddType image/x-icon .ico
+
+<IfModule mod_headers.c>
+    <FilesMatch "\.(ico|gif|jpg|jpeg|png|js|css|)$">
+        Header set Cache-Control "max-age=86400"
+    </FilesMatch>
+</IfModule>
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/gif A86400
+    ExpiresByType image/png A86400
+    ExpiresByType image/jpeg A86400
+    ExpiresByType image/x-icon A86400
+    ExpiresByType application/json A86400
+    ExpiresByType application/javascript A86400
+    ExpiresByType application/x-javascript A86400
+    ExpiresByType text/css A86400
+</IfModule>
+
 <IfModule mod_rewrite.c>
     RewriteEngine On
 
