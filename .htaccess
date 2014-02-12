@@ -71,9 +71,9 @@ AddType image/x-icon .ico
 
     RewriteRule ^support/$               /support/mailing-lists/        [R=301,NC,L]
     RewriteRule ^support/index\.html     /support/mailing-lists/        [R=301,NC,L]
-    RewriteRule ^support/maillst2\.html  /support/mailing-lists/        [R=301,NC,L]
-    RewriteRule ^support/mlhowto\.html   /support/mailing-lists/guide/  [R=301,NC,L]
-    RewriteRule ^support/support\.html   /support/commercial/           [R=301,NC,L]
+    RewriteRule ^support/maillst2\.htm   /support/mailing-lists/        [R=301,NC,L]
+    RewriteRule ^support/mlhowto\.htm    /support/mailing-lists/guide/  [R=301,NC,L]
+    RewriteRule ^support/support\.htm    /support/commercial/           [R=301,NC,L]
 
     RewriteRule ^manuals/(.*)$         http://docs.wxwidgets.org/$1  [R=301,NC,L]
     RewriteRule ^wiki/index.php/(.*)$  http://wiki.wxwidgets.org/$1  [R=301,NC,L]
