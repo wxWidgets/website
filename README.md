@@ -48,3 +48,16 @@ running inside of your Vagrant box: <http://localhost:4000/>
 
 [vb]: https://www.virtualbox.org/wiki/Downloads
 [vagrant]: http://www.vagrantup.com/downloads.html
+
+## Minimal Setup for Content Editing Only
+
+If you only want to modify some page contents and are not going to touch any
+CSS or JavaScript code, you can avoid installing [Grunt][] as it is only
+really needed to produce the minified CSS and JavaScript files which can be
+retrieved from the main site:
+
+    $ curl http://www.wxwidgets.org/assets/css/global.min.css > assets/css/global.min.css
+    $ curl http://www.wxwidgets.org/assets/js/global.min.js > assets/js/global.min.js
+
+Then you only have to install [Jekyll][] and run it in order to preview your
+changes locally before pushing them out.
