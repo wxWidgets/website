@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Student Project Ideas
+classes: student-projects
 ---
 
 If you are interested in participating in the Google Summer of Code program

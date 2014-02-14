@@ -3,7 +3,11 @@
   <head>
     {% include head.html %}
   </head>
+{% if page.classes %}
+  <body class="{{ page.classes | join: ' ' }}">
+{% else %}
   <body>
+{% endif %}
     <a href="#content" class="sr-only">Skip to content</a>
     <div class="container">
       {% include header.html %}
