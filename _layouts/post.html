@@ -15,7 +15,7 @@
         <div class="col-md-9">
           <article>
             <h1>{{ page.title | escape }}</h1>
-            {% if page.date %}<p>Posted on <time datetime="{{ page.date | datetime | date_to_xmlschema }}" pubdate>{{ page.date | date: "%B %d, %Y" }}</time></p>{% endif %}
+            {% if page.date %}<p>Posted on <time datetime="{{ page.date | datetime | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>{% endif %}
             {{ content }}
             {% if page.comments and site.disqus_shortname %}
               <h2>Comments</h2>

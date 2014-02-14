@@ -38,7 +38,7 @@ layout: home
 {% for post in site.posts limit:5 %}
   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 
-  <p>Posted on <time datetime="{{ post.date | datetime | date_to_xmlschema }}" pubdate{% if updated %} data-updated="true"{% endif %}>{{ post.date | date: "%B %d, %Y" }}</time></p>
+  <p>Posted on <time datetime="{{ post.date | datetime | date_to_xmlschema }}"{% if updated %} data-updated="true"{% endif %}>{{ post.date | date: "%B %d, %Y" }}</time></p>
 
   {{ post.content }}
 
