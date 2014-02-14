@@ -46,7 +46,7 @@ your mentoring organization:
     [wxLua](http://wxlua.sourceforge.net/) and many other languages GUI
     libraries.
 
-- **We propose some great [projects](2013) for you to work on** -
+- **We propose some great [projects](/gsoc/projects) for you to work on** -
     For example, porting the wxWidgets API to Android or iOS are definitely very
     exciting -- albeit quite challenging -- tasks. Other ones might be less
     innovative but you would still be creating something new and making it
