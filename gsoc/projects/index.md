@@ -442,7 +442,8 @@ wxWebView currently works very well as a browser, but it lacks some features
 to allow using it in other roles. For example, to use it for displaying HTML
 messages in an email client, it must allow turning off support for JavaScript,
 plugins, Java and even automatic image display as well as allowing
-intercepting more events such as context menu building.
+intercepting more events such as context menu building. We also need more
+control over the use of cookies, file downloading etc.
 
 The goal of this project would be to add the necessary API to allow for such
 "controlled" use of wxWebView. Notice that ideally this would need to be done
