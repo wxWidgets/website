@@ -40,8 +40,6 @@ Notice that the projects are sorted roughly in order of their
       Chromium backend.
     - **[JavaScript support](#webview-js):** Build an API for integration with
       JavaScript events and values.
-    - **[wxWebView Help](#webview-help):** Replace wxHTML with [wxWebView][] for
-      wxHelpController.
 * And a couple of [wxRichTextCtrl][] ones:
     - **[ODF Support](#rtc-odf):** Support exporting to and, ideally,
       importing from the OpenDocument format used by LibreOffice.
@@ -523,33 +521,6 @@ Minimal knowledge of JavaScript.
 #### See also
 
 * [SWIG JavaScript branch](https://github.com/oliver----/swig-v8/)
-* [wxWebView](http://docs.wxwidgets.org/trunk/classwx_web_view.html)
-
-
-<a name="webview-help"></a>
-
-## <i class="fa fa-lightbulb-o fa-fw"></i> Use wxWebView for wxHtmlHelpWindow
-
-wxWidgets currently provides the wxHtmlHelpWindow class to display HTML help
-files. However it uses the wxHtmlWindow class which only supports rendering a
-limited subset of the HTML standard. This project would develop a new class
-wxWebHelpWindow based on wxWebView to allow complex help pages to be viewed.
-This would probably involve creating a new base class wxHelpWindowBase and then
-the new wxWebHelpWindow class. Other improvements could include the ability to
-use the wxAuiNotebook classes rather than wxNotebook to allow a better visual
-fit with classes that make extensive use of wxAUI. An EPUB parser would be a
-further useful addition.
-
-[**Difficulty:**](../project-ratings) 5
-[**Importance:**](../project-ratings) 6
-
-#### Potential mentors
-
-Steven Lamerton, Julian Smart
-
-#### See also
-
-* [wxHtmlHelpWindow](http://docs.wxwidgets.org/trunk/classwx_html_help_window.html)
 * [wxWebView](http://docs.wxwidgets.org/trunk/classwx_web_view.html)
 
 
