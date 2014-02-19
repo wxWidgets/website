@@ -14,5 +14,5 @@ answering the often-asked question if 2.9 series is good enough for production
 use.
 
 [1]: https://drive.google.com/
-[2]: https://support.google.com/drive/bin/answer.py?hl=en&answer=1716931&p=settings_licenses
+[2]: https://support.google.com/drive/answer/1716931?hl=en&p=settings_licenses
 [3]: https://www.dropbox.com/

@@ -10,8 +10,6 @@ Windows, Mac and Linux.
 
 Version 2.0 is an update with new interface and many new features.
 
-See their web site [here][1]. There's also an interesting article about how
-Jungle Disk got started [here][2].
+See their web site [here][1].
 
 [1]: http://www.jungledisk.com/
-[2]: http://www.bilgistic.com/dave-dave-dave-of-the-jungledisk/

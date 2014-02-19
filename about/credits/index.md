@@ -17,13 +17,6 @@ supporting the project.
 
 [1]: http://www.vmware.com/
 
-[Metrowerks, Inc.][2], and more specifically Greg Galanos, has generously
-donated a copy of CodeWarrior Professional 4 to the project. CodeWarrior is a
-well respected cross-platform compiler for Windows, Mac, BeOS and other
-systems.
-
-[2]: http://www.metrowerks.com/
-
 Thank you to [Microsoft][3] for donating a copy of Visual C++ 6.0 to help
 wxWidgets compile on this version of the compiler (for a Virginia Tech course).
 

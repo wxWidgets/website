@@ -9,5 +9,5 @@ stable release in 2.8 series contains several bug fixes as well as a few new
 functions, see the [announcement][1] for more details. Upgrading is recommended
 for all wxWidgets users. To get wxWidgets, please go to the [download page][2].
 
-[1]: http://lists.wxwidgets.org/pipermail/wx-announce/2008-June/000140.html
+[1]: https://groups.google.com/d/msg/wx-announce/NgBXlDBUV2A/F1PcBUIgQQwJ
 [2]: /downloads/

@@ -24,11 +24,10 @@ title: News Archive
     the Google Summer of Code initiative. If you are a student with some free
     time this summer, then you can be one of many who will be selected to work
     for 4500 USD on open source projects. Find out more about Google Summer of
-    Code, and sign up, at [code.google.com/soc][1]. The list of project
-    suggestions can be found [on the wxWiki][2]. Happy coding!
+    Code, and sign up, at the [Google Summer of Code website][1]. The list of
+    project suggestions can be found on the wxWiki. Happy coding!
 
-[1]: http://code.google.com/soc
-[2]: http://wiki.wxwidgets.org/Development:_Student_Projects
+[1]: https://developers.google.com/open-source/soc/
 
 #### April 2nd, 2006
 
@@ -66,11 +65,10 @@ title: News Archive
 #### March 10th, 2006
 
 *   The [wxWidgets book][5] is now available as a PDF from [here][6], at the
-    [Bruce Perens' Open Source Series][7] page.
+    Bruce Perens' Open Source Series page.
 
-[5]: /about/news/book/index.htm
-[6]: http://www.phptr.com/content/images/0131473816/downloads/0131473816_book.pdf
-[7]: http://www.phptr.com/promotions/promotion.asp?promo=1484&redir=1&rl=1
+[5]: /docs/book/
+[6]: http://ptgmedia.pearsoncmg.com/images/0131473816/downloads/0131473816_book.pdf
 
 #### March 5th, 2006
 
@@ -117,11 +115,8 @@ title: News Archive
     wxIndustrialControls. wxIndustrialControls, also known as KWIC cross
     platform library, provides a set of graphical widgets for showing digital
     and analogic values. Starting from January 2006 the source code becomes
-    freely available under KWIC license (a modified LGPL). The project is
-    available [here][11]. Contributors and developers are welcome, as are
-    patches and improvements.
-
-[11]: http://www.koansoftware.com/kwic/index.htm
+    freely available under KWIC license (a modified LGPL). Contributors and
+    developers are welcome, as are patches and improvements.
 
 #### December 23rd, 2005
 
@@ -188,11 +183,8 @@ title: News Archive
 
 *   Arnout Engelen has been experimenting with XML and the wxWidgets
     documentation for some time, and has two interesting contributions: the
-    latest [wxWidgets manual from CVS][16] enhanced with user-contributed notes
-    and quick-navigation toolbar, plus the [wxWidgets manual as manpages][17].
-
-[16]: http://wiki.wxwidgets.org/docbrowse.html
-[17]: http://www.bzzt.net/~wxwidgets/xmldocs/applications/manpages/
+    latest wxWidgets manual from CVS enhanced with user-contributed notes
+    and quick-navigation toolbar, plus the wxWidgets manual as manpages.
 
 #### August 19, 2005
 
@@ -201,11 +193,9 @@ title: News Archive
     classroom response system. The software is used for collecting and grading
     responses from students who respond to questions from their instructor
     using hand held remote units or clickers. The software runs on Windows, Mac
-    OS X, and Linux operating systems thanks to wxWidgets. See the
-    [complete press release][19].
+    OS X, and Linux operating systems thanks to wxWidgets.
 
 [18]: http://www.h-itt.com
-[19]: http://www.h-itt.com/news_18_release.html
 
 #### August 13th, 2005
 
@@ -215,7 +205,7 @@ title: News Archive
     users, and discussed publicity with the book's publisher, Pearson. You can
     view Kevin's presentation [here][21] (PowerPoint format).
 
-[20]: /docs/book/index.htm
+[20]: /docs/book/
 [21]: http://www.kevinhock.com/LinuxWorld_wxWidgets.ppt
 
 #### July 27th, 2005
@@ -223,7 +213,7 @@ title: News Archive
 *   The wxWidgets book is published today! For information about content and
     availability, please see the [book page][22].
 
-[22]: /docs/book/index.htm
+[22]: /docs/book/
 
 #### June 7th, 2005
 
@@ -244,12 +234,10 @@ title: News Archive
 
 #### May 20th, 2005
 
-*   [Persony][24] announces VShow, a cost-effective Web conferencing product
-    that uses standard Web servers to host online meetings. By leveraging
-    millions of current Web servers, VShow makes Web conferencing affordable to
+*   Persony announces VShow, a cost-effective Web conferencing product that
+    uses standard Web servers to host online meetings. By leveraging millions
+    of current Web servers, VShow makes Web conferencing affordable to
     small businesses and individuals.
-
-[24]: http://www.persony.com
 
 #### May 9th, 2005
 
@@ -333,20 +321,17 @@ title: News Archive
     wxWidgets library. With an intuitive graphical interface and almost
     unlimited data capacity, Strata provides a more effective way to work with
     data. In addition to the release today, Kirix Strata also wins the
-    LinuxWorld [Product Excellence Award][27] for Best
-    Desktop/Productivity/Business Application.
+    LinuxWorld Product Excellence Award for Best Desktop/Productivity/Business
+    Application.
 
 [26]: http://www.kirix.com/
-[27]: http://www.linuxworldexpo.com/live/12/exhibitors//withsuccess/CC651557
 
 #### January 5th, 2005
 
 *   Koan is proud to announce the release preview of wxIndustrialControls.
     wxIndustrialControls provides a set of graphical widgets for showing and
     manage digital and analogue values. A wxMSW executable demo is available at
-    the [Koan website][28].
-
-[28]: http://www.koansoftware.com/en/prd_svil_wxindctrl.htm
+    the Koan website.
 
 #### December 22nd, 2004
 
@@ -375,10 +360,7 @@ title: News Archive
 
 *   William Osborne has won our contest to win a free Tungsten T5 or
     equivalent, as the first person to show the minimal sample running under
-    Palm OS 6. See the [wxPalmOS Challenge][30]. We didn't think it would
-    happen this fast!
-
-[30]: /about/news/palmos.htm
+    Palm OS 6. We didn't think it would happen this fast!
 
 #### October 11th, 2004
 
@@ -387,10 +369,7 @@ title: News Archive
 #### September 28th, 2004
 
 *   The wxWidgets team is offering a free Tungsten T5 or equivalent to the
-    first person to show the minimal sample running under Palm OS 6. See the
-    [wxPalmOS Challenge][31].
-
-[31]: /about/news/palmos.htm
+    first person to show the minimal sample running under Palm OS 6.
 
 #### September 20th, 2004
 
@@ -441,7 +420,7 @@ title: News Archive
     breakpoints, watching variables, as well as other features you'd expect
     from a debugger.
 
-[33]: http://gubed.sf.net
+[33]: http://gubed.sourceforge.net/
 
 #### August 30th, 2004
 
@@ -451,10 +430,7 @@ title: News Archive
 #### July 26th, 2004
 
 *   Koan Software has enhanced its real-time Linux distribution for industrial
-    applications with support for wxWidgets. For more information, see the
-    press release on [LinuxDevices.com][34].
-
-[34]: http://linuxdevices.com/news/NS2648000466.html
+    applications with support for wxWidgets.
 
 #### June 1st, 2004
 
@@ -499,10 +475,8 @@ title: News Archive
 *   We are pleased to announce that [Software in the Public Interest][37] (SPI,
     Inc.) has voted to add wxWidgets to its list of supported projects. This
     means that we can now accept tax-exempt donations within the United States.
-    See [wxWidgets and SPI][38] for more details.
 
 [37]: http://www.spi-inc.org
-[38]: /support/spi.htm
 
 #### March 9th, 2004
 
@@ -550,7 +524,7 @@ title: News Archive
 *   [wxH2Help][43] released. wxH2Help, by Thomas Kux, integrates wxWidgets 2.4
     documentation into Visual Studio .NET 2002 and Visual Studio .NET 2003.
 
-[43]: http://biolpc22.york.ac.uk/pub/contrib/htmlhelp2
+[43]: http://biolpc22.york.ac.uk/pub/contrib/htmlhelp2/
 
 #### October 30th, 2003
 
@@ -576,12 +550,10 @@ title: News Archive
 
 #### July 25th, 2003
 
-*   Robert Roebling has been playing with [GPE][45] on his iPAQ and has
+*   Robert Roebling has been playing with GPE on his iPAQ and has
     cross-compiled the wxWidgets Life! demo for it. GPE uses GTK+ 2 and comes
     with a number of PDA applications, making it a near-complete organiser
     environment.
-
-[45]: http://gpe.handhelds.org/
 
 #### July 18th, 2003
 
@@ -615,7 +587,7 @@ title: News Archive
     libraries, such as id3lib, vorbis, fmod, and sqlite. Currently supported
     platforms are Win32 and Linux with GTK2.
 
-[49]: http://musik.sourceforge.net/
+[49]: http://musikcube.com/
 
 #### July 5th, 2003
 
@@ -835,11 +807,9 @@ title: News Archive
 
 #### April 19th, 2002
 
-*   New article: [Porting MFC applications to Linux:][68] A step-by-step guide
+*   New article: Porting MFC applications to Linux: A step-by-step guide
     to using wxWidgets, by Markus Neifer, April 2002. A nice primer for MFC
     developers migrating to wxWidgets, on the IBM developerWorks site.
-
-[68]: http://www.ibm.com/developerworks/library/l-mfc/?n-l-4182
 
 #### March 19th, 2002
 
@@ -910,10 +880,8 @@ title: News Archive
 
 #### July 2nd, 2001
 
-*   See the [wxUniversal page][70] for news of the generic widget project, as
-    well as the wxMGL and wxMicroWindows ports that will use it.
-
-[70]: /about/wxuniv.htm
+*   See the wxUniversal page for news of the generic widget project, as well as
+    the wxMGL and wxMicroWindows ports that will use it.
 
 #### June 22nd, 2001
 
@@ -1166,8 +1134,7 @@ wxWidgets 2 launch day!
 
 #### July 16th 1997
 
-*   Jobst Schmalenbach has set up Australian mirrors of the wxWidgets ftp and
-    Web sites: please see the [Mirrors][73] page.
+*   Jobst Schmalenbach has set up Australian FTP and HTTP mirrors.
 *   Arthur Tetzlaff-Deas is starting to look afresh at a port of wxWidgets 2.0
     to NeXTStep. This is more relevant now that the NeXT OS will be essential
     to the Apple Mac's future.
@@ -1175,8 +1142,6 @@ wxWidgets 2 launch day!
     next two weeks or so. I have abandoned documentation in wxHelp form in
     favour of the much better quality HTML format, which I will be including
     with the distribution from now on.
-
-[73]: /downloads/mirrors.htm
 
 #### July 7th 1997
 

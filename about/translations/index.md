@@ -77,7 +77,7 @@ where special announcements for translators are announced.
 [3]: http://www.iso.org/iso/prods-services/iso3166ma/02iso-3166-code-lists/country_names_and_code_elements
 [4]: http://www.poedit.net/
 [5]: mailto:vadim@wxwidgets.org
-[6]: /support/maillst2.htm#translators
+[6]: /support/mailing-lists/
 
 ## Translators
 

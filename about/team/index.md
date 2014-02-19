@@ -27,7 +27,7 @@ projects I have forgotten, or if an existing entry needs modification.
   runs [Advanced Concepts AG](http://www.advanced.ch/), a Swiss software
   consultancy specialising in medical software.
 
-* [Dr. Julian Smart](julian@anthemion.co.uk) - Julian Smart started the
+* [Dr. Julian Smart](mailto:julian@anthemion.co.uk) - Julian Smart started the
   wxWidgets project at the University of Edinburgh in 1992. He works on various
   aspects of the project, including wxX11, wxWinCE, release engineering, and
   web site maintenance. Julian's company
@@ -36,11 +36,11 @@ projects I have forgotten, or if an existing entry needs modification.
   [StoryLines](http://www.writerscafe.co.uk/), and the wxWidgets dialog editor
   [DialogBlocks](http://www.anthemion.co.uk/dialogblocks).
 
-* [Václav Slavík](vaclav.slavik@matfyz.cz) - Václav Slavík works on wxHTML, the
+* [Václav Slavík](mailto:vaclav.slavik@matfyz.cz) - Václav Slavík works on wxHTML, the
   XRC system, the new build system, wxMGL, and other areas. He also works on a
   variety of other [open source projects](http://sourceforge.net/users/vaclavslavik/).
 
-* [Robin Dunn](robin@alldunn.com) - Robin works on general wxWidgets
+* [Robin Dunn](mailto:robin@alldunn.com) - Robin works on general wxWidgets
   maintenance as well as the widely used [wxPython](http://wxpython.org/)
   system. He is also working for a major wxPython user, the
   [Open Source Applications Foundation](http://www.osafoundation.org/), headed
