@@ -50,7 +50,7 @@ It is often helpful to have several translators for every language.
 
 wxWidgets uses the standard GNU gettext tools for translations so if you are
 already familiar with them you shouldn't have any problems with working on
-wxWidgets translations. Here are the the steps you should follow:
+wxWidgets translations. Here are the steps you should follow:
 
 * Get the latest version of the file `wxstd.pot` from the wxWidgets source
   tree. If you're using SVN or the daily snapshots, you should already have it,
