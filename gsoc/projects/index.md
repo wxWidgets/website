@@ -40,10 +40,7 @@ Notice that the projects are sorted roughly in order of their
       Chromium backend.
     - **[JavaScript support](#webview-js):** Build an API for integration with
       JavaScript events and values.
-* And a couple of [wxRichTextCtrl][] ones:
-    - **[ODF Support](#rtc-odf):** Support exporting to and, ideally,
-      importing from the OpenDocument format used by LibreOffice.
-    - **[Table UI](#rtc-table):** Add UI for creating and modifying tables.
+* And a [wxRichTextCtrl][] one:
     - **[RTL Support](#rtc-rtl):** Support right-to-left languages and BiDi in
       [wxRichTextCtrl][].
 * **[wxAUI Native Art Providers](#aui-native-art):** Make wxAUI blend in better
@@ -523,53 +520,6 @@ Minimal knowledge of JavaScript.
 
 * [SWIG JavaScript branch](https://github.com/oliver----/swig-v8/)
 * [wxWebView](http://docs.wxwidgets.org/trunk/classwx_web_view.html)
-
-
-<a name="rtc-odf"></a>
-
-## <i class="fa fa-lightbulb-o fa-fw"></i> Interoperability with ODF
-
-The goal of this project is to implement export from [wxRichTextCtrl][] to
-LibreOffice ODF format (`.odt` extension). Ideally, importing from this
-format should be supported as well, but this might be too big a task for a
-single project.
-
-[**Difficulty:**](../project-ratings) 7
-[**Importance:**](../project-ratings) 7
-
-#### Potential mentors
-
-Julian Smart, Stefan Csomor
-
-#### Experience needed
-
-Any prior knowledge of ODF would be an advantage.
-
-#### See also
-
-* [LibreOffice File Formats](https://help.libreoffice.org/Common/XML_File_Formats)
-
-
-<a name="rtc-table"></a>
-
-## <i class="fa fa-lightbulb-o fa-fw"></i> wxRichTextCtrl UI for editing tables
-
-The [wxRichTextCtrl][] class now has text box and table capabilities, but there
-is no user interface for creating and modifying tables. The goal of this
-project is to analyze what's needed, looking at word processors such as
-OpenOffice.org Writer, and implement the necessary dialogs and mouse
-manipulation (for example table object selection and row/column movement).
-
-[**Difficulty:**](../project-ratings) 6
-[**Importance:**](../project-ratings) 5
-
-#### Potential mentors
-
-Julian Smart
-
-#### Experience needed
-
-No special experience required.
 
 
 <a name="rtc-rtl"></a>
