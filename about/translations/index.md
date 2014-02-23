@@ -210,7 +210,7 @@ where special announcements for translators are announced.
   * Francisco Vila <<francisco.vila@hispalinux.es>>
   * Adrián González Alba <<correoadrian82@hotmail.com>>
 * Swedish (sv)
-  * Jonas Rydberg <<jonas@arbor.se>>
+  * Jonas Rydberg <<jonas@drevo.se>>
   * Kaj G Backas <<kgb@compart.fi>>
 * Tamil (ta)
   * DINAKAR T.D. <<td.dinkar@gmail.com>>
