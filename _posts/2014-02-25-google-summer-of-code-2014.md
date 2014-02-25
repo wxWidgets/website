@@ -2,6 +2,7 @@
 layout: post
 title: "Google Summer of Code 2014"
 date: 2014-02-25
+comments: true
 ---
 
 The wxWidgets project has been accepted for participation in

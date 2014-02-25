@@ -10,15 +10,17 @@ title: Google Summer of Code
 [Google Summer of Code][gsoc] (GSoC), is an amazing program organized by Google
 which offers students stipends for working on open source projects.
 
-wxWidgets has applied to be accepted into the program for 2014, but until our
-application has been approved, you should take the time to look over our list
-of [project ideas](/gsoc/projects/) to get a feel for what kind of projects we
-might want to see proposals for.
+wxWidgets has been accepted into the program for 2014. If you are interested in
+getting involved (and meet the [eligibility requirements][req]), you should
+take the time to look over our list of [project ideas](/gsoc/projects/) to get
+a feel for what kind of projects we might want to see proposals for. Project
+proposals can be submitted starting March 10th, and the deadline is March 21st.
 
 Please contact us by posting to [Developers mailing list][lists] if you would
 like to get involved. Looking forward to hearing from you!
 
 [gsoc]: https://developers.google.com/open-source/soc/
+[req]: https://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2014/help_page#1._Are_there_any_age_restrictions_on
 [lists]: /support/mailing-lists/
 
 ### Why Participate in GSoC with wxWidgets?
@@ -88,12 +90,13 @@ and deadline in mind, good luck!
     <h4>Important Dates</h4>
     <p>
       <ul>
-        <li><strong>February 14th</strong>: Organization Application Deadline</li>
-        <li><strong>February 24th</strong>: Accepted Organizations Announced</li>
         <li><strong>March 10th</strong>: Student Application Period Starts</li>
         <li><strong>March 21th</strong>: Student Application Deadline</li>
         <li><strong>April 21st</strong>: Accepted Proposals Announced</li>
         <li><strong>May 19th</strong>: Coding Begins</li>
+        <li><strong>June 27th</strong>: Mid-term Evaluation Deadline</li>
+        <li><strong>August 18th</strong>: Firm 'Pencils Down' Date</li>
+        <li><strong>August 22th</strong>: Final Evaluation Deadline</li>
       </ul>
     </p>
   </div>
