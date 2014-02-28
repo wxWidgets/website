@@ -493,6 +493,41 @@ Knowledge of Chromium would be a plus.
 * [wxWebView](http://docs.wxwidgets.org/trunk/classwx_web_view.html)
 
 
+<a name="webview-cookies-download"></a>
+
+## <i class="fa fa-lightbulb-o fa-fw"></i> Add Support Cookies and Download Event
+
+Currently wxWebView does not support cookies. Attempt was done previously to bring 
+about that functionality but it ended only with wxGTK only patch, possibility for 
+OSX was articulated (since they both use Webkit) and no windows counterpart was even
+ touched. The task will therefore be to bring about the support for all backends.
+ 
+In addition to that, wxWebView have no way of dealing with downloads, so the proposal 
+here is to make at least single event that will be fired when download request is sent.
+The event will contain the url to download the file in its wxWebEvent::GetString(). At 
+most there could be specific Download API for wxWebview with its own download Manager 
+dialog.
+
+
+
+[**Difficulty:**](../project-ratings) 5-7 (depending on the number of backends)
+[**Importance:**](../project-ratings) 6
+
+#### Potential mentors
+
+Steven Lamerton, Bryan Petty, Stefano Mtangoo??
+
+#### Experience needed
+
+Any experience with using `IID_IWebBrowser` and/or WebKit would be helpful.
+
+#### See also
+* [Cookie Patch on Trac](http://trac.wxwidgets.org/ticket/14528)
+* [Download with WebkitGTK](http://stackoverflow.com/questions/11360453/how-to-download-with-gtk-webkit-and-webkitwebview)
+* [Download With IWebBrowser](http://stackoverflow.com/questions/13754185/custom-download-manager-iwebbrowser2)
+ 
+
+
 <a name="webview-js"></a>
 
 ## <i class="fa fa-lightbulb-o fa-fw"></i> wxWebView JavaScript Integration
