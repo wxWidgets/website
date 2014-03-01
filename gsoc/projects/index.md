@@ -33,13 +33,14 @@ Notice that the projects are sorted roughly in order of their
   "system sounds".
 * **[Cross Platform Animation](#animation):** Finish the implementation of the
   animation API started during GSoC 2011.
-* Several [wxWebView][]-related projects:
+* Several [wxWebView][]-related projects: 
     - **[Features switches](#webview-features):** Make [wxWebView][] more
       flexible to allow using it as a general purpose display control.
     - **[Chromium](#webview-chromium):** Integrate and extend the
       Chromium backend.
     - **[JavaScript support](#webview-js):** Build an API for integration with
       JavaScript events and values.
+    - **[Support for Cookies and Downloads](#webview-cookies-download):**  Adding Support for Cookies and Download Event
 * And a [wxRichTextCtrl][] one:
     - **[RTL Support](#rtc-rtl):** Support right-to-left languages and BiDi in
       [wxRichTextCtrl][].
