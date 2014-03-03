@@ -38,12 +38,12 @@ Notice that the projects are sorted roughly in order of their
       flexible to allow using it as a general purpose display control.
     - **[Chromium](#webview-chromium):** Integrate and extend the
       Chromium backend.
-    - **[JavaScript support](#webview-js):** Build an API for integration with
+    - **[JavaScript API](#webview-js):** Build an API for integration with
       JavaScript events and values.
-    - **[Support for Cookies and Downloads](#webview-cookies-download):**  Adding Support for Cookies and Download Event
-* And a [wxRichTextCtrl][] one:
-    - **[RTL Support](#rtc-rtl):** Support right-to-left languages and BiDi in
-      [wxRichTextCtrl][].
+    - **[Cookies and Downloads](#webview-cookies-download):**  Add support for
+      managing cookies and handling file downloads.
+* **[wxRichTextCtrl RTL Support](#rtc-rtl):** Support right-to-left languages
+  and BiDi in [wxRichTextCtrl][].
 * **[wxAUI Native Art Providers](#aui-native-art):** Make wxAUI blend in better
   with native rendering methods on each platform.
 
@@ -492,42 +492,7 @@ Knowledge of Chromium would be a plus.
 * [wxWebViewChromium](https://github.com/steve-lamerton/wxWebViewChromium)
 * [Chromium Embedded Framework](http://code.google.com/p/chromiumembedded/)
 * [wxWebView](http://docs.wxwidgets.org/trunk/classwx_web_view.html)
-
-
-<a name="webview-cookies-download"></a>
-
-## <i class="fa fa-lightbulb-o fa-fw"></i> Add Support Cookies and Download Event
-
-Currently wxWebView does not support cookies. Attempt was done previously to bring 
-about that functionality but it ended only with wxGTK only patch, possibility for 
-OSX was articulated (since they both use Webkit) and no windows counterpart was even
- touched. The task will therefore be to bring about the support for all backends.
  
-In addition to that, wxWebView have no way of dealing with downloads, so the proposal 
-here is to make at least single event that will be fired when download request is sent.
-The event will contain the url to download the file in its wxWebEvent::GetString(). At 
-most there could be specific Download API for wxWebview with its own download Manager 
-dialog.
-
-
-
-[**Difficulty:**](../project-ratings) 5-7 (depending on the number of backends)
-[**Importance:**](../project-ratings) 6
-
-#### Potential mentors
-
-Steven Lamerton, Bryan Petty, Stefano Mtangoo??
-
-#### Experience needed
-
-Any experience with using `IID_IWebBrowser` and/or WebKit would be helpful.
-
-#### See also
-* [Cookie Patch on Trac](http://trac.wxwidgets.org/ticket/14528)
-* [Download with WebkitGTK](http://stackoverflow.com/questions/11360453/how-to-download-with-gtk-webkit-and-webkitwebview)
-* [Download With IWebBrowser](http://stackoverflow.com/questions/13754185/custom-download-manager-iwebbrowser2)
- 
-
 
 <a name="webview-js"></a>
 
@@ -556,6 +521,43 @@ Minimal knowledge of JavaScript.
 
 * [SWIG JavaScript branch](https://github.com/oliver----/swig-v8/)
 * [wxWebView](http://docs.wxwidgets.org/trunk/classwx_web_view.html)
+
+
+<a name="webview-cookies-download"></a>
+
+## <i class="fa fa-lightbulb-o fa-fw"></i> wxWebView Cookies and Downloads
+
+Currently wxWebView does not support cookies. This has been implemented as a
+GTK+ specific patch, but this is not useful for a cross-platform library. The
+idea here would be to implement a cross-platform API for this that supports at
+least GTK+, Windows, and OSX - covering "the big three" platforms usually
+required for new additions to wxWidgets.
+
+Additionally, wxWebView has no way of managing file downloads. At a minimum, we
+would require a download request event available to be tied into, but ideally
+providing a full API for managing multiple downloads, and tracking status is
+desired.
+
+Considering how similar these two projects are, and the approximate time
+required to implement both, the proposal here is to join both tasks into one
+potential project for Summer of Code.
+
+[**Difficulty:**](../project-ratings) 5-7 (depending on the number of backends)
+[**Importance:**](../project-ratings) 6
+
+#### Potential mentors
+
+Steven Lamerton, Bryan Petty, Stefano Mtangoo
+
+#### Experience needed
+
+Any experience with using `IID_IWebBrowser` and WebKit would be helpful.
+
+#### See also
+
+* [Cookie Patch on Trac](http://trac.wxwidgets.org/ticket/14528)
+* [Download with WebkitGTK](http://stackoverflow.com/questions/11360453/how-to-download-with-gtk-webkit-and-webkitwebview)
+* [Download With IWebBrowser](http://stackoverflow.com/questions/13754185/custom-download-manager-iwebbrowser2)
 
 
 <a name="rtc-rtl"></a>
