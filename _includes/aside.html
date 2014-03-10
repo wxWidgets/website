@@ -18,12 +18,10 @@
   </div>
 </div>
 <div class="panel panel-primary">
-  <div class="panel-heading">Latest News</div>
+  <div class="panel-heading">Recent News</div>
   <div class="panel-body">
     <ul class="nav nav-pills nav-stacked">
-      {% for post in site.posts limit:3 %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
+      {% include recent-news.html %}
     </ul>
   </div>
 </div>
