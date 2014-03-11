@@ -211,7 +211,7 @@ More problems might be discovered while working on this project.
 
 #### Potential mentors
 
-Vadim Zeitlin, Julian Smart
+Vadim Zeitlin
 
 #### Experience needed
 
@@ -279,7 +279,7 @@ using this new API, and its companion DirectWrite for the text output.
 
 #### Potential mentors
 
-Vadim Zeitlin, Julian Smart
+Vadim Zeitlin
 
 #### Experience needed
 
@@ -386,7 +386,7 @@ would be welcome too and could replace Windows or Cocoa part of this work.
 
 #### Potential mentors
 
-Julian Smart, Bryan Petty
+Bryan Petty
 
 #### Experience needed
 
@@ -419,7 +419,7 @@ implementable on the other platforms.
 
 #### Potential mentors
 
-Julian Smart, Robin Dunn
+Robin Dunn
 
 #### Experience needed
 
@@ -637,7 +637,7 @@ occasionally it may be necessary to dig deeper into the wxAUI code.
 
 #### Potential mentors
 
-Julian Smart, Bryan Petty
+Bryan Petty
 
 #### Experience needed
 
