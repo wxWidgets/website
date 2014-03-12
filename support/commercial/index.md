@@ -23,21 +23,23 @@ Improve your application, while taking wxWidgets to new heights.
 
 Other consultants available for wxWidgets-related work:
 
-* [Alec Ross][1], IT and wxWidgets training and consultancy.
-* [Koan Software][2], consultancy in Windows, Windows CE and Linux (desktop and
+* [Jens Schneeweiss][schneeweiss], technical support and custom development services.
+* [Alec Ross][ross], IT and wxWidgets training and consultancy.
+* [Koan Software][koan], consultancy in Windows, Windows CE and Linux (desktop and
   embedded).
-* [Hajo Kirchoff][3], consultancy in Windows and wxWidgets.
-* [Markus Juergens][4], consultant.
-* [Sologix][5] has experience in developing wxWidgets applications on all three
+* [Hajo Kirchoff][hajo], consultancy in Windows and wxWidgets.
+* [Markus Juergens][markus], consultant.
+* [Sologix][sologix] has experience in developing wxWidgets applications on all three
   major desktop platforms (Windows, Mac OS X and Linux).
-* [Brian Wright][6], documentation and online help.
-* [Pro-Tran][7], translation services for .po and .html files (for all
+* [Brian Wright][wright], documentation and online help.
+* [Pro-Tran][trans], translation services for .po and .html files (for all
   languages).
 
-[1]: http://www.a-train.co.uk/
-[2]: http://www.koansoftware.com/
-[3]: http://www.litwindow.com/
-[4]: http://www.be-enabled.de/
-[5]: http://www.sologix.net/
-[6]: http://brianrwright.com/BrianRWright/Professional_Services/Professional.html
-[7]: http://www.pro-tran.com/
+[schneeweiss]: http://www.schneeweiss.de/
+[ross]: http://www.a-train.co.uk/
+[koan]: http://www.koansoftware.com/
+[hajo]: http://www.litwindow.com/
+[markus]: http://www.be-enabled.de/
+[sologix]: http://www.sologix.net/
+[wright]: http://brianrwright.com/BrianRWright/Professional_Services/Professional.html
+[trans]: http://www.pro-tran.com/
