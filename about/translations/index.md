@@ -199,6 +199,7 @@ where special announcements for translators are announced.
   * Vadim Zeitlin <<vadim@wxwidgets.org>>
   * Andrew V. Samoilov <<kai@cmail.ru>>
   * Dmitry Levichev <<d.levichev@gmail.com>>
+  * Pavel Maryanov <<acid@jack.kiev.ua>>
 * Slovak (sk)
   * Ivan Masar <<helix84@centrum.sk>>
 * Slovenian (sl)
