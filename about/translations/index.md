@@ -152,7 +152,7 @@ where special announcements for translators are announced.
   * Bambang Purnomosidi D. P. <<bambang@3wsi.com>>
   * Rahmat Bambang <<doplank@gmx.com>>
 * Italian (it)
-  * Roberto Boriotti <<roberto.boriotti@canon-europe.com>>
+  * bovirus <<bovirus@libero.it>>
   * Mattia Barbon <<mbarbon@cpan.org>>
   * Marco Cavallini <<m.cavallini@koansoftware.com>>
   * Stefano <<l.stickell@yahoo.it>>
