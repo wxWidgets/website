@@ -40,6 +40,8 @@ code, this document should be considered authoritative.
   * [Don't use `void` for functions without arguments](#no_void_param)
   * [Don't use `const` for non pointer/reference arguments](#no_const_int)
   * [Use `NULL` rather than `0`](#null_not_zero)
+  * [Use `wxOVERRIDE` for overridden virtual methods](#use_override)
+  * [Use `wxFALLTHROUGH` in `switch` statements](#use_fallthrough)
 * Restrictions on C++ Features
   * [Don't use exceptions](#no_exceptions)
   * [Don't use RTTI](#no_rtti)
@@ -515,6 +517,67 @@ readability and stands out better.
 A related advice is to use `'\0'` instead of `0` in the expressions involving
 `char` types.
 
+Notice that `nullptr` can't be used in wxWidgets code as it must remain
+compatible with non-C++-11 compilers.
+
+
+<a name="use_override"></a>
+
+#### <i class="fa fa-check-square-o fa-fw"></i> Use `wxOVERRIDE` for overridden virtual methods
+
+When overriding a virtual method of the base class, use `wxOVERRIDE` in its
+declaration like this:
+
+        {% highlight cpp %}
+        class Base
+        {
+        public:
+                virtual void DoSomething();
+        };
+
+        class Derived : public Base
+        {
+        public:
+                void DoSomething() wxOVERRIDE;
+        };
+        {% endhighlight %}
+
+`wxOVERRIDE` macro will be expanded into `override` keyword if the compiler
+supports it (i.e. C++11) or nothing otherwise.
+
+Notice that the `virtual` keyword is redundant as `wxOVERRIDE` already
+identifies the method as being virtual, so it can be omitted, even in most of
+the existing code both keywords are used together as `wxOVERRIDE` is a
+relatively recent addition and was just added to the existing method
+declarations.
+
+
+<a name="use_fallthrough"></a>
+
+#### <i class="fa fa-check-square-o fa-fw"></i> Use `wxFALLTHROUGH` in `switch` statements
+
+Use the special `wxFALLTHROUGH` macro in case of intentional fall through to
+the next `case` clause in a `switch` statement:
+
+        {% highlight cpp %}
+        bool vertical = false,
+             positive = true;
+        switch ( keycode )
+        {
+                case WXK_UP:
+                        vertical = true;
+                        wxFALLTHROUGH;
+
+                case WXK_LEFT:
+                        positive = false;
+                        break;
+
+                ...
+        }
+        {% endhighlight %}
+
+The use of this macro allows to enable warnings given by some compilers
+(notably Clang) about unintentional fall through, which is a common bug.
 
 
 ### Restrictions on C++ features
