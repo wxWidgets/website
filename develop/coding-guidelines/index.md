@@ -13,7 +13,7 @@ standard library in the application code.
 Also notice that some parts of the existing code may not follow these
 guidelines, because it could have been written before the guidelines were put
 in place. However this is not a reason to not follow them for any new code. In
-other worse, in case of a conflict between this document and the existing
+other words, in case of a conflict between this document and the existing
 code, this document should be considered authoritative.
 
 
