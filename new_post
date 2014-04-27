@@ -1,0 +1,26 @@
+#!/usr/bin/env perl
+use strict;
+use warnings;
+
+use autodie;
+
+use DateTime;
+
+if (@ARGV != 1) {
+    die qq{Usage: $0 "New Post Title".\n}
+}
+
+my $title = $ARGV[0];
+
+(my $name = $title) =~ tr/A-Z /a-z-/;
+my $date = DateTime->now()->ymd;
+
+open(my $fh, '>', "_posts/$date-$name.md");
+print $fh <<EOF
+---
+layout: post
+title: "$title"
+date: $date
+comments: true
+---
+EOF
