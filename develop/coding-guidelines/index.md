@@ -471,6 +471,9 @@ Reserve C style `/* ... */` comments only for high level, very long
 explanatory comments. When using C style comments do _not_ use any
 intermediate asterisks to make the comments easier to reformat.
 
+Please always put a space after the beginning of a C++ comment, e.g. use `//
+Whatever` instead of `//Whatever`.
+
 Notice that wxWidgets does _not_ use Doxygen style comments (`/** ... */` or
 `///`) in its sources, these comments are only used in the special interface
 headers from which the API documentation is generated.
