@@ -47,9 +47,9 @@ are available below.
       <a href="http://svn.wxwidgets.org/svn/wx/wxWidgets/tags/WX_3_0_0/docs/changes.txt">Changes</a><br>
       <p></p>
       <a href="http://docs.wxwidgets.org/3.0/">Online Manual</a><br>
-      <a href="{{ page.mirror }}/3.0.0/wxWidgets-docs-html-3.0.0.zip">Manual (HTML) ZIP</a> (33 MB)<br>
-      <a href="{{ page.mirror }}/3.0.0/wxWidgets-docs-html-3.0.0.tar.bz2">Manual (HTML) BZIP</a> (23 MB)<br>
-      <a href="{{ page.mirror }}/3.0.0/wxWidgets-docs-chm-3.0.0.zip">Manual (CHM)</a> (32 MB)
+      <a href="{{ page.mirror }}/3.0.0/wxWidgets-3.0.0-docs-html.zip">Manual (HTML) ZIP</a> (33 MB)<br>
+      <a href="{{ page.mirror }}/3.0.0/wxWidgets-3.0.0-docs-html.tar.bz2">Manual (HTML) BZIP</a> (23 MB)<br>
+      <a href="{{ page.mirror }}/3.0.0/wxWidgets-3.0.0-docs-chm.zip">Manual (CHM)</a> (32 MB)
     </div>
   </div>
 </div>
