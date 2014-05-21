@@ -457,7 +457,7 @@ without having to read through uninteresting implementation details in the
 public sections.
 
 Also, please put all wxWidgets macros which must be used in the class
-declaration (such as `wxBEGIN_EVENT_TABLE`) at the end as, again, these are
+declaration (such as `wxDECLARE_EVENT_TABLE`) at the end as, again, these are
 implementation details and shouldn't get in the way of the person who is
 reading the file.
 
