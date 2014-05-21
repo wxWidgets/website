@@ -33,6 +33,7 @@ code, this document should be considered authoritative.
   * [Use Set/Get prefixes for accessors](#set_get)
 * Coding Style
   * [Indent your code with 4 spaces (no tabs!)](#indentation)
+  * [Use 80 character lines](#line_length)
   * [Put opening curly bracket on its own line](#opening_brace)
   * [Use spaces with keywords](#spaces_keywords)
   * [Order of parts in a class declarations](#class_decl)
@@ -405,6 +406,20 @@ If you use vi(m), you can add the following line to your ~/.vimrc or ~/.exrc:
     au BufReadPost */wxWidgets/*/*.cpp,*/wxWidgets/*/*.h set sw=4 ts=4 et cin
 
 (`et` and `cin` don't exist in plain vi)
+
+
+<a name="line_length"></a>
+
+#### <i class="fa fa-check-square-o fa-fw"></i> Use 80 character lines
+
+Please keep the line length under 80 characters.
+
+Rationale: even with modern wide screen monitors, it is difficult to review
+side by side diffs for lines longer than that. Too long lines also often
+indicate some problem in the code, such as excessive nesting (in this case
+you should simplify the logic or refactor the function by extracting the inner
+parts in separate functions) or too complex expressions (in this case,
+simplify them by using named variables for the intermediate results).
 
 
 <a name="opening_brace"></a>
