@@ -174,6 +174,7 @@ where special announcements for translators are announced.
 * Norwegian Bokmal (nb)
   * Hans F. Nordhaug <<hans@nordhaug.priv.no>>
 * Polish (pl)
+  * Mariusz Drozdowski <<sirgeorge@wp.pl>>
   * Piotr Mackowiak <<matis@linuxmail.org>>
   * Janusz Piwowarski <<jpiw@go2.pl>>
   * ABX <<abx@abx.art.pl>>
