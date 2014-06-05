@@ -4,7 +4,7 @@
 $script = <<SCRIPT
 apt-get -y install build-essential curl git
 gem install jekyll rdiscount --no-ri --no-rdoc
-curl https://raw.github.com/creationix/nvm/master/install.sh | sh
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | sh
 source /home/vagrant/.nvm/nvm.sh
 nvm install 0.10
 nvm alias default 0.10
