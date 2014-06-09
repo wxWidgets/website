@@ -34,8 +34,11 @@ are available below.
       <a href="{{ page.mirror }}/3.0.0/wxWidgets-3.0.0.tar.bz2">Source for Linux, OS X, etc</a> (20 MB)<br>
       <p></p>
       <p><strong>Binaries</strong></p>
-      <a href="{{ page.mirror }}/3.0.0/binaries/">Visual C++ 2005-2010</a>
-      (more details <a href="http://wxwidgets.blogspot.fr/2012/08/how-to-use-294-wxmsw-binaries.html">here</a>)<br>
+      <a href="{{ page.mirror }}/3.0.0/binaries/">wxMSW DLLs</a> for the selected compilers:
+      <ul>
+        <li>Visual C++ 2008-2013 (more details <a href="http://wxwidgets.blogspot.com/2012/08/how-to-use-294-wxmsw-binaries.html">here</a>)</li>
+        <li>TDM-GCC 4.7 and 4.8</li>
+      </ul>
       <a href="http://codelite.org/LiteEditor/WxWidgets30Binaries#toc2" target="_new">Ubuntu / Debian Packages</a><br>
       <a href="http://codelite.org/LiteEditor/WxWidgets30Binaries#toc3" target="_new">Fedora / openSUSE Packages</a>
     </div>
