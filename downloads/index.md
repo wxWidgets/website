@@ -22,19 +22,19 @@ the official wxGTK packages provided by each distribution, but newer packages
 are available below.
 
 
-## Latest Stable Release: 3.0.0
+## Latest Stable Release: 3.0.1
 
 <div class="row">
   <div class="col-sm-6">
     <div class="well well-small">
       <p><strong>Source Code</strong></p>
-      <a href="{{ page.mirror }}/3.0.0/wxWidgets-3.0.0.zip">Windows ZIP</a> (31 MB)<br>
-      <a href="{{ page.mirror }}/3.0.0/wxWidgets-3.0.0.7z">Windows 7Z</a> (16 MB)<br>
-      <a href="{{ page.mirror }}/3.0.0/wxMSW-Setup-3.0.0.exe">Windows Installer</a> (47 MB)<br>
-      <a href="{{ page.mirror }}/3.0.0/wxWidgets-3.0.0.tar.bz2">Source for Linux, OS X, etc</a> (20 MB)<br>
+      <a href="{{ page.mirror }}/3.0.1/wxWidgets-3.0.1.zip">Windows ZIP</a> (31 MB)<br>
+      <a href="{{ page.mirror }}/3.0.1/wxWidgets-3.0.1.7z">Windows 7Z</a> (16 MB)<br>
+      <a href="{{ page.mirror }}/3.0.1/wxMSW-Setup-3.0.1.exe">Windows Installer</a> (47 MB)<br>
+      <a href="{{ page.mirror }}/3.0.1/wxWidgets-3.0.1.tar.bz2">Source for Linux, OS X, etc</a> (20 MB)<br>
       <p></p>
       <p><strong>Binaries</strong></p>
-      <a href="{{ page.mirror }}/3.0.0/binaries/">wxMSW DLLs</a> for the selected compilers:
+      <a href="{{ page.mirror }}/3.0.1/binaries/">wxMSW DLLs</a> for the selected compilers:
       <ul>
         <li>Visual C++ 2008-2013 (more details <a href="http://wxwidgets.blogspot.com/2012/08/how-to-use-294-wxmsw-binaries.html">here</a>)</li>
         <li>TDM-GCC 4.7 and 4.8</li>
@@ -50,9 +50,9 @@ are available below.
       <a href="http://svn.wxwidgets.org/svn/wx/wxWidgets/tags/WX_3_0_0/docs/changes.txt">Changes</a><br>
       <p></p>
       <a href="http://docs.wxwidgets.org/3.0/">Online Manual</a><br>
-      <a href="{{ page.mirror }}/3.0.0/wxWidgets-3.0.0-docs-html.zip">Manual (HTML) ZIP</a> (33 MB)<br>
-      <a href="{{ page.mirror }}/3.0.0/wxWidgets-3.0.0-docs-html.tar.bz2">Manual (HTML) BZIP</a> (23 MB)<br>
-      <a href="{{ page.mirror }}/3.0.0/wxWidgets-3.0.0-docs-chm.zip">Manual (CHM)</a> (32 MB)
+      <a href="{{ page.mirror }}/3.0.1/wxWidgets-3.0.1-docs-html.zip">Manual (HTML) ZIP</a> (33 MB)<br>
+      <a href="{{ page.mirror }}/3.0.1/wxWidgets-3.0.1-docs-html.tar.bz2">Manual (HTML) BZIP</a> (23 MB)<br>
+      <a href="{{ page.mirror }}/3.0.1/wxWidgets-3.0.1-docs-chm.zip">Manual (CHM)</a> (32 MB)
     </div>
   </div>
 </div>
