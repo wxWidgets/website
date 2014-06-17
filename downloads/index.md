@@ -57,7 +57,7 @@ are available below.
   </div>
 </div>
 
-* Released: November 11th, 2013
+* Released: June 15th, 2014
 * API Stable Since: November 11th, 2013
 
 
