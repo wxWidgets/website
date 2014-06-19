@@ -46,8 +46,8 @@ are available below.
   <div class="col-sm-6">
     <div class="well well-small">
       <p><strong>Documentation</strong></p>
-      <a href="http://svn.wxwidgets.org/svn/wx/wxWidgets/tags/WX_3_0_0/docs/readme.txt">Readme</a><br>
-      <a href="http://svn.wxwidgets.org/svn/wx/wxWidgets/tags/WX_3_0_0/docs/changes.txt">Changes</a><br>
+      <a href="https://github.com/wxWidgets/wxWidgets/blob/WX_3_0_1/docs/readme.txt">Readme</a><br>
+      <a href="https://github.com/wxWidgets/wxWidgets/blob/WX_3_0_1/docs/changes.txt#L577-L684">Changes</a><br>
       <p></p>
       <a href="http://docs.wxwidgets.org/3.0/">Online Manual</a><br>
       <a href="{{ page.mirror }}/3.0.1/wxWidgets-3.0.1-docs-html.zip">Manual (HTML) ZIP</a> (33 MB)<br>
