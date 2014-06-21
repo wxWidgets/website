@@ -33,7 +33,7 @@ AddType image/x-icon .ico
     RewriteRule ^about/lic_doc\.txt         /about/licence/       [R=301,NC,L]
     RewriteRule ^about/license(1|2|3)\.txt  /about/licence/       [R=301,NC,L]
     RewriteRule ^about/preamble\.txt        /about/licence/       [R=301,NC,L]
-    RewriteRule ^about/name\.htm            /about/name/          [R=301,NC,L]
+    RewriteRule ^about/name\.htm            /about/name-change/   [R=301,NC,L]
     RewriteRule ^about/screen(.*)+\.htm     /about/screenshots/   [R=301,NC,L]
     RewriteRule ^about/whowhat\.htm         /about/team/          [R=301,NC,L]
 
