@@ -25,11 +25,6 @@ var sponsors = [
 		'C++ consulting, tools from Lit Window',
 		'http://www.litwindow.com/',
 		'litwindow.gif'
-	],
-	[
-		'wxDesigner',
-		'http://www.wxdesigner-software.de/',
-		'wxdesigner.gif'
 	]
 ];
 

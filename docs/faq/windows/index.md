@@ -260,7 +260,6 @@ the VC++ CRT memory debugging features instead.
 ### How do I port MFC applications to wxWidgets?
 
 Set up your interface from scratch using wxWidgets (especially
-[wxDesigner](http://www.robeling.de) or
 [DialogBlocks](http://www.anthemion.co.uk/dialogblocks/) -- it'll save you a
 _lot_ of time) and when you have a shell prepared, you can start 'pouring in'
 code from the MFC app, with appropriate modifications. This is the approach I

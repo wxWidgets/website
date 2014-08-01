@@ -36,10 +36,9 @@ so your program will take on the native 'look and feel' that users are familiar
 with.
 
 Although GUI applications are mostly built programmatically, there are several
-dialog editors to help build attractive dialogs and panels. wxDesigner
-Software's [wxDesigner](http://www.wxdesigner-software.de/) and Anthemion
-Software's [DialogBlocks](http://www.anthemion.co.uk/dialogblocks/) are two
-commercial examples, but there are others, see the wiki
+dialog editors to help build attractive dialogs and panels. Anthemion
+Software's [DialogBlocks](http://www.anthemion.co.uk/dialogblocks/) is one
+commercial example, but there are many others, see the wiki
 [tools](http://wiki.wxwidgets.org/Tools) page for some of them.
 
 You don't have to use C++ to use wxWidgets: there is a
