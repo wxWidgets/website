@@ -761,6 +761,8 @@ with this, semantically equivalent, version:
         }
 
         wxFAIL_MSG("Unreachable");
+
+        return true; // Still needed to pacify some compilers.
     }
     {% endhighlight cpp %}
 
