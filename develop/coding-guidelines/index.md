@@ -124,16 +124,16 @@ The rest of the manual is found under `docs/doxygen`.
 
 All wxWidgets files should start with the following standard header:
 
-    {% highlight cpp %}
-    /////////////////////////////////////////////////////////////////////////////
-    // Name:        src/common/foo.cpp
-    // Purpose:     Implementation of wxFoo
-    // Author:      Your Name <your@email.address>
-    // Created:     2014-02-07
-    // Copyright:   (c) 2014 wxWidgets development team
-    // Licence:     wxWindows licence
-    /////////////////////////////////////////////////////////////////////////////
-    {% endhighlight %}
+{% highlight cpp %}
+/////////////////////////////////////////////////////////////////////////////
+// Name:        src/common/foo.cpp
+// Purpose:     Implementation of wxFoo
+// Author:      Your Name <your@email.address>
+// Created:     2014-02-07
+// Copyright:   (c) 2014 wxWidgets development team
+// Licence:     wxWindows licence
+/////////////////////////////////////////////////////////////////////////////
+{% endhighlight %}
 
 Notice that the date should be in ISO format (YYYY-MM-DD). The licence must
 always be specified as wxWindows licence (not "wxWidgets licence") while the
@@ -148,14 +148,14 @@ code.
 Any header `include/wx/foo/bar.h` must wrap its contents (i.e. everything
 after the standard header comment) in an include guard:
 
-    {% highlight cpp %}
-    #ifndef _WX_FOO_BAR_H_
-    #define _WX_FOO_BAR_H_
+{% highlight cpp %}
+#ifndef _WX_FOO_BAR_H_
+#define _WX_FOO_BAR_H_
 
-    // ... all header contents ...
+// ... all header contents ...
 
-    #endif // _WX_FOO_BAR_H_
-    {% endhighlight %}
+#endif // _WX_FOO_BAR_H_
+{% endhighlight %}
 
 Formally `_WX` prefix makes this prefix a reserved word, however this style is
 used in wxWidgets since 20+ years and hasn't created any problems so far, so
@@ -172,19 +172,19 @@ precompiled headers support is used. If it isn't, the individual headers
 actually used by the code need to be included inside `WX_PRECOMP` test. And
 headers not included by `wx/wxprec.h` need to be included in any case.
 
-    {% highlight cpp %}
-    #include "wx/wxprec.h"
+{% highlight cpp %}
+#include "wx/wxprec.h"
 
-    #ifdef __BORLANDC__
-    #pragma hdrstop
-    #endif
+#ifdef __BORLANDC__
+#pragma hdrstop
+#endif
 
-    #ifndef WX_PRECOMP
-    #include "wx/msgdlg.h" // This header is normally included from wx/wx.h
-    #endif
+#ifndef WX_PRECOMP
+#include "wx/msgdlg.h" // This header is normally included from wx/wx.h
+#endif
 
-    #include "wx/richmsgdlg.h" // But this one never is
-    {% endhighlight %}
+#include "wx/richmsgdlg.h" // But this one never is
+{% endhighlight %}
 
 
 <a name="wxdllexport"></a>
@@ -196,11 +196,11 @@ declaration to be usable outside of the wxWidgets DLL. `XXX` here can be one
 of `BASE`, `CORE`, `ADV` and so on depending on the library the symbol is
 exported from, see `include/wx/dlimpexp.h` for the full list. For example:
 
-    {% highlight cpp %}
-    bool WXDLLIMPEXP_BASE wxSomeUtilityFunction();
-    class WXDLLIMPEXP_CORE wxSomeGUIClass { ... };
-    WXDLLIMPEXP_DATA_CORE(extern wxApp*) wxTheApp;
-    {% endhighlight %}
+{% highlight cpp %}
+bool WXDLLIMPEXP_BASE wxSomeUtilityFunction();
+class WXDLLIMPEXP_CORE wxSomeGUIClass { ... };
+WXDLLIMPEXP_DATA_CORE(extern wxApp*) wxTheApp;
+{% endhighlight %}
 
 
 
@@ -221,33 +221,33 @@ reading it.
 
 Here is a quick example summarizing all the conventions described below:
 
-    {% highlight cpp %}
-    extern void wxGlobalFunction();
+{% highlight cpp %}
+extern void wxGlobalFunction();
 
-    enum wxFileOpenMode
-    {
-        wxFILEOPEN_READ,
-        wxFILEOPEN_WRITE,
-        wxFILEOPEN_READWRITE
-    };
+enum wxFileOpenMode
+{
+    wxFILEOPEN_READ,
+    wxFILEOPEN_WRITE,
+    wxFILEOPEN_READWRITE
+};
 
-    void wxCountXs()
-    {
-        static int s_x;
-        #ifdef wxSOMETHING_OR_OTHER
-            s_x++;
-        #endif
-    }
+void wxCountXs()
+{
+    static int s_x;
+    #ifdef wxSOMETHING_OR_OTHER
+        s_x++;
+    #endif
+}
 
-    class wxSomeClass
-    {
-    public:
-        int GetSomeX() const { return m_someX; }
-        void SetSomeX(int x) { m_someX = x; }
-    private:
-        int m_someX;
-    };
-    {% endhighlight %}
+class wxSomeClass
+{
+public:
+    int GetSomeX() const { return m_someX; }
+    void SetSomeX(int x) { m_someX = x; }
+private:
+    int m_someX;
+};
+{% endhighlight %}
 
 
 
@@ -427,16 +427,16 @@ simplify them by using named variables for the intermediate results).
 
 Don't leave `{` on the preceding line, always put it on its own line, e.g.
 
-    {% highlight cpp %}
-    if ( condition )
-    {
-        if-statements;
-    }
-    else
-    {
-        else-statements;
-    }
-    {% endhighlight %}
+{% highlight cpp %}
+if ( condition )
+{
+    if-statements;
+}
+else
+{
+    else-statements;
+}
+{% endhighlight %}
 
 
 <a name="spaces_keywords"></a>
@@ -448,17 +448,17 @@ around the expression used by this keyword. Do _not_ use spaces in these
 positions for the function calls but still use them to separate function
 arguments. For example:
 
-    {% highlight cpp %}
-    for ( init; condition; loop )
+{% highlight cpp %}
+for ( init; condition; loop )
+{
+    switch ( expression )
     {
-        switch ( expression )
-        {
-            case 0:
-                CallSomeFunction(with, some, arguments);
-                break;
-        }
+        case 0:
+            CallSomeFunction(with, some, arguments);
+            break;
     }
-    {% endhighlight %}
+}
+{% endhighlight %}
 
 
 <a name="class_decl"></a>
@@ -545,19 +545,19 @@ compatible with non-C++-11 compilers.
 When overriding a virtual method of the base class, use `wxOVERRIDE` in its
 declaration like this:
 
-        {% highlight cpp %}
-        class Base
-        {
-        public:
-                virtual void DoSomething();
-        };
+{% highlight cpp %}
+class Base
+{
+public:
+        virtual void DoSomething();
+};
 
-        class Derived : public Base
-        {
-        public:
-                void DoSomething() wxOVERRIDE;
-        };
-        {% endhighlight %}
+class Derived : public Base
+{
+public:
+        void DoSomething() wxOVERRIDE;
+};
+{% endhighlight %}
 
 `wxOVERRIDE` macro will be expanded into `override` keyword if the compiler
 supports it (i.e. C++11) or nothing otherwise.
@@ -576,22 +576,22 @@ declarations.
 Use the special `wxFALLTHROUGH` macro in case of intentional fall through to
 the next `case` clause in a `switch` statement:
 
-        {% highlight cpp %}
-        bool vertical = false,
-             positive = true;
-        switch ( keycode )
-        {
-                case WXK_UP:
-                        vertical = true;
-                        wxFALLTHROUGH;
+{% highlight cpp %}
+bool vertical = false,
+     positive = true;
+switch ( keycode )
+{
+    case WXK_UP:
+        vertical = true;
+        wxFALLTHROUGH;
 
-                case WXK_LEFT:
-                        positive = false;
-                        break;
+    case WXK_LEFT:
+        positive = false;
+        break;
 
-                ...
-        }
-        {% endhighlight %}
+    ...
+}
+{% endhighlight %}
 
 The use of this macro allows to enable warnings given by some compilers
 (notably Clang) about unintentional fall through, which is a common bug.
@@ -723,47 +723,47 @@ the switch.
 
 For example, replace this code:
 
-    {% highlight cpp %}
-    bool ConfirmOverwrite(wxFile::OpenMode mode)
+{% highlight cpp %}
+bool ConfirmOverwrite(wxFile::OpenMode mode)
+{
+    switch ( mode )
     {
-        switch ( mode )
-        {
-                case wxFile::write:
-                case wxFile::write_append:
-                case wxFile::write_excl:
-                    // Ask the user about overwriting the file.
-                    break;
+        case wxFile::write:
+        case wxFile::write_append:
+        case wxFile::write_excl:
+            // Ask the user about overwriting the file.
+            break;
 
-                default:
-                    return true;
-        }
-
-        return wxMessageBox("Overwrite?", ...) == wxID_YES;
+        default:
+            return true;
     }
-    {% endhighlight cpp %}
+
+    return wxMessageBox("Overwrite?", ...) == wxID_YES;
+}
+{% endhighlight cpp %}
 
 with this, semantically equivalent, version:
 
-    {% highlight cpp %}
-    bool ConfirmOverwrite(wxFile::OpenMode mode)
+{% highlight cpp %}
+bool ConfirmOverwrite(wxFile::OpenMode mode)
+{
+    switch ( mode )
     {
-        switch ( mode )
-        {
-                case wxFile::write:
-                case wxFile::write_append:
-                case wxFile::write_excl:
-                    return wxMessageBox("Overwrite?", ...) == wxID_YES;
+        case wxFile::write:
+        case wxFile::write_append:
+        case wxFile::write_excl:
+            return wxMessageBox("Overwrite?", ...) == wxID_YES;
 
-                case wxFile::read:
-                case wxFile::read_write:
-                    return true;
-        }
-
-        wxFAIL_MSG("Unreachable");
-
-        return true; // Still needed to pacify some compilers.
+        case wxFile::read:
+        case wxFile::read_write:
+            return true;
     }
-    {% endhighlight cpp %}
+
+    wxFAIL_MSG("Unreachable");
+
+    return true; // Still needed to pacify some compilers.
+}
+{% endhighlight cpp %}
 
 See [debug macros](#debug_macros) section for more about the use of
 `wxFAIL_MSG()`.
@@ -778,25 +778,25 @@ is overridden in a derived class, then all others must be overridden as well
 or it would be impossible to call them on an object of derived class. For
 example, take following code:
 
-    {% highlight cpp %}
-    class Base
-    {
-    public:
-        virtual void Read(wxFile& file);
-        virtual void Read(const wxString& filename);
-    };
+{% highlight cpp %}
+class Base
+{
+public:
+    virtual void Read(wxFile& file);
+    virtual void Read(const wxString& filename);
+};
 
-    class Derived : public Base
-    {
-    public:
-        virtual void Read(wxFile& file) { ... }
-    };
+class Derived : public Base
+{
+public:
+    virtual void Read(wxFile& file) { ... }
+};
 
-    // ...
+// ...
 
-    Derived d;
-    d.Read("some_filename");
-    {% endhighlight %}
+Derived d;
+d.Read("some_filename");
+{% endhighlight %}
 
 This will fail to compile because the base class function taking `filename` is
 hidden by the virtual function overridden in the derived class (this is known as
@@ -811,23 +811,23 @@ won't solve the above problem!).
 
 So, the above declarations should be written as:
 
-    {% highlight cpp %}
-    class Base
-    {
-    public:
-        void Read(wxFile& file);
-        void Read(const wxString& filename);
+{% highlight cpp %}
+class Base
+{
+public:
+    void Read(wxFile& file);
+    void Read(const wxString& filename);
 
-    protected:
-        virtual void DoRead(wxFile& file);
-    };
+protected:
+    virtual void DoRead(wxFile& file);
+};
 
-    class Derived : public Base
-    {
-    protected:
-        virtual void DoRead(wxFile& file) { ... }
-    };
-    {% endhighlight %}
+class Derived : public Base
+{
+protected:
+    virtual void DoRead(wxFile& file) { ... }
+};
+{% endhighlight %}
 
 This technique is widely used in many of wxWidgets classes -- for example,
 `wxWindow` has more than a dozen of `DoXXX()` functions which allows to have
