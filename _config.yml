@@ -6,6 +6,17 @@ lsi: false
 pygments: true
 markdown: rdiscount
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+gems:
+  - jekyll-sitemap
+
 exclude:
   - Gruntfile.js
   - node_modules
