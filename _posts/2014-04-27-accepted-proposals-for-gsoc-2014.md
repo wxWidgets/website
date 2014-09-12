@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Accepted Proposals for GSoC 2014"
 date: 2014-04-27
 comments: true

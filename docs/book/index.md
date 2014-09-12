@@ -1,5 +1,4 @@
 ---
-layout: default
 title: "Cross-Platform GUI Programming with wxWidgets"
 ---
 

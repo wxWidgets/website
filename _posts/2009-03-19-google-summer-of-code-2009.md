@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Google Summer of Code 2009"
 date: 2009-03-19
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "wxWidgets and the Eee PC"
 date: 2007-12-10
 ---

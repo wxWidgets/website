@@ -1,5 +1,4 @@
 ---
-layout: default
 title: "Downloads"
 mirror: "https://sourceforge.net/projects/wxwindows/files"
 ---

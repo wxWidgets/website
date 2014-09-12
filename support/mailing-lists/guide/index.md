@@ -1,5 +1,4 @@
 ---
-layout: default
 title: "Mailing List Posting Guide"
 ---
 

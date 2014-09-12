@@ -1,5 +1,4 @@
 ---
-layout: default
 title: "Translations"
 scripts:
   - "/assets/js/jquery.tablesorter.min.js"

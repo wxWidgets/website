@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "GSoC 2010 Projects Announced"
 date: 2010-04-30
 ---

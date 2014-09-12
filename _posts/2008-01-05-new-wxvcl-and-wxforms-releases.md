@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "New wxVCL and wxForms Releases"
 date: 2008-01-05
 ---

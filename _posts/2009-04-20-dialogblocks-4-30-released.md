@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "DialogBlocks 4.30 Released"
 date: 2009-04-20
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "wxWebConnect 1.1 Released"
 date: 2010-06-21
 ---

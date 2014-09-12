@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Google Drive Uses wxWidgets"
 date: 2012-05-02 22:29
 ---

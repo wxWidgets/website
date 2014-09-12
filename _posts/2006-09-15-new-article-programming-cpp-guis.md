@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "New Article: Programming C++ GUIs"
 date: 2006-09-15
 ---

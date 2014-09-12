@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "wxWidgets Featured in Best Applications List"
 date: 2009-05-08
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "AxTk Accessibility Toolkit Announced"
 date: 2009-05-07
 ---

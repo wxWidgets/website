@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Looking forward to wxWidgets 3.0"
 date: 2007-11-04
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "wxWidgets on Maemo"
 date: 2007-11-25
 ---

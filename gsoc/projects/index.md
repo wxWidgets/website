@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Student Project Ideas
 classes: student-projects
 ---

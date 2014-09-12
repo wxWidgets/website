@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Writer's Café 2 Released"
 date: 2008-08-28
 ---

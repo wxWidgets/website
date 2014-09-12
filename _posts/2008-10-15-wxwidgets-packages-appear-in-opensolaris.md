@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "wxWidgets Packages Appear In OpenSolaris"
 date: 2008-10-15
 ---

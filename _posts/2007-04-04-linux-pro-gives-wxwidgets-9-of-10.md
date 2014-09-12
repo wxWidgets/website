@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Linux Pro Gives wxWidgets 9 of 10"
 date: 2007-04-04
 ---

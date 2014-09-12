@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Comparison of GCC Options for Windows"
 date: 2011-06-18
 ---

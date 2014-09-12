@@ -18,7 +18,6 @@ my $date = DateTime->now()->ymd;
 open(my $fh, '>', "_posts/$date-$name.md");
 print $fh <<EOF
 ---
-layout: post
 title: "$title"
 date: $date
 comments: true

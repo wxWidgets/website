@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "New Version of wxDesigner Based on wxWidgets pre-3.0 Released"
 date: 2009-03-01
 ---

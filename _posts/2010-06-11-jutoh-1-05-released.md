@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Jutoh 1.05 Released"
 date: 2010-06-11
 ---

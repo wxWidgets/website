@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "wxCrafter 1.1 Plugin for CodeLite Released"
 date: 2013-03-28
 ---

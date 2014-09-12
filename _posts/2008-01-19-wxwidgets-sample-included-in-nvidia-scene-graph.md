@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "wxWidgets Sample Included in NVIDIA Scene Graph"
 date: 2008-01-19
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "New Official Website Launched"
 date: 2014-02-10
 comments: true

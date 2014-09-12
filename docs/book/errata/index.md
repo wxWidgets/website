@@ -1,5 +1,4 @@
 ---
-layout: default
 title: "Errata for Cross-Platform GUI Programming with wxWidgets"
 ---
 

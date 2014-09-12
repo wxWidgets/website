@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Jungle Disk Desktop 2.0 Released"
 date: 2008-06-25
 ---

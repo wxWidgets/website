@@ -3,10 +3,16 @@
 url: http://www.wxwidgets.org
 permalink: /news/:year/:month/:title/
 lsi: false
-pygments: true
+highlighter: pygments
 markdown: rdiscount
 
 defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
   -
     scope:
       path: ""
@@ -19,6 +25,7 @@ gems:
 
 exclude:
   - Gruntfile.js
+  - new_post
   - node_modules
   - package.json
   - README.md

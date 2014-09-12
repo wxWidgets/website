@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "wxWidgets 2.8.10 Released"
 date: 2009-03-17
 ---

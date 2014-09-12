@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Compiling wxWidgets on Mac OS 10.6 Snow Leopard"
 date: 2009-09-04
 ---

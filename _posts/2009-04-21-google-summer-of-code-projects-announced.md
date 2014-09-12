@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Google Summer of Code Projects Announced"
 date: 2009-04-21
 ---

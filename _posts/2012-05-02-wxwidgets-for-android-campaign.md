@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "wxWidgets for Android Campaign"
 date: 2012-05-02 12:30
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "NuGet Package with wxWidgets Template"
 date: 2014-03-05
 comments: true

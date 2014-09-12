@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "wxWebConnect Web Browser Control Library Announced"
 date: 2009-07-08
 ---

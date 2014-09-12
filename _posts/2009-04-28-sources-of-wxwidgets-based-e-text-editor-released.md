@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Sources of wxWidgets-based E Text Editor Released"
 date: 2009-04-28
 ---

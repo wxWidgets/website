@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "WebsitePainter Released"
 date: 2010-07-16
 ---

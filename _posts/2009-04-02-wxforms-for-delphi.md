@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "wxForms for Delphi"
 date: 2009-04-02
 ---

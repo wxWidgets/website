@@ -1,5 +1,4 @@
 ---
-layout: default
 title: GSoC 2009
 ---
 
