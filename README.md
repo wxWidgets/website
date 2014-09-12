@@ -38,7 +38,7 @@ start up the built-in webserver that will automatically re-generate all pages
 any time it's corresponding file is changed here.
 
     $ cd /vagrant
-    $ npm install
+    $ npm install --no-bin-links
     $ grunt
     $ jekyll serve --watch
 
