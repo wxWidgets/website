@@ -3,7 +3,7 @@ title: "Developers"
 ---
 
 <div class="row" style="margin-top: 1em; margin-bottom: 1em;">
-  <div class="col-sm-6 col-sm-offset-1">
+  <div class="col-sm-8 col-sm-offset-2">
     <p>
       New to wxWidgets development? Have something you want to contribute, but
       don't know how? We've written up a handy contributor guide that has the
@@ -11,11 +11,6 @@ title: "Developers"
     </p>
     <a href="http://wiki.wxwidgets.org/Development:_How_To_Contribute" class="btn btn-lg btn-default btn-block">
       <i class="fa fa-code-fork fa-fw"></i> Contributor Guide
-    </a>
-  </div>
-  <div class="col-sm-4 col-sm-offset-1" style="margin: 1em 0;">
-    <a href="/gsoc/">
-      <img src="/gsoc/2014/logo.jpg" class="img-responsive center-block" alt="Google Summer of Code 2014">
     </a>
   </div>
 </div>
@@ -39,7 +34,7 @@ title: "Developers"
         <li><a href="http://trac.wxwidgets.org/browser/">Browse SVN Online (Trac)</a></li>
         <li><a href="http://svn.wxwidgets.org/viewvc/wx/">Browse SVN Online (ViewVC)</a></li>
         <li><a href="http://docs.wxwidgets.org/trunk/">Development Manual (rebuilt daily)</a></li>
-        <li><a href="http://wx.ibaku.net/changelog/">SVN Log Browser</a></li>
+        <li><a href="http://ibaku.net/wx/changelog/">SVN Log Browser</a></li>
       </ul>
     </p>
   </div>
