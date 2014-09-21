@@ -24,7 +24,7 @@ together.
 
 Once you have chosen the task you are going to work on, please make your
 changes and prepare a patch as described in the HOWTO. You may work with
-either [Subversion](http://www.wxwidgets.org/develop/svn.htm#setup) or
+either [Subversion](https://www.wxwidgets.org/develop/code-repository/) or
 [Git](https://github.com/wxWidgets/wxWidgets), depending on what you are more
 comfortable with, but please do use a checkout of the latest sources as,
 again, you will need to be able to work with them during your project.

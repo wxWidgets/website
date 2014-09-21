@@ -14,7 +14,7 @@ to write and maintain.
 [bootstrap]: http://getbootstrap.com/
 [fa]: http://fontawesome.io/
 [less]: http://www.lesscss.org/
-[markdown]: http://daringfireball.net/projects/markdown/
+[markdown]: https://daringfireball.net/projects/markdown/
 
 ## Quick-start Guide
 
@@ -47,7 +47,7 @@ edit content at will and see the immediate feedback by pulling up the website
 running inside of your Vagrant box: <http://localhost:4000/>
 
 [vb]: https://www.virtualbox.org/wiki/Downloads
-[vagrant]: http://www.vagrantup.com/downloads.html
+[vagrant]: https://www.vagrantup.com/downloads.html
 
 ## Minimal Setup for Content Editing Only
 
@@ -56,8 +56,8 @@ CSS or JavaScript code, you can avoid installing [Grunt][] as it is only
 really needed to produce the minified CSS and JavaScript files which can be
 retrieved from the main site:
 
-    $ curl http://www.wxwidgets.org/assets/css/global.min.css > assets/css/global.min.css
-    $ curl http://www.wxwidgets.org/assets/js/global.min.js > assets/js/global.min.js
+    $ curl https://www.wxwidgets.org/assets/css/global.min.css > assets/css/global.min.css
+    $ curl https://www.wxwidgets.org/assets/js/global.min.js > assets/js/global.min.js
 
 Then you only have to install [Jekyll][] and run it in order to preview your
 changes locally before pushing them out.

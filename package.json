@@ -2,7 +2,7 @@
   "name": "wxwidgets-website",
   "version": "0.1.0",
   "author": "Bryan Petty <bryan@ibaku.net>",
-  "homepage": "http://www.wxwidgets.org/",
+  "homepage": "https://www.wxwidgets.org/",
   "repository": {
     "type": "git",
     "url": "git://github.com/wxWidgets/wxwidgets.github.io.git"
@@ -13,7 +13,7 @@
   "licenses": [
     {
       "type": "wxWindows Free Documentation Licence, Version 3",
-      "url": "http://www.wxwidgets.org/about/lic_doc.txt"
+      "url": "https://www.wxwidgets.org/about/licence/"
     }
   ],
   "engines": {

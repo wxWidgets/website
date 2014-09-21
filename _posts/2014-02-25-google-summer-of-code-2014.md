@@ -16,5 +16,5 @@ any motivated students you know to apply (or apply yourself if you can, of
 course)!
 
 [1]: https://www.google-melange.com/gsoc/homepage/google/gsoc2014
-[2]: http://www.wxwidgets.org/gsoc/projects/
-[3]: http://www.wxwidgets.org/gsoc/
+[2]: https://www.wxwidgets.org/gsoc/projects/
+[3]: https://www.wxwidgets.org/gsoc/
