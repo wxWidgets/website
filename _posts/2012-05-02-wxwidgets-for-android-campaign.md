@@ -10,4 +10,4 @@ would like to donate to see it happen, please contact us or visit the
 more details.
 
 [1]: http://www.cofundos.org/project.php?id=115601
-[2]: http://forums.wxwidgets.org/viewtopic.php?f=27&t=34910
+[2]: https://forums.wxwidgets.org/viewtopic.php?f=27&t=34910

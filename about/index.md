@@ -165,7 +165,7 @@ and [mailing lists][9]. The community-edited [wxWiki][11] contains many guides
 that help supplement the official documentation, and [commercial support][10]
 is also available from several companies.
 
-[8]: http://forums.wxwidgets.org/
+[8]: https://forums.wxwidgets.org/
 [9]: /support/maillst2.htm
 [10]: /support/support.htm
 [11]: http://wiki.wxwidgets.org/
