@@ -45,8 +45,8 @@ are available below.
   <div class="col-sm-6">
     <div class="well well-small">
       <p><strong>Documentation</strong></p>
-      <a href="https://github.com/wxWidgets/wxWidgets/blob/WX_3_0_1/docs/readme.txt">Readme</a><br>
-      <a href="https://github.com/wxWidgets/wxWidgets/blob/WX_3_0_1/docs/changes.txt#L577-L684">Changes</a><br>
+      <a href="https://github.com/wxWidgets/wxWidgets/blob/WX_3_0_2/docs/readme.txt">Readme</a><br>
+      <a href="https://github.com/wxWidgets/wxWidgets/blob/WX_3_0_2/docs/changes.txt#L577-L624">Changes</a><br>
       <p></p>
       <a href="http://docs.wxwidgets.org/3.0/">Online Manual</a><br>
       <a href="{{ page.mirror }}/3.0.2/wxWidgets-3.0.2-docs-html.zip">Manual (HTML) ZIP</a> (33 MB)<br>
@@ -56,7 +56,7 @@ are available below.
   </div>
 </div>
 
-* Released: October 6h, 2014
+* Released: October 6th, 2014
 * API Stable Since: November 11th, 2013
 
 
@@ -99,7 +99,6 @@ are available below.
 
 ## Other Downloads
 
-* [Daily Development Snapshots](http://biolpc22.york.ac.uk/pub/Daily_HEAD/)
 * [SourceForge.net Release Archive](https://sourceforge.net/projects/wxwindows/files/)
-* [York University (UK) Mirror](http://biolpc22.york.ac.uk/pub/)
+* [York University (UK) Mirror](http://biolpc22.york.ac.uk/pub/pub/)
 * [wxCode Add-on Repository](http://wxcode.sourceforge.net/)
