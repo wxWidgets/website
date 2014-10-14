@@ -210,6 +210,7 @@ where special announcements for translators are announced.
   * JSJ <<jsj666@hotmail.com>>
   * Francisco Vila <<francisco.vila@hispalinux.es>>
   * Adrián González Alba <<correoadrian82@hotmail.com>>
+  * Miguel Giménez <<webmaster@solener.com>>
 * Swedish (sv)
   * Jonas Rydberg <<jonas@drevo.se>>
   * Kaj G Backas <<kgb@compart.fi>>
