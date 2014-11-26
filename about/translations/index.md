@@ -139,6 +139,7 @@ where special announcements for translators are announced.
   * Ch. Buck <<chbuck@gmail.com>>
   * Max Christian Pohle <<webmaster@coderonline.de>>
   * Thomas Krebs <<thomas.krebs@mecadtron.de>>
+  * Wolfgang Stöggl <<c72578@yahoo.de>>
 * Greek (el)
   * Tsolakos Stavros <<tsolako1@otenet.gr>>
   * Nassos Yiannopoulos <<nassosy@innerprocess.com>>
