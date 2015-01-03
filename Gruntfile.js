@@ -43,7 +43,7 @@ module.exports = function(grunt) {
     },
     clean: {
       dist: [
-        'assets/css/main.min.css',
+        'assets/css/global.min.css',
         'assets/js/global.min.js'
       ]
     }
