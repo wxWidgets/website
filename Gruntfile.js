@@ -1,20 +1,49 @@
-'use strict';
+
 module.exports = function(grunt) {
+  'use strict';
 
   grunt.initConfig({
-    recess: {
+
+    less: {
       dist: {
         options: {
-          compile: true,
-          compress: true
+          strictMath: true
         },
-        files: {
-          'assets/css/global.min.css': [
-            '_assets/less/global.less'
-          ]
-        }
+        src: '_assets/less/global.less',
+        dest: 'assets/css/global.css'
       }
     },
+
+    autoprefixer: {
+      options: {
+        browsers: [
+          "Android 2.3",
+          "Android >= 4",
+          "Chrome >= 20",
+          "Firefox >= 24",
+          "Explorer >= 8",
+          "iOS >= 6",
+          "Opera >= 12",
+          "Safari >= 6"
+        ]
+      },
+      dist: {
+        src: 'assets/css/global.css'
+      }
+    },
+
+    cssmin: {
+      options: {
+        compatibility: 'ie8',
+        keepSpecialComments: '*',
+        advanced: false
+      },
+      dist: {
+        src: 'assets/css/global.css',
+        dest: 'assets/css/global.min.css'
+      }
+    },
+
     uglify: {
       dist: {
         files: {
@@ -31,32 +60,33 @@ module.exports = function(grunt) {
         }
       }
     },
+
     watch: {
       less: {
         files: ['_assets/less/**/*.less'],
-        tasks: ['recess']
+        tasks: ['style']
       },
       js: {
         files: ['_assets/js/**/*.js'],
-        tasks: ['uglify']
+        tasks: ['script']
       }
     },
+
     clean: {
       dist: [
         'assets/css/global.min.css',
         'assets/js/global.min.js'
       ]
     }
+
   });
 
-  // Load tasks
-  grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-contrib-uglify');
-  grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-recess');
+  require('load-grunt-tasks')(grunt);
 
-  // Register tasks
-  grunt.registerTask('default', ['clean', 'recess', 'uglify']);
+  grunt.registerTask('style', ['less', 'autoprefixer', 'cssmin']);
+  grunt.registerTask('script', ['uglify']);
+
+  grunt.registerTask('default', ['clean', 'style', 'script']);
   grunt.registerTask('dev', ['watch']);
 
 };

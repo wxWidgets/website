@@ -3,6 +3,7 @@
 /node_modules/
 
 # Compiled Assets
+/assets/css/global.css
 /assets/css/global.min.css
 /assets/js/global.min.js
 
