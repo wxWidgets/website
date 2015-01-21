@@ -2,11 +2,16 @@
 # vi: set ft=ruby :
 
 $sudo_script = <<SUDOSCRIPT
-apt-get -y install build-essential curl git ruby-dev
-gem install github-pages --no-ri --no-rdoc
+apt-get -y install build-essential curl git
 SUDOSCRIPT
 
 $user_script = <<USERSCRIPT
+gpg -q --keyserver hkp://keys.gnupg.net --recv-keys D39DC0E3
+curl -sSL https://get.rvm.io | bash -s stable
+source /home/vagrant/.rvm/scripts/rvm
+command rvm --quiet-curl install ruby-2.1
+rvm --default use ruby-2.1@github-pages --create
+gem install github-pages --no-ri --no-rdoc
 curl -s https://raw.githubusercontent.com/creationix/nvm/master/install.sh | sh
 export NVM_DIR="/home/vagrant/.nvm"
 source /home/vagrant/.nvm/nvm.sh

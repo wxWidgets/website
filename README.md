@@ -27,7 +27,7 @@ prompt in this checkout:
 
     $ vagrant up
 
-This will take a while to complete the first time, just be patient. After your
+This will take 15 to 20 minutes to complete the first time. After your
 Vagrant box is up and running, you can SSH in by running:
 
     $ vagrant ssh

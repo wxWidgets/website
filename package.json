@@ -1,14 +1,14 @@
 {
   "name": "wxwidgets-website",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "Bryan Petty <bryan@ibaku.net>",
   "homepage": "https://www.wxwidgets.org/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/wxWidgets/wxwidgets.github.io.git"
+    "url": "git://github.com/wxWidgets/website.git"
   },
   "bugs": {
-    "url": "https://github.com/wxWidgets/wxwidgets.github.io/issues"
+    "url": "https://github.com/wxWidgets/website/issues"
   },
   "licenses": [
     {
@@ -17,14 +17,14 @@
     }
   ],
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 0.10.35"
   },
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-uglify": "~0.2.4",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-contrib-less": "~0.8.1",
-    "grunt-recess": "~0.5.0"
+    "grunt": "~0.4.5",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-less": "~1.0.0",
+    "grunt-contrib-uglify": "~0.7.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-recess": "~1.0.0"
   }
 }
