@@ -28,4 +28,6 @@ during this project.
 
 ----
 
-See the [next](../2007/) year.
+<p style="margin-top: 2.5em; text-align: center;">
+  <a href="../2007/" class="btn btn-lg btn-default">Next Year <i class="fa fa-arrow-circle-right fa-fw"></i></a>
+</p>

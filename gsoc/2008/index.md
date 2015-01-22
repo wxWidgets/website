@@ -24,4 +24,7 @@ inconsistencies between the platforms, was fixed and a lot of unit tests added.
 
 ----
 
-See [previous](../2007/) and [next](../2009/) years.
+<p style="margin-top: 2.5em; text-align: center;">
+  <a href="../2007/" class="btn btn-lg btn-default"><i class="fa fa-arrow-circle-left fa-fw"></i> Previous Year</a>
+  <a href="../2009/" class="btn btn-lg btn-default">Next Year <i class="fa fa-arrow-circle-right fa-fw"></i></a>
+</p>

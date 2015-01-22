@@ -9,7 +9,7 @@ title: Google Summer of Code
 [Google Summer of Code][gsoc] (GSoC), is an amazing program organized by Google
 which offers students stipends for working on open source projects.
 
-wxWidgets has been accepted into the program for 2014. If you are interested in
+wxWidgets is planning on applying for the 2015 program. If you are interested in
 getting involved (and meet the [eligibility requirements][req]), you should
 take the time to look over our list of [project ideas](/gsoc/projects/) to get
 a feel for what kind of projects we might want to see proposals for. Project
@@ -54,7 +54,7 @@ your mentoring organization:
     possible to do things that haven't been practical before in cross-platform
     programs.
 
-- **We have participated in six previous GSoCs** -
+- **We have participated in seven previous GSoCs** -
     So we have quite a lot of experience mentoring students. In fact, some of
     the potential mentors are students themselves and will be able to help you
     effectively.
@@ -89,13 +89,13 @@ and deadline in mind, good luck!
     <h4>Important Dates</h4>
     <p>
       <ul>
-        <li><strong>March 10th</strong>: Student Application Period Starts</li>
-        <li><strong>March 21th</strong>: Student Application Deadline</li>
-        <li><strong>April 21st</strong>: Accepted Proposals Announced</li>
-        <li><strong>May 19th</strong>: Coding Begins</li>
-        <li><strong>June 27th</strong>: Mid-term Evaluation Deadline</li>
-        <li><strong>August 18th</strong>: Firm 'Pencils Down' Date</li>
-        <li><strong>August 22th</strong>: Final Evaluation Deadline</li>
+        <li><strong>March 16th</strong>: Student Application Period Starts</li>
+        <li><strong>March 27th</strong>: Student Application Deadline</li>
+        <li><strong>April 27th</strong>: Accepted Proposals Announced</li>
+        <li><strong>May 25th</strong>: Coding Begins</li>
+        <li><strong>July 3rd</strong>: Mid-term Evaluation Deadline</li>
+        <li><strong>August 21st</strong>: Firm 'Pencils Down' Date</li>
+        <li><strong>August 28th</strong>: Final Evaluation Deadline</li>
       </ul>
     </p>
   </div>
@@ -109,6 +109,7 @@ and deadline in mind, good luck!
         <li><a href="/gsoc/2009/">2009 Projects</a></li>
         <li><a href="/gsoc/2010/">2010 Projects</a></li>
         <li><a href="/gsoc/2011/">2011 Projects</a></li>
+        <li><a href="/gsoc/2014/">2014 Projects</a></li>
       </ul>
     </p>
   </div>

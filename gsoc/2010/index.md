@@ -102,4 +102,7 @@ of bugs in wxWidgets.
 
 ----
 
-See [previous](../2009/) and [next](../2011/) years.
+<p style="margin-top: 2.5em; text-align: center;">
+  <a href="../2009/" class="btn btn-lg btn-default"><i class="fa fa-arrow-circle-left fa-fw"></i> Previous Year</a>
+  <a href="../2011/" class="btn btn-lg btn-default">Next Year <i class="fa fa-arrow-circle-right fa-fw"></i></a>
+</p>
