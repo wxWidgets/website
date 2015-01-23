@@ -3,7 +3,7 @@ title: Google Summer of Code
 ---
 
 <div class="pull-right">
-    <img src="/gsoc/2014/logo.jpg" class="img-responsive" alt="Google Summer of Code 2014">
+    <img src="/gsoc/2015/logo.jpg" class="img-responsive" alt="Google Summer of Code 2015">
 </div>
 
 [Google Summer of Code][gsoc] (GSoC), is an amazing program organized by Google
