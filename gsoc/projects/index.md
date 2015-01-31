@@ -16,16 +16,9 @@ first if you plan to do this.
 Notice that the projects are sorted roughly in order of their
 [importance](/gsoc/project-ratings):
 
-* **[wxAndroid](#android):** Start the work on a port to Android.
 * **[wxiOS](#ios):** Continue the porting project started during GSoC 2011.
-* **[wxUniv](#universal):** Bring the wxUniv port up to current wxWidgets
-  standards.
 * **[Multi-touch gestures support](#multitouch):** Support for multi-touch
   gestures.
-* **[Direct2D-based wxGraphicsContext](#gc-d2d):** Provide an implementation of
-  [wxGraphicsContext][] for Windows using [Direct2D][].
-* **[Windows 7 Taskbar](#win7-taskbar):** Add support for various advanced
-  taskbar features available since Windows 7.
 * **[Power Management](#power-management):** Cross platform support for power
   management events.
 * **[Cross Platform System Sound](#sound):** Provide a way to play various
@@ -35,8 +28,6 @@ Notice that the projects are sorted roughly in order of their
 * Several [wxWebView][]-related projects: 
     - **[Features switches](#webview-features):** Make [wxWebView][] more
       flexible to allow using it as a general purpose display control.
-    - **[Chromium](#webview-chromium):** Integrate and extend the
-      Chromium backend.
     - **[JavaScript API](#webview-js):** Build an API for integration with
       JavaScript events and values.
     - **[Cookies and Downloads](#webview-cookies-download):**  Add support for
@@ -55,81 +46,21 @@ Notice that the projects are sorted roughly in order of their
  -->
 
 [wxWebView]: http://docs.wxwidgets.org/trunk/classwx_web_view.html
-[wxGraphicsContext]: http://docs.wxwidgets.org/trunk/classwx_graphics_context.html
-[Direct2D]: http://msdn.microsoft.com/en-us/library/windows/desktop/dd370987.aspx
 [wxRichTextCtrl]: http://docs.wxwidgets.org/trunk/classwx_rich_text_ctrl.html
 
 Alternatively, you could decide to select a project depending on your
 background, so that if you are a...
 
-* Windows programmer -- then you could help us with
-  [Direct2D-based wxGraphicsContext](#gc-d2d) or the
-  [taskbar improvements](#win7-taskbar)
+* Windows programmer --
 * Linux hacker -- then you could be interested in cross-platform
   [power management](#power-management) or
   [system sound](#sound) projects.
 * Mac guru -- then, in addition to the two projects above, you could be
   interested in [wxiOS](#ios).
-* Mobile enthusiast -- then either [wxAndroid](#android) or
-  [wxiOS](#ios) could be exciting for you.
+* Mobile enthusiast -- then [wxiOS](#ios) could be exciting for you.
 * Web/JavaScript developer -- then you should have a look at one of
-  [wxWebView](#webview) projects.
+  wxWebView-related projects.
 * Somebody else -- tell us what could be interesting for you!
-
-
-<a name="android"></a>
-
-## <i class="fa fa-lightbulb-o fa-fw"></i> Create minimally functional Android port.
-
-<div class="pull-right">
-	<img src="android_hello.png" class="img-responsive" alt="Hello World on Android" />
-</div>
-
-The goal of this project, or projects, as there could be more than one student
-working on this, would be to start a wxAndroid port, i.e. an implementation of
-wxWidgets API targeting the Android OS. It is infeasible to fully write such a
-port in the GSoC time frame, but we believe that a motivated student could
-provide a good foundation for such port and, ideally, something at least
-minimally working.
-
-The plan is to start by implementing the low-level classes needed by all
-wxWidgets applications, such as `wxApp`, `wxWindow`, `wxTopLevelWindow`,
-`wxEventLoop` and a few others. Once this is done it should be possible to use
-`wxGLCanvas` to write Android applications using OpenGL for their graphics.
-
-The next step could be to either implement more low-level classes such as the
-GDI classes (`wxDC` and/or `wxGraphicsContext` and `wxBrush`, `wxPen`,
-`wxBitmap` or the corresponding `wxGraphicsBrush`, `wxGraphicsPen`,
-`wxGraphicsBitmap`) and use the wxUniversal port for the GUI controls, or start
-implementing the GUI controls using native equivalents. In any case, the
-student definitely would _not_ be expected to fully finish this part.
-
-Providing access to native Android API from C++ for wxWidgets needs, which
-would be required for the native controls use, could be a separate project in
-its own right. It would consist in either improving one of the currently
-existing tools, such as [CLE](http://code.google.com/p/cle-for-android/),
-[cppjvm](https://github.com/danielearwicker/cppjvm),
-[JACE](http://code.google.com/p/jace/) or
-[JCC](http://lucene.apache.org/pylucene/jcc/index.html) or writing a new one
-to allow easily creating and using Java objects, including overriding their
-virtual methods, from C++ code.
-
-[**Difficulty:**](../project-ratings) 8
-[**Importance:**](../project-ratings) 9
-
-#### Potential mentors
-
-Vadim Zeitlin, Bryan Petty
-
-#### Experience needed
-
-Some knowledge of the Android API would be definitely useful.
-
-#### See also
-
-* [Android developer site](http://developer.android.com/)
-* [wxAndroid wiki page](http://wiki.wxwidgets.org/WxAndroid)
-* [wxiOS](#ios)
 
 
 <a name="ios"></a>
@@ -171,57 +102,6 @@ Familiarity with Cocoa/iOS.
 * [iOS developer site](https://developer.apple.com/technologies/ios/)
 
 
-<a name="universal"></a>
-
-## <i class="fa fa-lightbulb-o fa-fw"></i> Fix bugs and implement missing features in wxUniversal
-
-wxUniversal is a special wxWidgets port which implements high-level GUI
-controls using wxWidgets itself instead of wrapping the native toolkit as all
-the other ports do. It is useful for platforms which don't have their own
-native UI (such as e.g. [DirectFB](http://directfb.org/)) or those in which the
-native UI is difficult to wrap (see the discussion of [wxAndroid](#android)
-project).
-
-Unfortunately wxUniversal hasn't got much attention for many years and the
-changes elsewhere in wxWidgets have introduced quite a few bugs in it. Also
-many relatively recent controls are not implemented.
-
-An incomplete list of known problems that would need to be corrected includes:
-
-- Fix several appearance bugs seen in wxX11 port, such as too big padding for
-  the buttons, wrongly drawn borders for many controls, occasional drawing
-  artefacts such as failure to invert the selection in `wxTextCtrl`.
-- `wxButton` and related classes should be refactored to inherit from
-  `wxAnyButton` as in the other ports.
-- `wxMenu` code needs to be updated to handle mouse capture loss/change events
-  correctly.
-- Drawing `wxSlider` shouldn't result in a crash.
-- Implement support for popup windows and provide `wxTooltip` implementation
-  using it.
-- Update the existing theme or write a new one to provide a less dated than
-  the currently used "classic Windows"-like appearance.
-- Update the code to avoid using `wxDeprecatedGUIConstants` which result in
-  hundreds of warnings when building it currently.
-
-More problems might be discovered while working on this project.
-
-[**Difficulty:**](../project-ratings) 7
-[**Importance:**](../project-ratings) 6 (but more if wxUniv is used by wxAndroid)
-
-#### Potential mentors
-
-Vadim Zeitlin
-
-#### Experience needed
-
-Some prior experience with wxWidgets would be helpful, as with any other
-project, but no platform/toolkit-specific knowledge is needed for this task.
-
-#### See also
-
-* [List of wxUniv bugs](http://trac.wxwidgets.org/query?status=accepted&status=confirmed&status=infoneeded&status=infoneeded_new&status=new&status=portneeded&status=reopened&component=wxUniv+%28any+port%29&order=priority&col=id&col=summary&col=status&col=type&col=priority&col=milestone&col=component)
-
-
 <a name="multitouch"></a>
 
 ## <i class="fa fa-lightbulb-o fa-fw"></i> Support multi-touch gestures
@@ -254,78 +134,6 @@ Ability to work with more than one platform is definitely required.
 * [Windows Gesture Message](http://msdn.microsoft.com/en-us/library/windows/desktop/dd353242.aspx)
 * [OS X Gestures](https://developer.apple.com/library/mac/documentation/cocoa/conceptual/eventoverview/HandlingTouchEvents/HandlingTouchEvents.html)
 * [GTK+ Gestures Library](https://launchpad.net/libgrip)
-
-
-
-<a name="gc-d2d"></a>
-
-## <i class="fa fa-lightbulb-o fa-fw"></i> Implement wxGraphicsContext using Direct2D
-
-![Drawing example](http://i.msdn.microsoft.com/ee413543.figure4%28en-us,MSDN.10%29.gif)
-
-Currently, [wxGraphicsContext][] is implemented using GDI+ under Windows. GDI+
-seems, unfortunately, to be abandoned by Microsoft and has a lot of problems
-including generally very poor performance (as it is not hardware-accelerated at
-all) and horrible text rendering, especially at small font sizes.
-
-Since Windows 7 (and Vista with updates installed) another solution is available:
-[Direct2D](http://msdn.microsoft.com/en-us/library/windows/desktop/dd370990.aspx).
-This project would consist of implementing a new [wxGraphicsContext][] backend
-using this new API, and its companion DirectWrite for the text output.
-
-[**Difficulty:**](../project-ratings) 7
-[**Importance:**](../project-ratings) 8
-
-#### Potential mentors
-
-Vadim Zeitlin
-
-#### Experience needed
-
-Windows, COM (at a basic level), Direct2D itself would be great but can be
-learned during the project.
-
-#### See also
-
-* [Direct2D Tutorial](http://msdn.microsoft.com/en-us/library/windows/desktop/dd370994.aspx)
-* [Getting Started with Direct2D](http://msdn.microsoft.com/en-us/library/windows/desktop/dd756670.aspx)
-* [Getting Started with DirectWrite](http://msdn.microsoft.com/en-us/library/windows/desktop/dd368152.aspx)
-
-
-<a name="win7-taskbar"></a>
-
-## <i class="fa fa-lightbulb-o fa-fw"></i> Add support for Windows 7 taskbar features
-
-![Taskbar button anatomy](http://i.msdn.microsoft.com/dynimg/IC376143.png)
-
-Windows Vista/7 has added support for several new features to the task bar
-which are all accessible via [ITaskbarList3 interface](http://msdn.microsoft.com/en-us/library/windows/desktop/dd391692%28v=vs.85%29.aspx):
-
-- Overlays: [example](http://blogs.msdn.com/b/oldnewthing/archive/2013/02/11/10392502.aspx)
-- Buttons: [example](http://blogs.msdn.com/b/oldnewthing/archive/2013/02/18/10394684.aspx)
-- Progress display
-- Custom, possibly live, thumbnails: [example](http://blogs.msdn.com/b/oldnewthing/archive/2013/02/25/10396638.aspx)
-- More control over grouping: [example](http://blogs.msdn.com/b/oldnewthing/archive/2012/08/17/10340743.aspx)
-- Jump lists.
-
-None of these features have equivalents under the other platforms,
-unfortunately, but it would be nice to be able to make use of them at least
-under Windows.
-
-[**Difficulty:**](../project-ratings) 5
-[**Importance:**](../project-ratings) 4
-
-#### Potential mentors
-
-Vadim Zeitlin
-
-#### Experience needed
-
-Windows, COM (at a basic level).
-
-#### More information
-
-* [Getting Started](http://msdn.microsoft.com/en-us/library/windows/desktop/ee624070.aspx)
 
 
 <a name="power-management"></a>
@@ -462,36 +270,6 @@ Any experience with using `IID_IWebBrowser` and/or WebKit would be helpful.
 
 * [wxWebView](http://docs.wxwidgets.org/trunk/classwx_web_view.html)
 
-
-<a name="webview-chromium"></a>
-
-## <i class="fa fa-lightbulb-o fa-fw"></i> Integrate and extend the Chromium backend
-
-This project involves integrating and extending the existing wxWebViewChromium
-backend for wxWebView on all platforms. Although the port current runs on
-Windows and only a small amount of work should be needed for Linux support
-further work is needed for Mac integration. Porting the code to the CEF3 API
-would also be highly beneficial. This project has the potential to provide a
-uniform backend for all three major platforms, and potentially opens the way
-for better JavaScript integration.
-
-[**Difficulty:**](../project-ratings) 6
-[**Importance:**](../project-ratings) 7
-
-#### Potential mentors
-
-Steven Lamerton, Bryan Petty
-
-#### Experience needed
-
-Knowledge of Chromium would be a plus.
-
-#### See also
-
-* [wxWebViewChromium](https://github.com/steve-lamerton/wxWebViewChromium)
-* [Chromium Embedded Framework](http://code.google.com/p/chromiumembedded/)
-* [wxWebView](http://docs.wxwidgets.org/trunk/classwx_web_view.html)
- 
 
 <a name="webview-js"></a>
 
