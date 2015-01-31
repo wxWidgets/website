@@ -73,7 +73,7 @@ your application please keep the [application template](application-template)
 and deadline in mind, good luck!
 
 <div class="row">
-  <div class="col-sm-4">
+  <div class="col-sm-3">
     <h4>Important Pages</h4>
     <p>
       <ul>
@@ -85,7 +85,7 @@ and deadline in mind, good luck!
       </ul>
     </p>
   </div>
-  <div class="col-sm-4">
+  <div class="col-sm-6">
     <h4>Important Dates</h4>
     <p>
       <ul>
@@ -99,7 +99,7 @@ and deadline in mind, good luck!
       </ul>
     </p>
   </div>
-  <div class="col-sm-4">
+  <div class="col-sm-3">
     <h4>Past Projects</h4>
     <p>
       <ul>
