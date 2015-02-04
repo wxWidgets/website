@@ -16,17 +16,13 @@ licensed under the [SIL Open Font License, 1.1](http://scripts.sil.org/OFL).
   <div class="col-sm-9">
     <div class="thumbnail">
       <a href="title.png"><img src="title.png" alt="Full color PNG for light backgrounds"></a>
-      <div class="caption">
-        <p>Full color PNG for light backgrounds</p>
-      </div>
+      <div class="caption">Full color PNG for light backgrounds</div>
     </div>
   </div>
   <div class="col-sm-3">
     <div class="thumbnail">
       <a href="blocks.png"><img src="blocks.png" alt="Full color PNG for light backgrounds"></a>
-      <div class="caption">
-        <p>Full color PNG for light backgrounds</p>
-      </div>
+      <div class="caption">Full color PNG</div>
     </div>
   </div>
 </div>
@@ -34,17 +30,27 @@ licensed under the [SIL Open Font License, 1.1](http://scripts.sil.org/OFL).
   <div class="col-sm-9">
     <div class="thumbnail">
       <a href="title.svg"><img src="title.svg" alt="Full color SVG for light backgrounds"></a>
-      <div class="caption">
-        <p>Full color SVG for light backgrounds</p>
-      </div>
+      <div class="caption">Full color SVG for light backgrounds</div>
     </div>
   </div>
   <div class="col-sm-3">
     <div class="thumbnail">
       <a href="blocks.svg"><img src="blocks.svg" alt="Full color SVG for light backgrounds"></a>
-      <div class="caption">
-        <p>Full color SVG for light backgrounds</p>
-      </div>
+      <div class="caption">Full color SVG</div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-6">
+    <div class="thumbnail">
+      <a href="title-small.png"><img src="title-small.png" alt="Full color PNG for light backgrounds"></a>
+      <div class="caption">Full color PNG for light backgrounds</div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="thumbnail">
+      <a href="title-small.svg"><img src="title-small.svg" alt="Full color SVG for light backgrounds"></a>
+      <div class="caption">Full color SVG for light backgrounds</div>
     </div>
   </div>
 </div>
