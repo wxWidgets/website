@@ -4,6 +4,24 @@ title: "Screenshots"
 
 This is a small taste of some of the applications built with wxWidgets.
 
+## Cars HotSurf
+
+<div class="row thumbnails">
+  <div class="col-xs-6 col-sm-3">
+    <a data-fancybox-group="cars-hotsurf" href="cars-hotsurf-msw.png"
+      title="Cars HotSurf on Windows" class="fancybox">
+      <img src="cars-hotsurf-msw-thumb.png" class="img-thumbnail" alt="Cars HotSurf on Windows">
+    </a>
+  </div>
+</div>
+
+[Cars HotSurf][cars-hotsurf] finds used cars on popular car sales websites in
+the United States and Europe. Cars HotSurf was specially developed for car
+dealers and professional car resellers. It automatically monitors popular used
+car sales websites for the latest cars offers according to user preferences.
+
+[cars-hotsurf]: http://hotsurf.biz/
+
 ## ECMerge
 
 <div class="row thumbnails">
