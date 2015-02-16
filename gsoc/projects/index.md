@@ -39,6 +39,7 @@ Notice that the projects are sorted roughly in order of their
   and BiDi in [wxRichTextCtrl][].
 * **[wxAUI Native Art Providers](#aui-native-art):** Make wxAUI blend in better
   with native rendering methods on each platform.
+* **[Spell Checker](#spell-check):** Add spell checking functionality to various text input controls
 
 <!-- These wxRTC projects don't have enough details.
 
@@ -51,6 +52,8 @@ Notice that the projects are sorted roughly in order of their
 [wxGrid]: http://docs.wxwidgets.org/trunk/classwx_grid.html
 [wxWebView]: http://docs.wxwidgets.org/trunk/classwx_web_view.html
 [wxRichTextCtrl]: http://docs.wxwidgets.org/trunk/classwx_rich_text_ctrl.html
+[wxTextCtrl]: http://http://docs.wxwidgets.org/trunk/classwx_text_ctrl.html
+[wxSTC]: http://docs.wxwidgets.org/trunk/classwx_styled_text_ctrl.html
 
 Alternatively, you could decide to select a project depending on your
 background, so that if you are a...
@@ -465,3 +468,38 @@ the same way under all platforms.
 * The ribbon classes, implemented as a GSoC 2009 project, has customisable art
   and demonstrates a Vista/Windows 7-like art mode.
 * [wxRendererNative documentation](http://docs.wxwidgets.org/trunk/classwx_renderer_native.html)
+
+<a name="spell-check"></a>
+
+## <i class="fa fa-lightbulb-o fa-fw"></i> Add spell checking to various text controls
+
+It is proposed to provide a wrapper around the Hunspell spell checking engine that can be used by [wxTextCtrl][] and possibly some other text entry controls such as [wxRichTextCtrl][], [wxSTC][] and [wxWebView][] to provide 'spell as you type' spell checking functionality.
+
+The functionality provided would be relatively simple, consisting of:
+
+* Underlining all misspelt words within the control with a red 'squiggly' line
+
+* Providing a simple context (popup) menu which contains suggestions for correcting the misspelt word under the text cursor. The context menu will also allow the word to be added to the user's personal dictionary or ignore all instances of that word
+
+In order to draw the red lines under misspelt words it will be necessary to modify the existing [wxTextCtrl][] class.
+
+Extra functionality could include searching for a default Hunspell dictionary on the user's hard drive and making this the default dictionary for the spell checker.
+
+[**Difficulty:**](../project-ratings) 4
+[**Importance:**](../project-ratings) 7
+
+#### Potential mentors
+
+TBD
+
+#### Experience needed
+
+Knowledge of the GTK+ and Windows platform API relating to text controls and their customisation would be an advantage.
+
+#### See also
+
+* A complete example of how to create a spell check control using Hunspell is provided in this CodeProject [project](http://www.codeproject.com/Articles/21381/Spell-Checking-Edit-Control-Using-HunSpell)
+
+* The Hunspell [website](http://hunspell.sourceforge.net/)
+ 
+* A similar GTK control already exists [http://gtkspell.sourceforge.net/](http://gtkspell.sourceforge.net/)
