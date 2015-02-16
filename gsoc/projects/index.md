@@ -55,7 +55,7 @@ Notice that the projects are sorted roughly in order of their
 Alternatively, you could decide to select a project depending on your
 background, so that if you are a...
 
-* Windows programmer --
+<!-- * Windows programmer - no MSW projects currently -->
 * Linux hacker -- then you could be interested in cross-platform
   [power management](#power-management) or
   [system sound](#sound) projects.
