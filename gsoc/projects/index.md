@@ -17,6 +17,9 @@ Notice that the projects are sorted roughly in order of their
 [importance](/gsoc/project-ratings):
 
 * **[wxiOS](#ios):** Continue the porting project started during GSoC 2011.
+* **[Frozen grid columns/rows](#frozen-grid):** Add support for "freezing",
+  i.e. fixing in place while the rest of the grid is scrolled, of rows or
+  columns in [wxGrid][].
 * **[Multi-touch gestures support](#multitouch):** Support for multi-touch
   gestures.
 * **[Power Management](#power-management):** Cross platform support for power
@@ -45,6 +48,7 @@ Notice that the projects are sorted roughly in order of their
       text alignment to [wxRichTextCtrl][].
  -->
 
+[wxGrid]: http://docs.wxwidgets.org/trunk/classwx_grid.html
 [wxWebView]: http://docs.wxwidgets.org/trunk/classwx_web_view.html
 [wxRichTextCtrl]: http://docs.wxwidgets.org/trunk/classwx_rich_text_ctrl.html
 
@@ -100,6 +104,41 @@ Familiarity with Cocoa/iOS.
 * [wxiOS test app video](http://www.youtube.com/watch?v=PTbFj9dqROs)
 * [Current wxiOS sources](https://github.com/wxWidgets/wxWidgets/tree/SOC2011_WXIOS)
 * [iOS developer site](https://developer.apple.com/technologies/ios/)
+
+
+<a name="frozen-grid"></a>
+
+## <i class="fa fa-lightbulb-o fa-fw"></i> Implement support for frozen rows/columns in wxGrid
+
+<div class="pull-right">
+	<img src="frozen_grid.jpg" class="img-responsive" alt="Illustration of frozen panes" />
+</div>
+
+The goal is to implement support for freezing some rows or columns in
+[wxGrid][], i.e. fixing them in place while allowing the rest of the grid
+contents to scroll. At the very least, it should be possible to freeze a
+single row at either top or bottom of the window, as this is commonly used to
+implement header or footer rows, but ideally all possible combinations of
+freezing single or multiple rows or columns at either side of the grid window
+should be supported.
+
+This is a difficult project as implementing this feature will require updating
+the existing wxGrid code to deal with the consequences and it is not
+impossible that relatively major changes in it would be required. On the other
+side, wxGrid is entirely implemented in wxWidgets itself, so unlike almost all
+the other projects in this list, this project can be implemented entirely
+under a single platform.
+
+[**Difficulty:**](../project-ratings) 8
+[**Importance:**](../project-ratings) 7
+
+#### Potential mentors
+
+Vadim Zeitlin
+
+#### Experience needed
+
+No specific requirements.
 
 
 <a name="multitouch"></a>
