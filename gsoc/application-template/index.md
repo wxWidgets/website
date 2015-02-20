@@ -24,8 +24,8 @@ Please also briefly describe your experience in the following areas:
 * Experience with programming on each of the target platforms (depending on
   the project it could be only one platform, such as Windows, or several, such
   as all of Windows, Unix and Mac OS X).
-* Experience with tools used in wxWidgets development such as version control
-  system (svn or git), platform-specific compilers/debuggers etc.
+* Experience with tools used in wxWidgets development such as git, Bakefile,
+  platform-specific compilers/debuggers, etc.
 
 The answer for each question could be as brief as just one of "none", "a
 little", "a fair amount", "a lot", "expert" or more detailed if you have more

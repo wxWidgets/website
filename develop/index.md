@@ -31,10 +31,9 @@ title: "Developers"
     <h3>Developer Tools</h3>
     <p>
       <ul>
-        <li><a href="http://trac.wxwidgets.org/browser/">Browse SVN Online (Trac)</a></li>
-        <li><a href="http://svn.wxwidgets.org/viewvc/wx/">Browse SVN Online (ViewVC)</a></li>
+        <li><a href="http://trac.wxwidgets.org/browser/">Browse Source Online (Trac)</a></li>
+        <li><a href="https://github.com/wxWidgets/">Browse Source Online (GitHub)</a></li>
         <li><a href="http://docs.wxwidgets.org/trunk/">Development Manual (rebuilt daily)</a></li>
-        <li><a href="http://ibaku.net/wx/changelog/">SVN Log Browser</a></li>
       </ul>
     </p>
   </div>

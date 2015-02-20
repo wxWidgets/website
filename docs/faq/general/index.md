@@ -186,11 +186,11 @@ There are a few issues to keep in mind, though:
 
 ### How is wxWidgets being developed?
 
-We are using [Subversion](/develop/svn.htm) to develop and maintain wxWidgets.
-This allows us to make alterations and upload them instantly to the server,
-from which others can update their source.
+We are using [git](/develop/code-repository/) to develop and maintain wxWidgets.
+This allows us to make alterations and publish them where others can update
+their source.
 
-To build source from SVN, see the BuildSVN.txt file in the top-level wxWidgets
+To build source from git, see the BuildSVN.txt file in the top-level wxWidgets
 distribution directory.
 
 <a name="distrib"></a>
@@ -198,8 +198,8 @@ distribution directory.
 ### How is wxWidgets distributed?
 
 You can download wxWidgets from our [downloads](/downloads/) page. If you are
-feeling adventurous, you may also check out the sources directly from
-[SVN](/develop/svn.htm).
+feeling adventurous, you may also check out the sources directly from the
+[code repository](/develop/code-repository/).
 
 <a name="base"></a>
 

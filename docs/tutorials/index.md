@@ -67,7 +67,7 @@ page on the community wiki.
       A description of how to write and submit patches to wxWidgets.
     </p>
   </a>
-  <a href="http://svn.wxwidgets.org/svn/wx/wxWidgets/trunk/docs/tech/tn0003.txt" class="list-group-item">
+  <a href="https://github.com/wxWidgets/wxWidgets/blob/master/docs/contributing/how-to-add-class-documentation.md" class="list-group-item">
     <h4 class="list-group-item-heading">Adding wxWidgets Class Documentation</h4>
     <p class="list-group-item-text">
       This note is aimed at people wishing to add documentation for a class to

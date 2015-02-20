@@ -13,7 +13,7 @@ The goal of this project was to improve wxSocket class and the network-related
 classes built on top of it. It wasn't fully successful but the rest of the work
 was done, with Angel's help, several years later.
 
-[SVN branch](http://trac.wxwidgets.org/browser/wxWidgets/branches/SOC2006_SOCKETS)
+[git branch](https://github.com/wxWidgets/wxWidgets/tree/SOC2006_SOCKETS)
 
 ----
 
@@ -24,7 +24,7 @@ Mentor: Vadim Zeitlin
 The basics of support for right-to-left languages were added to wxMSW and wxGTK
 during this project.
 
-[SVN branch](http://trac.wxwidgets.org/browser/wxWidgets/branches/SOC2006_RTL)
+[git branch](https://github.com/wxWidgets/wxWidgets/tree/SOC2006_RTL)
 
 ----
 

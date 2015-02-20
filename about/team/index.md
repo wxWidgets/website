@@ -48,7 +48,7 @@ projects I have forgotten, or if an existing entry needs modification.
 
 ## Major Contributors
 
-This list is mainly based on SVN write access but there are of course many more
+This list is mainly based on commit access but there are of course many more
 people who make important contributions to wxWidgets.
 
 * [Bryan Petty](mailto:bryan@ibaku.net) - Bryan contributed the refactoring of

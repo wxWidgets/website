@@ -11,7 +11,7 @@ Mentor: Julian Smart
 The project unfortunately didn't achieve its goals and wxWallCtrl is still
 not available for the general use.
 
-[SVN branch](http://trac.wxwidgets.org/browser/wxWidgets/branches/SOC2008_WXWALLCTRL)
+[git branch](https://github.com/wxWidgets/wxWidgets/tree/SOC2008_WXWALLCTRL)
 
 ----
 

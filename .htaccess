@@ -80,5 +80,5 @@ AddType image/x-icon .ico
     RewriteRule ^wiki/(.*)$            http://wiki.wxwidgets.org/$1  [R=301,NC,L]
 
     RewriteRule ^snapshots.*  http://biolpc22.york.ac.uk/pub/Daily_HEAD/  [R=301,NC,L]
-    RewriteRule ^wxxrc$       http://svn.wxwidgets.org/svn/wx/wxWidgets/trunk/misc/schema/xrc_schema.rnc  [R=302,L]
+    RewriteRule ^wxxrc$       https://raw.githubusercontent.com/wxWidgets/wxWidgets/master/misc/schema/xrc_schema.rnc  [R=302,L]
 </IfModule>

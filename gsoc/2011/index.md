@@ -20,7 +20,7 @@ Original proposal:
 The project was a qualified success and experimental support for GTK+ 3 was
 included in the next wxWidgets release.
 
-[SVN branch](http://trac.wxwidgets.org/browser/wxWidgets/branches/SOC2011_GTK3)
+[git branch](https://github.com/wxWidgets/wxWidgets/tree/SOC2011_GTK3)
 
 ----
 
@@ -40,7 +40,7 @@ Original proposal:
 This project was successful in its scope, but wxiOS still remains in highly
 experimental state.
 
-[SVN branch](http://trac.wxwidgets.org/browser/wxWidgets/branches/SOC2011_WXIOS)
+[git branch](https://github.com/wxWidgets/wxWidgets/tree/SOC2011_WXIOS)
 
 ----
 
@@ -59,7 +59,7 @@ Original proposal:
 The project started rather well but unfortunately the student has disappeared
 immediately after the mid-term and it was never finished.
 
-[SVN branch](http://trac.wxwidgets.org/browser/wxWidgets/branches/SOC2011_ANIMATION)
+[git branch](https://github.com/wxWidgets/wxWidgets/tree/SOC2011_ANIMATION)
 
 ----
 
@@ -81,7 +81,7 @@ This project was spectacularly successful and
 the most important and highly anticipated additions in the next wxWidgets
 release.
 
-[SVN branch](http://trac.wxwidgets.org/browser/wxWidgets/branches/SOC2011_WEBVIEW)
+[git branch](https://github.com/wxWidgets/wxWidgets/tree/SOC2011_WEBVIEW)
 
 ----
 

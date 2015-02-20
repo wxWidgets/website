@@ -5,7 +5,7 @@ $(document).ready(function(){
     document.getElementById('translation_loading')
   );
 
-  var download_url = 'http://svn.wxwidgets.org/svn/wx/wxWidgets/trunk/locale/';
+  var download_url = 'https://raw.githubusercontent.com/wxWidgets/wxWidgets/master/locale/';
 
   var languages = {
     "af":"Afrikaans",

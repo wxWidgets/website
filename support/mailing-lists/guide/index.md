@@ -53,15 +53,15 @@ your posting, we generally have no idea what are you speaking about.
 
 So please **always** mention your platform (this includes the architecture and
 the compiler used for building wxWidgets) and wxWidgets version. If you are
-using a checkout of wxWidgets from SVN, please specify the revision you have
-checked out (it can be seen in `svn update` output or queried using the
-`svn info` command). You may either mention it in the subject, like this:
+using a clone of wxWidgets from git, please specify the commit you have checked
+out (it can be seen in `git log` output). You may either mention it in the
+subject, like this:
 
     [2.8.11, platform, compiler] subject
      ^         ^        ^
      |         |        +--- e.g. BC 5.0, VC 7.1, etc.
      |         +------------ e.g. WinXP, GTK+ 2, X11, etc.
-     +---------------------- 2.9.0, svn trunk from some date, ...
+     +---------------------- 2.9.0, git master from some date, ...
 
 or inside the message body with a section like this:
 
@@ -95,7 +95,7 @@ to sift through (nobody has time to do this anyhow).
 Unless this is exceptionally difficult to do, please try to reproduce your
 problem in one of the samples (minimal one by default, another one may be more
 suitable if it already contains some of the code you need to show the problem)
-and send us just a diff which can be produced by `svn diff` command or by
+and send us just a diff which can be produced by `git diff` command or by
 saving the original file and running the diff utility (with `-bBu2` options)
 against it after your changes.
 

@@ -52,7 +52,7 @@ already familiar with them you shouldn't have any problems with working on
 wxWidgets translations. Here are the steps you should follow:
 
 * Get the latest version of the file `wxstd.pot` from the wxWidgets source
-  tree. If you're using SVN or the daily snapshots, you should already have it,
+  tree. If you're using git or the daily snapshots, you should already have it,
   otherwise you can always retrieve it directly from [here][1].
 * Rename it to `ll_CC.po` where `ll` is the 2 letter [ISO 639-1][2] language
   code for your language and `CC` is the 2 letter [ISO 3166][3] country code.
@@ -71,7 +71,7 @@ wxWidgets translations. Here are the steps you should follow:
 In addition, please consider subscribing to the [translators mailing list][6]
 where special announcements for translators are announced.
 
-[1]: http://svn.wxwidgets.org/svn/wx/wxWidgets/trunk/locale/wxstd.pot
+[1]: https://raw.githubusercontent.com/wxWidgets/wxWidgets/master/locale/wxstd.pot
 [2]: http://www.loc.gov/standards/iso639-2/php/English_list.php
 [3]: http://www.iso.org/iso/prods-services/iso3166ma/02iso-3166-code-lists/country_names_and_code_elements
 [4]: http://www.poedit.net/

@@ -9,7 +9,7 @@ Mentor: Stefan Csomor
 This project was mostly a success but XTI functionality is still not fully
 leveraged even in the current wxWidgets sources.
 
-[SVN branch](http://trac.wxwidgets.org/browser/wxWidgets/branches/SOC2007_XTI)
+[git branch](https://github.com/wxWidgets/wxWidgets/tree/SOC2007_XTI)
 
 ----
 
@@ -20,7 +20,7 @@ Mentor: Julian Smart
 This project turned out to be over-ambitious and didn't result in anything
 useful.
 
-[SVN branch](http://trac.wxwidgets.org/browser/wxWidgets/branches/SOC2007_WXWEB)
+[git branch](https://github.com/wxWidgets/wxWidgets/tree/SOC2007_WXWEB)
 
 ----
 
@@ -30,7 +30,7 @@ Mentor: Robert Roebling
 
 This project resulted in several improvements and bug fixes to wxDataViewCtrl.
 
-[SVN branch](http://trac.wxwidgets.org/browser/wxWidgets/branches/SOC2007_DVC)
+[git branch](https://github.com/wxWidgets/wxWidgets/tree/SOC2007_DVC)
 
 ----
 
