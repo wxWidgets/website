@@ -190,7 +190,7 @@ We are using [git](/develop/code-repository/) to develop and maintain wxWidgets.
 This allows us to make alterations and publish them where others can update
 their source.
 
-To build source from git, see the BuildSVN.txt file in the top-level wxWidgets
+To build source from git, see the BuildGit.txt file in the top-level wxWidgets
 distribution directory.
 
 <a name="distrib"></a>

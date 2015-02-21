@@ -26,8 +26,7 @@ sources using either [Trac](http://trac.wxwidgets.org/browser) or
 The instructions here about git are very brief and cover only the most common
 operations. For more information, please see the references below:
 
-* To build wxWidgets from git, see BuildSVN.txt in the top-level wxWidgets
-  distribution directory.
+* See BuildGit.txt in the top-level wxWidgets distribution directory.
 * [Git](http://git-scm.com/): Git project and documentation.
 
 
