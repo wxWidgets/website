@@ -89,15 +89,3 @@ Running the following command will now show which changes will be committed:
 You can now commit those changes by running:
 
     git commit -m "You can (and should) specify your commit log here."
-
-
-### Setting Git Attributes
-
-Files of different types need to have different line endings styles, e.g.
-source files (`*.cpp`) need to use native line endings (LF under Unix, CR LF
-under Windows) while MSVC project files (`*.vcproj`) must alway use CR LF line
-endings.
-
-Please see the [git documentation on attributes][attributes] for more info.
-
-[attributes]: http://git-scm.com/book/en/v2/Customizing-Git-Git-Attributes
