@@ -1,4 +1,5 @@
 AddType image/x-icon .ico
+AddType application/relax-ng-compact-syntax .rnc
 
 <IfModule mod_headers.c>
     <FilesMatch "\.(ico|gif|jpg|jpeg|png|js|css|)$">
@@ -80,5 +81,7 @@ AddType image/x-icon .ico
     RewriteRule ^wiki/(.*)$            http://wiki.wxwidgets.org/$1  [R=301,NC,L]
 
     RewriteRule ^snapshots.*  http://biolpc22.york.ac.uk/pub/Daily_HEAD/  [R=301,NC,L]
-    RewriteRule ^wxxrc$       https://raw.githubusercontent.com/wxWidgets/wxWidgets/master/misc/schema/xrc_schema.rnc  [R=302,L]
+
+    RewriteRule ^wxxrc$       /schemas/xrc_schema.rnc              [R=302,L]
+    RewriteRule ^wxxrc_std$   /schemas/xrc_schema_builtin_only.rnc [R=302,L]
 </IfModule>
