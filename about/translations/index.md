@@ -110,6 +110,7 @@ where special announcements for translators are announced.
   * Leif Jensen <<leif@danmos.dk>>
   * Henrik Ræder Clausen <<henrik@fangorn.dk>>
   * Morten Råbjerg Ulrich <<mulrich15@yahoo.dk>>
+  * Bue Vester-Andersen <<bue@vester-andersen.dk>>
 * Dutch (nl)
   * Patrick Hubers <<phubers@solve-i-t.com>>
   * Gideon van Melle <<gvmelle@gmail.com>>
