@@ -9,14 +9,14 @@ $user_script = <<USERSCRIPT
 gpg -q --keyserver hkp://keys.gnupg.net --recv-keys D39DC0E3
 curl -sSL https://get.rvm.io | bash -s stable
 source /home/vagrant/.rvm/scripts/rvm
-command rvm --quiet-curl install ruby-2.1
-rvm --default use ruby-2.1@github-pages --create
+command rvm --quiet-curl install ruby-2.2
+rvm --default use ruby-2.2@github-pages --create
 gem install github-pages --no-ri --no-rdoc
 curl -s https://raw.githubusercontent.com/creationix/nvm/master/install.sh | sh
 export NVM_DIR="/home/vagrant/.nvm"
 source /home/vagrant/.nvm/nvm.sh
-nvm install 0.10 2> /dev/null
-nvm alias default 0.10
+nvm install 0.12 2> /dev/null
+nvm alias default 0.12
 npm install -g grunt-cli
 USERSCRIPT
 
