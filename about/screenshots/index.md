@@ -4,6 +4,53 @@ title: "Screenshots"
 
 This is a small taste of some of the applications built with wxWidgets.
 
+
+## CopperCube
+
+<div class="row thumbnails">
+  <div class="col-xs-6 col-sm-3">
+    <a data-fancybox-group="coppercube" href="coppercube-msw.png"
+      title="CopperCube on Windows" class="fancybox">
+      <img src="coppercube-msw-thumb.jpg" class="img-thumbnail" alt="CopperCube on Windows">
+    </a>
+  </div>
+  <div class="col-xs-6 col-sm-3">
+    <a data-fancybox-group="coppercube" href="coppercube-mac.png"
+      title="CopperCube on Mac OS X" class="fancybox">
+      <img src="coppercube-mac-thumb.jpg" class="img-thumbnail" alt="CopperCube on Mac OS X">
+    </a>
+  </div>
+</div>
+
+[CopperCube][coppercube], by Ambiera, is an editor for creating 3D apps, games
+and 3D websites. Import or create your 3D models, set camera controllers,
+materials, behaviors, click 'publish' and your app is ready. Create everything
+from simple model viewers to full 3D games as WebGL websites, Flash .swfs, Mac
+OS, Windows, or Android apps, all without programming.
+
+[coppercube]: http://www.ambiera.com/coppercube/
+
+
+## RocketCake
+
+<div class="row thumbnails">
+  <div class="col-xs-6 col-sm-3">
+    <a data-fancybox-group="rocketcake" href="rocketcake-msw.png"
+      title="RocketCake on Windows" class="fancybox">
+      <img src="rocketcake-msw-thumb.jpg" class="img-thumbnail" alt="RocketCake on Windows">
+    </a>
+  </div>
+</div>
+
+[RocketCake][rocketcake], by Ambiera, is a free web editor for creating
+responsive websites. For beginners and professional web developers. No
+programming needed. Rocket Cake has built in support for all important HTML
+elements: image galleries, slideshows, resizable containers, stylish buttons,
+gradients, HTML 5 video, audio, and more.
+
+[rocketcake]: http://www.ambiera.com/rocketcake/
+
+
 ## Cars HotSurf
 
 <div class="row thumbnails">
@@ -21,6 +68,7 @@ dealers and professional car resellers. It automatically monitors popular used
 car sales websites for the latest cars offers according to user preferences.
 
 [cars-hotsurf]: http://hotsurf.biz/
+
 
 ## ECMerge
 
@@ -52,6 +100,7 @@ commercials and laywers to compare conracts. ECMerge runs on Linux, Mac and
 Windows.
 
 [ecmerge]: http://www.elliecomputing.com/
+
 
 ## Audacity
 
