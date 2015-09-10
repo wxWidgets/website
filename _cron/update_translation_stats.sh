@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Set WX_SITE_DIR before running this script, and also run:
-# svn checkout http://svn.wxwidgets.org/svn/wx/wxWidgets/trunk/locale/
+# svn checkout https://github.com/wxWidgets/wxWidgets/trunk/locale/
 
 MSGFMT='msgfmt'
 CATALOGS_DIR="$WX_SITE_DIR/_cron/locale"
