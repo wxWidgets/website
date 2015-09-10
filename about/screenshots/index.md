@@ -9,13 +9,13 @@ This is a small taste of some of the applications built with wxWidgets.
 
 <div class="row thumbnails">
   <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="coppercube" href="coppercube-msw.png"
+    <a data-fancybox-group="coppercube" href="coppercube-msw.jpg"
       title="CopperCube on Windows" class="fancybox">
       <img src="coppercube-msw-thumb.jpg" class="img-thumbnail" alt="CopperCube on Windows">
     </a>
   </div>
   <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="coppercube" href="coppercube-mac.png"
+    <a data-fancybox-group="coppercube" href="coppercube-mac.jpg"
       title="CopperCube on Mac OS X" class="fancybox">
       <img src="coppercube-mac-thumb.jpg" class="img-thumbnail" alt="CopperCube on Mac OS X">
     </a>
@@ -35,7 +35,7 @@ OS, Windows, or Android apps, all without programming.
 
 <div class="row thumbnails">
   <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="rocketcake" href="rocketcake-msw.png"
+    <a data-fancybox-group="rocketcake" href="rocketcake-msw.jpg"
       title="RocketCake on Windows" class="fancybox">
       <img src="rocketcake-msw-thumb.jpg" class="img-thumbnail" alt="RocketCake on Windows">
     </a>
