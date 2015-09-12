@@ -29,7 +29,7 @@ are available below.
       <p><strong>Source Code</strong></p>
       <a href="{{ page.mirror }}/3.0.2/wxWidgets-3.0.2.zip">Windows ZIP</a> (31 MB)<br>
       <a href="{{ page.mirror }}/3.0.2/wxWidgets-3.0.2.7z">Windows 7Z</a> (16 MB)<br>
-      <a href="{{ page.mirror }}/3.0.2/wxMSW-Setup-3.0.2.exe">Windows Installer</a> (47 MB)<br>
+      <a href="{{ page.mirror }}/3.0.2/wxMSW-3.0.2-Setup.exe">Windows Installer</a> (47 MB)<br>
       <a href="{{ page.mirror }}/3.0.2/wxWidgets-3.0.2.tar.bz2">Source for Linux, OS X, etc</a> (20 MB)<br>
       <p></p>
       <p><strong>Binaries</strong></p>
