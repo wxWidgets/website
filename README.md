@@ -40,11 +40,19 @@ any time it's corresponding file is changed here.
     $ cd /vagrant
     $ npm install --no-bin-links
     $ grunt
-    $ jekyll serve --watch
+    $ jekyll serve
 
 Note that you only need to run `npm install` once per new checkout. Now you can
-edit content at will and see the immediate feedback by pulling up the website
-running inside of your Vagrant box: <http://localhost:4000/>
+edit content at verify your changes by pulling up the website running inside of
+your Vagrant box (after restarting Jekyll): <http://localhost:4000/>
+
+Jekyll can automatically watch for changes, however, it's not able to when
+running within VirtualBox since filesystem notifications don't work over a
+shared folder. If you find yourself working on changes that require frequent
+rebuilds, you should consider installing all dependencies locally so you can
+run Jekyll with automatic rebuilds:
+
+    $ jekyll serve --watch
 
 [vb]: https://www.virtualbox.org/wiki/Downloads
 [vagrant]: https://www.vagrantup.com/downloads.html
