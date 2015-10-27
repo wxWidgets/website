@@ -10,12 +10,7 @@
   "bugs": {
     "url": "https://github.com/wxWidgets/website/issues"
   },
-  "licenses": [
-    {
-      "type": "wxWindows Free Documentation Licence, Version 3",
-      "url": "https://www.wxwidgets.org/about/licence/"
-    }
-  ],
+  "license": "SEE LICENSE IN about/licence/index.md",
   "engines": {
     "node": ">= 0.12.7"
   },
