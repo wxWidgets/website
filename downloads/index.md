@@ -1,6 +1,6 @@
 ---
 title: "Downloads"
-mirror: "https://sourceforge.net/projects/wxwindows/files"
+mirror: "https://github.com/wxWidgets/wxWidgets/releases/download"
 ---
 
 <div class="alert alert-info">
@@ -27,13 +27,13 @@ are available below.
   <div class="col-sm-6">
     <div class="well well-small">
       <p><strong>Source Code</strong></p>
-      <a href="{{ page.mirror }}/3.0.2/wxWidgets-3.0.2.zip">Windows ZIP</a> (31 MB)<br>
-      <a href="{{ page.mirror }}/3.0.2/wxWidgets-3.0.2.7z">Windows 7Z</a> (16 MB)<br>
-      <a href="{{ page.mirror }}/3.0.2/wxMSW-3.0.2-Setup.exe">Windows Installer</a> (47 MB)<br>
-      <a href="{{ page.mirror }}/3.0.2/wxWidgets-3.0.2.tar.bz2">Source for Linux, OS X, etc</a> (20 MB)<br>
+      <a href="{{ page.mirror }}/v3.0.2/wxWidgets-3.0.2.zip">Windows ZIP</a> (31 MB)<br>
+      <a href="{{ page.mirror }}/v3.0.2/wxWidgets-3.0.2.7z">Windows 7Z</a> (16 MB)<br>
+      <a href="{{ page.mirror }}/v3.0.2/wxMSW-3.0.2-Setup.exe">Windows Installer</a> (47 MB)<br>
+      <a href="{{ page.mirror }}/v3.0.2/wxWidgets-3.0.2.tar.bz2">Source for Linux, OS X, etc</a> (20 MB)<br>
       <p></p>
       <p><strong>Binaries</strong></p>
-      <a href="{{ page.mirror }}/3.0.2/binaries/">wxMSW DLLs</a> for the selected compilers:
+      <a href="https://github.com/wxWidgets/wxWidgets/releases/tag/v3.0.2">wxMSW DLLs</a> for the selected compilers:
       <ul>
         <li>Visual C++ 2008-2013 (more details <a href="http://wxwidgets.blogspot.com/2012/08/how-to-use-294-wxmsw-binaries.html">here</a>)</li>
         <li>TDM-GCC 4.7 and 4.8</li>
@@ -45,13 +45,13 @@ are available below.
   <div class="col-sm-6">
     <div class="well well-small">
       <p><strong>Documentation</strong></p>
-      <a href="https://github.com/wxWidgets/wxWidgets/blob/WX_3_0_2/docs/readme.txt">Readme</a><br>
-      <a href="https://github.com/wxWidgets/wxWidgets/blob/WX_3_0_2/docs/changes.txt#L577-L624">Changes</a><br>
+      <a href="https://github.com/wxWidgets/wxWidgets/blob/v3.0.2/docs/readme.txt">Readme</a><br>
+      <a href="https://github.com/wxWidgets/wxWidgets/blob/v3.0.2/docs/changes.txt#L577-L624">Changes</a><br>
       <p></p>
       <a href="http://docs.wxwidgets.org/3.0/">Online Manual</a><br>
-      <a href="{{ page.mirror }}/3.0.2/wxWidgets-3.0.2-docs-html.zip">Manual (HTML) ZIP</a> (33 MB)<br>
-      <a href="{{ page.mirror }}/3.0.2/wxWidgets-3.0.2-docs-html.tar.bz2">Manual (HTML) BZIP</a> (23 MB)<br>
-      <a href="{{ page.mirror }}/3.0.2/wxWidgets-3.0.2-docs-chm.zip">Manual (CHM)</a> (32 MB)
+      <a href="{{ page.mirror }}/v3.0.2/wxWidgets-3.0.2-docs-html.zip">Manual (HTML) ZIP</a> (33 MB)<br>
+      <a href="{{ page.mirror }}/v3.0.2/wxWidgets-3.0.2-docs-html.tar.bz2">Manual (HTML) BZIP</a> (23 MB)<br>
+      <a href="{{ page.mirror }}/v3.0.2/wxWidgets-3.0.2-docs-chm.zip">Manual (CHM)</a> (32 MB)
     </div>
   </div>
 </div>
@@ -66,11 +66,11 @@ are available below.
   <div class="col-sm-6">
     <div class="well well-small">
       <p><strong>Source Code</strong></p>
-      wxAll: <a href="{{ page.mirror }}/2.8.12/wxWidgets-2.8.12.tar.gz">GZIP</a> 19MB, <a href="{{ page.mirror }}/2.8.12/wxWidgets-2.8.12.zip">ZIP</a> 23MB<br>
-      wxMSW: <a href="{{ page.mirror }}/2.8.12/wxMSW-2.8.12-Setup.exe">Installer</a> 13MB, <a href="{{ page.mirror }}/2.8.12/wxMSW-2.8.12.zip">ZIP</a> 17MB<br>
-      <a href="{{ page.mirror }}/2.8.12/wxGTK-2.8.12.tar.gz">wxGTK</a> 13MB<br>
-      <a href="{{ page.mirror }}/2.8.12/wxMac-2.8.12.tar.gz">wxMac</a> 14MB (see <a href="http://wiki.wxwidgets.org/Development:_wxMac#Building_under_10.6_Snow_Leopard">10.6+ notes</a>)<br>
-      <a href="{{ page.mirror }}/2.8.12/wxX11-2.8.12.tar.gz">wxX11</a> 13MB<br>
+      wxAll: <a href="{{ page.mirror }}/v2.8.12/wxWidgets-2.8.12.tar.gz">GZIP</a> 19MB, <a href="{{ page.mirror }}/v2.8.12/wxWidgets-2.8.12.zip">ZIP</a> 23MB<br>
+      wxMSW: <a href="{{ page.mirror }}/v2.8.12/wxMSW-2.8.12-Setup.exe">Installer</a> 13MB, <a href="{{ page.mirror }}/v2.8.12/wxMSW-2.8.12.zip">ZIP</a> 17MB<br>
+      <a href="{{ page.mirror }}/v2.8.12/wxGTK-2.8.12.tar.gz">wxGTK</a> 13MB<br>
+      <a href="{{ page.mirror }}/v2.8.12/wxMac-2.8.12.tar.gz">wxMac</a> 14MB (see <a href="http://wiki.wxwidgets.org/Development:_wxMac#Building_under_10.6_Snow_Leopard">10.6+ notes</a>)<br>
+      <a href="{{ page.mirror }}/v2.8.12/wxX11-2.8.12.tar.gz">wxX11</a> 13MB<br>
       <p></p>
       <p><strong>Binaries</strong></p>
       <a href="http://wiki.wxpython.org/InstallingOnUbuntuOrDebian">Ubuntu / Debian Packages</a>
@@ -79,15 +79,15 @@ are available below.
   <div class="col-sm-6">
     <div class="well well-small">
       <p><strong>Documentation</strong></p>
-      <a href="{{ page.mirror }}/2.8.12/readme-2.8.12.txt">Readme</a><br>
-      <a href="{{ page.mirror }}/2.8.12/changes-2.8.12.txt">Changes</a><br>
+      <a href="{{ page.mirror }}/v2.8.12/readme.txt">Readme</a><br>
+      <a href="{{ page.mirror }}/v2.8.12/changes-2.8.12.txt">Changes</a><br>
       <p></p>
       <a href="http://docs.wxwidgets.org/2.8/">Online Manual</a><br>
-      <a href="{{ page.mirror }}/2.8.12/wxWidgets-2.8.12-HTML.zip">Manual (HTML)</a> (2.6 MB)<br>
-      <a href="{{ page.mirror }}/2.8.12/wxWidgets-2.8.12-CHM.zip">Manual (CHM)</a> (3.7 MB)<br>
-      <a href="{{ page.mirror }}/2.8.12/wxWidgets-2.8.12-PDF.zip">Manual (PDF)</a> (10.3 MB)<br>
-      <a href="{{ page.mirror }}/2.8.12/wxWidgets-2.8.12-HLP.zip">Manual (WinHelp)</a> (2.9 MB)<br>
-      <a href="{{ page.mirror }}/2.8.12/wxWidgets-2.8.12-HTB.zip">Manual (HTB)</a> (2.2 MB)
+      <a href="{{ page.mirror }}/v2.8.12/wxWidgets-2.8.12-HTML.zip">Manual (HTML)</a> (2.6 MB)<br>
+      <a href="{{ page.mirror }}/v2.8.12/wxWidgets-2.8.12-CHM.zip">Manual (CHM)</a> (3.7 MB)<br>
+      <a href="{{ page.mirror }}/v2.8.12/wxWidgets-2.8.12-PDF.zip">Manual (PDF)</a> (10.3 MB)<br>
+      <a href="{{ page.mirror }}/v2.8.12/wxWidgets-2.8.12-HLP.zip">Manual (WinHelp)</a> (2.9 MB)<br>
+      <a href="{{ page.mirror }}/v2.8.12/wxWidgets-2.8.12-HTB.zip">Manual (HTB)</a> (2.2 MB)
     </div>
   </div>
 </div>
