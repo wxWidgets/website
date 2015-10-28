@@ -174,6 +174,7 @@ where special announcements for translators are announced.
   * Him Prasad Gautam <<drishtibachak@gmail.com>>
 * Norwegian Bokmal (nb)
   * Hans F. Nordhaug <<hans@nordhaug.priv.no>>
+  * Hallgeir Holien <<haholien@gmail.com>>
 * Polish (pl)
   * Mariusz Drozdowski <<schemedit@wp.pl>>
   * Piotr Mackowiak <<matis@linuxmail.org>>
