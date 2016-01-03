@@ -61,16 +61,6 @@ table of most of the interesting formats:
         application or alternatively using an external viewer application.
       </td>
     </tr>
-    <!-- wxHTML Viewer (simple) -->
-    <tr>
-      <td>wxHTML (.htm)</td>
-      <td>Windows, GTK</td>
-      <td>internal wxWin viewer</td>
-      <td>wxHelpControllerHtml</td>
-      <td>
-        This old version of wxHTML help is now obsolete.
-      </td>
-    </tr>
   </tbody>
 </table>
 
@@ -88,9 +78,7 @@ If you want all the power of HTML for your help files, then you may consider
 using plain HTML files on Unix (invoked by wxExtHelpController). However, the
 formatting of most help files doesn't need to be very complex and so a better
 approach would be to use the internal wxHTML help system and
-wxHtmlHelpController. You may have problems using this system under Motif in
-256 colour mode, related to the XPM icons used in the viewer, so you could try
-the simpler wxHelpControllerHtml instead which is still powered by wxHTML.
+wxHtmlHelpController.
 
 ### Windows
 
@@ -212,5 +200,3 @@ Here's a suggested list of chapters for a typical manual/help file.
 Prepare any bitmaps in both GIF and BMP form (with the same root name) so HTML
 and WinHelp generation will work properly. An EPS image file is also required
 for use with real Latex and dvips.
-
-Convert images to 16 colours before using with WinHelp files.
