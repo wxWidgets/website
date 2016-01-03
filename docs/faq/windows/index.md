@@ -7,7 +7,6 @@ See also [top-level FAQ page](/docs/faq/).
 ### List of questions in this category
 
 *   [Which Windows platforms are supported?](#platforms)
-*   [What about Windows CE?](#wince)
 *   [What do I need to do for Windows XP?](#winxp)
 *   [What compilers are supported?](#compilers)
 *   [Which is the best compiler to use with wxWidgets?](#bestcompiler)
@@ -34,17 +33,7 @@ See also [top-level FAQ page](/docs/faq/).
 ### Which Windows platforms are supported?
 
 wxWidgets can be used to develop and deliver applications on Windows
-98/NT/2000, Windows XP, Windows Vista, and Windows 7/8. A Windows CE port is
-also available (see below).
-
-<a name="wince"></a>
-
-### What about Windows CE?
-
-This port supports Pocket PC 2002/2003 and MS Smartphone 2002/2003, using
-Embedded Visual C++ 3 or 4. For further information, see the wxMSW section in
-the wxWidgets Reference Manual, and also the
-[wxEmbedded](/docs/embedded.htm#wxwince) page.
+XP, Vista, 7, 8, 10.
 
 <a name="winxp"></a>
 
@@ -95,17 +84,8 @@ For an explanation of this syntax, please see
 
 ### What compilers are supported?
 
-Please see the wxWidgets for Windows install.txt file for up-to-date
-information, but currently the following are known to work:
-
-* Visual C++ 6.0, 7.0, 7.1, 8.0, 9.0, 10.0
-* Borland C++ 4.5, 5.0, 5.5
-* Borland C++Builder 1.0, 3.0, X
-* Watcom C++ 10.6 (Win32), OpenWatcom 1.0
-* Cygwin (using configure)
-* Mingw32
-* MetroWerks CodeWarrior (many versions)
-* Digital Mars 8.34+
+Please see docs/msw/install.txt file for up-to-date information.
+Also see [this article](http://docs.wxwidgets.org/trunk/page_introduction.html#page_introduction_requirements).
 
 <a name="bestcompiler"></a>
 
@@ -144,16 +124,15 @@ you need to dynamically link the wxWidgets libraries.
 
 ### Is Unicode supported?
 
-Yes, Unicode is fully supported and there is limited support for it under
-Windows 9x using [MSLU](http://www.microsoft.com/globaldev/handson/dev/mslu_announce.mspx).
+Yes, Unicode is fully supported.
 
 <a name="doublebyte"></a>
 
 ### Does wxWidgets support double byte fonts (Chinese/Japanese/Korean etc.)?
 
-For Japanese under Win2000, it seems that wxWidgets has no problems working
+For Japanese, it seems that wxWidgets has no problems working
 with double byte char sets (meaning DBCS, not Unicode). First you have to
-install Japanese support on your Win2K system and choose for ANSI translation
+install Japanese support on your system and choose for ANSI translation
 `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Nls\CodePage=932` (default
 is 1252 for Western). Then you can see all the Japanese letters in wxWidgets
 applications.
@@ -179,8 +158,7 @@ DLLs. Of course, this is not a problem just associated with wxWidgets!
 
 You can compile wxWidgets as a DLL (see above, VC++/BC++ only at present). You
 should also compile your programs for release using non-debugging and space-
-optimisation options, but take care with VC++ 6 space optimisation: it can
-sometimes cause problems.
+optimisation options.
 
 If you want to distribute really small executables, you can use
 [Petite](http://www.un4seen.com/petite/) by Ian Luck. This nifty utility
@@ -349,14 +327,14 @@ for the current status.
 
 ### Why does Visual C++ complain about corrupted project files?
 
-If you have downloaded the wxWidgets sources from the cvs using a Unix cvs
+If you have downloaded the wxWidgets sources from the svn using a Unix svn
 client or downloaded a daily snapshot in `.tar.gz` format, it is likely that
 the project files have Unix line endings (LF) instead of the DOS ones (CR LF).
-However all versions of Visual C++ up to and including 7.1 can only open the
+However some old versions of Visual C++ can only open the
 files with the DOS line endings, so you must transform the files to this format
 using any of the thousands ways to do it.
 
-Of course, another possibility is to always use only the Windows cvs client and
+Of course, another possibility is to always use only the Windows svn client and
 to avoid this problem completely.
 
 <a name="crtmismatch"></a>
@@ -372,7 +350,7 @@ when linking your project, this means that you used different versions of CRT
 project. Visual C++ provides static or dynamic and multithread safe or not
 versions of CRT for each of debug and release builds, for a total of 8
 libraries. You can choose among them by going to the "Code generation"
-page/subitem of the "C++" tab/item in the project proprieties dialog in VC6/7.
+page/subitem of the "C++" tab/item in the project proprieties dialog in VC.
 
 To avoid problems, you **must** use the same one for all components of your
 project. wxWindows uses multithread safe DLL version of the CRT which is a good
