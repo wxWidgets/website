@@ -19,7 +19,7 @@ table of most of the interesting formats:
     <!-- WinHelp -->
     <tr>
       <td>WinHelp (.hlp, .cnt)</td>
-      <td>Windows 3.1 95 98 NT</td>
+      <td>Windows XP</td>
       <td>winhelp.exe, winhlp32.exe</td>
       <td>wxWinHelpController</td>
       <td>
@@ -30,7 +30,7 @@ table of most of the interesting formats:
     <!-- HTML Help -->
     <tr>
       <td>MS HTML Help (.chm)</td>
-      <td>Windows 95 98 NT CE</td>
+      <td>Windows XP and newer</td>
       <td>hh.exe</td>
       <td>wxCHMHelpController</td>
       <td>
@@ -95,17 +95,14 @@ the simpler wxHelpControllerHtml instead which is still powered by wxHTML.
 ### Windows
 
 MS HTML Help is now the favoured format on Windows (invoked by
-wxCHMHelpController). However, if your help files need to be read on Windows
-3.1, you may wish to use WinHelp instead. Or you could produce WinHelp files
-for Windows 3.1 use, but CHM files for WIN32 use.
+wxCHMHelpController). However, both WinHelp and CHM files are supported.
 
 <!--
-Under Windows, WinHelp takes .hlp files (and on Windows 95, optional .cnt files
-for the contents page). WinHelp files are produced from specially- formatted
-RTF (Rich Text Format) files using the Windows 95 Help Workshop or the older
-DOS help compiler, hc.exe. WinHelp has now been replaced by HTML Help, which
-uses .chm files generated from HTML and some other files using the HTML Help
-Workshop.
+Under Windows, WinHelp takes .hlp files. WinHelp files are produced from
+specially-formatted RTF (Rich Text Format) files using the Windows 95
+Help Workshop or the older DOS help compiler, hc.exe. WinHelp has now been
+replaced by HTML Help, which uses .chm files generated from HTML and some
+other files using the HTML Help Workshop.
 -->
 
 
@@ -212,17 +209,8 @@ Here's a suggested list of chapters for a typical manual/help file.
 
 ## Tips
 
-Tex2RTF can generate a .cnt file which will work on Windows 95, for displaying
-a hierarchical contents page. Even if you produce a Windows 3.1 help file, the
-.cnt file will still work as expected on Windows 95.
-
 Prepare any bitmaps in both GIF and BMP form (with the same root name) so HTML
 and WinHelp generation will work properly. An EPS image file is also required
 for use with real Latex and dvips.
 
 Convert images to 16 colours before using with WinHelp files.
-
-If using Tex2RTF with the Windows 95 Help Compiler (as distributed with Windows
-95 C++ compilers), have the generateHPJ ini file setting on for the first time,
-then switch it off for subsequent conversions, since the Help Compiler will
-edit and save the HPJ file.
