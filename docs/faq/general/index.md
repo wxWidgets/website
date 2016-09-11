@@ -88,14 +88,15 @@ Please see the [overview page](/about/) for the list of supported platforms.
 
 This is a hotly-debated topic amongst the developers. My own philosophy is to
 make wxWidgets as platform-independent as possible, but allow in a few classes
-(functions, window styles) that are platform-specific. For example, Windows
-metafiles and Windows 95 taskbar icons have their own classes on Windows, but
-nowhere else. Because these classes are provided and are wxWidgets-compatible,
-it doesn't take much coding effort for an application programmer to add support
-for some functionality that the user on a particular platform might otherwise
-miss. Also, some classes that started off as platform-specific, such as the MDI
-classes, have been emulated on other platforms. I can imagine that even
-wxTaskBarIcon may be implemented for Unix desktops one day.
+(functions, window styles) that are platform-specific.
+For example, Windows metafiles and file system volumes/drives have their own
+classes on Windows, but nowhere else. Because these classes are provided and
+are wxWidgets-compatible, it doesn't take much coding effort for an application
+programmer to add support for some functionality that the user on a particular
+platform might otherwise miss. Also, some classes that started off as
+platform-specific, such as the MDI classes, have been emulated on other
+platforms. wxTaskBarIcon started as Windows-only but was eventually implemented
+for other ports too.
 
 In other words, wxWidgets is not a 'lowest common denominator' approach, but it
 will still be possible to write portable programs using the core API.
@@ -115,19 +116,16 @@ classes.
 
 ### Does wxWidgets use STL, or the standard string class?
 
-No. This is a much-discussed topic that has (many times) ended with the
-conclusion that it is in wxWidgets' best interests to avoid use of templates.
-Not all compilers can handle templates adequately so it would dramatically
-reduce the number of compilers and platforms that could be supported. It would
-also be undesirable to make wxWidgets dependent on another large library that
-may have to be downloaded and installed. In addition, use of templates can lead
-to executable bloat, which is something wxWidgets is strenuously trying to
-avoid.
+STL is only seldomly used due to hystorical reasons (not all compilers
+provided [decent] implemntations for it). In addition, use of templates
+can lead to executable bloat, which is something wxWidgets is strenuously
+trying to avoid.
+More STL code can be enabled when defining wxUSE_STL or wxUSE_STD_CONTAINERS.
 
-The standard C++ string class is not used, again because it is not available to
-all compilers, and it is not necessarily a very efficient implementation. Also,
-we retain more flexibility by being able to modify our own string class. Some
-compatibility with the string class has been built into wxString.
+The standard C++ string class is not used, because it is not necessarily a
+very efficient implementation. Also, we retain more flexibility by being able
+to modify our own string class. Some compatibility with the string class has
+been built into wxString.
 
 There is nothing to stop an application using templates or the string class for
 its own purposes. With wxWidgets debugging options on, you may find you get
