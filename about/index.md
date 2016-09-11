@@ -19,8 +19,8 @@ utilities. Link with the appropriate library for your platform and compiler,
 and your application will adopt the look and feel appropriate to that platform.
 On top of great GUI functionality, wxWidgets gives you: online help, network
 programming, streams, clipboard and drag and drop, multithreading, image
-loading and saving in a variety of popular formats, database support, HTML
-viewing and printing, and much more.
+loading and saving in a variety of popular formats, HTML viewing and printing,
+and much more.
 
 Although wxWidgets is written in C++, you can use it with a variety of
 languages including Python, Perl, and C#. If using wxWidgets with C++, you will
@@ -37,7 +37,7 @@ wxWidgets currently supports the following platforms:
 * **wxGTK**: The recommended port for Linux and other Unix variants, using GTK+
   version 2.6 or higher.
 * **wxMSW**: The port for 32-bit and 64-bit Windows variants including Windows
-  2000/NT/XP, Windows 7, and Windows 8.
+  XP, Vista, 7, 8 and 10.
 * **wxMac**: For delivering Carbon applications on Mac OS X 10.2 through 10.6.
 * **wxOSX/Carbon**: For delivering 32-bit Carbon-based applications on Mac OS X
   10.5 and above.
