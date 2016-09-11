@@ -14,7 +14,6 @@ See also [top-level FAQ page](/docs/faq/).
 *   [Why doesn't `Esc` close my dialog?](#escdlg)
 *   [How can I get rid of message boxes with error messages?](#lognull)
 *   [How can I retrieve the path containing my executable?](#exedir)
-*   [Printf(str) works perfectly under Windows but crashes under Unix, why?](#printfstr)
 *   [How do I write a Unix makefile for my program?](#makefile)
 *   [XRC can't display non-ASCII characters correctly](#xrclocale)
 
@@ -85,9 +84,10 @@ them:
     else
         just use "string" normally
 
-Note that if you don't care about Unicode at all, you don't have to use `wxT()`
-at all. On the contrary, if you do, note that `_()` takes care of it internally
-so if you use it your code will compile in both the ANSI and Unicode builds.
+`wxT()` used to be mandatory for code intended to compile in both Unicode and
+ANSI builds. Currently it is no longer required. Note that `_()` always took
+care of it internally so code using it will continue to compile in both
+Unicode and ANSI builds.
 
 Please see the description of these macros in the manual for more details.
 
@@ -113,30 +113,6 @@ error message might hide other, important, ones.
 ### How can I retrieve the path containing my executable?
 
 This topic is covered in the [installers tutorial](/docs/tutorials/building-installers/).
-
-<a name="printfstr"></a>
-
-### Printf(str) works perfectly under Windows but crashes under Unix, why?
-
-The following code:
-
-    wxString str;
-    str.Printf(wxT("My string is %s"), wxString("whatever"));
-
-does **not** work. Unfortunately, it may seem to work fine under Windows
-because of a compiler quirk there but passing a wxString object to a function
-taking a variable number of arguments such as `Printf()` is undefined behaviour
-in C++. Accordingly, it will simply crash under most platforms but may even
-"work" on some of them.
-
-You must use `c_str()` to make the above code work, i.e. write this instead:
-
-    wxString str;
-    str.Printf(wxT("My string is %s"), wxString("whatever").c_str());
-
-Note that g++ should give you an error when passing an object to a vararg
-function like this -- another reason to compile your code with g++ even if you
-normally use another compiler.
 
 <a name="makefile"></a>
 
