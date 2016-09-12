@@ -13,7 +13,6 @@ See also [top-level FAQ page](/docs/faq/).
 *   [What is the difference between `_T()`, `wxT()` and `_()`?](#wxtmacro)
 *   [Why doesn't `Esc` close my dialog?](#escdlg)
 *   [How can I get rid of message boxes with error messages?](#lognull)
-*   [How can I retrieve the path containing my executable?](#exedir)
 *   [How do I write a Unix makefile for my program?](#makefile)
 *   [XRC can't display non-ASCII characters correctly](#xrclocale)
 
@@ -107,12 +106,6 @@ functions from wxWidgets code. To completely suppress them you may use
 wxLogNull class, please see the manual for details. Do note, however, that a
 better solution is to avoid the error in the first place as suppressing these
 error message might hide other, important, ones.
-
-<a name="exedir"></a>
-
-### How can I retrieve the path containing my executable?
-
-This topic is covered in the [installers tutorial](/docs/tutorials/building-installers/).
 
 <a name="makefile"></a>
 
