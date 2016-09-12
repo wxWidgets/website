@@ -40,11 +40,11 @@ title: "Developers"
   <div class="col-sm-6">
     <h3>Continuous Integration</h3>
     <p>
-      <a href="https://travis-ci.org/wxWidgets/wxWidgets" target="_new">
-        <img alt="Travis CI Build Status" src="https://travis-ci.org/wxWidgets/wxWidgets.png?branch=master" />
-      </a>
       <a href="https://ci.appveyor.com/project/wxWidgets/wxwidgets" target="_new">
-        <img alt="AppVeyor Build Status" src="https://ci.appveyor.com/api/projects/status/mlmu8tabqc5seg4w/branch/master" />
+        <img alt="AppVeyor Build Status" src="https://img.shields.io/appveyor/ci/wxWidgets/wxWidgets/master.svg?label=Windows" />
+      </a>
+      <a href="https://travis-ci.org/wxWidgets/wxWidgets" target="_new">
+        <img alt="Travis CI Build Status" src="https://img.shields.io/travis/wxWidgets/wxWidgets/master.svg?label=Linux" />
       </a>
     </p>
     <p>

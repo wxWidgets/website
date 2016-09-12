@@ -21,6 +21,41 @@ the official wxGTK packages provided by each distribution, but newer packages
 are available below.
 
 
+## Latest Development Release: 3.1.0
+
+<div class="row">
+  <div class="col-sm-6">
+    <div class="well well-small">
+      <p><strong>Source Code</strong></p>
+      <a href="{{ page.mirror }}/v3.1.0/wxWidgets-3.1.0.zip">Windows ZIP</a> (28 MB)<br>
+      <a href="{{ page.mirror }}/v3.1.0/wxWidgets-3.1.0.7z">Windows 7Z</a> (15 MB)<br>
+      <a href="{{ page.mirror }}/v3.1.0/wxMSW-3.1.0-Setup.exe">Windows Installer</a> (47 MB)<br>
+      <a href="{{ page.mirror }}/v3.1.0/wxWidgets-3.1.0.tar.bz2">Source for Linux, OS X, etc</a> (19 MB)<br>
+      <p></p>
+      <p><strong>Binaries</strong></p>
+      <a href="https://github.com/wxWidgets/wxWidgets/releases/tag/v3.1.0">wxMSW DLLs</a> for the selected compilers:
+      <ul>
+        <li>Visual C++ 2008-2015 (more details <a href="http://wxwidgets.blogspot.com/2012/08/how-to-use-294-wxmsw-binaries.html">here</a>)</li>
+        <li>TDM-GCC 4.9 and 5.1</li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="well well-small">
+      <p><strong>Documentation</strong></p>
+      <a href="https://github.com/wxWidgets/wxWidgets/blob/v3.1.0/docs/readme.txt">Readme</a><br>
+      <a href="https://github.com/wxWidgets/wxWidgets/blob/v3.1.0/docs/changes.txt">Changes</a><br>
+      <p></p>
+      <a href="http://docs.wxwidgets.org/3.1.0/">Online Manual</a><br>
+      <a href="{{ page.mirror }}/v3.1.0/wxWidgets-3.1.0-docs-html.zip">Manual (HTML) ZIP</a> (32 MB)<br>
+      <a href="{{ page.mirror }}/v3.1.0/wxWidgets-3.1.0-docs-html.tar.bz2">Manual (HTML) BZIP</a> (22 MB)<br>
+      <a href="{{ page.mirror }}/v3.1.0/wxWidgets-3.1.0-docs-chm.zip">Manual (CHM)</a> (33 MB)
+    </div>
+  </div>
+</div>
+
+* Released: February 29, 2016
+
 ## Latest Stable Release: 3.0.2
 
 <div class="row">
