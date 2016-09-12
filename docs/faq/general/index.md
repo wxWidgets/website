@@ -116,26 +116,19 @@ classes.
 
 ### Does wxWidgets use STL, or the standard string class?
 
-STL is only seldomly used due to hystorical reasons (not all compilers
-provided [decent] implemntations for it). In addition, use of templates
-can lead to executable bloat, which is something wxWidgets is strenuously
-trying to avoid.
-More STL code can be enabled when defining wxUSE_STL or wxUSE_STD_CONTAINERS.
+wxWidgets doesn't use STL by default simply because it wasn't widely available
+when the library was initially developed. However wxWidgets does strive to
+provide seamless interoperability with standard containers and other classes.
+For example, a `std::string` or `std::wstring` can be used anywhere where
+`wxString` is expected and a `wxString` can, in turn, be easily converted to
+an object of the standard string class using its `ToStdString()` and
+`ToStdWstring()` methods.
 
-The standard C++ string class is not used, because it is not necessarily a
-very efficient implementation. Also, we retain more flexibility by being able
-to modify our own string class. Some compatibility with the string class has
-been built into wxString.
+Moreover, if the library is built with `wxUSE_STL==1`, standard containers are
+used for implementing wxWidgets containers such as `wxList` and `wxString`
+also becomes _implicitly_ convertible to standard string classes, improving
+interoperability even further.
 
-There is nothing to stop an application using templates or the string class for
-its own purposes. With wxWidgets debugging options on, you may find you get
-errors when including STL headers. You can work around it either by switching
-off memory checking, or by adding this to a header before you include any STL
-files:
-
-    #ifdef new
-    #undef new
-    #endif
 
 <a name="richedit"></a>
 
