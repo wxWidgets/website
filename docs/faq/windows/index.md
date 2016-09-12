@@ -39,46 +39,8 @@ XP, Vista, 7, 8, 10.
 
 ### What do I need to do for Windows XP?
 
-From wxWidgets 2.5, the XP manifest is included in wx/msw/wx.rc and so your
-application will be themed automatically so long as you include wx.rc in your
-own .rc file.
-
-For versions of wxWidgets below 2.5, you need to provide the manifest
-explicitly, as follows.
-
-In the same directory as you have your executable (e.g. foo.exe) you put a file
-called foo.exe.manifest in which you have something like the following:
-
-{% highlight xml %}
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
-    <assemblyIdentity
-        processorArchitecture="x86"
-        version="5.1.0.0"
-        type="win32"
-        name="foo.exe"/>
-    <description>Foo program</description>
-    <dependency>
-    <dependentAssembly>
-    <assemblyIdentity
-        type="win32"
-        name="Microsoft.Windows.Common-Controls"
-        version="6.0.0.0"
-        publicKeyToken="6595b64144ccf1df"
-        language="*"
-        processorArchitecture="x86"/>
-    </dependentAssembly>
-    </dependency>
-</assembly>
-{% endhighlight %}
-
-If you want to add it to your application permanently, you can also include it
-in your .rc file using this line:
-
-    1 24 "winxp.manifest"
-
-For an explanation of this syntax, please see
-[this article](http://delphi.about.com/library/bluc/text/uc111601a.htm).
+The XP manifest is included in wx/msw/wx.rc and so your application will be
+themed automatically so long as you include wx.rc in your own .rc file.
 
 <a name="compilers"></a>
 
@@ -96,29 +58,13 @@ debugger is very good, it's very stable, the documentation is extensive, and it
 generates small executables. Since project files are plain text, it's easy for
 me to generate appropriate project files for wxWidgets samples.
 
-Borland C++ is fine - and very fast - but it's hard (impossible?) to use the
-debugger without using project files, and the debugger is nowhere near up to
-VC++'s quality. The IDE isn't great.
-
-C++ Builder's power isn't really used with wxWidgets since it needs integration
-with its own class library (VCL). For wxWidgets, I've only used it with
-makefiles, in which case it's almost identical to BC++ 5.0 (the same makefiles
-can be used).
+Among the free compilers the best choice seem to be mingw32 (port of gcc to
+Win32), with all its different flavours.
 
 You can't beat Cygwin's price (free), and you can debug adequately using gdb.
 However, it's quite slow to compile since it does not use precompiled headers.
 
-CodeWarrior is cross-platform - you can debug and generate Windows executables
-from a Mac, but not the other way around I think - but the IDE is, to my mind,
-a bit primitive.
-
-Watcom C++ is a little slow and the debugger is not really up to today's
-standards.
-
-Among the free compilers the best choice seem to be Borland C++ command line
-tools and mingw32 (port of gcc to Win32). Both of them are supported by
-wxWidgets. However BC++ has trouble compiling large executables statically, so
-you need to dynamically link the wxWidgets libraries.
+Embarcadero C++ Builder is fine and allegedly very fast.
 
 <a name="unicode"></a>
 
@@ -130,7 +76,8 @@ Yes, Unicode is fully supported.
 
 ### Does wxWidgets support double byte fonts (Chinese/Japanese/Korean etc.)?
 
-For Japanese, it seems that wxWidgets has no problems working
+By far the best advice is to use Unicode build and avoid dealing with DBCS.
+Otherwise, for Japanese, it seems that wxWidgets has no problems working
 with double byte char sets (meaning DBCS, not Unicode). First you have to
 install Japanese support on your system and choose for ANSI translation
 `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Nls\CodePage=932` (default
@@ -141,11 +88,10 @@ applications.
 
 ### Can you compile wxWidgets as a DLL?
 
-Yes (using the Visual C++ or Borland C++ makefile), but be aware that
-distributing DLLs is a thorny issue and you may be better off compiling
-statically-linked applications, unless you're delivering a suite of separate
-programs, or you're compiling a lot of wxWidgets applications and have limited
-hard disk space.
+Yes, but be aware that distributing DLLs is a thorny issue and you may be
+better off compiling statically-linked applications, unless you're delivering
+a suite of separate programs, or you're compiling a lot of wxWidgets
+applications and have limited hard disk space.
 
 With a DLL approach, and with different versions and configurations of
 wxWidgets needing to be catered for, the end user may end up with a host of
@@ -156,9 +102,8 @@ DLLs. Of course, this is not a problem just associated with wxWidgets!
 
 ### How can I reduce executable size?
 
-You can compile wxWidgets as a DLL (see above, VC++/BC++ only at present). You
-should also compile your programs for release using non-debugging and space-
-optimisation options.
+You can compile wxWidgets as a DLL (see above). You should also compile your
+programs for release using non-debugging and space-optimisation options.
 
 If you want to distribute really small executables, you can use
 [Petite](http://www.un4seen.com/petite/) by Ian Luck. This nifty utility
@@ -195,10 +140,10 @@ with OLE-2 functionality using MFC.
 ### Why do I get errors about setup.h not being found?
 
 When you build the wxWidgets library, setup.h is copied from
-include/wx/msw/setup.h to e.g. lib/vc_msw/mswd/wx/setup.h (the path depends on
-the configuration you're building). So you need to add `lib/vc_lib/mswd` to
-your include path if building using the static Debug library, or
-`lib/vc_lib/msw` if building the static Release library.
+include/wx/msw/setup.h to e.g. lib/vc_lib/mswud/wx/setup.h (the path depends on
+the configuration you're building). So you need to add `lib/vc_lib/mswud` to
+your include path if building using the static Unicode Debug library, or
+`lib/vc_lib/mswu` if building the static Unicode Release library.
 
 <a name="asuffix"></a>
 
@@ -320,8 +265,7 @@ bool myGlobalConfig::Write (const wxString& key, const wxString& value)
 
 ### Is MS Active Accessibility supported?
 
-This is being worked on. Please see [this page](/docs/tutorials/accessibility/)
-for the current status.
+Please see [this page](/docs/tutorials/accessibility/) for the current status.
 
 <a name="dspfmt"></a>
 

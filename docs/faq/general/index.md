@@ -88,14 +88,15 @@ Please see the [overview page](/about/) for the list of supported platforms.
 
 This is a hotly-debated topic amongst the developers. My own philosophy is to
 make wxWidgets as platform-independent as possible, but allow in a few classes
-(functions, window styles) that are platform-specific. For example, Windows
-metafiles and Windows 95 taskbar icons have their own classes on Windows, but
-nowhere else. Because these classes are provided and are wxWidgets-compatible,
-it doesn't take much coding effort for an application programmer to add support
-for some functionality that the user on a particular platform might otherwise
-miss. Also, some classes that started off as platform-specific, such as the MDI
-classes, have been emulated on other platforms. I can imagine that even
-wxTaskBarIcon may be implemented for Unix desktops one day.
+(functions, window styles) that are platform-specific.
+For example, Windows metafiles and file system volumes/drives have their own
+classes on Windows, but nowhere else. Because these classes are provided and
+are wxWidgets-compatible, it doesn't take much coding effort for an application
+programmer to add support for some functionality that the user on a particular
+platform might otherwise miss. Also, some classes that started off as
+platform-specific, such as the MDI classes, have been emulated on other
+platforms. wxTaskBarIcon started as Windows-only but was eventually implemented
+for other ports too.
 
 In other words, wxWidgets is not a 'lowest common denominator' approach, but it
 will still be possible to write portable programs using the core API.
@@ -115,29 +116,19 @@ classes.
 
 ### Does wxWidgets use STL, or the standard string class?
 
-No. This is a much-discussed topic that has (many times) ended with the
-conclusion that it is in wxWidgets' best interests to avoid use of templates.
-Not all compilers can handle templates adequately so it would dramatically
-reduce the number of compilers and platforms that could be supported. It would
-also be undesirable to make wxWidgets dependent on another large library that
-may have to be downloaded and installed. In addition, use of templates can lead
-to executable bloat, which is something wxWidgets is strenuously trying to
-avoid.
+wxWidgets doesn't use STL by default simply because it wasn't widely available
+when the library was initially developed. However wxWidgets does strive to
+provide seamless interoperability with standard containers and other classes.
+For example, a `std::string` or `std::wstring` can be used anywhere where
+`wxString` is expected and a `wxString` can, in turn, be easily converted to
+an object of the standard string class using its `ToStdString()` and
+`ToStdWstring()` methods.
 
-The standard C++ string class is not used, again because it is not available to
-all compilers, and it is not necessarily a very efficient implementation. Also,
-we retain more flexibility by being able to modify our own string class. Some
-compatibility with the string class has been built into wxString.
+Moreover, if the library is built with `wxUSE_STL==1`, standard containers are
+used for implementing wxWidgets containers such as `wxList` and `wxString`
+also becomes _implicitly_ convertible to standard string classes, improving
+interoperability even further.
 
-There is nothing to stop an application using templates or the string class for
-its own purposes. With wxWidgets debugging options on, you may find you get
-errors when including STL headers. You can work around it either by switching
-off memory checking, or by adding this to a header before you include any STL
-files:
-
-    #ifdef new
-    #undef new
-    #endif
 
 <a name="richedit"></a>
 
@@ -219,7 +210,7 @@ a full featured wxWidgets port).
 
 ### What is wxUniversal?
 
-The main difference between wxUniversal-based ports (such as wxX11, wxMGL) and
+The main difference between wxUniversal-based ports (such as wxX11, wxDirectFB) and
 other ports (such as wxMSW, wxGTK+, wxMac) is that wxUniversal implements all
 controls (or widgets) in wxWidgets itself thus allowing to have much more
 flexibility (for example, support for themes even under MS Windows). It also
