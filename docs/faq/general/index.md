@@ -210,7 +210,7 @@ a full featured wxWidgets port).
 
 ### What is wxUniversal?
 
-The main difference between wxUniversal-based ports (such as wxX11, wxMGL) and
+The main difference between wxUniversal-based ports (such as wxX11, wxDirectFB) and
 other ports (such as wxMSW, wxGTK+, wxMac) is that wxUniversal implements all
 controls (or widgets) in wxWidgets itself thus allowing to have much more
 flexibility (for example, support for themes even under MS Windows). It also
