@@ -10,41 +10,38 @@ friendly manner, if appropriate giving options to install only certain modules,
 and you should also give the user an uninstall facility. It will take you less
 time than you might think (at least on Windows!) and will give your application
 a more professional look than if you merely bundled a zip file containing your
-application files. You can use a commercial product such as WISE Install or
-InstallShield, but there are several free offerings that will probably be
-adequate for your needs. Here are some free Windows installers. My personal
-favourite at present is Inno Setup combined with ScriptMaker. I can still
-automate the production of parts of the script (see the files in distrib/msw in
-the wxWidgets distribution) but use ScriptMaker to edit the parts that would be
-tedious to edit by hand.
+application files. You can use a commercial product such as InstallShield,
+but there are several free offerings that will probably be adequate for your
+needs. Here are some free Windows installers. My personal favourite at present
+is Inno Setup combined with ScriptMaker. I can still automate the production
+of parts of the script (see the files in distrib/msw in the wxWidgets
+distribution) but use ScriptMaker to edit the parts that would be tedious to
+edit by hand.
 
 
 ## Windows Installers
 
-You can use a commercial product such as WISE Install or InstallShield, but
+You can use a commercial product such as InstallShield or InstallAnywhere, but
 there are several free offerings that will probably be adequate for your needs.
-Here are some free Windows installers.
+Here are some free Windows installers:
 
 * [Inno Setup](http://www.jrsoftware.org/isinfo.htm), a free Windows installer
   with Pascal scripting
+* [NSIS](http://nsis.sourceforge.net) Nullsoft (SuperPiMP|Scriptable)
+  Install System, originally written for installing Winamp
 * [ScriptMaker](http://www.tafweb-trainz.co.uk/tafwebsw/scriptmaker.html), a
   very useful GUI adjunct to Inno Setup (unfortunately not maintained any more)
-* [Ghost Installer](http://www.ghostinstaller.com/), also free
-* [NSIS](http://www.nullsoft.com/free/nsis/) Nullsoft (SuperPiMP|Scriptable)
-  Install System, originally written for installing Winamp
-* [InstallMaker](http://www.clickteam.com/index.php3?page=9) by ClickTeam
-* [InstallAnywhere](http://www.zerog.com/products_ia.html) by Zero G
-* [BitRock InstallBuilder](http://www.bitrock.com/)
+* [Install Creator](http://www.clickteam.com/install-creator-2), has a free
+  version
 
 My personal favourite at present is Inno Setup combined with ScriptMaker. I can
 still automate the production of parts of the script (see the files in
 distrib/msw in the wxWidgets distribution) but use ScriptMaker to edit the
 parts that would be tedious to edit by hand.
 
-Note that you should install any DLLs that are needed by your application, and
-if you use VC++ this will probably include msvcrt.dll and maybe
-msvcirt.dll. You can determine the DLL dependencies of your application using
-Steve Miller's [Dependency Walker][walker].
+Note that you should install any DLLs that are needed by your application. You
+can determine the DLL dependencies of your application using Steve Miller's
+[Dependency Walker][walker].
 
 [walker]: http://www.dependencywalker.com
 
