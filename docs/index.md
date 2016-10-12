@@ -23,5 +23,5 @@ the manual is also available, built nightly.
 * [wxStyledTextCtrl Documentation](http://www.yellowbrain.com/stc/index.html) (uses wxPython semantics, but applicable to C++ too)
 * [Supported Platforms](http://wiki.wxwidgets.org/Supported_Platforms)
 * [Supported Classes by Platform](http://wiki.wxwidgets.org/Development:_Supported_Classes)
-* [Bahasa Indonesia Book on wxWidgets](https://github.com/nopri/id-wxwidgets) by Noprianto (GNU FDL licence)
+* [Bahasa Indonesia Book on wxWidgets](https://github.com/nopri/publication/raw/master/id-wxwidgets.pdf) by Noprianto (GNU FDL licence)
 * [wxGuide](http://wxguide.sf.net/)
