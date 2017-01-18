@@ -3,23 +3,23 @@ title: Google Summer of Code
 ---
 
 <div class="pull-right">
-    <img src="/gsoc/2015/logo.jpg" class="img-responsive" alt="Google Summer of Code 2015">
+    <img src="https://developers.google.com/open-source/gsoc/images/gsoc2016-sun-373x373.png" class="img-responsive" alt="Google Summer of Code">
 </div>
 
 [Google Summer of Code][gsoc] (GSoC), is an amazing program organized by Google
 which offers students stipends for working on open source projects.
 
-wxWidgets is planning on applying for the 2015 program. If you are interested in
+wxWidgets is planning on applying for GSoC. If you are interested in
 getting involved (and meet the [eligibility requirements][req]), you should
 take the time to look over our list of [project ideas](/gsoc/projects/) to get
 a feel for what kind of projects we might want to see proposals for. Project
-proposals can be submitted starting March 10th, and the deadline is March 21st.
+proposals can be submitted starting March 13th, and the deadline is March 29th.
 
 Please contact us by posting to [Developers mailing list][lists] if you would
 like to get involved. Looking forward to hearing from you!
 
-[gsoc]: https://developers.google.com/open-source/soc/
-[req]: https://www.google-melange.com/gsoc/document/show/gsoc_program/google/gsoc2014/help_page#1._Are_there_any_age_restrictions_on
+[gsoc]: https://developers.google.com/open-source/gsoc/
+[req]: https://developers.google.com/open-source/gsoc/faq#students
 [lists]: /support/mailing-lists/
 
 ### Why Participate in GSoC with wxWidgets?
@@ -89,13 +89,22 @@ and deadline in mind, good luck!
     <h4>Important Dates</h4>
     <p>
       <ul>
-        <li><strong>March 16th</strong>: Student Application Period Starts</li>
-        <li><strong>March 27th</strong>: Student Application Deadline</li>
-        <li><strong>April 27th</strong>: Accepted Proposals Announced</li>
-        <li><strong>May 25th</strong>: Coding Begins</li>
-        <li><strong>July 3rd</strong>: Mid-term Evaluation Deadline</li>
-        <li><strong>August 21st</strong>: Firm 'Pencils Down' Date</li>
-        <li><strong>August 28th</strong>: Final Evaluation Deadline</li>
+        <li><strong>February 27 - March 20</strong>: Potential student participants discuss application ideas with mentoring organizations</li>
+        <li><strong>March 20 16:00 UTC</strong>: Student application period opens</li>
+        <li><strong>April 3 16:00 UTC</strong>: Student application deadline</li>
+        <li><strong>May 4 16:00 UTC</strong>: Accepted student proposals announced</li>
+        <li>Community Bonding Period: Students get to know mentors, read documentation, get up to speed to begin working on their projects</li>
+        <li><strong>May 30</strong>: Coding officially begins!</li>
+        <li>Work Period: Students work on their project with guidance from Mentors</li>
+        <li><strong>June 26 16:00 UTC</strong>: Mentors and students can begin submitting Phase 1 evaluations</li>
+        <li><strong>June 30 16:00 UTC</strong>: Phase 1 Evaluation deadline</li>
+        <li>Work Period: Students work on their project with guidance from Mentors</li>
+        <li><strong>July 24 16:00 UTC</strong>: Mentors and students can begin submitting Phase 2 evaluations</li>
+        <li>Work Period: Students continue working on their project with guidance from Mentors</li>
+        <li><strong>July 28 16:00 UTC</strong>: Phase 2 Evaluation deadline</li>
+        <li><strong>August 21 - 29 16:00 UTC</strong>: Final week: Students submit their final work product and their final mentor evaluation</li>
+        <li><strong>August 29 - September 5 16:00 UTC</strong>: Mentors submit final student evaluations</li>
+        <li><strong>September 6</strong>: Final results of Google Summer of Code 2017 announced</li>
       </ul>
     </p>
   </div>
