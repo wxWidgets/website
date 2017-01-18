@@ -89,23 +89,17 @@ and deadline in mind, good luck!
     <h4>Important Dates</h4>
     <p>
       <ul>
-        <li><strong>February 27 - March 20</strong>: Potential student participants discuss application ideas with mentoring organizations</li>
         <li><strong>March 20 16:00 UTC</strong>: Student application period opens</li>
         <li><strong>April 3 16:00 UTC</strong>: Student application deadline</li>
         <li><strong>May 4 16:00 UTC</strong>: Accepted student proposals announced</li>
-        <li>Community Bonding Period: Students get to know mentors, read documentation, get up to speed to begin working on their projects</li>
         <li><strong>May 30</strong>: Coding officially begins!</li>
-        <li>Work Period: Students work on their project with guidance from Mentors</li>
-        <li><strong>June 26 16:00 UTC</strong>: Mentors and students can begin submitting Phase 1 evaluations</li>
         <li><strong>June 30 16:00 UTC</strong>: Phase 1 Evaluation deadline</li>
-        <li>Work Period: Students work on their project with guidance from Mentors</li>
-        <li><strong>July 24 16:00 UTC</strong>: Mentors and students can begin submitting Phase 2 evaluations</li>
-        <li>Work Period: Students continue working on their project with guidance from Mentors</li>
         <li><strong>July 28 16:00 UTC</strong>: Phase 2 Evaluation deadline</li>
         <li><strong>August 21 - 29 16:00 UTC</strong>: Final week: Students submit their final work product and their final mentor evaluation</li>
         <li><strong>August 29 - September 5 16:00 UTC</strong>: Mentors submit final student evaluations</li>
-        <li><strong>September 6</strong>: Final results of Google Summer of Code 2017 announced</li>
+        <li><strong>September 6</strong>: Final results of Google Summer of Code announced</li>
       </ul>
+      <a href="https://developers.google.com/open-source/gsoc/timeline">Complete GSoC Timeline</a>
     </p>
   </div>
   <div class="col-sm-3">
