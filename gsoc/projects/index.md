@@ -39,6 +39,8 @@ Notice that the projects are sorted roughly in order of their
   and BiDi in [wxRichTextCtrl][].
 * **[wxAUI Native Art Providers](#aui-native-art):** Make wxAUI blend in better
   with native rendering methods on each platform.
+* **[wxOpenGLGraphicsContext](#opengl-graphics-context):** Create a wxGraphicsContext
+  renderer using OpenGL for drawing.
 
 <!-- These wxRTC projects don't have enough details.
 
@@ -465,3 +467,34 @@ the same way under all platforms.
 * The ribbon classes, implemented as a GSoC 2009 project, has customisable art
   and demonstrates a Vista/Windows 7-like art mode.
 * [wxRendererNative documentation](http://docs.wxwidgets.org/trunk/classwx_renderer_native.html)
+
+
+
+<a name="opengl-graphics-context"></a>
+
+## <i class="fa fa-lightbulb-o fa-fw"></i> wxOpenGLGraphicsContext
+
+The goal is to create a wxGraphicsContext implementation that uses OpenGL for
+(2D) drawing.
+
+Advantages over current wxGraphicsContext renderers would be hardware
+accelerated and consistent output on all three major platforms (Windows, Linux,
+OS X).
+
+[**Difficulty:**](../project-ratings) 6
+[**Importance:**](../project-ratings) 5
+
+#### Potential mentors
+
+Eric Jensen, Manuel Martin
+
+#### Experience needed
+
+wxWidgets, OpenGL
+
+#### See also
+
+* [wxGraphicsContext documentation](http://docs.wxwidgets.org/trunk/classwx_graphics_context.html)
+* [wxGraphicsRenderer documentation](http://docs.wxwidgets.org/trunk/classwx_graphics_renderer.html)
+* [wxDirect2D Implementation Progress](https://github.com/alexpana/wxWidgets/wiki/Direct2D-Implementation-Progress)
+
