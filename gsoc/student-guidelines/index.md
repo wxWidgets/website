@@ -37,9 +37,9 @@ Code project.
   that you're capable of participating in wxWidgets development. Students who
   had already participated in wxWidgets development start with an advantage but
   even if you hadn't yet, the following should provide an easy start:
-  1. clone the latest master at https://github.com/wxWidgets/wxWidgets/ ;
-  2. build the library (build files are under build/ subfolder and readme- under docs/ ;
-  3. build and run samples, located under samples/ (i.e. widgets/ minimal/ etc);
+  1. clone the latest master at <https://github.com/wxWidgets/wxWidgets>;
+  2. build the library (build files are under `build/` subfolder and `readme`-s under `docs/` ;
+  3. build and run samples, located under `samples/` (i.e. `widgets/`, `minimal/`, others more appropriate for the targeted project etc.);
   4. you should try working on one of the [simple bugs](http://trac.wxwidgets.org/query?status=accepted&status=confirmed&status=infoneeded&status=infoneeded_new&status=new&status=reopened&keywords=~simple) and [make a patch](../making-patches). This will count a _lot_ for your application.
 
 * **Be enthusiastic** - Summer of Code is a very exciting opportunity, and
