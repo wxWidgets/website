@@ -41,6 +41,7 @@ Notice that the projects are sorted roughly in order of their
   with native rendering methods on each platform.
 * **[wxOpenGLGraphicsContext](#opengl-graphics-context):** Create a wxGraphicsContext
   renderer using OpenGL for drawing.
+* **[wxQt](#qt):** Improve the port for Qt support under Linux/Android, targeting fully featured apps like wxPython Phoenix (see GSoC 2010 and 2014)
 
 <!-- These wxRTC projects don't have enough details.
 
@@ -498,3 +499,71 @@ wxWidgets, OpenGL
 * [wxGraphicsRenderer documentation](http://docs.wxwidgets.org/trunk/classwx_graphics_renderer.html)
 * [wxDirect2D Implementation Progress](https://github.com/alexpana/wxWidgets/wiki/Direct2D-Implementation-Progress)
 
+<a name="qt"></a>
+
+## <i class="fa fa-lightbulb-o fa-fw"></i> Improve wxQt port
+
+<div class="row thumbnails">
+  <div class="col-xs-6 col-sm-3">
+    <a data-fancybox-group="wxqt" href="https://camo.githubusercontent.com/af3fad93f069f1472bafe26fdff848c2895b7540/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f37353630303538322f67736f63323031342f77785174416e64726f69645f6d696e696d616c5f696e666f2e706e67"
+      title="wxWidgets app under wxQt Android" class="fancybox">
+      <img src="wxqt_android_app.png" class="img-responsive" alt="wxWidgets app under wxQt Android" />
+    </a>
+  </div>
+  <div class="col-xs-6 col-sm-3">
+    <a data-fancybox-group="wxqt" href="https://cloud.githubusercontent.com/assets/1041385/3886347/d9e98a82-21d7-11e4-92da-dabf4d9f4659.png"
+      title="wxPython Phoenix under wxQt Ubuntu" class="fancybox">
+      <img src="wxqt_wxpython.png" class="img-responsive" alt="wxPython Phoenix under wxQt Ubuntu" />
+    </a>
+  </div>
+</div>
+
+
+Previous [GSoC 2010](/gsoc/2010) & [GSoC 2014](/gsoc/2014) projects (plus several 
+major contributions) had created an experimental wxWidgets port using Qt, 
+initially targeted to simple applications.
+The task for this year would be to advance & complete the missing parts, so it is 
+would be capable to run seamlessly fully featured applications 
+(like [wxPython][wx_python]) under Linux and Android too.
+
+The [wxQt port][wxqt_port] has been already merged into the mainline with most of the 
+standard controls implemented, but it need some maintenance due minor changes in 
+wxWidgets and Qt, along with other possible low-level improvements (i.e. event loop).
+
+There is a pending [Pull Request][wxqt_patches] needing attention, that would be
+a great starting point to begin with, in order to fix known issues and ascertain 
+the project's current state --ideally should be done before submitting the proposal--.
+
+Also, there are some miscellaneous controls, dialogs and major features missing
+(including printing framework, drag and drop, etc.), see [wxQt Status][wxqt_status].
+
+This is a ambitious project at this stage, so expect to learn a lot about technical 
+topics like low-level multi-platform support, core desktop and mobile applications 
+development, deep C++ programming concepts, toolkit internals, etc.
+
+For a complete list of tentative pending issues and initial instructions see the initial
+[Android Proof of Concept][wxqt_android_poc] and [GSoC 2014 repository][gsoc2014_repo].
+
+
+[wxqt_port]: https://wiki.wxwidgets.org/WxQt
+[wxqt_status]: https://wiki.wxwidgets.org/WxQt/Status
+[wxqt_patches]: https://github.com/wxWidgets/wxWidgets/pull/319
+[wx_python]: https://wxpython.org/
+[wxqt_android_poc]: https://github.com/reingart/gsoc2014
+[gsoc2014_repo]: https://github.com/reingart/wxWidgets
+
+[**Difficulty:**](../project-ratings) 8
+[**Importance:**](../project-ratings) 5
+
+#### Potential mentors
+
+Mariano Reingart (prior GSoC student)
+
+#### Experience needed
+
+Familiarity with Qt, Linux, Android and optionally wxPython.
+
+#### See also
+ * [wxQt Ubuntu notes](https://github.com/reingart/wxWidgets/wiki/WxQtUbuntuNotes)
+ * [wxQt Andoid notes](https://github.com/reingart/wxWidgets/wiki/WxQtAndroidNotes)
+ * [wxPython Phoenix notes](https://github.com/reingart/wxWidgets/wiki/wxPythonQtPhoenixNotes)
