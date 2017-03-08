@@ -541,8 +541,8 @@ This is a ambitious project at this stage, so expect to learn a lot about techni
 topics like low-level multi-platform support, core desktop and mobile applications 
 development, deep C++ programming concepts, toolkit internals, etc.
 
-For a complete list of tentative pending issues and initial instructions see the 
-[Andoroid Proof of Conept][wxqt_android_poc] and [GSoC 2014 repository][gsoc2014_repo].
+For a complete list of tentative pending issues and initial instructions see the initial
+[Android Proof of Concept][wxqt_android_poc] and [GSoC 2014 repository][gsoc2014_repo].
 
 
 [wxqt_port]: https://wiki.wxwidgets.org/WxQt
