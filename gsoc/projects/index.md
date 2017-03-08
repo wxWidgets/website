@@ -503,9 +503,21 @@ wxWidgets, OpenGL
 
 ## <i class="fa fa-lightbulb-o fa-fw"></i> Improve wxQt port
 
-<div class="pull-right">
-	<img src="wxqt_android_app" class="img-responsive" alt="wxWidgets app under wxQt Android" />
+<div class="row thumbnails">
+  <div class="col-xs-6 col-sm-3">
+    <a data-fancybox-group="wxqt" href="https://camo.githubusercontent.com/af3fad93f069f1472bafe26fdff848c2895b7540/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f37353630303538322f67736f63323031342f77785174416e64726f69645f6d696e696d616c5f696e666f2e706e67"
+      title="wxWidgets app under wxQt Android" class="fancybox">
+      <img src="wxqt_android_app.png" class="img-responsive" alt="wxWidgets app under wxQt Android" />
+    </a>
+  </div>
+  <div class="col-xs-6 col-sm-3">
+    <a data-fancybox-group="wxqt" href="https://cloud.githubusercontent.com/assets/1041385/3886347/d9e98a82-21d7-11e4-92da-dabf4d9f4659.png"
+      title="wxPython Phoenix under wxQt Ubuntu" class="fancybox">
+      <img src="wxqt_wxpython.png" class="img-responsive" alt="wxPython Phoenix under wxQt Ubuntu" />
+    </a>
+  </div>
 </div>
+
 
 Previous [GSoC 2010](/gsoc/2010) & [GSoC 2014](/gsoc/2014) projects (plus several 
 major contributions) had created an experimental wxWidgets port using Qt, 
