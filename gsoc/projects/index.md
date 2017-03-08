@@ -542,14 +542,14 @@ topics like low-level multi-platform support, core desktop and mobile applicatio
 development, deep C++ programming concepts, toolkit internals, etc.
 
 For a complete list of tentative pending issues and initial instructions see the 
-GSoC 2014 [Andoroid Proof of Conept][gsoc2014_poc] and [repository][gsoc2014_repo].
+[Andoroid Proof of Conept][wxqt_android_poc] and [GSoC 2014 repository][gsoc2014_repo].
 
 
 [wxqt_port]: https://wiki.wxwidgets.org/WxQt
 [wxqt_status]: https://wiki.wxwidgets.org/WxQt/Status
 [wxqt_patches]: https://github.com/wxWidgets/wxWidgets/pull/319
 [wx_python]: https://wxpython.org/
-[gsoc2014_poc]: https://github.com/reingart/gsoc2014
+[wxqt_android_poc]: https://github.com/reingart/gsoc2014
 [gsoc2014_repo]: https://github.com/reingart/wxWidgets
 
 [**Difficulty:**](../project-ratings) 8
