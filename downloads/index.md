@@ -56,22 +56,22 @@ are available below.
 
 * Released: February 29, 2016
 
-## Latest Stable Release: 3.0.2
+## Latest Stable Release: 3.0.3
 
 <div class="row">
   <div class="col-sm-6">
     <div class="well well-small">
       <p><strong>Source Code</strong></p>
-      <a href="{{ page.mirror }}/v3.0.2/wxWidgets-3.0.2.zip">Windows ZIP</a> (31 MB)<br>
-      <a href="{{ page.mirror }}/v3.0.2/wxWidgets-3.0.2.7z">Windows 7Z</a> (16 MB)<br>
-      <a href="{{ page.mirror }}/v3.0.2/wxMSW-3.0.2-Setup.exe">Windows Installer</a> (47 MB)<br>
-      <a href="{{ page.mirror }}/v3.0.2/wxWidgets-3.0.2.tar.bz2">Source for Linux, OS X, etc</a> (20 MB)<br>
+      <a href="{{ page.mirror }}/v3.0.3/wxWidgets-3.0.3.zip">Windows ZIP</a> (31 MB)<br>
+      <a href="{{ page.mirror }}/v3.0.3/wxWidgets-3.0.3.7z">Windows 7Z</a> (16 MB)<br>
+      <a href="{{ page.mirror }}/v3.0.3/wxMSW-3.0.3-Setup.exe">Windows Installer</a> (47 MB)<br>
+      <a href="{{ page.mirror }}/v3.0.3/wxWidgets-3.0.3.tar.bz2">Source for Linux, OS X, etc</a> (20 MB)<br>
       <p></p>
       <p><strong>Binaries</strong></p>
-      <a href="https://github.com/wxWidgets/wxWidgets/releases/tag/v3.0.2">wxMSW DLLs</a> for the selected compilers:
+      <a href="https://github.com/wxWidgets/wxWidgets/releases/tag/v3.0.3">wxMSW DLLs</a> for the selected compilers:
       <ul>
-        <li>Visual C++ 2008-2013 (more details <a href="http://wxwidgets.blogspot.com/2012/08/how-to-use-294-wxmsw-binaries.html">here</a>)</li>
-        <li>TDM-GCC 4.7 and 4.8</li>
+        <li>Visual C++ 2008-2017 (more details <a href="http://wxwidgets.blogspot.com/2012/08/how-to-use-294-wxmsw-binaries.html">here</a>)</li>
+        <li>TDM-GCC 4.9 and 5.1</li>
       </ul>
       <a href="http://codelite.org/LiteEditor/WxWidgets30Binaries#toc2" target="_new">Ubuntu / Debian Packages</a><br>
       <a href="http://codelite.org/LiteEditor/WxWidgets30Binaries#toc3" target="_new">Fedora / openSUSE Packages</a>
@@ -80,18 +80,18 @@ are available below.
   <div class="col-sm-6">
     <div class="well well-small">
       <p><strong>Documentation</strong></p>
-      <a href="https://github.com/wxWidgets/wxWidgets/blob/v3.0.2/docs/readme.txt">Readme</a><br>
-      <a href="https://github.com/wxWidgets/wxWidgets/blob/v3.0.2/docs/changes.txt#L577-L624">Changes</a><br>
+      <a href="https://github.com/wxWidgets/wxWidgets/blob/v3.0.3/docs/readme.txt">Readme</a><br>
+      <a href="https://github.com/wxWidgets/wxWidgets/blob/v3.0.3/docs/changes.txt#L583-L632">Changes</a><br>
       <p></p>
-      <a href="http://docs.wxwidgets.org/3.0/">Online Manual</a><br>
-      <a href="{{ page.mirror }}/v3.0.2/wxWidgets-3.0.2-docs-html.zip">Manual (HTML) ZIP</a> (33 MB)<br>
-      <a href="{{ page.mirror }}/v3.0.2/wxWidgets-3.0.2-docs-html.tar.bz2">Manual (HTML) BZIP</a> (23 MB)<br>
-      <a href="{{ page.mirror }}/v3.0.2/wxWidgets-3.0.2-docs-chm.zip">Manual (CHM)</a> (32 MB)
+      <a href="http://docs.wxwidgets.org/3.0.3/">Online Manual</a><br>
+      <a href="{{ page.mirror }}/v3.0.3/wxWidgets-3.0.3-docs-html.zip">Manual (HTML) ZIP</a> (33 MB)<br>
+      <a href="{{ page.mirror }}/v3.0.3/wxWidgets-3.0.3-docs-html.tar.bz2">Manual (HTML) BZIP</a> (23 MB)<br>
+      <a href="{{ page.mirror }}/v3.0.3/wxWidgets-3.0.3-docs-chm.zip">Manual (CHM)</a> (32 MB)
     </div>
   </div>
 </div>
 
-* Released: October 6th, 2014
+* Released: May 2nd, 2017
 * API Stable Since: November 11th, 2013
 
 
