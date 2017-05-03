@@ -38,6 +38,8 @@ are available below.
         <li>Visual C++ 2008-2015 (more details <a href="http://wxwidgets.blogspot.com/2012/08/how-to-use-294-wxmsw-binaries.html">here</a>)</li>
         <li>TDM-GCC 4.9 and 5.1</li>
       </ul>
+      <a href="http://codelite.org/LiteEditor/WxWidgets31Binaries#toc2" target="_new">Ubuntu / Debian Packages</a><br>
+      <a href="http://codelite.org/LiteEditor/WxWidgets31Binaries#toc3" target="_new">Fedora / openSUSE Packages</a>
     </div>
   </div>
   <div class="col-sm-6">
