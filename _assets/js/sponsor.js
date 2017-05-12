@@ -21,11 +21,6 @@ var sponsors = [
 		'http://www.tt-solutions.com/',
 		'tt.gif'
 	],
-	[
-		'C++ consulting, tools from Lit Window',
-		'http://www.litwindow.com/',
-		'litwindow.gif'
-	]
 ];
 
 $(document).ready(function(){
