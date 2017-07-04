@@ -61,10 +61,10 @@ AddType application/relax-ng-compact-syntax .rnc
     RewriteRule ^docs/faqunx\.htm  /docs/faq/common/   [R=301,NC,L]
     RewriteRule ^docs/faqx11\.htm  /docs/faq/x11/      [R=301,NC,L]
 
-    RewriteRule ^docs/platform\.htm        http://wiki.wxwidgets.org/Supported_Platforms             [R=301,NC,L]
-    RewriteRule ^docs/supported\.htm       http://wiki.wxwidgets.org/Development:_Supported_Classes  [R=301,NC,L]
-    RewriteRule ^docs/technote/vc_ide\.htm http://wiki.wxwidgets.org/Microsoft_Visual_C%2B%2B_Guide  [R=301,NC,L]
-    RewriteRule ^develop/roadmap\.htm      http://trac.wxwidgets.org/wiki/Roadmap                    [R=301,NC,L]
+    RewriteRule ^docs/platform\.htm        https://wiki.wxwidgets.org/Supported_Platforms             [R=301,NC,L]
+    RewriteRule ^docs/supported\.htm       https://wiki.wxwidgets.org/Development:_Supported_Classes  [R=301,NC,L]
+    RewriteRule ^docs/technote/vc_ide\.htm https://wiki.wxwidgets.org/Microsoft_Visual_C%2B%2B_Guide  [R=301,NC,L]
+    RewriteRule ^develop/roadmap\.htm      https://trac.wxwidgets.org/wiki/Roadmap                    [R=301,NC,L]
 
     RewriteRule ^downloads/builds\.htm  /develop/                    [R=301,NC,L]
     RewriteRule ^develop/standard\.htm  /develop/coding-guidelines/  [R=301,NC,L]
@@ -77,8 +77,8 @@ AddType application/relax-ng-compact-syntax .rnc
     RewriteRule ^support/support\.htm    /support/commercial/           [R=301,NC,L]
 
     RewriteRule ^manuals/(.*)$         http://docs.wxwidgets.org/$1  [R=301,NC,L]
-    RewriteRule ^wiki/index.php/(.*)$  http://wiki.wxwidgets.org/$1  [R=301,NC,L]
-    RewriteRule ^wiki/(.*)$            http://wiki.wxwidgets.org/$1  [R=301,NC,L]
+    RewriteRule ^wiki/index.php/(.*)$  https://wiki.wxwidgets.org/$1  [R=301,NC,L]
+    RewriteRule ^wiki/(.*)$            https://wiki.wxwidgets.org/$1  [R=301,NC,L]
 
     RewriteRule ^snapshots.*  http://biolpc22.york.ac.uk/pub/Daily_HEAD/  [R=301,NC,L]
 

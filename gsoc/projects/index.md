@@ -374,7 +374,7 @@ Any experience with using `IID_IWebBrowser` and WebKit would be helpful.
 
 #### See also
 
-* [Cookie Patch on Trac](http://trac.wxwidgets.org/ticket/14528)
+* [Cookie Patch on Trac](https://trac.wxwidgets.org/ticket/14528)
 * [Download with WebkitGTK](http://stackoverflow.com/questions/11360453/how-to-download-with-gtk-webkit-and-webkitwebview)
 * [Download With IWebBrowser](http://stackoverflow.com/questions/13754185/custom-download-manager-iwebbrowser2)
 

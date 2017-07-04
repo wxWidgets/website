@@ -17,5 +17,5 @@ build of wxWidgets, you can easily build it using the solution files for MSVS
 upcoming 3.0.1 release) thanks to the contribution from Artur Wieczorek.
 
 [1]: http://www.nuget.org/
-[2]: http://wiki.wxwidgets.org/Microsoft_Visual_C++_NuGet
+[2]: https://wiki.wxwidgets.org/Microsoft_Visual_C++_NuGet
 [3]: http://sourceforge.net/projects/wxwindows/files/3.0.0/binaries/

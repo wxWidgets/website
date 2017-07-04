@@ -41,7 +41,7 @@ Javier, wxQt hasn't achieved the usable state yet.
 
 [git branch](https://github.com/wxWidgets/wxWidgets/tree/wxQT)
 
-See also: [wiki page](http://wiki.wxwidgets.org/WxQt)
+See also: [wiki page](https://wiki.wxwidgets.org/WxQt)
 
 ----
 

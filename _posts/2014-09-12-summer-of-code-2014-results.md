@@ -52,8 +52,8 @@ to SVN trunk. Check out the [installation instructions][8], the
 [project overview and wxQt status][9], and the [merge pull request][10] with
 screenshots.
 
-[8]: http://trac.wxwidgets.org/browser/wxWidgets/trunk/docs/qt
-[9]: http://wiki.wxwidgets.org/WxQt
+[8]: https://github.com/wxWidgets/wxWidgets/tree/master/docs/qt
+[9]: https://wiki.wxwidgets.org/WxQt
 [10]: https://github.com/wxWidgets/wxWidgets/pull/14
 
 **wxAndroid Port** - Nikola Miljkovic worked on this fresh new port, with the
@@ -68,7 +68,7 @@ check out the [documentation][12], and the [SOC2014_ANDROID][13] branch Nikola
 has been working on.
 
 [11]: https://play.google.com/store/apps/details?id=org.wxwidgets
-[12]: http://wiki.wxwidgets.org/WxAndroid/docs
+[12]: https://wiki.wxwidgets.org/WxAndroid/docs
 [13]: https://github.com/SRBNikolaSRB/wxWidgets/compare/SOC2014_ANDROID
 
 **wxUniversal Cleanup** - Sun Boxiang chose to tackle general issues with our

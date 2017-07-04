@@ -86,7 +86,7 @@ users know about the framework's internals.
 
 [manual]: http://docs.wxwidgets.org/stable/
 [faq]: /docs/faq/
-[wiki]: http://wiki.wxwidgets.org/
+[wiki]: https://wiki.wxwidgets.org/
 
 
 ## wxOracle Bot Usage

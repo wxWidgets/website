@@ -38,7 +38,7 @@ Although GUI applications are mostly built programmatically, there are several
 dialog editors to help build attractive dialogs and panels. Anthemion
 Software's [DialogBlocks](http://www.anthemion.co.uk/dialogblocks/) is one
 commercial example, but there are many others, see the wiki
-[tools](http://wiki.wxwidgets.org/Tools) page for some of them.
+[tools](https://wiki.wxwidgets.org/Tools) page for some of them.
 
 You don't have to use C++ to use wxWidgets: there is a
 [Python interface](http://wxpython.org/) for wxWidgets, and also a

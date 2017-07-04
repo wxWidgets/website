@@ -5,7 +5,7 @@ title: "Tutorials"
 For a more extensive list of tutorials, please see the [Guides & Tutorials][1]
 page on the community wiki.
 
-[1]: http://wiki.wxwidgets.org/Guides_%26_Tutorials
+[1]: https://wiki.wxwidgets.org/Guides_%26_Tutorials
 
 
 ## Getting Started
@@ -61,7 +61,7 @@ page on the community wiki.
 ## Contributing
 
 <div class="list-group">
-  <a href="http://trac.wxwidgets.org/wiki/HowToSubmitPatches" class="list-group-item">
+  <a href="https://trac.wxwidgets.org/wiki/HowToSubmitPatches" class="list-group-item">
     <h4 class="list-group-item-heading">How to Submit Patches</h4>
     <p class="list-group-item-text">
       A description of how to write and submit patches to wxWidgets.

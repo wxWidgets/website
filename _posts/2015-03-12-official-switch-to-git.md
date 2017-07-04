@@ -14,6 +14,6 @@ if we forgot something and there are still mentions of svn anywhere.
 
 This should make getting the latest wxWidgets sources and participating in its
 development even simpler than before. We still continue to use [our own
-bug tracker](http://trac.wxwidgets.org/), but you can also submit pull
+bug tracker](https://trac.wxwidgets.org/), but you can also submit pull
 requests on GitHub, if only to test your changes with [Travis
 CI](https://travis-ci.org/wxWidgets/wxWidgets).

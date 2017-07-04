@@ -106,7 +106,7 @@ are available below.
       wxAll: <a href="{{ page.mirror }}/v2.8.12/wxWidgets-2.8.12.tar.gz">GZIP</a> 19MB, <a href="{{ page.mirror }}/v2.8.12/wxWidgets-2.8.12.zip">ZIP</a> 23MB<br>
       wxMSW: <a href="{{ page.mirror }}/v2.8.12/wxMSW-2.8.12-Setup.exe">Installer</a> 13MB, <a href="{{ page.mirror }}/v2.8.12/wxMSW-2.8.12.zip">ZIP</a> 17MB<br>
       <a href="{{ page.mirror }}/v2.8.12/wxGTK-2.8.12.tar.gz">wxGTK</a> 13MB<br>
-      <a href="{{ page.mirror }}/v2.8.12/wxMac-2.8.12.tar.gz">wxMac</a> 14MB (see <a href="http://wiki.wxwidgets.org/Development:_wxMac#Building_under_10.6_Snow_Leopard">10.6+ notes</a>)<br>
+      <a href="{{ page.mirror }}/v2.8.12/wxMac-2.8.12.tar.gz">wxMac</a> 14MB (see <a href="https://wiki.wxwidgets.org/Development:_wxMac#Building_under_10.6_Snow_Leopard">10.6+ notes</a>)<br>
       <a href="{{ page.mirror }}/v2.8.12/wxX11-2.8.12.tar.gz">wxX11</a> 13MB<br>
       <p></p>
       <p><strong>Binaries</strong></p>

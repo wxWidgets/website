@@ -47,7 +47,7 @@ wxWidgets 2.8.x, this file is called docs/mac/install.txt.)
 
 Try some of the samples and demos to see how well wxWidgets works on your Mac.
 Finally start your own Xcode project using the instructions in the wxWiki under
-[Guides & Tutorials](http://wiki.wxwidgets.org/Guides_%26_Tutorials)
+[Guides & Tutorials](https://wiki.wxwidgets.org/Guides_%26_Tutorials)
 
 <a name="conflicts"></a>
 
@@ -117,4 +117,4 @@ create a bundle for OS X applications. Please look at the samples makefiles
 which build bundles under Mac OS X and read [this wiki topic][bundle] for more
 details.
 
-[bundle]: http://wiki.wxwidgets.org/WxMac_Issues#Building_a_MacOSX_application_bundle
+[bundle]: https://wiki.wxwidgets.org/WxMac_Issues#Building_a_MacOSX_application_bundle

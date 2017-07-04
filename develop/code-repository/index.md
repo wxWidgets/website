@@ -17,7 +17,7 @@ your patches.
 
 Anonymous read-only access to the repository is available to everyone (see
 below for a description of how to set it up). You can also directly browse the
-sources using either [Trac](http://trac.wxwidgets.org/browser) or
+sources using either [Trac](https://trac.wxwidgets.org/browser) or
 [GitHub](https://github.com/wxWidgets/), depending on your preference.
 
 
@@ -37,7 +37,7 @@ You can clone wxWidgets from git with the following command:
     git clone https://github.com/wxWidgets/wxWidgets.git
 
 Even developers with push access should submit large or controversial changes
-to [Trac](http://trac.wxwidgets.org) so they can be discussed on the
+to [Trac](https://trac.wxwidgets.org) so they can be discussed on the
 [mailing list](/support/mailing-lists/) before being committed.
 
 You can recieve notifications whenever someone updates a file in git by

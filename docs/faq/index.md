@@ -14,4 +14,4 @@ Welcome to the wxWidgets FAQ. Please select a category:
 
 For further information, please see the install.txt (per port), todo.txt (per
 port), and bugs.txt (all ports) files included with wxWidgets. The wxWiki also
-maintains [additional FAQs](http://wiki.wxwidgets.org/WxFAQ).
+maintains [additional FAQs](https://wiki.wxwidgets.org/WxFAQ).

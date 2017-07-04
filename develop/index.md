@@ -9,7 +9,7 @@ title: "Developers"
       don't know how? We've written up a handy contributor guide that has the
       answers you're looking for:
     </p>
-    <a href="http://wiki.wxwidgets.org/Development:_How_To_Contribute" class="btn btn-lg btn-default btn-block">
+    <a href="https://wiki.wxwidgets.org/Development:_How_To_Contribute" class="btn btn-lg btn-default btn-block">
       <i class="fa fa-code-fork fa-fw"></i> Contributor Guide
     </a>
   </div>
@@ -20,18 +20,18 @@ title: "Developers"
     <h3>Additional Guides</h3>
     <p>
       <ul>
-        <li><a href="http://trac.wxwidgets.org/wiki">Developer Wiki</a></li>
+        <li><a href="https://trac.wxwidgets.org/wiki">Developer Wiki</a></li>
         <li><a href="/develop/code-repository/">Using Version Control</a></li>
-        <li><a href="http://trac.wxwidgets.org/wiki/HowToSubmitPatches">Writing Patches</a></li>
-        <li><a href="http://trac.wxwidgets.org/wiki/HowToSubmitTicket">Submitting Tickets</a></li>
-        <li><a href="http://trac.wxwidgets.org/wiki/Roadmap">Development Roadmap</a></li>
+        <li><a href="https://trac.wxwidgets.org/wiki/HowToSubmitPatches">Writing Patches</a></li>
+        <li><a href="https://trac.wxwidgets.org/wiki/HowToSubmitTicket">Submitting Tickets</a></li>
+        <li><a href="https://trac.wxwidgets.org/wiki/Roadmap">Development Roadmap</a></li>
         <li><a href="/develop/coding-guidelines/">Coding Guidelines</a></li>
       </ul>
     </p>
     <h3>Developer Tools</h3>
     <p>
       <ul>
-        <li><a href="http://trac.wxwidgets.org/browser/">Browse Source Online (Trac)</a></li>
+        <li><a href="https://trac.wxwidgets.org/browser/">Browse Source Online (Trac)</a></li>
         <li><a href="https://github.com/wxWidgets/">Browse Source Online (GitHub)</a></li>
         <li><a href="http://docs.wxwidgets.org/trunk/">Development Manual (rebuilt daily)</a></li>
       </ul>
@@ -57,7 +57,7 @@ title: "Developers"
     </p>
     <p>
       Also, please consider setting up your own build slave as
-      <a href="http://wiki.wxwidgets.org/Development:_Buildbot#Setting_up_a_Slave" target="_new">explained here</a>
+      <a href="https://wiki.wxwidgets.org/Development:_Buildbot#Setting_up_a_Slave" target="_new">explained here</a>
       if the platform/architecture configuration you're interested in is not
       represented yet. We are particularly interested in the slaves using
       different Windows compiler versions.

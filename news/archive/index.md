@@ -454,11 +454,9 @@ title: News Archive
 *   Following on from the recent wxMac reorganisation and improvements, we are
     launching a wxMac fundraising campaign. Please help us support your wxMac
     applications by making a donation, however small.
-*   Check out the [wxWidgets Bounties][35] page where you can advertise for
+*   Check out the wxWidgets Bounties page where you can advertise for
     developers to implement a particular feature in exchange for a fee, or
     implement a feature yourself to claim the bounty.
-
-[35]: http://wiki.wxwidgets.org/WxWidgets_Bounties
 
 #### April 14th, 2004
 

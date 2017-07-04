@@ -168,7 +168,7 @@ is also available from several companies.
 [8]: https://forums.wxwidgets.org/
 [9]: /support/maillst2.htm
 [10]: /support/support.htm
-[11]: http://wiki.wxwidgets.org/
+[11]: https://wiki.wxwidgets.org/
 
 
 <p style="margin-top: 2.5em; text-align: center;">

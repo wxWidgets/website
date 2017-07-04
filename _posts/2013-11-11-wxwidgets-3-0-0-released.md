@@ -35,4 +35,4 @@ tracker. Have fun and good luck!
 [5]: http://docs.wxwidgets.org/3.0.0/
 [6]: https://sourceforge.net/projects/wxwindows/files/3.0.0/changes.txt
 [7]: http://docs.wxwidgets.org/3.0.0/overview_changes_since28.html
-[8]: http://trac.wxwidgets.org/newticket
+[8]: https://trac.wxwidgets.org/newticket
