@@ -2,9 +2,6 @@
 
 url: https://www.wxwidgets.org
 permalink: /news/:year/:month/:title/
-lsi: false
-highlighter: pygments
-markdown: rdiscount
 
 defaults:
   -

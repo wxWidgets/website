@@ -45,13 +45,13 @@ $(document).ready(function(){
 	// Make some room in the grid for the screenshot.
 	$('.home-intro-text').removeClass('col-md-12').addClass('col-md-9');
 
-	$('.home-intro').append('
-		<div class="col-md-3 text-center featured-app hidden-xs hidden-sm">
-			<a href="/about/screenshots/' + featured_apps[featured_app_num][3] + '" title="' + featured_apps[featured_app_num][1] + '" class="fancybox">
-				<img src="/about/screenshots/' + featured_apps[featured_app_num][2] + '" class="img-thumbnail" alt="' + featured_apps[featured_app_num][1] + '" width="170" height="130" />
-			</a>
-			<p>Featured App:<br>' + featured_apps[featured_app_num][0] + '</p>
-			<p><a href="/about/screenshots/">More Screenshots</a>
-		</div>
-    ');
+	$('.home-intro').append(' \
+		<div class="col-md-3 text-center featured-app hidden-xs hidden-sm"> \
+			<a href="/about/screenshots/' + featured_apps[featured_app_num][3] + '" title="' + featured_apps[featured_app_num][1] + '" class="fancybox"> \
+				<img src="/about/screenshots/' + featured_apps[featured_app_num][2] + '" class="img-thumbnail" alt="' + featured_apps[featured_app_num][1] + '" width="170" height="130" /> \
+			</a> \
+			<p>Featured App:<br>' + featured_apps[featured_app_num][0] + '</p> \
+			<p><a href="/about/screenshots/">More Screenshots</a> \
+		</div> \
+	');
 });

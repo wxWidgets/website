@@ -1,6 +1,7 @@
 /.vagrant/
 /_site/
 /node_modules/
+*.log
 
 # Compiled Assets
 /assets/css/global.css
