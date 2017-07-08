@@ -40,7 +40,7 @@ any time it's corresponding file is changed here.
     $ cd /vagrant
     $ npm install --no-bin-links
     $ grunt
-    $ jekyll serve
+    $ jekyll serve --host 0.0.0.0
 
 Note that you only need to run `npm install` once per new checkout. Now you can
 edit content at verify your changes by pulling up the website running inside of
