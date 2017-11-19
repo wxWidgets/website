@@ -24,8 +24,12 @@ Notice that the projects are sorted roughly in order of their
   gestures.
 * **[Power Management](#power-management):** Cross platform support for power
   management events.
-* **[Cross Platform System Sound](#sound):** Provide a way to play various
-  "system sounds".
+* A couple of sound-related projects that probably should be seen as two
+  parts of a single project:
+    - **[Cross Platform System Sound](#sound):** Provide a way to play various
+      "system sounds".
+    - **[PulseAudio Support](#pulseaudio):** Implement `wxSound` PulseAudio-based
+      backend for Unix systems.
 * **[Cross Platform Animation](#animation):** Finish the implementation of the
   animation API started during GSoC 2011.
 * Several [wxWebView][]-related projects: 
@@ -59,7 +63,7 @@ background, so that if you are a...
 <!-- * Windows programmer - no MSW projects currently -->
 * Linux hacker -- then you could be interested in cross-platform
   [power management](#power-management) or
-  [system sound](#sound) projects.
+  [system sound](#sound) projects or [PulseAudio support](#pulseaudio).
 * Mac guru -- then, in addition to the two projects above, you could be
   interested in [wxiOS](#ios).
 * Mobile enthusiast -- then [wxiOS](#ios) could be exciting for you.
@@ -278,6 +282,35 @@ Experience with the platforms being targeted would be welcome.
 * [OS X system sound reference](http://developer.apple.com/library/mac/#documentation/AudioToolbox/Reference/SystemSoundServicesReference/Reference/reference.html)
 * [libcanberra](http://developer.gnome.org/libcanberra/) from Freedesktop, i.e. modern Linux systems.
 
+
+<a name="pulseaudio"></a>
+
+## <i class="fa fa-lightbulb-o fa-fw"></i> PulseAudio-based `wxSound` backend
+
+The existing `wxSound` implementation uses OSS, which is deprecated and not
+available any longer in the modern Linux systems. The goal of this project
+would be to write a new backend, i.e. implementation of `wxSound` public API,
+using PulseAudio (libpulse) instead.
+
+[**Difficulty:**](../project-ratings) 6
+[**Importance:**](../project-ratings) 5
+
+As mention in the projects overview, it would be desirable to combine this
+project with the "Cross platform system sounds" one just above.
+
+#### Potential mentors
+
+Vadim Zeitlin
+
+#### Experience needed
+
+Previous Linux development experience would be useful, but probably not
+required.
+
+#### See also
+
+* [The corresponding wxTrac ticket](https://trac.wxwidgets.org/ticket/18000)
+* [PulseAudio documentation](https://freedesktop.org/software/pulseaudio/doxygen/index.html)
 
 <a name="webview-features"></a>
 
