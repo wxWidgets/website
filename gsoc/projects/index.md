@@ -31,8 +31,6 @@ Notice that the projects are sorted roughly in order of their
 * Several [wxWebView][]-related projects: 
     - **[Features switches](#webview-features):** Make [wxWebView][] more
       flexible to allow using it as a general purpose display control.
-    - **[JavaScript API](#webview-js):** Build an API for integration with
-      JavaScript events and values.
     - **[Cookies and Downloads](#webview-cookies-download):**  Add support for
       managing cookies and handling file downloads.
 * **[wxRichTextCtrl RTL Support](#rtc-rtl):** Support right-to-left languages
@@ -310,35 +308,6 @@ Any experience with using `IID_IWebBrowser` and/or WebKit would be helpful.
 
 #### See also
 
-* [wxWebView](http://docs.wxwidgets.org/trunk/classwx_web_view.html)
-
-
-<a name="webview-js"></a>
-
-## <i class="fa fa-lightbulb-o fa-fw"></i> wxWebView JavaScript Integration
-
-wxWebView currently provides a simple `RunScript()` function for running
-JavaScript. However in many cases it would be preferable have access to a
-return value, or even to call C++ from the JavaScript. This project would aim
-to provide at least basic functionality for accessing JavaScript values. An API
-would be required that ensures uniform behaviour across the different backends.
-Before applying for this project please contact the wx-dev mailing list as
-further research is required.
-
-[**Difficulty:**](../project-ratings) 8
-[**Importance:**](../project-ratings) 7
-
-#### Potential mentors
-
-Steven Lamerton, Vadim Zeitlin
-
-#### Experience needed
-
-Minimal knowledge of JavaScript.
-
-#### See also
-
-* [SWIG JavaScript branch](https://github.com/oliver----/swig-v8/)
 * [wxWebView](http://docs.wxwidgets.org/trunk/classwx_web_view.html)
 
 
