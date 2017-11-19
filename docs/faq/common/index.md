@@ -27,7 +27,7 @@ deleted automatically by the library when the corresponding real, on screen,
 window is destroyed. Thus, the top level window objects are deleted when you
 call `Close()` or `Destroy()` and all the child windows are deleted just before
 the parent window is. More details about the top level windows can be found in
-the ``Window deletion overview'' in the manual.
+the "Window deletion overview" in the manual.
 
 wxWidgets also automatically deletes some other kind of the objects, notably
 the sizer or constraint associated with the window -- this happens just before
