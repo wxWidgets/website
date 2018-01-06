@@ -29,6 +29,7 @@ Original proposal:
 > platforms.
 
 [GSoC Project Page](https://summerofcode.withgoogle.com/archive/2017/projects/5379891201572864/)
+
 [git branch](https://github.com/prashantkn94/wxWidgets/tree/SOC2017_GESTURES)
 
 ----
@@ -48,6 +49,7 @@ Original proposal:
 > backends.
 
 [GSoC Project Page](https://summerofcode.withgoogle.com/archive/2017/projects/6201193772613632/)
+
 [git branch](https://github.com/joseeloren/wxWidgets/tree/SOC2017_WEBVIEW_JS)
 
 ----
