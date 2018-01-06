@@ -13,7 +13,7 @@ To get a general understanding of how submitting patches works, please read
 our [patches HOWTO](https://trac.wxwidgets.org/wiki/HowToSubmitPatches). Next,
 you need to select a task to work on. While you could take any open ticket
 in our [Trac](https://trac.wxwidgets.org) installation, we have a special list
-of [simple bugs](https://trac.wxwidgets.org/tags/%27simple%27) which are
+of [simple bugs](https://trac.wxwidgets.org/query?status=accepted&status=confirmed&status=infoneeded&status=infoneeded_new&status=new&status=reopened&keywords=~simple) which are
 supposed to be easy to fix so we recommend that you look at one of those.
 Please feel free to choose one of the bugs that either corresponds to your
 experience (e.g. if you are a Windows programmer you could additionally filter
@@ -24,13 +24,11 @@ together.
 
 Once you have chosen the task you are going to work on, please make your
 changes and prepare a patch as described in the HOWTO. You may work with
-either [Subversion](https://www.wxwidgets.org/develop/code-repository/) or
-[Git](https://github.com/wxWidgets/wxWidgets), depending on what you are more
-comfortable with, but please do use a checkout of the latest sources as,
+[Git](https://github.com/wxWidgets/wxWidgets), and please do use a checkout of the latest sources as,
 again, you will need to be able to work with them during your project.
 
-Finally, attach your patch to the Trac ticket, creating a new one if
-necessarily. As before, please don't hesitate to ask us on the mailing list if
-you have any questions about this procedure.
+Finally, open a Git PR or attach your patch to the Trac ticket (creating a new
+one if necessary). As before, please don't hesitate to ask us on the mailing
+list if you have any questions about this procedure.
 
 And good luck!
