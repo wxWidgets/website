@@ -20,8 +20,6 @@ Notice that the projects are sorted roughly in order of their
 * **[Frozen grid columns/rows](#frozen-grid):** Add support for "freezing",
   i.e. fixing in place while the rest of the grid is scrolled, of rows or
   columns in [wxGrid][].
-* **[Multi-touch gestures support](#multitouch):** Support for multi-touch
-  gestures.
 * **[Power Management](#power-management):** Cross platform support for power
   management events.
 * A couple of sound-related projects that probably should be seen as two
@@ -144,40 +142,6 @@ Vadim Zeitlin
 #### Experience needed
 
 No specific requirements.
-
-
-<a name="multitouch"></a>
-
-## <i class="fa fa-lightbulb-o fa-fw"></i> Support multi-touch gestures
-
-The goal of this project is to generate wxWidgets events for the multi-touch
-gestures recognized by the underlying system and, possibly, also the raw
-touches which compose them. But it's adding support for the high level events,
-such as "zoom", "pan" or "rotate" which is the most important part of this
-project.
-
-Modern desktop systems all support sending such events but do it in different
-ways, so the first part of this project will be to find a subset of events and
-information carried by them sufficiently rich to be useful, yet also supported
-by more than one, and ideally by all three, major platforms.
-
-[**Difficulty:**](../project-ratings) 7
-[**Importance:**](../project-ratings) 7
-
-#### Potential mentors
-
-Eric Jensen, Stefan Csomor
-
-#### Experience needed
-
-Ability to work with more than one platform is definitely required.
-
-#### See also
-
-* [Windows Touch Gestures Overview](http://msdn.microsoft.com/en-us/library/windows/desktop/dd940543.aspx)
-* [Windows Gesture Message](http://msdn.microsoft.com/en-us/library/windows/desktop/dd353242.aspx)
-* [OS X Gestures](https://developer.apple.com/library/mac/documentation/cocoa/conceptual/eventoverview/HandlingTouchEvents/HandlingTouchEvents.html)
-* [GTK+ Gestures Library](https://launchpad.net/libgrip)
 
 
 <a name="power-management"></a>

@@ -13,12 +13,12 @@ wxWidgets is planning on applying for GSoC. If you are interested in
 getting involved (and meet the [eligibility requirements][req]), you should
 take the time to look over our list of [project ideas](/gsoc/projects/) to get
 a feel for what kind of projects we might want to see proposals for. Project
-proposals can be submitted starting March 13th, and the deadline is March 29th.
+proposals can be submitted starting March 9th, and the deadline is March 24th.
 
 Please contact us by posting to [Developers mailing list][lists] if you would
 like to get involved. Looking forward to hearing from you!
 
-[gsoc]: https://developers.google.com/open-source/gsoc/
+[gsoc]: https://summerofcode.withgoogle.com/
 [req]: https://developers.google.com/open-source/gsoc/faq#students
 [lists]: /support/mailing-lists/
 
@@ -54,10 +54,10 @@ your mentoring organization:
     possible to do things that haven't been practical before in cross-platform
     programs.
 
-- **We have participated in seven previous GSoCs** -
+- **We have participated in several previous GSoCs** -
     So we have quite a lot of experience mentoring students. In fact, some of
-    the potential mentors are students themselves and will be able to help you
-    effectively.
+    the potential mentors have participated as students themselves and will be
+    able to help you effectively.
 
 - **wxWidgets is a representative example of a big, mature C++ project** -
     Working on its code base will undoubtedly help you to work on other
@@ -89,15 +89,15 @@ and deadline in mind, good luck!
     <h4>Important Dates</h4>
     <p>
       <ul>
-        <li><strong>March 20 16:00 UTC</strong>: Student application period opens</li>
-        <li><strong>April 3 16:00 UTC</strong>: Student application deadline</li>
-        <li><strong>May 4 16:00 UTC</strong>: Accepted student proposals announced</li>
-        <li><strong>May 30</strong>: Coding officially begins!</li>
-        <li><strong>June 30 16:00 UTC</strong>: Phase 1 Evaluation deadline</li>
-        <li><strong>July 28 16:00 UTC</strong>: Phase 2 Evaluation deadline</li>
-        <li><strong>August 21 - 29 16:00 UTC</strong>: Final week: Students submit their final work product and their final mentor evaluation</li>
-        <li><strong>August 29 - September 5 16:00 UTC</strong>: Mentors submit final student evaluations</li>
-        <li><strong>September 6</strong>: Final results of Google Summer of Code announced</li>
+        <li><strong>March 12 16:00 UTC</strong>: Student application period begins</li>
+        <li><strong>March 27 16:00 UTC</strong>: Student application deadline</li>
+        <li><strong>April 23 16:00 UTC</strong>: Accepted student proposals announced</li>
+        <li><strong>May 14</strong>: Coding officially begins!</li>
+        <li><strong>June 15 16:00 UTC</strong>: Phase 1 Evaluation deadline</li>
+        <li><strong>July 13 16:00 UTC</strong>: Phase 2 Evaluation deadline</li>
+        <li><strong>August 6 - 14 16:00 UTC</strong>: Students submit their code, project summaries, and final evaluations of their mentors.</li>
+        <li><strong>August 14 - 21 16:00 UTC</strong>: Mentors submit final student evaluations</li>
+        <li><strong>August 22</strong>: Final results of Google Summer of Code announced</li>
       </ul>
       <a href="https://developers.google.com/open-source/gsoc/timeline">Complete GSoC Timeline</a>
     </p>
@@ -113,6 +113,7 @@ and deadline in mind, good luck!
         <li><a href="/gsoc/2010/">2010 Projects</a></li>
         <li><a href="/gsoc/2011/">2011 Projects</a></li>
         <li><a href="/gsoc/2014/">2014 Projects</a></li>
+        <li><a href="/gsoc/2017/">2017 Projects</a></li>
       </ul>
     </p>
   </div>
