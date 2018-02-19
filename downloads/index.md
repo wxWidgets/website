@@ -21,22 +21,22 @@ the official wxGTK packages provided by each distribution, but newer packages
 are available below.
 
 
-## Latest Development Release: 3.1.0
+## Latest Development Release: 3.1.1
 
 <div class="row">
   <div class="col-sm-6">
     <div class="well well-small">
       <p><strong>Source Code</strong></p>
-      <a href="{{ page.mirror }}/v3.1.0/wxWidgets-3.1.0.zip">Windows ZIP</a> (28 MB)<br>
-      <a href="{{ page.mirror }}/v3.1.0/wxWidgets-3.1.0.7z">Windows 7Z</a> (15 MB)<br>
-      <a href="{{ page.mirror }}/v3.1.0/wxMSW-3.1.0-Setup.exe">Windows Installer</a> (47 MB)<br>
-      <a href="{{ page.mirror }}/v3.1.0/wxWidgets-3.1.0.tar.bz2">Source for Linux, OS X, etc</a> (19 MB)<br>
+      <a href="{{ page.mirror }}/v3.1.1/wxWidgets-3.1.1.zip">Windows ZIP</a> (30 MiB)<br>
+      <a href="{{ page.mirror }}/v3.1.1/wxWidgets-3.1.1.7z">Windows 7Z</a> (16 MiB)<br>
+      <a href="{{ page.mirror }}/v3.1.1/wxMSW-3.1.1-Setup.exe">Windows Installer</a> (52 MiB)<br>
+      <a href="{{ page.mirror }}/v3.1.1/wxWidgets-3.1.1.tar.bz2">Source for Linux, OS X, etc</a> (20 MiB)<br>
       <p></p>
       <p><strong>Binaries</strong></p>
-      <a href="https://github.com/wxWidgets/wxWidgets/releases/tag/v3.1.0">wxMSW DLLs</a> for the selected compilers:
+      <a href="https://github.com/wxWidgets/wxWidgets/releases/tag/v3.1.1">wxMSW DLLs</a> for the selected compilers:
       <ul>
-        <li>Visual C++ 2008-2015 (more details <a href="http://wxwidgets.blogspot.com/2012/08/how-to-use-294-wxmsw-binaries.html">here</a>)</li>
-        <li>TDM-GCC 4.9 and 5.1</li>
+        <li>Visual C++ 2008-2017 (more details <a href="http://wxwidgets.blogspot.com/2012/08/how-to-use-294-wxmsw-binaries.html">here</a>)</li>
+        <li>TDM-GCC 5.2 and 7.2</li>
       </ul>
       <a href="http://codelite.org/LiteEditor/WxWidgets31Binaries#toc2" target="_new">Ubuntu / Debian Packages</a><br>
       <a href="http://codelite.org/LiteEditor/WxWidgets31Binaries#toc3" target="_new">Fedora / openSUSE Packages</a>
@@ -45,13 +45,13 @@ are available below.
   <div class="col-sm-6">
     <div class="well well-small">
       <p><strong>Documentation</strong></p>
-      <a href="https://github.com/wxWidgets/wxWidgets/blob/v3.1.0/docs/readme.txt">Readme</a><br>
-      <a href="https://github.com/wxWidgets/wxWidgets/blob/v3.1.0/docs/changes.txt">Changes</a><br>
+      <a href="https://github.com/wxWidgets/wxWidgets/blob/v3.1.1/docs/readme.txt">Readme</a><br>
+      <a href="https://github.com/wxWidgets/wxWidgets/blob/v3.1.1/docs/changes.txt">Changes</a><br>
       <p></p>
-      <a href="http://docs.wxwidgets.org/3.1.0/">Online Manual</a><br>
-      <a href="{{ page.mirror }}/v3.1.0/wxWidgets-3.1.0-docs-html.zip">Manual (HTML) ZIP</a> (32 MB)<br>
-      <a href="{{ page.mirror }}/v3.1.0/wxWidgets-3.1.0-docs-html.tar.bz2">Manual (HTML) BZIP</a> (22 MB)<br>
-      <a href="{{ page.mirror }}/v3.1.0/wxWidgets-3.1.0-docs-chm.zip">Manual (CHM)</a> (33 MB)
+      <a href="http://docs.wxwidgets.org/3.1.1/">Online Manual</a><br>
+      <a href="{{ page.mirror }}/v3.1.1/wxWidgets-3.1.1-docs-html.zip">Manual (HTML) ZIP</a> (35 MiB)<br>
+      <a href="{{ page.mirror }}/v3.1.1/wxWidgets-3.1.1-docs-html.tar.bz2">Manual (HTML) BZIP</a> (24 MiB)<br>
+      <a href="{{ page.mirror }}/v3.1.1/wxWidgets-3.1.1-docs-chm.zip">Manual (CHM)</a> (35 MiB)
     </div>
   </div>
 </div>
