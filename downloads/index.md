@@ -56,7 +56,7 @@ are available below.
   </div>
 </div>
 
-* Released: February 29, 2016
+* Released: February 19, 2018
 
 ## Latest Stable Release: 3.0.4
 
