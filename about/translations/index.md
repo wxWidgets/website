@@ -192,7 +192,7 @@ where special announcements for translators are announced.
   * José Eduardo de Carvalho Diniz <<jecdiniz@yahoo.com.br>>
   * Adiel Mittmann <<adiel@inf.ufsc.br>>
   * Allann Jones <<allanjos@gmail.com>>
-  * Felipe <<felipefpl@ig.com.br>>
+  * Felipe <<felipefplzx@gmail.com>>
 * Romanian (ro)
   * Manuel Ciosici <<manuelciosici@yahoo.com>>
   * Cătălin Răceanu <<cata_sr@yahoo.com>>
