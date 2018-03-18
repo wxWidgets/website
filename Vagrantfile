@@ -1,13 +1,12 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-node_version = 'lts/boron'
-
 $sudo_script = <<SUDOSCRIPT
 curl -sL https://deb.nodesource.com/setup_8.x | bash -
 apt-get -y install build-essential nodejs ruby ruby-dev zlib1g-dev
+npm update -g npm
 npm install -g grunt-cli
-gem install github-pages -v 141 --no-ri --no-rdoc
+gem install -N github-pages -v 179
 SUDOSCRIPT
 
 Vagrant.configure("2") do |config|

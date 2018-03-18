@@ -15,29 +15,12 @@ module.exports = function(grunt) {
     },
 
     autoprefixer: {
-      options: {
-        browsers: [
-          "Android 2.3",
-          "Android >= 4",
-          "Chrome >= 31",
-          "Firefox >= 30",
-          "Explorer >= 8",
-          "iOS >= 6",
-          "Opera >= 20",
-          "Safari >= 6"
-        ]
-      },
       dist: {
         src: 'assets/css/global.css'
       }
     },
 
     cssmin: {
-      options: {
-        compatibility: 'ie8',
-        keepSpecialComments: '*',
-        advanced: false
-      },
       dist: {
         src: 'assets/css/global.css',
         dest: 'assets/css/global.min.css'

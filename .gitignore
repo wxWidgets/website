@@ -1,4 +1,5 @@
 /.vagrant/
+/.ruby-version
 /_site/
 /node_modules/
 *.log

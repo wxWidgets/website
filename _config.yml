@@ -17,7 +17,7 @@ defaults:
     values:
       layout: "post"
 
-gems:
+plugins:
   - jekyll-sitemap
 
 exclude:
