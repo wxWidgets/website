@@ -30,7 +30,7 @@ Notice that the projects are sorted roughly in order of their
       backend for Unix systems.
 * **[Cross Platform Animation](#animation):** Finish the implementation of the
   animation API started during GSoC 2011.
-* Several [wxWebView][]-related projects: 
+* Several [wxWebView][]-related projects:
     - **[Features switches](#webview-features):** Make [wxWebView][] more
       flexible to allow using it as a general purpose display control.
     - **[Cookies and Downloads](#webview-cookies-download):**  Add support for
@@ -72,10 +72,10 @@ background, so that if you are a...
 
 <a name="ios"></a>
 
-## <i class="fa fa-lightbulb-o fa-fw"></i> Improve wxiOS port
+## <i class="fas fa-lightbulb fa-fw"></i> Improve wxiOS port
 
-<div class="pull-right">
-	<img src="ios_test.png" class="img-responsive" alt="wxWidgets under iOS" />
+<div class="float-right">
+	<img src="ios_test.png" class="img-fluid" alt="wxWidgets under iOS" />
 </div>
 
 A previous GSoC project has created the basics of a wxWidgets port to iOS. The
@@ -111,10 +111,10 @@ Familiarity with Cocoa/iOS.
 
 <a name="frozen-grid"></a>
 
-## <i class="fa fa-lightbulb-o fa-fw"></i> Implement support for frozen rows/columns in wxGrid
+## <i class="fas fa-lightbulb fa-fw"></i> Implement support for frozen rows/columns in wxGrid
 
-<div class="pull-right">
-	<img src="frozen_grid.jpg" class="img-responsive" alt="Illustration of frozen panes" />
+<div class="float-right">
+	<img src="frozen_grid.jpg" class="img-fluid" alt="Illustration of frozen panes" />
 </div>
 
 The goal is to implement support for freezing some rows or columns in
@@ -146,7 +146,7 @@ No specific requirements.
 
 <a name="power-management"></a>
 
-## <i class="fa fa-lightbulb-o fa-fw"></i> Power management under non-Windows platforms
+## <i class="fas fa-lightbulb fa-fw"></i> Power management under non-Windows platforms
 
 wxWidgets has support for
 [power events](http://docs.wxwidgets.org/trunk/classwx_power_event.html) but
@@ -180,7 +180,7 @@ experience with this platform (foundation level) API.
 
 <a name="animation"></a>
 
-## <i class="fa fa-lightbulb-o fa-fw"></i> Cross-platform animation support
+## <i class="fas fa-lightbulb fa-fw"></i> Cross-platform animation support
 
 Animations are becoming and more important in the modern UIs but are not yet
 supported by wxWidgets. The goal of this project would be to allow simple to
@@ -215,7 +215,7 @@ Windows, Cocoa.
 
 <a name="sound"></a>
 
-## <i class="fa fa-lightbulb-o fa-fw"></i> Cross platform support for playing system sounds
+## <i class="fas fa-lightbulb fa-fw"></i> Cross platform support for playing system sounds
 
 wxWidgets provides a `wxBell()` function which is as simple as it gets and the
 wxSound class which allows sound files to be played but requires the file (or
@@ -249,7 +249,7 @@ Experience with the platforms being targeted would be welcome.
 
 <a name="pulseaudio"></a>
 
-## <i class="fa fa-lightbulb-o fa-fw"></i> PulseAudio-based `wxSound` backend
+## <i class="fas fa-lightbulb fa-fw"></i> PulseAudio-based `wxSound` backend
 
 The existing `wxSound` implementation uses OSS, which is deprecated and not
 available any longer in the modern Linux systems. The goal of this project
@@ -278,7 +278,7 @@ required.
 
 <a name="webview-features"></a>
 
-## <i class="fa fa-lightbulb-o fa-fw"></i> Make wxWebView more configurable
+## <i class="fas fa-lightbulb fa-fw"></i> Make wxWebView more configurable
 
 wxWebView currently works very well as a browser, but it lacks some features
 to allow using it in other roles. For example, to use it for displaying HTML
@@ -310,7 +310,7 @@ Any experience with using `IID_IWebBrowser` and/or WebKit would be helpful.
 
 <a name="webview-cookies-download"></a>
 
-## <i class="fa fa-lightbulb-o fa-fw"></i> wxWebView Cookies and Downloads
+## <i class="fas fa-lightbulb fa-fw"></i> wxWebView Cookies and Downloads
 
 Currently wxWebView does not support cookies. This has been implemented as a
 GTK+ specific patch, but this is not useful for a cross-platform library. The
@@ -347,7 +347,7 @@ Any experience with using `IID_IWebBrowser` and WebKit would be helpful.
 
 <a name="rtc-rtl"></a>
 
-## <i class="fa fa-lightbulb-o fa-fw"></i> Right-to-left languages support in wxRichTextCtrl
+## <i class="fas fa-lightbulb fa-fw"></i> Right-to-left languages support in wxRichTextCtrl
 
 The goal is to support right-to-left languages such as Hebrew, including
 support for composing individual diacritics from within [wxRichTextCtrl][].
@@ -373,7 +373,7 @@ different platforms is also needed.
 
 <a name="rtc-selection"></a>
 
-## <i class="fa fa-lightbulb-o fa-fw"></i> wxRichTextCtrl text selection improvements
+## <i class="fas fa-lightbulb fa-fw"></i> wxRichTextCtrl text selection improvements
 
 The aim would be to replace the current text selecting mechanism with a more
 precise one and more correct from a visual point of view. Currently text
@@ -391,7 +391,7 @@ example is in the Drawing sample in "Text screen" (F2) - the text that says
 
 <a name="rtc-justified"></a>
 
-## <i class="fa fa-lightbulb-o fa-fw"></i> Justified text alignment in wxRichTextCtrl
+## <i class="fas fa-lightbulb fa-fw"></i> Justified text alignment in wxRichTextCtrl
 
 This could be done in a simpler fashion by only distributing extra space
 (between words, and if needed adjust character spacing) and no hyphenation, or
@@ -409,7 +409,7 @@ Typography. A JavaScript implementation can be found here:
 
 <a name="aui-native-art"></a>
 
-## <i class="fa fa-lightbulb-o fa-fw"></i> Native art providers for wxAUI
+## <i class="fas fa-lightbulb fa-fw"></i> Native art providers for wxAUI
 
 The goal is to make wxAUI blend in better on a set of platforms, particularly
 on Mac, GTK+ and Windows 7. The original wxAUI art is rather Windows XP-like
@@ -439,7 +439,7 @@ the same way under all platforms.
 
 <a name="opengl-graphics-context"></a>
 
-## <i class="fa fa-lightbulb-o fa-fw"></i> wxOpenGLGraphicsContext
+## <i class="fas fa-lightbulb fa-fw"></i> wxOpenGLGraphicsContext
 
 The goal is to create a wxGraphicsContext implementation that uses OpenGL for
 (2D) drawing.
@@ -467,44 +467,44 @@ wxWidgets, OpenGL
 
 <a name="qt"></a>
 
-## <i class="fa fa-lightbulb-o fa-fw"></i> Improve wxQt port
+## <i class="fas fa-lightbulb fa-fw"></i> Improve wxQt port
 
 <div class="row thumbnails">
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="wxqt" href="https://camo.githubusercontent.com/af3fad93f069f1472bafe26fdff848c2895b7540/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f37353630303538322f67736f63323031342f77785174416e64726f69645f6d696e696d616c5f696e666f2e706e67"
-      title="wxWidgets app under wxQt Android" class="fancybox">
-      <img src="wxqt_android_app.png" class="img-responsive" alt="wxWidgets app under wxQt Android" />
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="wxqt" href="https://camo.githubusercontent.com/af3fad93f069f1472bafe26fdff848c2895b7540/68747470733a2f2f646c2e64726f70626f7875736572636f6e74656e742e636f6d2f752f37353630303538322f67736f63323031342f77785174416e64726f69645f6d696e696d616c5f696e666f2e706e67"
+      title="wxWidgets app under wxQt Android">
+      <img src="wxqt_android_app.png" class="img-fluid" alt="wxWidgets app under wxQt Android" />
     </a>
   </div>
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="wxqt" href="https://cloud.githubusercontent.com/assets/1041385/3886347/d9e98a82-21d7-11e4-92da-dabf4d9f4659.png"
-      title="wxPython Phoenix under wxQt Ubuntu" class="fancybox">
-      <img src="wxqt_wxpython.png" class="img-responsive" alt="wxPython Phoenix under wxQt Ubuntu" />
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="wxqt" href="https://cloud.githubusercontent.com/assets/1041385/3886347/d9e98a82-21d7-11e4-92da-dabf4d9f4659.png"
+      title="wxPython Phoenix under wxQt Ubuntu">
+      <img src="wxqt_wxpython.png" class="img-fluid" alt="wxPython Phoenix under wxQt Ubuntu" />
     </a>
   </div>
 </div>
 
 
-Previous [GSoC 2010](/gsoc/2010) and [GSoC 2014](/gsoc/2014) projects (plus several 
-major contributions) had created an experimental wxWidgets port using Qt, 
+Previous [GSoC 2010](/gsoc/2010) and [GSoC 2014](/gsoc/2014) projects (plus several
+major contributions) had created an experimental wxWidgets port using Qt,
 initially targeted to simple applications.
 The task for this year would be to advance and complete the missing parts, so
 that the port would be full-featured enough to be used for real applications
 and also be used by [wxPython][wx_python] under Linux and Android too.
 
-The [wxQt port][wxqt_port] has been already merged into the mainline with most of the 
-standard controls implemented, but it need some maintenance due minor changes in 
+The [wxQt port][wxqt_port] has been already merged into the mainline with most of the
+standard controls implemented, but it need some maintenance due minor changes in
 wxWidgets and Qt, along with other possible low-level improvements (i.e. event loop).
 
 There is a pending [Pull Request][wxqt_patches] needing attention, that would be
-a great starting point to begin with, in order to fix known issues and ascertain 
+a great starting point to begin with, in order to fix known issues and ascertain
 the project's current state --ideally should be done before submitting the proposal--.
 
 Also, there are some miscellaneous controls, dialogs and major features missing
 (including printing framework, drag and drop, etc.), see [wxQt Status][wxqt_status].
 
-This is an ambitious project at this stage, so expect to learn a lot about technical 
-topics like low-level multi-platform support, core desktop and mobile applications 
+This is an ambitious project at this stage, so expect to learn a lot about technical
+topics like low-level multi-platform support, core desktop and mobile applications
 development, deep C++ programming concepts, toolkit internals, etc.
 
 For a complete list of tentative pending issues and initial instructions see the initial

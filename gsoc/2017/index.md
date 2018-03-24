@@ -54,7 +54,6 @@ Original proposal:
 
 ----
 
-
-<p style="margin-top: 2.5em; text-align: center;">
-  <a href="../2014/" class="btn btn-lg btn-default"><i class="fa fa-arrow-circle-left fa-fw"></i> Previous Year</a>
+<p class="my-5 text-center">
+  <a href="../2014/" class="btn btn-lg btn-outline-primary"><i class="fas fa-arrow-alt-circle-left fa-fw"></i> Previous Year</a>
 </p>

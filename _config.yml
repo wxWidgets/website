@@ -21,12 +21,12 @@ plugins:
   - jekyll-sitemap
 
 exclude:
-  - Gruntfile.js
   - new_post
   - node_modules
   - package.json
   - README.md
   - Vagrantfile
+  - yarn.lock
 
 # Custom Settings
 

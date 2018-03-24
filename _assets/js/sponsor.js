@@ -26,7 +26,7 @@ var sponsors = [
 $(document).ready(function(){
 	var sponsor_num = Math.floor( Math.random() * sponsors.length );
 
-	$('div.logos .panel-body').html(' \
+	$('div.logos .card-body').html(' \
 		<a href="' + sponsors[sponsor_num][1] + '" target="_new"> \
 			<img src="/assets/img/logos/' + sponsors[sponsor_num][2] + '" alt="' + sponsors[sponsor_num][0] + '" /> \
 		</a> \

@@ -5,9 +5,10 @@
 *.log
 
 # Compiled Assets
-/assets/css/global.css
-/assets/css/global.min.css
-/assets/js/global.min.js
+/assets/css/*.css
+/assets/css/*.map
+/assets/js/*.min.js
+/assets/js/*.map
 
 # Translations Build Files
 /_cron/locale/

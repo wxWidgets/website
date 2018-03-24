@@ -8,15 +8,13 @@ This is a small taste of some of the applications built with wxWidgets.
 ## CopperCube
 
 <div class="row thumbnails">
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="coppercube" href="coppercube-msw.jpg"
-      title="CopperCube on Windows" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="coppercube" href="coppercube-msw.jpg" title="CopperCube on Windows">
       <img src="coppercube-msw-thumb.jpg" class="img-thumbnail" alt="CopperCube on Windows">
     </a>
   </div>
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="coppercube" href="coppercube-mac.jpg"
-      title="CopperCube on Mac OS X" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="coppercube" href="coppercube-mac.jpg" title="CopperCube on Mac OS X">
       <img src="coppercube-mac-thumb.jpg" class="img-thumbnail" alt="CopperCube on Mac OS X">
     </a>
   </div>
@@ -34,9 +32,8 @@ OS, Windows, or Android apps, all without programming.
 ## RocketCake
 
 <div class="row thumbnails">
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="rocketcake" href="rocketcake-msw.jpg"
-      title="RocketCake on Windows" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="rocketcake" href="rocketcake-msw.jpg" title="RocketCake on Windows">
       <img src="rocketcake-msw-thumb.jpg" class="img-thumbnail" alt="RocketCake on Windows">
     </a>
   </div>
@@ -54,9 +51,8 @@ gradients, HTML 5 video, audio, and more.
 ## Cars HotSurf
 
 <div class="row thumbnails">
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="cars-hotsurf" href="cars-hotsurf-msw.png"
-      title="Cars HotSurf on Windows" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="cars-hotsurf" href="cars-hotsurf-msw.png" title="Cars HotSurf on Windows">
       <img src="cars-hotsurf-msw-thumb.png" class="img-thumbnail" alt="Cars HotSurf on Windows">
     </a>
   </div>
@@ -73,21 +69,18 @@ car sales websites for the latest cars offers according to user preferences.
 ## ECMerge
 
 <div class="row thumbnails">
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="ecmerge" href="ecmerge-linux.png"
-      title="ECMerge on Linux" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="ecmerge" href="ecmerge-linux.png" title="ECMerge on Linux">
       <img src="ecmerge-linux-thumb.png" class="img-thumbnail" alt="ECMerge on Linux">
     </a>
   </div>
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="ecmerge" href="ecmerge-msw.png"
-      title="ECMerge on Windows" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="ecmerge" href="ecmerge-msw.png" title="ECMerge on Windows">
       <img src="ecmerge-msw-thumb.png" class="img-thumbnail" alt="ECMerge on Windows">
     </a>
   </div>
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="ecmerge" href="ecmerge-mac.png"
-      title="ECMerge on Mac OS X" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="ecmerge" href="ecmerge-mac.png" title="ECMerge on Mac OS X">
       <img src="ecmerge-mac-thumb.png" class="img-thumbnail" alt="ECMerge on Mac OS X">
     </a>
   </div>
@@ -105,21 +98,18 @@ Windows.
 ## Audacity
 
 <div class="row thumbnails">
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="audacity" href="audacity-msw.png"
-      title="Audacity on Windows" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="audacity" href="audacity-msw.png" title="Audacity on Windows">
       <img src="audacity-msw-thumb.jpg" class="img-thumbnail" alt="Audacity on Windows">
     </a>
   </div>
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="audacity" href="audacity-mac.png"
-      title="Audacity on Mac OS X" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="audacity" href="audacity-mac.png" title="Audacity on Mac OS X">
       <img src="audacity-mac-thumb.jpg" class="img-thumbnail" alt="Audacity on Mac OS X">
     </a>
   </div>
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="audacity" href="audacity-linux.png"
-      title="Audacity on Linux" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="audacity" href="audacity-linux.png" title="Audacity on Linux">
       <img src="audacity-linux-thumb.jpg" class="img-thumbnail" alt="Audacity on Linux">
     </a>
   </div>
@@ -137,21 +127,18 @@ and change the speed or pitch of a recording.
 ## Poedit
 
 <div class="row thumbnails">
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="poedit" href="poedit-msw.png"
-      title="Poedit on Windows" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="poedit" href="poedit-msw.png" title="Poedit on Windows">
       <img src="poedit-msw-thumb.jpg" class="img-thumbnail" alt="Poedit on Windows">
     </a>
   </div>
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="poedit" href="poedit-mac.png"
-      title="Poedit on Mac OS X" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="poedit" href="poedit-mac.png" title="Poedit on Mac OS X">
       <img src="poedit-mac-thumb.jpg" class="img-thumbnail" alt="Poedit on Mac OS X">
     </a>
   </div>
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="poedit" href="poedit-linux.png"
-      title="Poedit on Linux" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="poedit" href="poedit-linux.png" title="Poedit on Linux">
       <img src="poedit-linux-thumb.jpg" class="img-thumbnail" alt="Poedit on Linux">
     </a>
   </div>
@@ -167,21 +154,18 @@ compact view of data and very effective UI.
 ## Transcribe!
 
 <div class="row thumbnails">
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="transcribe" href="transcribe-msw.png"
-      title="Transcribe! on Windows" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="transcribe" href="transcribe-msw.png" title="Transcribe! on Windows">
       <img src="transcribe-msw-thumb.jpg" class="img-thumbnail" alt="Transcribe! on Windows">
     </a>
   </div>
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="transcribe" href="transcribe-mac.png"
-      title="Transcribe! on Mac OS X" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="transcribe" href="transcribe-mac.png" title="Transcribe! on Mac OS X">
       <img src="transcribe-mac-thumb.jpg" class="img-thumbnail" alt="Transcribe! on Mac OS X">
     </a>
   </div>
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="transcribe" href="transcribe-linux.png"
-      title="Transcribe! on Linux" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="transcribe" href="transcribe-linux.png" title="Transcribe! on Linux">
       <img src="transcribe-linux-thumb.jpg" class="img-thumbnail" alt="Transcribe! on Linux">
     </a>
   </div>
@@ -200,9 +184,8 @@ conventional music players.
 ## BOINC
 
 <div class="row thumbnails">
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="boinc" href="boinc.jpg"
-      title="BOINC on Windows" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="boinc" href="boinc.jpg" title="BOINC on Windows">
       <img src="boinc-thumb.jpg" class="img-thumbnail" alt="BOINC on Windows">
     </a>
   </div>
@@ -222,15 +205,13 @@ Internet-connected computers in the Search for Extraterrestrial Intelligence
 ## Game Develop
 
 <div class="row thumbnails">
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="gamedevelop" href="gamedevelop_win.jpg"
-      title="Game Develop on Windows" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="gamedevelop" href="gamedevelop_win.jpg" title="Game Develop on Windows">
       <img src="gamedevelop_win-thumb.jpg" class="img-thumbnail" alt="Game Develop on Windows">
     </a>
   </div>
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="gamedevelop" href="gamedevelop_linux.jpg"
-      title="Game Develop on Linux" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="gamedevelop" href="gamedevelop_linux.jpg" title="Game Develop on Linux">
       <img src="gamedevelop_linux-thumb.jpg" class="img-thumbnail" alt="Game Develop on Linux">
     </a>
   </div>
@@ -250,15 +231,13 @@ for Windows and Ubuntu.
 ## Audio Evolution
 
 <div class="row thumbnails">
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="audio-evolution" href="audio-evolution-msw.png"
-      title="Audio Evolution on Windows" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="audio-evolution" href="audio-evolution-msw.png" title="Audio Evolution on Windows">
       <img src="audio-evolution-msw-thumb.jpg" class="img-thumbnail" alt="Audio Evolution on Windows">
     </a>
   </div>
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="audio-evolution" href="audio-evolution-mac.png"
-      title="Audio Evolution on Mac OS X" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="audio-evolution" href="audio-evolution-mac.png" title="Audio Evolution on Mac OS X">
       <img src="audio-evolution-mac-thumb.jpg" class="img-thumbnail" alt="Audio Evolution on Mac OS X">
     </a>
   </div>
@@ -276,9 +255,8 @@ for a very affordable price!
 ## Ginkgo CADx
 
 <div class="row thumbnails">
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="ginkgo" href="ginkgo-windows.jpg"
-      title="Ginkgo CADx on Windows" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="ginkgo" href="ginkgo-windows.jpg" title="Ginkgo CADx on Windows">
       <img src="ginkgo-windows-thumb.jpg" class="img-thumbnail" alt="Ginkgo CADx on Windows">
     </a>
   </div>
@@ -295,21 +273,18 @@ Linux and MacOS X.
 ## GIMIAS
 
 <div class="row thumbnails">
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="gimias" href="gimias-msw.jpg"
-      title="GIMIAS on Windows" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="gimias" href="gimias-msw.jpg" title="GIMIAS on Windows">
       <img src="gimias-msw-thumb.jpg" class="img-thumbnail" alt="GIMIAS on Windows">
     </a>
   </div>
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="gimias" href="gimias-mac.jpg"
-      title="GIMIAS on Mac OS X" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="gimias" href="gimias-mac.jpg" title="GIMIAS on Mac OS X">
       <img src="gimias-mac-thumb.jpg" class="img-thumbnail" alt="GIMIAS on Mac OS X">
     </a>
   </div>
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="gimias" href="gimias-linux.jpg"
-      title="GIMIAS on Linux" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="gimias" href="gimias-linux.jpg" title="GIMIAS on Linux">
       <img src="gimias-linux-thumb.jpg" class="img-thumbnail" alt="GIMIAS on Linux">
     </a>
   </div>
@@ -327,9 +302,8 @@ imaging and simulation, angiography imaging and simulation, and neurology.
 ## SYSmark 2012
 
 <div class="row thumbnails">
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="sysmark2012" href="sysmark2012.jpg"
-      title="SYSmark 2012 on Windows" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="sysmark2012" href="sysmark2012.jpg" title="SYSmark 2012 on Windows">
       <img src="sysmark2012-thumb.jpg" class="img-thumbnail" alt="SYSmark 2012 on Windows">
     </a>
   </div>
@@ -346,15 +320,13 @@ development.
 ## WebsitePainter
 
 <div class="row thumbnails">
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="websitepainter" href="websitepainter-msw.jpg"
-      title="WebsitePainter on Windows" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="websitepainter" href="websitepainter-msw.jpg" title="WebsitePainter on Windows">
       <img src="websitepainter-msw-thumb.jpg" class="img-thumbnail" alt="WebsitePainter on Windows">
     </a>
   </div>
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="websitepainter" href="websitepainter-mac.jpg"
-      title="WebsitePainter on Mac OS X" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="websitepainter" href="websitepainter-mac.jpg" title="WebsitePainter on Mac OS X">
       <img src="websitepainter-mac-thumb.jpg" class="img-thumbnail" alt="WebsitePainter on Mac OS X">
     </a>
   </div>
@@ -372,21 +344,18 @@ WebsitePainter works on Windows and Mac OS X.
 ## Trident
 
 <div class="row thumbnails">
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="trident" href="trident-msw.jpg"
-      title="Trident on Windows" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="trident" href="trident-msw.jpg" title="Trident on Windows">
       <img src="trident-msw-thumb.jpg" class="img-thumbnail" alt="Trident on Windows">
     </a>
   </div>
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="trident" href="trident-linux.jpg"
-      title="Trident on Linux" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="trident" href="trident-linux.jpg" title="Trident on Linux">
       <img src="trident-linux-thumb.jpg" class="img-thumbnail" alt="Trident on Linux">
     </a>
   </div>
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="trident" href="trident-solaris.jpg"
-      title="Trident on Solaris" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="trident" href="trident-solaris.jpg" title="Trident on Solaris">
       <img src="trident-solaris-thumb.jpg" class="img-thumbnail" alt="Trident on Solaris">
     </a>
   </div>
@@ -404,15 +373,13 @@ hull draw generation, and CADDS-5 hiding procedure editor.
 ## Kirix Strata
 
 <div class="row thumbnails">
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="kirix-strata" href="kirix-strata-msw.png"
-      title="Kirix Strata on Windows" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="kirix-strata" href="kirix-strata-msw.png" title="Kirix Strata on Windows">
       <img src="kirix-strata-msw-thumb.jpg" class="img-thumbnail" alt="Kirix Strata on Windows">
     </a>
   </div>
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="kirix-strata" href="kirix-strata-linux.jpg"
-      title="Kirix Strata on Linux" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="kirix-strata" href="kirix-strata-linux.jpg" title="Kirix Strata on Linux">
       <img src="kirix-strata-linux-thumb.jpg" class="img-thumbnail" alt="Kirix Strata on Linux">
     </a>
   </div>
@@ -431,21 +398,18 @@ wealth of analytic tools to quickly accomplish your tasks.
 ## Caedium
 
 <div class="row thumbnails">
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="caedium" href="caedium-msw.jpg"
-      title="Caedium on Windows" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="caedium" href="caedium-msw.jpg" title="Caedium on Windows">
       <img src="caedium-msw-thumb.jpg" class="img-thumbnail" alt="Caedium on Windows">
     </a>
   </div>
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="caedium" href="caedium-mac.jpg"
-      title="Caedium on Mac OS X" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="caedium" href="caedium-mac.jpg" title="Caedium on Mac OS X">
       <img src="caedium-mac-thumb.jpg" class="img-thumbnail" alt="Caedium on Mac OS X">
     </a>
   </div>
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="caedium" href="caedium-linux.jpg"
-      title="Caedium on Linux" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="caedium" href="caedium-linux.jpg" title="Caedium on Linux">
       <img src="caedium-linux-thumb.jpg" class="img-thumbnail" alt="Caedium on Linux">
     </a>
   </div>
@@ -464,15 +428,13 @@ pricing and free trials, bringing CFD within the reach of everyone.
 ## KiCad
 
 <div class="row thumbnails">
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="kicad" href="kicad-linux.png"
-      title="KiCad on Linux" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="kicad" href="kicad-linux.png" title="KiCad on Linux">
       <img src="kicad-linux-thumb.jpg" class="img-thumbnail" alt="KiCad on Linux">
     </a>
   </div>
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="kicad" href="kicad-msw.jpg"
-      title="KiCad on Windows" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="kicad" href="kicad-msw.jpg" title="KiCad on Windows">
       <img src="kicad-msw-thumb.jpg" class="img-thumbnail" alt="KiCad on Windows">
     </a>
   </div>
@@ -488,9 +450,8 @@ Linux.
 ## Kephra
 
 <div class="row thumbnails">
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="kephra" href="kephra-msw.png"
-      title="Kephra on Windows" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="kephra" href="kephra-msw.png" title="Kephra on Windows">
       <img src="kephra-msw-thumb.png" class="img-thumbnail" alt="Kephra on Windows">
     </a>
   </div>
@@ -507,15 +468,13 @@ easy and the hard possible". It runs on Linux, Mac and Windows.
 ## Writer's Café
 
 <div class="row thumbnails">
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="storylines" href="storylines-linux.jpg"
-      title="Writer's Café on Linux" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="storylines" href="storylines-linux.jpg" title="Writer's Café on Linux">
       <img src="storylines-linux-thumb.jpg" class="img-thumbnail" alt="Writer's Café on Linux">
     </a>
   </div>
-  <div class="col-xs-6 col-sm-3">
-    <a data-fancybox-group="storylines" href="storylines-msw.jpg"
-      title="Writer's Café on Windows" class="fancybox">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="storylines" href="storylines-msw.jpg" title="Writer's Café on Windows">
       <img src="storylines-msw-thumb.jpg" class="img-thumbnail" alt="Writer's Café on Windows">
     </a>
   </div>

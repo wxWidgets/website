@@ -171,6 +171,6 @@ is also available from several companies.
 [11]: https://wiki.wxwidgets.org/
 
 
-<p style="margin-top: 2.5em; text-align: center;">
-  <a href="/downloads/" class="btn btn-lg btn-primary"><i class="fa fa-download fa-fw"></i> Download now &raquo;</a>
+<p class="my-4 text-center">
+  <a href="/downloads/" class="btn btn-lg btn-primary"><i class="fas fa-download fa-fw"></i> Download now &raquo;</a>
 </p>

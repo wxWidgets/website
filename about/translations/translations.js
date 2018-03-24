@@ -1,3 +1,5 @@
+'use strict'
+
 $(document).ready(function(){
 
   $('#translation_loading').show();
@@ -69,16 +71,23 @@ $(document).ready(function(){
 
         var total = translated + fuzzy + untranslated;
 
-        var pct_translated   = (total == 0 ? 0 : 100 * (translated / total));
-        var pct_fuzzy        = (total == 0 ? 0 : 100 * (fuzzy / total));
+        var round = function(number, precision) {
+          var factor = Math.pow(10, precision);
+          var tempNumber = number * factor;
+          var roundedTempNumber = Math.round(tempNumber);
+          return roundedTempNumber / factor;
+        };
+
+        var pct_translated = round((total == 0 ? 0 : 100 * (translated / total)), 2);
+        var pct_fuzzy      = round((total == 0 ? 0 : 100 * (fuzzy / total)), 2);
 
         $('#translations tbody').append(
           '<tr>' +
             '<td><a href="' + download_url + locale + '.po">' + languages[locale] + ' (' + locale + ')</a></td>' +
             '<td>' + Math.round(pct_translated) + '%</td>' +
             '<td width="30%"><div class="progress">' +
-              '<div class="progress-bar progress-bar-success" style="width: ' + pct_translated + '%;"></div>' +
-              '<div class="progress-bar progress-bar-warning" style="width: ' + pct_fuzzy + '%;"></div>' +
+              '<div class="progress-bar bg-success" role="progressbar" style="width: ' + pct_translated + '%;" aria-valuenow="' + pct_translated + '" aria-valuemin="0" aria-valuemax="100"></div>' +
+              '<div class="progress-bar bg-warning" role="progressbar" style="width: ' + pct_fuzzy + '%;" aria-valuenow="' + pct_fuzzy + '" aria-valuemin="0" aria-valuemax="100"></div>' +
             '</div></td>' +
           '</tr>'
         );
@@ -100,3 +109,4 @@ $(document).ready(function(){
   });
 
 });
+

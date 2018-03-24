@@ -11,7 +11,7 @@
     <a href="#content" class="sr-only">Skip to content</a>
     <div class="container">
       {% include header.html %}
-      <div class="row" id="content">
+      <div class="row mt-4" id="content">
         <div class="col-md-9">
           <article>
             <h1>{{ page.title | escape }}</h1>
@@ -23,8 +23,10 @@
               <noscript>Please enable JavaScript to view the comments.</noscript>
             {% endif %}
           </article>
-          <p class="text-center" style="margin-top: 2em;">
-            <a class="btn btn-lg btn-default" href="/news/archive/"><i class="fa fa-calendar fa-fw"></i> News Archive</a>
+          <p class="m-3 text-center">
+            <a class="btn btn-lg btn-outline-primary" href="/news/archive/">
+              <i class="fas fa-calendar-alt fa-fw"></i> News Archive
+            </a>
           </p>
         </div>
         <div class="col-md-3">
