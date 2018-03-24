@@ -1,14 +1,9 @@
 $(document).ready(function(){
 
-  $(".fancybox").fancybox({
-    openEffect  : 'elastic',
-    closeEffect : 'elastic',
-
-    helpers : {
-      title : {
-        type : 'inside'
-      }
-    }
+  $().fancybox({
+    selector: '[data-fancybox]',
+    toolbar: true,
+    buttons: ['close']
   });
 
 });

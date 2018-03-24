@@ -28,6 +28,6 @@ during this project.
 
 ----
 
-<p style="margin-top: 2.5em; text-align: center;">
-  <a href="../2007/" class="btn btn-lg btn-default">Next Year <i class="fa fa-arrow-circle-right fa-fw"></i></a>
+<p class="my-5 text-center">
+  <a href="../2007/" class="btn btn-lg btn-outline-primary">Next Year <i class="fas fa-arrow-alt-circle-right fa-fw"></i></a>
 </p>

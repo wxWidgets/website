@@ -2,9 +2,8 @@
 title: Google Summer of Code
 ---
 
-<div class="pull-right">
-    <img src="https://developers.google.com/open-source/gsoc/images/gsoc2016-sun-373x373.png" class="img-responsive" alt="Google Summer of Code">
-</div>
+<img src="https://developers.google.com/open-source/gsoc/images/gsoc2016-sun-373x373.png"
+     class="img-fluid float-right" style="max-width: 35%;" alt="Google Summer of Code">
 
 [Google Summer of Code][gsoc] (GSoC), is an amazing program organized by Google
 which offers students stipends for working on open source projects.
@@ -74,7 +73,7 @@ and deadline in mind, good luck!
 
 <div class="row">
   <div class="col-sm-3">
-    <h4>Important Pages</h4>
+    <h5>Important Pages</h5>
     <p>
       <ul>
         <li><a href="/gsoc/projects/">Project Ideas</a></li>
@@ -86,7 +85,7 @@ and deadline in mind, good luck!
     </p>
   </div>
   <div class="col-sm-6">
-    <h4>Important Dates</h4>
+    <h5>Important Dates</h5>
     <p>
       <ul>
         <li><strong>March 12 16:00 UTC</strong>: Student application period begins</li>
@@ -103,7 +102,7 @@ and deadline in mind, good luck!
     </p>
   </div>
   <div class="col-sm-3">
-    <h4>Past Projects</h4>
+    <h5>Past Projects</h5>
     <p>
       <ul>
         <li><a href="/gsoc/2006/">2006 Projects</a></li>

@@ -3,20 +3,18 @@ title: "Search"
 scripts: search.js
 ---
 
-<div class="row" style="margin-top: 1.5em; margin-bottom: 1.5em;">
-  <div class="col-sm-6 col-sm-offset-3">
+<div class="row my-4 justify-content-center">
+  <div class="col-md-7">
     <p class="text-center">Search this website, docs, forums, wiki, and issue tracker:</p>
     <form class="form-search" role="search" action="/search/">
       <div class="input-group input-group-lg">
         <input type="text" class="form-control wxsearchbox" name="q">
-        <span class="input-group-btn">
+        <div class="input-group-append">
           <button class="btn btn-primary" type="submit">Search</button>
-        </span>
+        </div>
       </div>
     </form>
   </div>
 </div>
 
-<div class="reset-box-sizing">
-  <div id="wxsearchresults" class="gcse-searchresults-only" data-enableHistory="true"></div>
-</div>
+<div id="wxsearchresults" class="gcse-searchresults-only" data-enableHistory="true"></div>

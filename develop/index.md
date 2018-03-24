@@ -2,15 +2,15 @@
 title: "Developers"
 ---
 
-<div class="row" style="margin-top: 1em; margin-bottom: 1em;">
-  <div class="col-sm-8 col-sm-offset-2">
+<div class="row justify-content-md-center my-4">
+  <div class="col-md-8">
     <p>
       New to wxWidgets development? Have something you want to contribute, but
       don't know how? We've written up a handy contributor guide that has the
       answers you're looking for:
     </p>
-    <a href="https://wiki.wxwidgets.org/Development:_How_To_Contribute" class="btn btn-lg btn-default btn-block">
-      <i class="fa fa-code-fork fa-fw"></i> Contributor Guide
+    <a href="https://wiki.wxwidgets.org/Development:_How_To_Contribute" class="btn btn-lg btn-outline-primary btn-block">
+      <i class="fas fa-code-branch fa-fw"></i> Contributor Guide
     </a>
   </div>
 </div>

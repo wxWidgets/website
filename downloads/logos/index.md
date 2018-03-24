@@ -12,70 +12,82 @@ licensed under the [SIL Open Font License, 1.1](http://scripts.sil.org/OFL).
 
 ### Standard Logo
 
-<div class="row">
-  <div class="col-sm-9">
-    <div class="thumbnail">
-      <a href="title.png"><img src="title.png" alt="Full color PNG for light backgrounds"></a>
-      <div class="caption">Full color PNG for light backgrounds</div>
+<div class="row text-center">
+  <div class="col-lg-9">
+    <div class="card my-2">
+      <div class="card-body pt-1">
+        <a href="title.png"><img class="img-fluid" src="title.png" alt="Full color PNG for light backgrounds"></a>
+        <p class="card-text">Full color PNG for light backgrounds</p>
+      </div>
     </div>
   </div>
-  <div class="col-sm-3">
-    <div class="thumbnail">
-      <a href="blocks.png"><img src="blocks.png" alt="Full color PNG for light backgrounds"></a>
-      <div class="caption">Full color PNG</div>
-    </div>
-  </div>
-</div>
-<div class="row">
-  <div class="col-sm-9">
-    <div class="thumbnail">
-      <a href="title.svg"><img src="title.svg" alt="Full color SVG for light backgrounds"></a>
-      <div class="caption">Full color SVG for light backgrounds</div>
-    </div>
-  </div>
-  <div class="col-sm-3">
-    <div class="thumbnail">
-      <a href="blocks.svg"><img src="blocks.svg" alt="Full color SVG for light backgrounds"></a>
-      <div class="caption">Full color SVG</div>
+  <div class="col-lg-3">
+    <div class="card my-2">
+      <div class="card-body pt-1">
+        <a href="blocks.png"><img class="img-fluid" src="blocks.png" alt="Full color PNG for light backgrounds"></a>
+        <p class="card-text">Full color PNG</p>
+      </div>
     </div>
   </div>
 </div>
-<div class="row">
-  <div class="col-sm-6">
-    <div class="thumbnail">
-      <a href="title-small.png"><img src="title-small.png" alt="Full color PNG for light backgrounds"></a>
-      <div class="caption">Full color PNG for light backgrounds</div>
+<div class="row text-center">
+  <div class="col-lg-9">
+    <div class="card my-2">
+      <div class="card-body pt-1">
+        <a href="title.svg"><img class="img-fluid" src="title.svg" alt="Full color SVG for light backgrounds"></a>
+        <p class="card-text">Full color SVG for light backgrounds</p>
+      </div>
     </div>
   </div>
-  <div class="col-sm-6">
-    <div class="thumbnail">
-      <a href="title-small.svg"><img src="title-small.svg" alt="Full color SVG for light backgrounds"></a>
-      <div class="caption">Full color SVG for light backgrounds</div>
+  <div class="col-lg-3">
+    <div class="card my-2">
+      <div class="card-body pt-1">
+        <a href="blocks.svg"><img class="img-fluid" src="blocks.svg" alt="Full color SVG for light backgrounds"></a>
+        <p class="card-text">Full color SVG</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row text-center">
+  <div class="col-lg-6">
+    <div class="card my-2">
+      <div class="card-body pt-1">
+        <a href="title-small.png"><img class="img-fluid" src="title-small.png" alt="Full color PNG for light backgrounds"></a>
+        <p class="card-text">Full color PNG for light backgrounds</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="card my-2">
+      <div class="card-body pt-1">
+        <a href="title-small.svg"><img class="img-fluid" src="title-small.svg" alt="Full color SVG for light backgrounds"></a>
+        <p class="card-text">Full color SVG for light backgrounds</p>
+      </div>
     </div>
   </div>
 </div>
 
 ### Powered By
 
-<div class="row">
-  <div class="col-sm-3">
-    <div class="thumbnail">
-      <a href="powered-by-wxwidgets-80x15.png"><img src="powered-by-wxwidgets-80x15.png" alt="Powered by wxWidgets: 80x15 PNG"></a>
+<div class="row mb-3 text-center">
+  <div class="col-lg-3">
+    <div class="card my-2 p-2">
+      <a href="powered-by-wxwidgets-80x15.png"><img class="img-fluid" src="powered-by-wxwidgets-80x15.png" alt="Powered by wxWidgets: 80x15 PNG"></a>
     </div>
   </div>
-  <div class="col-sm-3">
-    <div class="thumbnail">
-      <a href="powered-by-wxpython-80x15.png"><img src="powered-by-wxpython-80x15.png" alt="Powered by wxPython: 80x15 PNG"></a>
+  <div class="col-lg-3">
+    <div class="card my-2 p-2">
+      <a href="powered-by-wxpython-80x15.png"><img class="img-fluid" src="powered-by-wxpython-80x15.png" alt="Powered by wxPython: 80x15 PNG"></a>
     </div>
   </div>
-  <div class="col-sm-3">
-    <div class="thumbnail">
-      <a href="powered-by-wxwidgets-88x31-blue.png"><img src="powered-by-wxwidgets-88x31-blue.png" alt="Powered by wxWidgets: 88x31 Blue PNG"></a>
+  <div class="col-lg-3">
+    <div class="card my-2 p-2">
+      <a href="powered-by-wxwidgets-88x31-blue.png"><img class="img-fluid" src="powered-by-wxwidgets-88x31-blue.png" alt="Powered by wxWidgets: 88x31 Blue PNG"></a>
     </div>
   </div>
-  <div class="col-sm-3">
-    <div class="thumbnail">
-      <a href="powered-by-wxwidgets-88x31.png"><img src="powered-by-wxwidgets-88x31.png" alt="Powered by wxWidgets: 88x31 PNG"></a>
+  <div class="col-lg-3">
+    <div class="card my-2 p-2">
+      <a href="powered-by-wxwidgets-88x31.png"><img class="img-fluid" src="powered-by-wxwidgets-88x31.png" alt="Powered by wxWidgets: 88x31 PNG"></a>
     </div>
   </div>
 </div>

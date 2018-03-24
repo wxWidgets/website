@@ -12,13 +12,18 @@ CD-ROM contains source code, compilers and tools, and includes DialogBlocks, a
 powerful dialog editor for Windows, Linux and Mac OS X which will also help you
 compile your applications and wxWidgets itself.
 
-> "Cross-Platform GUI Programming with wxWidgets is the best way for beginning
-> developers to learn wxWidgets programming in C++, and is a valuable resource
-> for experienced wxWidgets programmers looking to expand their skills. This
-> book is a must-have both for programmers thinking of using wxWidgets and for
-> those already using it."
->
-> <small>Mitch Kapor, founder of Lotus Software and the Open Source Applications Foundation</small>
+<div class="card m-4">
+  <div class="card-body">
+    <p>
+      "Cross-Platform GUI Programming with wxWidgets is the best way for beginning
+      developers to learn wxWidgets programming in C++, and is a valuable resource
+      for experienced wxWidgets programmers looking to expand their skills. This
+      book is a must-have both for programmers thinking of using wxWidgets and for
+      those already using it."
+    </p>
+    <p class="blockquote-footer mb-0">Mitch Kapor, founder of Lotus Software and the Open Source Applications Foundation</p>
+  </div>
+</div>
 
 **Please note**: From feedback we're getting, it's easy to miss the setup
 instructions in Appendix B and Appendix C that tell you how to build your own
@@ -30,11 +35,11 @@ applications.
 
 ## Where to Buy
 
-<div class="pull-right" style="margin-left: 0.6em; margin-bottom: 0.6em;">
+<div class="float-right ml-2 mb-2">
   <a href="http://www.amazon.com/gp/product/0131473816">
     <img src="wxbook.jpg" class="img-thumbnail" alt="Cross-Platform GUI Programming with wxWidgets">
   </a>
-  <a class="btn btn-lg btn-block btn-primary" style="margin-top: 5px;" href="http://www.amazon.com/gp/product/0131473816">Buy on Amazon.com</a>
+  <a class="btn btn-lg btn-block btn-primary mt-2" href="http://www.amazon.com/gp/product/0131473816">Buy on Amazon.com</a>
 </div>
 
 The wxWidgets book is available to be read online by subscribing to

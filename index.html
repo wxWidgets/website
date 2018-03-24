@@ -2,10 +2,10 @@
 layout: home
 ---
 
-<div class="jumbotron">
+<div class="jumbotron p-4 mb-3">
   <div class="row home-intro">
-    <div class="col-md-12 home-intro-text">
-      <p>
+    <div class="col-lg-12 home-intro-text">
+      <p style="font-size: 1.25rem;">
         wxWidgets is a C++ library that lets developers create applications for
         Windows, Mac OS X, Linux and other platforms with a single code base. It
         has popular language bindings for
@@ -20,14 +20,14 @@ layout: home
     </div>
   </div>
   <div style="margin-top: 20px;">
-    <div class="visible-xs btn-group-vertical">
-        <a href="/about/" class="btn btn-lg btn-primary"><i class="fa fa-info-circle fa-fw"></i> Learn more &raquo;</a>
-        <a href="/downloads/" class="btn btn-lg btn-primary"><i class="fa fa-download fa-fw"></i> Download now &raquo;</a>
+    <div class="d-block d-sm-none btn-group-vertical">
+        <a href="/about/" class="btn btn-lg btn-primary"><i class="fas fa-info-circle fa-fw"></i> Learn more &raquo;</a>
+        <a href="/downloads/" class="btn btn-lg btn-primary"><i class="fas fa-download fa-fw"></i> Download now &raquo;</a>
     </div>
-    <div class="hidden-xs text-center">
+    <div class="d-none d-sm-block text-center">
       <p>
-        <a href="/about/" class="btn btn-lg btn-primary"><i class="fa fa-info-circle fa-fw"></i> Learn more &raquo;</a> &nbsp; or &nbsp;
-        <a href="/downloads/" class="btn btn-lg btn-primary"><i class="fa fa-download fa-fw"></i> Download now &raquo;</a>
+        <a href="/about/" class="btn btn-lg btn-primary"><i class="fas fa-info-circle fa-fw"></i> Learn more &raquo;</a> &nbsp; or &nbsp;
+        <a href="/downloads/" class="btn btn-lg btn-primary"><i class="fas fa-download fa-fw"></i> Download now &raquo;</a>
       </p>
     </div>
   </div>
@@ -36,7 +36,7 @@ layout: home
 <h1>Latest News</h1>
 
 {% for post in site.posts limit:5 %}
-  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
 
   <p>Posted on <time datetime="{{ post.date | datetime | date_to_xmlschema }}"{% if updated %} data-updated="true"{% endif %}>{{ post.date | date: "%B %d, %Y" }}</time></p>
 
@@ -48,5 +48,5 @@ layout: home
 {% endfor %}
 
 <p class="text-center" style="margin-top: 2em;">
-  <a class="btn btn-lg btn-default" href="/news/archive/"><i class="fa fa-calendar fa-fw"></i> News Archive</a>
+  <a class="btn btn-lg btn-outline-primary" href="/news/archive/"><i class="fas fa-calendar-alt fa-fw"></i> News Archive</a>
 </p>

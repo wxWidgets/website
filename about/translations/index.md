@@ -16,10 +16,10 @@ The list below shows all currently supported translations. If you would like to
 help translate wxWidgets to your language, please see the instructions below.
 It is often helpful to have several translators for every language.
 
-<div class="panel panel-primary">
-  <div class="panel-heading"><h2 class="panel-title">Available Translations</h2></div>
-  <div class="panel-body">
-    <div id="translation_loading" style="text-align: center; margin: 2em 0 2em 0; display: none;">
+<div class="card border-primary my-4">
+  <div class="card-header bg-primary text-light">Available Translations</div>
+  <div class="card-body">
+    <div id="translation_loading" class="text-center my-5" style="display: none;">
       <p style="padding-top: 6em;">Loading Translations...</p>
     </div>
     <div id="translation_caption" style="display: none;">
@@ -30,16 +30,16 @@ It is often helpful to have several translators for every language.
       </p>
       <p>Last Updated: <span id="stats_updated_date">Unknown</span></p>
       <p class="text-center">
-        <span class="label label-success">Complete</span>
-        <span class="label label-warning">Fuzzy</span>
+        <span class="badge badge-success">Complete</span>
+        <span class="badge badge-warning">Fuzzy</span>
       </p>
     </div>
     <noscript>Please enable JavaScript to view translation status information.</noscript>
   </div>
   <table id="translations" class="table table-hover" style="display: none;">
     <thead><tr>
-      <th>Language</th>
-      <th colspan="2">Status</th>
+      <th style="cursor: pointer;">Language</th>
+      <th style="cursor: pointer;" colspan="2">Status</th>
     </tr></thead>
     <tbody></tbody>
   </table>

@@ -71,14 +71,14 @@ code, this document should be considered authoritative.
 
 <a name="use_cpp_ext"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Use .cpp for C++ source file extension
+#### <i class="fas fa-check-square fa-fw"></i> Use .cpp for C++ source file extension
 
 Use `.cpp` extension for the C++ files and `.h` for the headers.
 
 
 <a name="file_locations"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> File locations
+#### <i class="fas fa-check-square fa-fw"></i> File locations
 
 All headers are found under the directory `include/wx`, both the public and
 private ones. All source file are under the directory `src`.
@@ -120,7 +120,7 @@ The rest of the manual is found under `docs/doxygen`.
 
 <a name="wxwin_header"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Standard file header
+#### <i class="fas fa-check-square fa-fw"></i> Standard file header
 
 All wxWidgets files should start with the following standard header:
 
@@ -143,7 +143,7 @@ code.
 
 <a name="include_guards"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Include guards
+#### <i class="fas fa-check-square fa-fw"></i> Include guards
 
 Any header `include/wx/foo/bar.h` must wrap its contents (i.e. everything
 after the standard header comment) in an include guard:
@@ -164,7 +164,7 @@ we are going to continue using it.
 
 <a name="pch"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Precompiled headers
+#### <i class="fas fa-check-square fa-fw"></i> Precompiled headers
 
 A source file should always start by including the precompiled header file
 `wx/wxprec.h` which includes most of the commonly used wxWidgets headers if
@@ -189,7 +189,7 @@ headers not included by `wx/wxprec.h` need to be included in any case.
 
 <a name="wxdllexport"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Use WXDLLIMPEXP_XXX with all public classes and functions
+#### <i class="fas fa-check-square fa-fw"></i> Use WXDLLIMPEXP_XXX with all public classes and functions
 
 All public types and data must be declared with `WXDLLIMPEXP_XXX` in their
 declaration to be usable outside of the wxWidgets DLL. `XXX` here can be one
@@ -206,7 +206,7 @@ WXDLLIMPEXP_DATA_CORE(extern wxApp*) wxTheApp;
 
 <a name="no_caps_in_filenames"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Use only lower case filenames
+#### <i class="fas fa-check-square fa-fw"></i> Use only lower case filenames
 
 To avoid conflicts between case-sensitive and case-insensitive (even if
 case-preserving) file systems, only use lower case ASCII letters (and numbers
@@ -253,7 +253,7 @@ private:
 
 <a name="wx_prefix"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Use wx prefix for all public symbols
+#### <i class="fas fa-check-square fa-fw"></i> Use wx prefix for all public symbols
 
 The prefix `wx` must be used for all public classes, functions, constants
 and macros, no exceptions.
@@ -265,7 +265,7 @@ need to follow this rule as they don't have global visibility.
 
 <a name="camel_case"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Use CamelCaseFunctions and camelCaseVariables
+#### <i class="fas fa-check-square fa-fw"></i> Use CamelCaseFunctions and camelCaseVariables
 
 Use `CamelCase` for types (classes, structs, enums, unions), methods and
 functions and `camelCase` for the variables.
@@ -273,7 +273,7 @@ functions and `camelCase` for the variables.
 
 <a name="upper_case"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Use UPPER_CASE for constants
+#### <i class="fas fa-check-square fa-fw"></i> Use UPPER_CASE for constants
 
 Use `UPPER_CASE` for constants, whether they are enum elements or preprocessor
 macros (the latter should be avoided if possible).
@@ -284,7 +284,7 @@ into account.
 
 <a name="m_prefix"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Use `m_` prefix for member variables
+#### <i class="fas fa-check-square fa-fw"></i> Use `m_` prefix for member variables
 
 All member variables should have `m_` prefix to distinguish them from local
 variables.
@@ -310,7 +310,7 @@ name, e.g. `wxTheApp` or `wxTheClipboard`.
 
 <a name="set_get"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Use Set/Get prefixes for accessors
+#### <i class="fas fa-check-square fa-fw"></i> Use Set/Get prefixes for accessors
 
 There is a convention in wxWidgets to prefix the accessors (i.e. any simple, in
 general, inline function which does nothing else except changing or returning
@@ -330,7 +330,7 @@ all the code in the library.
 
 <a name="indentation"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Indent your code with 4 spaces (no tabs!)
+#### <i class="fas fa-check-square fa-fw"></i> Indent your code with 4 spaces (no tabs!)
 
 Configure your editor to use spaces, not TABs, for indentation and use 4
 spaces per indentation level.
@@ -409,7 +409,7 @@ If you use vi(m), you can add the following line to your ~/.vimrc or ~/.exrc:
 
 <a name="line_length"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Use 80 character lines
+#### <i class="fas fa-check-square fa-fw"></i> Use 80 character lines
 
 Please keep the line length under 80 characters.
 
@@ -423,7 +423,7 @@ simplify them by using named variables for the intermediate results).
 
 <a name="opening_brace"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Put opening curly bracket on its own line
+#### <i class="fas fa-check-square fa-fw"></i> Put opening curly bracket on its own line
 
 Don't leave `{` on the preceding line, always put it on its own line, e.g.
 
@@ -441,7 +441,7 @@ else
 
 <a name="spaces_keywords"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Use spaces with keywords
+#### <i class="fas fa-check-square fa-fw"></i> Use spaces with keywords
 
 Use a space after a keyword such as `if`, `for`, `while` or `switch` and
 around the expression used by this keyword. Do _not_ use spaces in these
@@ -463,7 +463,7 @@ for ( init; condition; loop )
 
 <a name="class_decl"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Order of parts in a class declarations
+#### <i class="fas fa-check-square fa-fw"></i> Order of parts in a class declarations
 
 By convention, please put the public parts of the class first, then protected,
 then private. The idea is to be able to quickly see the public API of a class
@@ -478,7 +478,7 @@ reading the file.
 
 <a name="comments_style"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Use `//` for most comments
+#### <i class="fas fa-check-square fa-fw"></i> Use `//` for most comments
 
 Use C++ style `//` comments for most of them, not only single line ones.
 Reserve C style `/* ... */` comments only for high level, very long
@@ -495,7 +495,7 @@ headers from which the API documentation is generated.
 
 <a name="no_void_param"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Don't use `void` for functions without arguments
+#### <i class="fas fa-check-square fa-fw"></i> Don't use `void` for functions without arguments
 
 In ANSI C, `void Foo()` takes an arbitrary number of arbitrarily typed
 arguments (although the form `void Foo(...)` is preferred) and `void Foo(void)`
@@ -508,7 +508,7 @@ case.
 
 <a name="no_const_int"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Don't use `const` for non pointer/reference arguments
+#### <i class="fas fa-check-square fa-fw"></i> Don't use `const` for non pointer/reference arguments
 
 In both C and C++ an argument passed by value cannot be modified -- or, more
 precisely, if it is modified in the called function, only the local copy is
@@ -524,7 +524,7 @@ Of course, it doesn't apply to functions such as
 
 <a name="null_not_zero"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Use `NULL` rather than `0`
+#### <i class="fas fa-check-square fa-fw"></i> Use `NULL` rather than `0`
 
 We have chosen to use the standard `NULL` macro in the expressions involving
 the pointers instead of just the constant `0`. Although both are perfectly
@@ -540,7 +540,7 @@ compatible with non-C++-11 compilers.
 
 <a name="use_override"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Use `wxOVERRIDE` for overridden virtual methods
+#### <i class="fas fa-check-square fa-fw"></i> Use `wxOVERRIDE` for overridden virtual methods
 
 When overriding a virtual method of the base class, use `wxOVERRIDE` in its
 declaration like this:
@@ -571,7 +571,7 @@ declarations.
 
 <a name="use_fallthrough"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Use `wxFALLTHROUGH` in `switch` statements
+#### <i class="fas fa-check-square fa-fw"></i> Use `wxFALLTHROUGH` in `switch` statements
 
 Use the special `wxFALLTHROUGH` macro in case of intentional fall through to
 the next `case` clause in a `switch` statement:
@@ -601,7 +601,7 @@ The use of this macro allows to enable warnings given by some compilers
 
 <a name="no_exceptions"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Don't use exceptions
+#### <i class="fas fa-check-square fa-fw"></i> Don't use exceptions
 
 wxWidgets doesn't use exceptions, mostly for backwards compatibility reasons:
 the existing code doesn't expect wxWidgets functions to throw exceptions, as
@@ -621,7 +621,7 @@ whether the object was constructed successfully and, for all
 
 <a name="no_rtti"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Don't use RTTI
+#### <i class="fas fa-check-square fa-fw"></i> Don't use RTTI
 
 wxWidgets doesn't use standard C++ RTTI, i.e. `dynamic_cast<>` and `typeid`
 shouldn't be used in its code. This is done to allow compiling code which
@@ -639,7 +639,7 @@ used as they don't require any run-time support.
 
 <a name="no_stl"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Don't use many standard library classes
+#### <i class="fas fa-check-square fa-fw"></i> Don't use many standard library classes
 
 To allow creation of self-contained applications which don't depend on C++
 standard library, wxWidgets still supports being built in a way which avoids
@@ -654,7 +654,7 @@ the old style macro-based container classes.
 
 <a name="no_newlogicalops"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Don't use new logical operators keywords
+#### <i class="fas fa-check-square fa-fw"></i> Don't use new logical operators keywords
 
 While not widely known, C++ standard defines the following reserved words:
 `or`, `and`, `not`, `xor`, `bitand`, `bitor`, `compl`, `and_eq`, `or_eq`,
@@ -677,7 +677,7 @@ large scale C++ projects, and thus apply to wxWidgets.
 
 <a name="no_warnings"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Turn on all warnings and eradicate them
+#### <i class="fas fa-check-square fa-fw"></i> Turn on all warnings and eradicate them
 
 Give the compiler a chance to help you -- turn on all warnings! You should
 always use the maximum available warning level of your compiler and understand
@@ -689,7 +689,7 @@ may be avoided (not suppressed!) with minimal changes to your code.
 
 <a name="no_c_casts"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Avoid C style casts
+#### <i class="fas fa-check-square fa-fw"></i> Avoid C style casts
 
 Prefer C++ `static_cast<>` and `const_cast<>` to the C style casts if they can
 be used to replace them. Also use `reinterpret_cast<>` (while trying to avoid
@@ -703,7 +703,7 @@ Notice that `dynamic_cast<>` should _not_ be used in wxWidgets code, see the
 
 <a name="no_assignment_in_if"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> No assignments in conditional expressions
+#### <i class="fas fa-check-square fa-fw"></i> No assignments in conditional expressions
 
 Although close to the heart of many C programmers (I plead guilty), code like
 classical `if ( (c = getchar()) != EOF )` is bad because it prevents you
@@ -714,7 +714,7 @@ from enabling "assignment in conditional expression" warning (see also
 
 <a name="no_default_in_switch"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Avoid `default` in switches over enums
+#### <i class="fas fa-check-square fa-fw"></i> Avoid `default` in switches over enums
 
 Include cases for all `enum` elements and do not include the `default` case in
 `switch` statements over the values of an enum type. This ensures that the
@@ -771,7 +771,7 @@ See [debug macros](#debug_macros) section for more about the use of
 
 <a name="no_overloaded_virtuals"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Avoid overloaded virtual functions
+#### <i class="fas fa-check-square fa-fw"></i> Avoid overloaded virtual functions
 
 Avoid having overloaded virtual methods in a base class because if any of them
 is overridden in a derived class, then all others must be overridden as well
@@ -836,7 +836,7 @@ many overloaded versions of commonly used methods such as `SetSize()`.
 
 <a name="no_bool_params"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Don't use boolean function arguments
+#### <i class="fas fa-check-square fa-fw"></i> Don't use boolean function arguments
 
 Using boolean parameters in the public function usually is a bad API design
 idea for two reasons which are explained below using the example of wxWidgets
@@ -879,7 +879,7 @@ in fact, quite general:
 
 <a name="forward_decl"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Use forward declarations whenever possible
+#### <i class="fas fa-check-square fa-fw"></i> Use forward declarations whenever possible
 
 It's a really trivial piece of advice, but remember that using forward
 declarations instead of including the header of corresponding class is better
@@ -891,7 +891,7 @@ from a header file.
 
 <a name="debug_macros"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Use debugging macros
+#### <i class="fas fa-check-square fa-fw"></i> Use debugging macros
 
 wxWidgets provides the debugging macros `wxASSERT, wxFAIL` and `wxCHECK_RET` in
 file. Please use them as often as you can -- they will never do you any harm
@@ -914,36 +914,36 @@ documentation.
 
 <a name="wellformed"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Use well-formed language for messages, not abbreviations or pseudo-English
+#### <i class="fas fa-check-square fa-fw"></i> Use well-formed language for messages, not abbreviations or pseudo-English
 
 <a name="startcapital"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Always starts a sentence with a capital letter
+#### <i class="fas fa-check-square fa-fw"></i> Always starts a sentence with a capital letter
 
 <a name="endperiod"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Always end a sentence with a period or other appropriate punctuation.
+#### <i class="fas fa-check-square fa-fw"></i> Always end a sentence with a period or other appropriate punctuation.
 
 <a name="noellipsis"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Never use "..." unless absolutely necessary.
+#### <i class="fas fa-check-square fa-fw"></i> Never use "..." unless absolutely necessary.
 
 <a name="nopling"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Avoid "!" wherever possible
+#### <i class="fas fa-check-square fa-fw"></i> Avoid "!" wherever possible
 
 It's rarely necessary to emphasise a point this much (the same applies to
 documentation).
 
 <a name="onespace"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Use only one space after a period and before a new sentence.
+#### <i class="fas fa-check-square fa-fw"></i> Use only one space after a period and before a new sentence.
 
 Don't add a lone space after a period if it's not going to be followed by
 another sentence.
 
 <a name="limitparenth"></a>
 
-#### <i class="fa fa-check-square-o fa-fw"></i> Don't use unnecessary parentheses in messages and documentation.
+#### <i class="fas fa-check-square fa-fw"></i> Don't use unnecessary parentheses in messages and documentation.
 
 Instead, rearrange the sentence.
