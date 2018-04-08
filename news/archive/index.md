@@ -2,7 +2,7 @@
 title: News Archive
 ---
 
-<table class="table table-striped">
+<table class="table table-striped my-4">
   <caption>Full historical listing of all news posts, sorted by newest first.</caption>
   <thead><tr><th>Post</th><th>Date</th></tr></thead>
   <tbody>

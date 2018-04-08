@@ -7,15 +7,26 @@ defaults:
   -
     scope:
       path: ""
-      type: "pages"
+      type: blog
     values:
-      layout: "default"
+      layout: post
   -
     scope:
       path: ""
-      type: "posts"
+      type: pages
     values:
-      layout: "post"
+      layout: default
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+collections:
+  blog:
+    output: true
+    permalink: /blog/:year/:month/:title/
 
 plugins:
   - jekyll-sitemap

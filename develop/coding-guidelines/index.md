@@ -124,7 +124,7 @@ The rest of the manual is found under `docs/doxygen`.
 
 All wxWidgets files should start with the following standard header:
 
-{% highlight cpp %}
+```cpp
 /////////////////////////////////////////////////////////////////////////////
 // Name:        src/common/foo.cpp
 // Purpose:     Implementation of wxFoo
@@ -133,7 +133,7 @@ All wxWidgets files should start with the following standard header:
 // Copyright:   (c) 2014 wxWidgets development team
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////
-{% endhighlight %}
+```
 
 Notice that the date should be in ISO format (YYYY-MM-DD). The licence must
 always be specified as wxWindows licence (not "wxWidgets licence") while the
@@ -148,14 +148,14 @@ code.
 Any header `include/wx/foo/bar.h` must wrap its contents (i.e. everything
 after the standard header comment) in an include guard:
 
-{% highlight cpp %}
+```cpp
 #ifndef _WX_FOO_BAR_H_
 #define _WX_FOO_BAR_H_
 
 // ... all header contents ...
 
 #endif // _WX_FOO_BAR_H_
-{% endhighlight %}
+```
 
 Formally `_WX` prefix makes this prefix a reserved word, however this style is
 used in wxWidgets since 20+ years and hasn't created any problems so far, so
@@ -172,7 +172,7 @@ precompiled headers support is used. If it isn't, the individual headers
 actually used by the code need to be included inside `WX_PRECOMP` test. And
 headers not included by `wx/wxprec.h` need to be included in any case.
 
-{% highlight cpp %}
+```cpp
 #include "wx/wxprec.h"
 
 #ifdef __BORLANDC__
@@ -184,7 +184,7 @@ headers not included by `wx/wxprec.h` need to be included in any case.
 #endif
 
 #include "wx/richmsgdlg.h" // But this one never is
-{% endhighlight %}
+```
 
 
 <a name="wxdllexport"></a>
@@ -196,11 +196,11 @@ declaration to be usable outside of the wxWidgets DLL. `XXX` here can be one
 of `BASE`, `CORE`, `ADV` and so on depending on the library the symbol is
 exported from, see `include/wx/dlimpexp.h` for the full list. For example:
 
-{% highlight cpp %}
+```cpp
 bool WXDLLIMPEXP_BASE wxSomeUtilityFunction();
 class WXDLLIMPEXP_CORE wxSomeGUIClass { ... };
 WXDLLIMPEXP_DATA_CORE(extern wxApp*) wxTheApp;
-{% endhighlight %}
+```
 
 
 
@@ -221,7 +221,7 @@ reading it.
 
 Here is a quick example summarizing all the conventions described below:
 
-{% highlight cpp %}
+```cpp
 extern void wxGlobalFunction();
 
 enum wxFileOpenMode
@@ -247,7 +247,7 @@ public:
 private:
     int m_someX;
 };
-{% endhighlight %}
+```
 
 
 
@@ -338,67 +338,73 @@ spaces per indentation level.
 If you use Emacs, you can put the following in your .emacs file to help get
 indentation right:
 
-    ;; CC-mode setup
-    (defun my-c-mode-common-hook ()
-      ;; my customizations for all of c-mode, c++-mode, and objc-mode
-      (c-set-offset 'substatement-open 0)
-      (c-set-offset 'case-label 1)
-      (c-set-offset 'defun-block-intro 4)
-      (c-set-offset 'access-label -2)
-      (setq c-recognize-knr-p nil)
-      (setq c-basic-offset 4)
-      (setq-default indent-tabs-mode nil)
-    ;; Set the return key to autoindent
-      (local-set-key "\C-m" 'reindent-then-newline-and-indent)
-    )
-    (add-hook 'c-mode-common-hook 'my-c-mode-common-hook)
+```
+;; CC-mode setup
+(defun my-c-mode-common-hook ()
+  ;; my customizations for all of c-mode, c++-mode, and objc-mode
+  (c-set-offset 'substatement-open 0)
+  (c-set-offset 'case-label 1)
+  (c-set-offset 'defun-block-intro 4)
+  (c-set-offset 'access-label -2)
+  (setq c-recognize-knr-p nil)
+  (setq c-basic-offset 4)
+  (setq-default indent-tabs-mode nil)
+;; Set the return key to autoindent
+  (local-set-key "\C-m" 'reindent-then-newline-and-indent)
+)
+(add-hook 'c-mode-common-hook 'my-c-mode-common-hook)
+```
 
 Mattia Barbon suggests this:
 
-    (setq-default indent-tabs-mode nil)
+```
+(setq-default indent-tabs-mode nil)
 
-    (setq c-default-style
-      '( ( c++-mode . "stroustrup" )
-      ( c-mode . "stroustrup" ) )
-    )
+(setq c-default-style
+  '( ( c++-mode . "stroustrup" )
+  ( c-mode . "stroustrup" ) )
+)
+```
 
 Robin Dunn has this alternative:
 
-    (defun my-c-mode-common-hook ()
-      ""
-      (interactive)
-      (c-set-style "bsd")
-      ;;
-      ;; configure vars for cc-mode based items
-      ;;
-      (setq c-auto-newline nil
-            c-tab-always-indent nil
-            c-basic-offset 4
-            c-comment-only-line-offset 0
-            c-hanging-comment-ender-p nil
-            c-hanging-comment-starter-p nil
-            c-comment-continuation-stars "** "
-            c-cleanup-list (list 'empty-defun-braces
-                                               'defun-close-semi
-                                               'list-close-comma
-                                               'scope-operator
-                                               )
-            compilation-ask-about-save nil
-            compilation-read-command t
-            compilation-scroll-output t
-            fill-column 78
-            comment-column 40
-            tab-width 8
-            indent-tabs-mode nil
-            )
+```
+(defun my-c-mode-common-hook ()
+  ""
+  (interactive)
+  (c-set-style "bsd")
+  ;;
+  ;; configure vars for cc-mode based items
+  ;;
+  (setq c-auto-newline nil
+        c-tab-always-indent nil
+        c-basic-offset 4
+        c-comment-only-line-offset 0
+        c-hanging-comment-ender-p nil
+        c-hanging-comment-starter-p nil
+        c-comment-continuation-stars "** "
+        c-cleanup-list (list 'empty-defun-braces
+                                           'defun-close-semi
+                                           'list-close-comma
+                                           'scope-operator
+                                           )
+        compilation-ask-about-save nil
+        compilation-read-command t
+        compilation-scroll-output t
+        fill-column 78
+        comment-column 40
+        tab-width 8
+        indent-tabs-mode nil
+        )
 
-      (c-toggle-auto-hungry-state -1)
-      (local-set-key "\C-m" 'newline-and-indent)
-      (local-set-key "\C-cc" 'comment-region)
-      (setq c-electric-pound-behavior '(alignleft))
-      )
+  (c-toggle-auto-hungry-state -1)
+  (local-set-key "\C-m" 'newline-and-indent)
+  (local-set-key "\C-cc" 'comment-region)
+  (setq c-electric-pound-behavior '(alignleft))
+  )
 
-    (add-hook 'c-mode-common-hook 'my-c-mode-common-hook)
+(add-hook 'c-mode-common-hook 'my-c-mode-common-hook)
+```
 
 If you use vi(m), you can add the following line to your ~/.vimrc or ~/.exrc:
 
@@ -427,7 +433,7 @@ simplify them by using named variables for the intermediate results).
 
 Don't leave `{` on the preceding line, always put it on its own line, e.g.
 
-{% highlight cpp %}
+```cpp
 if ( condition )
 {
     if-statements;
@@ -436,7 +442,7 @@ else
 {
     else-statements;
 }
-{% endhighlight %}
+```
 
 
 <a name="spaces_keywords"></a>
@@ -448,7 +454,7 @@ around the expression used by this keyword. Do _not_ use spaces in these
 positions for the function calls but still use them to separate function
 arguments. For example:
 
-{% highlight cpp %}
+```cpp
 for ( init; condition; loop )
 {
     switch ( expression )
@@ -458,7 +464,7 @@ for ( init; condition; loop )
             break;
     }
 }
-{% endhighlight %}
+```
 
 
 <a name="class_decl"></a>
@@ -545,7 +551,7 @@ compatible with non-C++-11 compilers.
 When overriding a virtual method of the base class, use `wxOVERRIDE` in its
 declaration like this:
 
-{% highlight cpp %}
+```cpp
 class Base
 {
 public:
@@ -557,7 +563,7 @@ class Derived : public Base
 public:
         void DoSomething() wxOVERRIDE;
 };
-{% endhighlight %}
+```
 
 `wxOVERRIDE` macro will be expanded into `override` keyword if the compiler
 supports it (i.e. C++11) or nothing otherwise.
@@ -576,7 +582,7 @@ declarations.
 Use the special `wxFALLTHROUGH` macro in case of intentional fall through to
 the next `case` clause in a `switch` statement:
 
-{% highlight cpp %}
+```cpp
 bool vertical = false,
      positive = true;
 switch ( keycode )
@@ -591,7 +597,7 @@ switch ( keycode )
 
     ...
 }
-{% endhighlight %}
+```
 
 The use of this macro allows to enable warnings given by some compilers
 (notably Clang) about unintentional fall through, which is a common bug.
@@ -723,7 +729,7 @@ the switch.
 
 For example, replace this code:
 
-{% highlight cpp %}
+```cpp
 bool ConfirmOverwrite(wxFile::OpenMode mode)
 {
     switch ( mode )
@@ -740,11 +746,11 @@ bool ConfirmOverwrite(wxFile::OpenMode mode)
 
     return wxMessageBox("Overwrite?", ...) == wxID_YES;
 }
-{% endhighlight cpp %}
+```
 
 with this, semantically equivalent, version:
 
-{% highlight cpp %}
+```cpp
 bool ConfirmOverwrite(wxFile::OpenMode mode)
 {
     switch ( mode )
@@ -763,7 +769,7 @@ bool ConfirmOverwrite(wxFile::OpenMode mode)
 
     return true; // Still needed to pacify some compilers.
 }
-{% endhighlight cpp %}
+```
 
 See [debug macros](#debug_macros) section for more about the use of
 `wxFAIL_MSG()`.
@@ -778,7 +784,7 @@ is overridden in a derived class, then all others must be overridden as well
 or it would be impossible to call them on an object of derived class. For
 example, take following code:
 
-{% highlight cpp %}
+```cpp
 class Base
 {
 public:
@@ -796,7 +802,7 @@ public:
 
 Derived d;
 d.Read("some_filename");
-{% endhighlight %}
+```
 
 This will fail to compile because the base class function taking `filename` is
 hidden by the virtual function overridden in the derived class (this is known as
@@ -811,7 +817,7 @@ won't solve the above problem!).
 
 So, the above declarations should be written as:
 
-{% highlight cpp %}
+```cpp
 class Base
 {
 public:
@@ -827,7 +833,7 @@ class Derived : public Base
 protected:
     virtual void DoRead(wxFile& file) { ... }
 };
-{% endhighlight %}
+```
 
 This technique is widely used in many of wxWidgets classes -- for example,
 `wxWindow` has more than a dozen of `DoXXX()` functions which allows to have

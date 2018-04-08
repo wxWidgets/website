@@ -13,9 +13,12 @@
       {% include header.html %}
       <div class="row mt-4" id="content">
         <div class="col-md-9">
-          <article>
+          <article class="mb-4">
             <h1>{{ page.title | escape }}</h1>
-            {% if page.date %}<p>Posted on <time datetime="{{ page.date | datetime | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>{% endif %}
+            <p class="text-muted">
+              Posted on <time datetime="{{ page.date | datetime | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+              {% if page.author %}by {{ page.author }}{% endif %}
+            </p>
             {{ content }}
             {% if page.comments and site.disqus_shortname %}
               <h2>Comments</h2>
@@ -23,10 +26,16 @@
               <noscript>Please enable JavaScript to view the comments.</noscript>
             {% endif %}
           </article>
-          <p class="m-3 text-center">
-            <a class="btn btn-lg btn-outline-primary" href="/news/archive/">
-              <i class="fas fa-calendar-alt fa-fw"></i> News Archive
-            </a>
+          <p class="my-4 text-center">
+            {% if page.collection == 'blog' %}
+              <a class="btn btn-lg btn-outline-primary" href="/blog/archive/">
+                <i class="fas fa-calendar-alt fa-fw"></i> Blog Archive
+              </a>
+            {% else %}
+              <a class="btn btn-lg btn-outline-primary" href="/news/archive/">
+                <i class="fas fa-calendar-alt fa-fw"></i> News Archive
+              </a>
+            {% endif %}
           </p>
         </div>
         <div class="col-md-3">
