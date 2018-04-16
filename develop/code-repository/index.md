@@ -25,12 +25,16 @@ You can clone wxWidgets from Git with the following command:
 
     git clone --recurse-submodules https://github.com/wxWidgets/wxWidgets.git
 
+To make the initial clone faster, consider also adding `--jobs=5` to clone the
+submodules in parallel.
+
 If you forget to use the `--recurse-submodules` during the initial clone, or
 new submodules have been added since it, please use
 
     git submodule update --init
 
-command to initialize the submodules later.
+command to initialize the submodules later (`--jobs` option can again be used
+here).
 
 The command above checks out the wxWidgets master branch, corresponding to the
 latest development version. To check out a different branch, you can use
