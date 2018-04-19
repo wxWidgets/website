@@ -103,12 +103,34 @@ following [the standard rules](https://chris.beams.io/posts/git-commit/).
 
 ### Integrating Changes into wxWidgets
 
-After making all the changes, please push your branch to GitHub and make a
-[pull request](https://help.github.com/articles/about-pull-requests/) to the
-main wxWidgets repository. If you don't use GitHub, please [make a
-patch](https://trac.wxwidgets.org/wiki/HowToSubmitPatches) and submit it via
-wxTrac instead, but pull requests are preferred for any non-trivial changes as
-they allow the code to pass the continuous integration checks.
+If you have, or are ready to create, a GitHub account please create your own
+fork of [wxWidgets repository](https://github.com/wxWidgets/wxWidgets) by
+using the "Fork" button at this link (this only needs to be done once, so skip
+this step if you had already done it). Then add a remote corresponding to your
+fork, e.g.
+
+    git remote add my-github git@github.com/YOUR_GITHUB_NAME/wxWidgets.git
+
+and push your branch to it
+
+    git push my-github my-work
+
+(the "my-github" name for the remote is completely arbitrary and you can use
+anything you like instead of it). As you will probably push to this branch
+more than once, consider adding `--set-upstream` switch to the git push
+command to associate your local my-work branch with the branch with the same
+name in your GitHub repository: if you do this, you will be able to use just
+`git push`, without any arguments, the next time to push this branch there.
+Finally, you can make a [pull request](https://help.github.com/articles/about-pull-requests/)
+to the main wxWidgets repository. Please make sure to review the diff between
+your changes and the current version to check that it really corresponds to
+what you intended to change and correct any problems if you see them.
+
+If you don't use GitHub and don't want to create a GitHub account, you can
+still [make a patch](https://trac.wxwidgets.org/wiki/HowToSubmitPatches)
+and submit it via wxTrac instead, but please notice that pull requests are
+preferred for any non-trivial changes as they allow the code to pass the
+continuous integration checks.
 
 If you submit pull requests often and feel that having write access to the
 repository would facilitate your ongoing work on the project, please ask
