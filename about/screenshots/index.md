@@ -48,6 +48,24 @@ gradients, HTML 5 video, audio, and more.
 [rocketcake]: http://www.ambiera.com/rocketcake/
 
 
+## ZepMan
+
+<div class="row thumbnails">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="zepman" href="zepman-linux.png" title="ZepMan on Linux">
+      <img src="zepman-linux-thumb.png" class="img-thumbnail" alt="ZepMan on Linux">
+    </a>
+  </div>
+</div>
+
+[ZepMan][zepman] is a front-end for the Zep experiment control program. The
+application suite (ZepMan + Zep) is used by experimental psychologists for
+scientific research (speech and language mainly). The application runs under
+Linux, Windows and Mac OS X.
+
+[zepman]: https://www.beexy.nl/zepman/
+
+
 ## Cars HotSurf
 
 <div class="row thumbnails">
