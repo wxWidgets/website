@@ -216,7 +216,7 @@ really need to write to HKLM.
 
 First, you can use wxRegKey directly, for example:
 
-{% highlight cpp %}
+```cpp
 wxRegKey regKey;
 
 wxString idName(wxT("HKEY_LOCAL_MACHINE\\SOFTWARE\\My Company\\My Product\\Stuff\\"));
@@ -239,11 +239,11 @@ regKey.SetName(idName);
 if (!regKey.SetValue(wxT("THING"), (long) thing)) err += 1;
 
 regKey.Close();
-{% endhighlight %}
+```
 
 Or, you can employ this trick suggested by Istvan Kovacs:
 
-{% highlight cpp %}
+```cpp
 class myGlobalConfig : public wxConfig
 {
     myGlobalConfig() :
@@ -259,7 +259,7 @@ bool myGlobalConfig::Write (const wxString& key, const wxString& value)
     LocalKey().SetName (wxRegKey::HKLM, path);
     return wxConfig::Write (new_key, value);
 }
-{% endhighlight %}
+```
 
 <a name="access"></a>
 
