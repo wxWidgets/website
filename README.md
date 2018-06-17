@@ -103,7 +103,7 @@ The following GFM features are supported:
 * Automatic linking for URLs
 * Strikethrough
 
-The use of Jeykyll means that pages don't need to be entirely just Markdown. All
+The use of Jekyll means that pages don't need to be entirely just Markdown. All
 content can use Liquid templates to generate HTML markup using settings or data
 provided in YAML front matter. It's also possible to mix both Markdown and HTML
 in the same file (just leave a blank line between them), just in case you can't
