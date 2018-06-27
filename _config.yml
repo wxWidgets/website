@@ -32,6 +32,7 @@ plugins:
   - jekyll-sitemap
 
 exclude:
+  - new_blog
   - new_post
   - node_modules
   - package.json

@@ -89,6 +89,9 @@ Then simply write your post in Markdown after the `---` marker. By default, the
 script will enable comments on your post. If this isn't desired, find `comments`
 in the YAML front matter, and change it from `true` to `false`.
 
+For the blog posts, just use `./new_blog` instead of `new_post`, otherwise the
+behaviour is exactly the same.
+
 ## Tips and Conventions used in Markdown
 
 Note that on top of standard Markdown, this site supports much of the additional

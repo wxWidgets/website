@@ -10,12 +10,23 @@ if (@ARGV != 1) {
     die qq{Usage: $0 "New Post Title".\n}
 }
 
+# Get the kind of post to create from the script name.
+(my $what = $0) =~ s{^.*/new_(\w+)$}{$1};
+my $dir;
+if ($what eq 'post') {
+    $dir = '_posts'
+} elsif ($what eq 'blog') {
+    $dir = '_blog'
+} else {
+    die qq{Couldn't deduce the kind of the post to create from "$0".\n}
+}
+
 my $title = $ARGV[0];
 
 (my $name = $title) =~ tr/A-Z /a-z-/;
 my $date = DateTime->now()->ymd;
 
-open(my $fh, '>', "_posts/$date-$name.md");
+open(my $fh, '>', "$dir/$date-$name.md");
 print $fh <<EOF
 ---
 title: "$title"
