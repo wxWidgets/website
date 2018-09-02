@@ -27,4 +27,4 @@ to be using yet another new control: the hypothetical wxCollapsiblePane. The
 hope is to have it soon, finish wxGenericAboutDialog next, and release 2.7.1
 immediately thereafter.
 
-[wxAboutBox()]: http://docs.wxwidgets.org/3.0/group__group__funcmacro__dialog.html#ga6d8198c95b97786f206abfde010a4d8f
+[wxAboutBox()]: https://docs.wxwidgets.org/3.0/group__group__funcmacro__dialog.html#ga6d8198c95b97786f206abfde010a4d8f

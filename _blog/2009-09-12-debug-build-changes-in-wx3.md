@@ -53,7 +53,7 @@ debugging checks in them but these days are long gone and being able to find a
 bug quickly is well worth the slightly increased library size and unmeasurable
 drop in performance.
 
-[wxDebugReport]: http://docs.wxwidgets.org/trunk/classwx_debug_report.html
+[wxDebugReport]: https://docs.wxwidgets.org/trunk/classwx_debug_report.html
 
 Further, in the Unix world it's almost unheard of to have two versions of the
 library -- just check whether you really have two versions of any of the
@@ -89,7 +89,7 @@ the release build of the application while they continue to produce the usual
 message boxes in case of an assertion failure in the debug build (again, of the
 application, not the library). In practice this means two important things:
 
-[debugging overview]: http://docs.wxwidgets.org/trunk/overview_debugging.html
+[debugging overview]: https://docs.wxwidgets.org/trunk/overview_debugging.html
 
 *   Under Unix you can now use the release version of the library when
     developing. Unless you define `NDEBUG` when building your own code, the
@@ -107,7 +107,7 @@ application, not the library). In practice this means two important things:
     users is almost never the right thing to do though so you will want to
     define your own assertion handler using [wxSetAssertHandler()] function.
 
-[wxSetAssertHandler()]: http://docs.wxwidgets.org/trunk/group__group__funcmacro__debug.html#g7a8443c97e45d2943f03769aaa787376
+[wxSetAssertHandler()]: https://docs.wxwidgets.org/trunk/group__group__funcmacro__debug.html#g7a8443c97e45d2943f03769aaa787376
 
 Inquiring readers may wish to know how is the magic with asserts being enabled
 for only debug builds of the application code is achieved. The answer is that
@@ -118,8 +118,8 @@ makefile and it only disables the asserts if it is. Of course, it also means
 that if you don't use this macro in your code you do need to use
 [wxDISABLE_DEBUG_SUPPORT] explicitly as by default asserts are enabled.
 
-[IMPLEMENT_APP()]: http://docs.wxwidgets.org/trunk/group__group__funcmacro__rtti.html#g7d79b7b778032bc4e2712dcf16943d72
-[wxDISABLE_DEBUG_SUPPORT]: http://docs.wxwidgets.org/trunk/group__group__funcmacro__debug.html#g8db18cbe95b3b42c3017a8bf048b0839
+[IMPLEMENT_APP()]: https://docs.wxwidgets.org/trunk/group__group__funcmacro__rtti.html#g7d79b7b778032bc4e2712dcf16943d72
+[wxDISABLE_DEBUG_SUPPORT]: https://docs.wxwidgets.org/trunk/group__group__funcmacro__debug.html#g8db18cbe95b3b42c3017a8bf048b0839
 
 There are two other, less important but still nice, things which have changed in
 the release build of wxWidgets: debug logging, i.e. output produced by
@@ -129,9 +129,9 @@ statements remaining in your code is extremely slight as their arguments are not
 even evaluated any more until you call [wxLog::SetLogLevel()] to enable it --
 but you may do it if you need it.
 
-[wxLogDebug()]: http://docs.wxwidgets.org/trunk/group__group__funcmacro__log.html#g9c530ae20eb423744f90874d2c97d02b
-[wxLogTrace()]: http://docs.wxwidgets.org/trunk/group__group__funcmacro__log.html#ge28a46b220921cd87a6f75f0842294c5
-[wxLog::SetLogLevel()]: http://docs.wxwidgets.org/trunk/classwx_log.html#4ea68379469ca27f645d5f91c2d42b3b
+[wxLogDebug()]: https://docs.wxwidgets.org/trunk/group__group__funcmacro__log.html#g9c530ae20eb423744f90874d2c97d02b
+[wxLogTrace()]: https://docs.wxwidgets.org/trunk/group__group__funcmacro__log.html#ge28a46b220921cd87a6f75f0842294c5
+[wxLog::SetLogLevel()]: https://docs.wxwidgets.org/trunk/classwx_log.html#4ea68379469ca27f645d5f91c2d42b3b
 
 And, finally, debug information is now generated for the release builds as well
 for MSVC. This is very useful if you use [wxDebugReport] as without it the dumps
@@ -143,7 +143,7 @@ much in our days of multi-terabyte disks. We also plan to enable debug
 information for Unix builds in the future but we need to modify the makefiles to
 also produce it in separate files, just as MSVC does it, first.
 
-[wxDebugReport]: http://docs.wxwidgets.org/trunk/classwx_debug_report.html
+[wxDebugReport]: https://docs.wxwidgets.org/trunk/classwx_debug_report.html
 
 To summarize, nothing much has changed for you, wxWidgets user, by default, and
 if you hadn't read this blog entry (which is excusable, especially considering

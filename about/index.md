@@ -78,7 +78,7 @@ basic message box to a print preview window. Other areas include:
 You may find it helpful to browse the [reference manual][1] to get a feel for
 supported functionality.
 
-[1]: http://docs.wxwidgets.org/trunk/page_class_cat.html
+[1]: https://docs.wxwidgets.org/trunk/page_class_cat.html
 
 
 ## The wxWidgets License

@@ -61,5 +61,5 @@ ask the user to enter the password using the OS-provided dialog. Let us know if
 you use wxSecretStore and if you see possible improvements, please don't keep
 them secret!
 
-[wxConfig]: http://docs.wxwidgets.org/trunk/classwx_config_base.html
-[wxSecretStore]: http://docs.wxwidgets.org/trunk/classwx_secret_store.html
+[wxConfig]: https://docs.wxwidgets.org/trunk/classwx_config_base.html
+[wxSecretStore]: https://docs.wxwidgets.org/trunk/classwx_secret_store.html

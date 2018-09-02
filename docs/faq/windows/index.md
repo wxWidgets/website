@@ -47,7 +47,7 @@ themed automatically so long as you include wx.rc in your own .rc file.
 ### What compilers are supported?
 
 Please see docs/msw/install.txt file for up-to-date information.
-Also see [this article](http://docs.wxwidgets.org/trunk/page_introduction.html#page_introduction_requirements).
+Also see [this article](https://docs.wxwidgets.org/trunk/page_introduction.html#page_introduction_requirements).
 
 <a name="bestcompiler"></a>
 

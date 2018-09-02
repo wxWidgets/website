@@ -52,7 +52,7 @@ are available below.
         <a href="https://github.com/wxWidgets/wxWidgets/blob/v3.1.1/docs/readme.txt">Readme</a><br>
         <a href="https://github.com/wxWidgets/wxWidgets/blob/v3.1.1/docs/changes.txt">Changes</a><br>
         <p></p>
-        <a href="http://docs.wxwidgets.org/3.1.1/">Online Manual</a><br>
+        <a href="https://docs.wxwidgets.org/3.1.1/">Online Manual</a><br>
         <a href="{{ page.mirror }}/v3.1.1/wxWidgets-3.1.1-docs-html.zip">Manual (HTML) ZIP</a> (35 MiB)<br>
         <a href="{{ page.mirror }}/v3.1.1/wxWidgets-3.1.1-docs-html.tar.bz2">Manual (HTML) BZIP</a> (24 MiB)<br>
         <a href="{{ page.mirror }}/v3.1.1/wxWidgets-3.1.1-docs-chm.zip">Manual (CHM)</a> (35 MiB)
@@ -93,7 +93,7 @@ are available below.
         <a href="https://github.com/wxWidgets/wxWidgets/blob/v3.0.4/docs/readme.txt">Readme</a><br>
         <a href="https://github.com/wxWidgets/wxWidgets/blob/v3.0.4/docs/changes.txt#L583-L632">Changes</a><br>
         <p></p>
-        <a href="http://docs.wxwidgets.org/3.0.4/">Online Manual</a><br>
+        <a href="https://docs.wxwidgets.org/3.0.4/">Online Manual</a><br>
         <a href="{{ page.mirror }}/v3.0.4/wxWidgets-3.0.4-docs-html.zip">Manual (HTML) ZIP</a> (33 MB)<br>
         <a href="{{ page.mirror }}/v3.0.4/wxWidgets-3.0.4-docs-html.tar.bz2">Manual (HTML) BZIP</a> (23 MB)<br>
         <a href="{{ page.mirror }}/v3.0.4/wxWidgets-3.0.4-docs-chm.zip">Manual (CHM)</a> (32 MB)
@@ -129,7 +129,7 @@ are available below.
         <a href="{{ page.mirror }}/v2.8.12/readme.txt">Readme</a><br>
         <a href="{{ page.mirror }}/v2.8.12/changes-2.8.12.txt">Changes</a><br>
         <p></p>
-        <a href="http://docs.wxwidgets.org/2.8/">Online Manual</a><br>
+        <a href="https://docs.wxwidgets.org/2.8/">Online Manual</a><br>
         <a href="{{ page.mirror }}/v2.8.12/wxWidgets-2.8.12-HTML.zip">Manual (HTML)</a> (2.6 MB)<br>
         <a href="{{ page.mirror }}/v2.8.12/wxWidgets-2.8.12-CHM.zip">Manual (CHM)</a> (3.7 MB)<br>
         <a href="{{ page.mirror }}/v2.8.12/wxWidgets-2.8.12-PDF.zip">Manual (PDF)</a> (10.3 MB)<br>

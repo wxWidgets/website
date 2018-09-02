@@ -14,7 +14,7 @@ from Windows XP.
 Here's an example of the difference: ("Old" is the first menu option from the
 filedialog portion of the [dialog sample], "New" is the second.)
 
-[dialog sample]: http://docs.wxwidgets.org/trunk/page_samples.html#page_samples_dialogs
+[dialog sample]: https://docs.wxwidgets.org/trunk/page_samples.html#page_samples_dialogs
 
 "Old":
 

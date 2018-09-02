@@ -20,6 +20,6 @@ what do you think!
 [1]: https://sourceforge.net/downloads/wxwindows/2.9.1/
 [2]: ftp://ftp.wxwidgets.org/pub/2.9.1/
 [3]: https://sourceforge.net/projects/wxwindows/files/2.9.1/readme.txt
-[4]: http://docs.wxwidgets.org/2.9.1/
-[5]: http://docs.wxwidgets.org/2.9.1/overview_changes_since28.html
+[4]: https://docs.wxwidgets.org/2.9.1/
+[5]: https://docs.wxwidgets.org/2.9.1/overview_changes_since28.html
 [6]: https://sourceforge.net/projects/wxwindows/files/2.9.1/changes.txt

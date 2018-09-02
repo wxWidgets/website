@@ -76,7 +76,7 @@ AddType application/relax-ng-compact-syntax .rnc
     RewriteRule ^support/mlhowto\.htm    /support/mailing-lists/guide/  [R=301,NC,L]
     RewriteRule ^support/support\.htm    /support/commercial/           [R=301,NC,L]
 
-    RewriteRule ^manuals/(.*)$         http://docs.wxwidgets.org/$1  [R=301,NC,L]
+    RewriteRule ^manuals/(.*)$         https://docs.wxwidgets.org/$1  [R=301,NC,L]
     RewriteRule ^wiki/index.php/(.*)$  https://wiki.wxwidgets.org/$1  [R=301,NC,L]
     RewriteRule ^wiki/(.*)$            https://wiki.wxwidgets.org/$1  [R=301,NC,L]
 

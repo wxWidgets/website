@@ -20,7 +20,7 @@ controlled simultaneously. And as most applications nowadays do use multiple
 threads, this is a serious limitation indeed.
 
 [just finished]: https://trac.wxwidgets.org/changeset/61423
-[wxLog]: http://docs.wxwidgets.org/trunk/classwx_log.html
+[wxLog]: https://docs.wxwidgets.org/trunk/classwx_log.html
 
 As an aside, when I realized that the deficiencies of `wxLog` really prevented
 it from being useful in the application I was working on, my first idea was not
@@ -58,7 +58,7 @@ and really displayed it in its text control only during the idle time from the
 main thread. All I did was to extend this approach to all log targets by moving
 its implementation in `wxLog` itself.
 
-[wxLogWindow]: http://docs.wxwidgets.org/trunk/classwx_log_window.html
+[wxLogWindow]: https://docs.wxwidgets.org/trunk/classwx_log_window.html
 
 This does introduce a new problem however: as the messages are buffered instead
 of being output immediately, they could be lost if the program crashes before
@@ -70,8 +70,8 @@ them to a file and so a thread can always set up [wxLogStderr] or a
 [wxLogStream] to ensure that its messages are saved in a file as soon as they
 are output.
 
-[wxLogStderr]: http://docs.wxwidgets.org/trunk/classwx_log_stderr.html
-[wxLogStream]: http://docs.wxwidgets.org/trunk/classwx_log_stream.html
+[wxLogStderr]: https://docs.wxwidgets.org/trunk/classwx_log_stderr.html
+[wxLogStream]: https://docs.wxwidgets.org/trunk/classwx_log_stream.html
 
 On a related note, using [wxLogNull] (and [wxLog::EnableLogging()] which it uses
 internally) now only disables logging for the current thread and not the
@@ -86,8 +86,8 @@ enabled thread-wise -- but we can always make it possible to disable it either
 globally or, which probably makes more sense, on log target basis, if really
 needed.
 
-[wxLogNull]: http://docs.wxwidgets.org/trunk/classwx_log_null.html
-[wxLog::EnableLogging()]: http://docs.wxwidgets.org/trunk/classwx_log.html#58bbfc0831eb47f0d88c9350d1f6e02d
+[wxLogNull]: https://docs.wxwidgets.org/trunk/classwx_log_null.html
+[wxLog::EnableLogging()]: https://docs.wxwidgets.org/trunk/classwx_log.html#58bbfc0831eb47f0d88c9350d1f6e02d
 
 The second problem was solved by introducing the notion of "log components".
 These are simply arbitrary strings which identify the component which logged a
@@ -111,8 +111,8 @@ components and send them to different final destinations (e.g. database-related
 messages to one log file and network ones to another) from your overridden
 [wxLog::DoLogRecord()].
 
-[setting the log level]: http://docs.wxwidgets.org/trunk/classwx_log.html#7ae244e71dff20efd3a37b3718841a39
-[wxLog::DoLogRecord()]: http://docs.wxwidgets.org/trunk/classwx_log.html#ede0ff7812690d487de845b7f3095dfd
+[setting the log level]: https://docs.wxwidgets.org/trunk/classwx_log.html#7ae244e71dff20efd3a37b3718841a39
+[wxLog::DoLogRecord()]: https://docs.wxwidgets.org/trunk/classwx_log.html#ede0ff7812690d487de845b7f3095dfd
 
 Finally, to solve the last problem in the list, all `wxLogXXX()` functions have
 been replaced by macros with the same names, which allows to record the
@@ -121,7 +121,7 @@ information about the log message location. It can be retrieved from
 information is not used in any of the predefined loggers (yet?) but it's
 available in case you need it.
 
-[wxLogRecordInfo]: http://docs.wxwidgets.org/trunk/classwx_log_record_info.html
+[wxLogRecordInfo]: https://docs.wxwidgets.org/trunk/classwx_log_record_info.html
 
 Moreover, in process of doing this, I actually created a relatively generic
 mechanism for passing arbitrary extra information to the log functions -- but,

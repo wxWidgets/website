@@ -34,5 +34,5 @@ problems before 3.0.
 [2]: ftp://ftp.wxwidgets.org/pub/2.9.5/
 [3]: https://sourceforge.net/downloads/wxwindows/2.9.5/binaries/
 [4]: https://sourceforge.net/projects/wxwindows/files/2.9.5/changes.txt
-[5]: http://docs.wxwidgets.org/2.9.5/
+[5]: https://docs.wxwidgets.org/2.9.5/
 [6]: https://trac.wxwidgets.org/newticket

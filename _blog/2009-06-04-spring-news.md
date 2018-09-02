@@ -93,6 +93,6 @@ That's all for today -- and I'll try to find time to write more about June
 changes and also to finally finish my long promised and long overdue post about
 Bind() soon.
 
-[wxMouseEventsManager]: http://docs.wxwidgets.org/trunk/classwx_mouse_events_manager.html
+[wxMouseEventsManager]: https://docs.wxwidgets.org/trunk/classwx_mouse_events_manager.html
 [remains]: https://trac.wxwidgets.org/ticket/10761
-[wxTextWrapper]: http://docs.wxwidgets.org/trunk/classwx_text_wrapper.html
+[wxTextWrapper]: https://docs.wxwidgets.org/trunk/classwx_text_wrapper.html

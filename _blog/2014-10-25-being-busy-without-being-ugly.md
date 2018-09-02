@@ -15,7 +15,7 @@ hardly user-friendly and usually performing the long-running operation in a
 separate thread and providing some way to display its progress and canceling
 it in the main GUI thread is strongly advised.
 
-[wxBusyInfo]: http://docs.wxwidgets.org/trunk/classwx_busy_info.html
+[wxBusyInfo]: https://docs.wxwidgets.org/trunk/classwx_busy_info.html
 
 However sometimes doing it is too difficult or maybe even impossible if you are
 using third-party libraries and in this case wxBusyInfo provides a very simple
@@ -68,4 +68,4 @@ than needed.
 So while the initial advice to avoid the use of wxBusyInfo in the first place
 remains valid, you can at least make it less ugly now if you do have to use it.
 
-[markup]: http://docs.wxwidgets.org/trunk/classwx_control.html#afeb308dc3b54d8d735b33cb250395503
+[markup]: https://docs.wxwidgets.org/trunk/classwx_control.html#afeb308dc3b54d8d735b33cb250395503

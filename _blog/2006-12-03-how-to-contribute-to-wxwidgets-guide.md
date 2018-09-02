@@ -24,7 +24,7 @@ comboboxes] and almost all other [new controls] in the upcoming 2.8.0 release.
 [exciting new features]: https://wiki.wxwidgets.org/Development:_Todo_List
 [numerous old bugs]: https://trac.wxwidgets.org/wiki/Stats
 [AUI]: http://www.kirix.com/community/wxaui/screenshots.html
-[custom comboboxes]: http://docs.wxwidgets.org/trunk/classwx_combo_ctrl.html
+[custom comboboxes]: https://docs.wxwidgets.org/trunk/classwx_combo_ctrl.html
 [new controls]: https://github.com/wxWidgets/wxWidgets/blob/WX_2_8_BRANCH/docs/changes.txt
 
 But we'd still like to attract even more! And maybe it's our own fault, after

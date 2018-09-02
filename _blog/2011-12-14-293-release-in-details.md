@@ -128,21 +128,21 @@ so while almost 400 bugs were fixed since 2.9.2, net effect is unfortunately
 that today we have 116 more bugs than 5 months ago.
 
 [updated roadmap]: https://trac.wxwidgets.org/wiki/Roadmap
-[wxWebView]: http://docs.wxwidgets.org/trunk/group__group__class__webview.html
-[wxTimePickerCtrl]: http://docs.wxwidgets.org/trunk/classwx_time_picker_ctrl.html
-[wxDatePickerCtrl]: http://docs.wxwidgets.org/trunk/classwx_date_picker_ctrl.html
-[wxTreeListCtrl]: http://docs.wxwidgets.org/trunk/classwx_tree_list_ctrl.html
-[wxRichToolTip]: http://docs.wxwidgets.org/trunk/classwx_rich_tool_tip.html
-[wxBannerWindow]: http://docs.wxwidgets.org/trunk/classwx_banner_window.html
-[wxStopWatch]: http://docs.wxwidgets.org/trunk/classwx_stop_watch.html
-[wxEVT_CHAR_HOOK]: http://docs.wxwidgets.org/trunk/classwx_key_event.html
-[DoAllowNextEvent()]: http://docs.wxwidgets.org/trunk/classwx_key_event.html#a4a7060ef0054d681cf8685e0467a663e
-[wxMessageDialog]: http://docs.wxwidgets.org/trunk/classwx_message_dialog.html
-[try to enter]: http://docs.wxwidgets.org/trunk/classwx_critical_section.html#abb732e66f2b0e6f38d30f29a25d8851a
-[auto-completing the directories]: http://docs.wxwidgets.org/trunk/classwx_text_entry.html#ab02338d68d51f103551454298578851c
-[find the pixel coordinates]: http://docs.wxwidgets.org/trunk/classwx_text_ctrl.html#a2d976679d30dfd1ff0adb177b9537880
-[wxPersistentRegisterAndRestore(splitter)]: http://docs.wxwidgets.org/trunk/persist_8h.html#aa88ad0cab20a78e9c930fbbbc6caa36d
-[wxPersistenceManager]: http://docs.wxwidgets.org/trunk/classwx_persistence_manager.html
-[GetKey()]: http://docs.wxwidgets.org/trunk/classwx_persistence_manager.html#a03e9951d6bfd4b6b089a60a5045ae19e
+[wxWebView]: https://docs.wxwidgets.org/trunk/group__group__class__webview.html
+[wxTimePickerCtrl]: https://docs.wxwidgets.org/trunk/classwx_time_picker_ctrl.html
+[wxDatePickerCtrl]: https://docs.wxwidgets.org/trunk/classwx_date_picker_ctrl.html
+[wxTreeListCtrl]: https://docs.wxwidgets.org/trunk/classwx_tree_list_ctrl.html
+[wxRichToolTip]: https://docs.wxwidgets.org/trunk/classwx_rich_tool_tip.html
+[wxBannerWindow]: https://docs.wxwidgets.org/trunk/classwx_banner_window.html
+[wxStopWatch]: https://docs.wxwidgets.org/trunk/classwx_stop_watch.html
+[wxEVT_CHAR_HOOK]: https://docs.wxwidgets.org/trunk/classwx_key_event.html
+[DoAllowNextEvent()]: https://docs.wxwidgets.org/trunk/classwx_key_event.html#a4a7060ef0054d681cf8685e0467a663e
+[wxMessageDialog]: https://docs.wxwidgets.org/trunk/classwx_message_dialog.html
+[try to enter]: https://docs.wxwidgets.org/trunk/classwx_critical_section.html#abb732e66f2b0e6f38d30f29a25d8851a
+[auto-completing the directories]: https://docs.wxwidgets.org/trunk/classwx_text_entry.html#ab02338d68d51f103551454298578851c
+[find the pixel coordinates]: https://docs.wxwidgets.org/trunk/classwx_text_ctrl.html#a2d976679d30dfd1ff0adb177b9537880
+[wxPersistentRegisterAndRestore(splitter)]: https://docs.wxwidgets.org/trunk/persist_8h.html#aa88ad0cab20a78e9c930fbbbc6caa36d
+[wxPersistenceManager]: https://docs.wxwidgets.org/trunk/classwx_persistence_manager.html
+[GetKey()]: https://docs.wxwidgets.org/trunk/classwx_persistence_manager.html#a03e9951d6bfd4b6b089a60a5045ae19e
 [the change log]: https://sourceforge.net/projects/wxwindows/files/2.9.3/changes.txt
 [trac-ticket-stats]: http://www.tt-solutions.com/en/portfolio/trac_ticket_stats

@@ -94,7 +94,7 @@ Mentor: Stefan Csomor & Vadim Zeitlin
 > future.
 
 This project was a spectacular success and resulted in addition of
-[wxUIActionSimulator](http://docs.wxwidgets.org/trunk/classwx_u_i_action_simulator.html)
+[wxUIActionSimulator](https://docs.wxwidgets.org/trunk/classwx_u_i_action_simulator.html)
 class and a whole new GUI test suite using it, as well as fixing a huge number
 of bugs in wxWidgets.
 

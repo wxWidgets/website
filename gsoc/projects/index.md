@@ -51,9 +51,9 @@ Notice that the projects are sorted roughly in order of their
       text alignment to [wxRichTextCtrl][].
  -->
 
-[wxGrid]: http://docs.wxwidgets.org/trunk/classwx_grid.html
-[wxWebView]: http://docs.wxwidgets.org/trunk/classwx_web_view.html
-[wxRichTextCtrl]: http://docs.wxwidgets.org/trunk/classwx_rich_text_ctrl.html
+[wxGrid]: https://docs.wxwidgets.org/trunk/classwx_grid.html
+[wxWebView]: https://docs.wxwidgets.org/trunk/classwx_web_view.html
+[wxRichTextCtrl]: https://docs.wxwidgets.org/trunk/classwx_rich_text_ctrl.html
 
 Alternatively, you could decide to select a project depending on your
 background, so that if you are a...
@@ -149,7 +149,7 @@ No specific requirements.
 ## <i class="fas fa-lightbulb fa-fw"></i> Power management under non-Windows platforms
 
 wxWidgets has support for
-[power events](http://docs.wxwidgets.org/trunk/classwx_power_event.html) but
+[power events](https://docs.wxwidgets.org/trunk/classwx_power_event.html) but
 it's currently only implemented on Windows and doesn't work for Vista and
 later systems right now, e.g. it's impossible to prevent the system from
 suspending in this way (which was used until Windows XP) any more. The goal of
@@ -305,7 +305,7 @@ Any experience with using `IID_IWebBrowser` and/or WebKit would be helpful.
 
 #### See also
 
-* [wxWebView](http://docs.wxwidgets.org/trunk/classwx_web_view.html)
+* [wxWebView](https://docs.wxwidgets.org/trunk/classwx_web_view.html)
 
 
 <a name="webview-cookies-download"></a>
@@ -433,7 +433,7 @@ the same way under all platforms.
 
 * The ribbon classes, implemented as a GSoC 2009 project, has customisable art
   and demonstrates a Vista/Windows 7-like art mode.
-* [wxRendererNative documentation](http://docs.wxwidgets.org/trunk/classwx_renderer_native.html)
+* [wxRendererNative documentation](https://docs.wxwidgets.org/trunk/classwx_renderer_native.html)
 
 
 
@@ -461,8 +461,8 @@ wxWidgets, OpenGL
 
 #### See also
 
-* [wxGraphicsContext documentation](http://docs.wxwidgets.org/trunk/classwx_graphics_context.html)
-* [wxGraphicsRenderer documentation](http://docs.wxwidgets.org/trunk/classwx_graphics_renderer.html)
+* [wxGraphicsContext documentation](https://docs.wxwidgets.org/trunk/classwx_graphics_context.html)
+* [wxGraphicsRenderer documentation](https://docs.wxwidgets.org/trunk/classwx_graphics_renderer.html)
 * [wxDirect2D Implementation Progress](https://github.com/alexpana/wxWidgets/wiki/Direct2D-Implementation-Progress)
 
 <a name="qt"></a>

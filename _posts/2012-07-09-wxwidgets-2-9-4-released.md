@@ -31,4 +31,4 @@ you think!
 [1]: https://sourceforge.net/downloads/wxwindows/2.9.4/
 [2]: https://sourceforge.net/downloads/wxwindows/2.9.4/binaries/
 [3]: https://sourceforge.net/projects/wxwindows/files/2.9.4/changes.txt
-[4]: http://docs.wxwidgets.org/2.9.4/
+[4]: https://docs.wxwidgets.org/2.9.4/

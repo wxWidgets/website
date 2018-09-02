@@ -31,5 +31,5 @@ about how it could be implemented under Linux would be very welcome.
 
 [GSoC 2014 projects]: /blog/2014/04/accepted-gsoc-2014-projects-announced/
 [Chaobin's own post here]: https://github.com/zhchbin/wxWidgets/wiki/SOC2014_TASKBAR
-[wxAppProgressIndicator]: http://docs.wxwidgets.org/trunk/classwx_app_progress_indicator.html
+[wxAppProgressIndicator]: https://docs.wxwidgets.org/trunk/classwx_app_progress_indicator.html
 [NSProgress]: https://developer.apple.com/library/mac/documentation/Foundation/Reference/NSProgress_Class/Reference/Reference.html

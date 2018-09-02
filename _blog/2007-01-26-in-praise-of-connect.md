@@ -27,7 +27,7 @@ alternative way beyond the subjective dislike of macros. This other way is the
 derived from `wxEvtHandler` (which includes, but is not limited to, any
 `wxWindow`-derived class) to an event.
 
-[Connect()]: http://docs.wxwidgets.org/trunk/classwx_evt_handler.html#a78719e8b82c9f9c6e4056b3449df1943
+[Connect()]: https://docs.wxwidgets.org/trunk/classwx_evt_handler.html#a78719e8b82c9f9c6e4056b3449df1943
 
 The syntax is slightly more verbose which is, of course, one of the reasons for
 using the event table macros in the first place, they simply save some typing.
@@ -67,7 +67,7 @@ few things that macros are incapable of:
     currently enabled and returning from it if it isn't, but using dynamically
     connected handlers requires less code and is also usually more clear.
 
-    [Disconnect()]: http://docs.wxwidgets.org/trunk/classwx_evt_handler.html#a13061cf0ed01ac10a804ac057ef4bdbc
+    [Disconnect()]: https://docs.wxwidgets.org/trunk/classwx_evt_handler.html#a13061cf0ed01ac10a804ac057ef4bdbc
 
 3.  Also notice that you must derive a class inherited from, say, `wxTextCtrl`
     even if you don't want to modify the control behaviour at all but just want

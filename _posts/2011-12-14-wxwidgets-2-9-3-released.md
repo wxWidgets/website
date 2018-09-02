@@ -28,8 +28,8 @@ you think!
 [1]: https://sourceforge.net/downloads/wxwindows/2.9.3/
 [2]: ftp://ftp.wxwidgets.org/pub/2.9.3/
 [3]: https://sourceforge.net/projects/wxwindows/files/2.9.3/changes.txt
-[4]: http://docs.wxwidgets.org/trunk/group__group__class__webview.html
-[5]: http://docs.wxwidgets.org/trunk/classwx_tree_list_ctrl.html
-[6]: http://docs.wxwidgets.org/trunk/classwx_time_picker_ctrl.html
-[7]: http://docs.wxwidgets.org/trunk/classwx_rich_tool_tip.html
-[8]: http://docs.wxwidgets.org/trunk/classwx_banner_window.html
+[4]: https://docs.wxwidgets.org/trunk/group__group__class__webview.html
+[5]: https://docs.wxwidgets.org/trunk/classwx_tree_list_ctrl.html
+[6]: https://docs.wxwidgets.org/trunk/classwx_time_picker_ctrl.html
+[7]: https://docs.wxwidgets.org/trunk/classwx_rich_tool_tip.html
+[8]: https://docs.wxwidgets.org/trunk/classwx_banner_window.html

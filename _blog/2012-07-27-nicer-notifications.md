@@ -37,5 +37,5 @@ I'd really like to implement for wxGTK. The only other thing I managed to do
 during this vacation was a couple of minor [wxWebView] enhancements but more
 about this in a future post.
 
-[wxNotificationMessage]: http://docs.wxwidgets.org/trunk/classwx_notification_message.html
-[wxWebView]: http://docs.wxwidgets.org/trunk/classwx_web_view.html
+[wxNotificationMessage]: https://docs.wxwidgets.org/trunk/classwx_notification_message.html
+[wxWebView]: https://docs.wxwidgets.org/trunk/classwx_web_view.html

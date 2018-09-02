@@ -77,7 +77,7 @@ Original proposal:
 > extra back-ends and improve the current HTML help system using the new class.
 
 This project was spectacularly successful and
-[wxWebView](http://docs.wxwidgets.org/trunk/classwx_web_view.html) was one of
+[wxWebView](https://docs.wxwidgets.org/trunk/classwx_web_view.html) was one of
 the most important and highly anticipated additions in the next wxWidgets
 release.
 

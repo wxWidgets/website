@@ -6,14 +6,14 @@ All manuals are available online, including [older versions][1]. Please see
 the [downloads][2] page for offline copies. The latest development version of
 the manual is also available, built nightly.
 
-[1]: http://docs.wxwidgets.org/
+[1]: https://docs.wxwidgets.org/
 [2]: /downloads/
 
 <div class="row my-3 justify-content-md-center">
   <div class="col-md-6">
-    <p><a href="http://docs.wxwidgets.org/3.0/" class="btn btn-outline-primary btn-lg btn-block" role="button">3.0 Online Manual</a></p>
-    <p><a href="http://docs.wxwidgets.org/2.8/" class="btn btn-outline-primary btn-lg btn-block" role="button">2.8 Online Manual</a></p>
-    <p><a href="http://docs.wxwidgets.org/trunk/" class="btn btn-outline-primary btn-lg btn-block" role="button">Development Manual</a></p>
+    <p><a href="https://docs.wxwidgets.org/3.0/" class="btn btn-outline-primary btn-lg btn-block" role="button">3.0 Online Manual</a></p>
+    <p><a href="https://docs.wxwidgets.org/2.8/" class="btn btn-outline-primary btn-lg btn-block" role="button">2.8 Online Manual</a></p>
+    <p><a href="https://docs.wxwidgets.org/trunk/" class="btn btn-outline-primary btn-lg btn-block" role="button">Development Manual</a></p>
   </div>
 </div>
 

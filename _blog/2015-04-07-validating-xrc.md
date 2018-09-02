@@ -22,7 +22,7 @@ the scheme describing all the valid XRC elements, allows to avoid all these
 problems at once, so it is strongly recommended to do it -- and this post will
 explain how, in details.
 
-[XRC files]: http://docs.wxwidgets.org/trunk/overview_xrcformat.html
+[XRC files]: https://docs.wxwidgets.org/trunk/overview_xrcformat.html
 
 Setup
 -----

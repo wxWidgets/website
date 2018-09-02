@@ -33,7 +33,7 @@ title: "Developers"
       <ul>
         <li><a href="https://trac.wxwidgets.org/browser/">Browse Source Online (Trac)</a></li>
         <li><a href="https://github.com/wxWidgets/">Browse Source Online (GitHub)</a></li>
-        <li><a href="http://docs.wxwidgets.org/trunk/">Development Manual (rebuilt daily)</a></li>
+        <li><a href="https://docs.wxwidgets.org/trunk/">Development Manual (rebuilt daily)</a></li>
       </ul>
     </p>
   </div>

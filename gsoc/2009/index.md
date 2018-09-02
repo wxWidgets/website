@@ -19,7 +19,7 @@ Original proposal:
 > implement a ribbon bar in their programs.
 
 The project was a great success and
-[wxRibbonBar](http://docs.wxwidgets.org/trunk/classwx_ribbon_bar.html) has been
+[wxRibbonBar](https://docs.wxwidgets.org/trunk/classwx_ribbon_bar.html) has been
 part of wxWidgets since 2010.
 
 [git branch](https://github.com/wxWidgets/wxWidgets/tree/SOC2009_RIBBON)

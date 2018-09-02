@@ -38,7 +38,7 @@ several places in wxWidgets itself where `GetEventHandler()` call was forgotten
 and there are certainly a lot of similar omissions in code outside of wx itself
 which this change will now allow to find during compile-time.
 
-[wxWindow::ProcessEvent]: http://docs.wxwidgets.org/trunk/classwx_window.html#5ebdbd87c28644149a07f1742996df96
+[wxWindow::ProcessEvent]: https://docs.wxwidgets.org/trunk/classwx_window.html#5ebdbd87c28644149a07f1742996df96
 
 There was also more work done on the [native headers] (with nice support of
 sorting and column reordering) in wxDataViewCtrl and wxGrid (special thanks to
@@ -46,9 +46,9 @@ sorting and column reordering) in wxDataViewCtrl and wxGrid (special thanks to
 particular the simple [wxDataViewListCtrl] wrapper was added and event-based API
 for drag-and-drop was implemented.
 
-[native headers]: http://docs.wxwidgets.org/trunk/classwx_header_ctrl.html
+[native headers]: https://docs.wxwidgets.org/trunk/classwx_header_ctrl.html
 [Zen Fire]: http://www.zen-fire.com/
-[wxDataViewListCtrl]: http://docs.wxwidgets.org/trunk/classwx_data_view_list_ctrl.html
+[wxDataViewListCtrl]: https://docs.wxwidgets.org/trunk/classwx_data_view_list_ctrl.html
 
 The last problems with support for custom controls in native file dialogs under
 Windows were solved thanks to Marcin so now only Mac support for this feature is

@@ -27,8 +27,8 @@ something to make it easier to upgrade to 3.0 but we need to know about the
 problems in order to fix them!
 
 [described here]: /blog/2007/11/looking-forward-to-wxwidgets-3/
-[Unicode overview]: http://docs.wxwidgets.org/trunk/overview_unicode.html
-[changes since 2.8]: http://docs.wxwidgets.org/trunk/overview_changes_since28.html
+[Unicode overview]: https://docs.wxwidgets.org/trunk/overview_unicode.html
+[changes since 2.8]: https://docs.wxwidgets.org/trunk/overview_changes_since28.html
 
 The rest of the changes were the usual mix of bug fixes (many) and feature
 improvements (a few). One of them stands out though: the long spoken, discussed,
@@ -47,9 +47,9 @@ As for the new features:
     [wxRibbonBar] and [related classes] as well as [wxFileSystemWatcher] are
     available in it.
 
-[wxRibbonBar]: http://docs.wxwidgets.org/trunk/classwx_ribbon_bar.html
-[related classes]: http://docs.wxwidgets.org/trunk/group__group__class__ribbon.html
-[wxFileSystemWatcher]: http://docs.wxwidgets.org/trunk/classwx_file_system_watcher.html
+[wxRibbonBar]: https://docs.wxwidgets.org/trunk/classwx_ribbon_bar.html
+[related classes]: https://docs.wxwidgets.org/trunk/group__group__class__ribbon.html
+[wxFileSystemWatcher]: https://docs.wxwidgets.org/trunk/classwx_file_system_watcher.html
 
 *   New [wxAny] class by Jaakko Salli was added. This is a modern, more
     efficient and safer replacement for wxVariant and the name was chosen
@@ -58,7 +58,7 @@ As for the new features:
     future and start using the new class in the API once all the problems with
     it are ironed out.
 
-[wxAny]: http://docs.wxwidgets.org/trunk/classwx_any.html
+[wxAny]: https://docs.wxwidgets.org/trunk/classwx_any.html
 
 *   [wxInfoBar] GUI control was added. Instead of describing it, it is probably
     enough to show how it looks: there are two test bars in the dialogs sample
@@ -79,7 +79,7 @@ As for the new features:
 
     <img src="infobar_osx.png" class="img-fluid" alt="wxInfoBar on OSX">
 
-[wxInfoBar]: http://docs.wxwidgets.org/trunk/classwx_info_bar.html
+[wxInfoBar]: https://docs.wxwidgets.org/trunk/classwx_info_bar.html
 
 *   Many improvements in wxOSX/Cocoa port. Among cosmetic (but nice) things was
     the addition of [ShowWithEffect()] implementation, among less visible ones
@@ -91,7 +91,7 @@ As for the new features:
     prefer to fix any bugs in Cocoa code which will be used in the future and
     not in Carbon port which won't.
 
-[ShowWithEffect()]: http://docs.wxwidgets.org/trunk/classwx_window.html#596b1715edfc7609f352b2e000ecbaec
+[ShowWithEffect()]: https://docs.wxwidgets.org/trunk/classwx_window.html#596b1715edfc7609f352b2e000ecbaec
 
 *   As usual, wxDataViewCtrl and related classes also received several bug fixed
     and improvements.

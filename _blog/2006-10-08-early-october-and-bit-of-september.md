@@ -10,7 +10,7 @@ blogger_orig_url: http://wxwidgets.blogspot.com/2006/10/early-october-and-bit-of
 The wxDataViewCtrl class gotten [some documentation]. wxDataViewCtrl aims to be
 a replacement for wxListCtrl and wxTreeCtrl.
 
-[some documentation]: http://docs.wxwidgets.org/3.0/classwx_data_view_ctrl.html
+[some documentation]: https://docs.wxwidgets.org/3.0/classwx_data_view_ctrl.html
 
 A standardized, and sometimes native, way for showing an about dialog was added
 to CVS. The main way to do this is through the [wxAboutBox()] function.
@@ -30,4 +30,4 @@ order to interact with APIs such as GDI+ on Windows and Cairo. There is
 currently no documentation for the classes, however. The interface is available
 through `wx/graphics.h`.
 
-[wxAboutBox()]: http://docs.wxwidgets.org/3.0/group__group__funcmacro__dialog.html#ga6d8198c95b97786f206abfde010a4d8f
+[wxAboutBox()]: https://docs.wxwidgets.org/3.0/group__group__funcmacro__dialog.html#ga6d8198c95b97786f206abfde010a4d8f

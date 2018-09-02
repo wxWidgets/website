@@ -19,7 +19,7 @@ event handler connections statically and less flexibly but more concisely than
 
 [a base class]: http://www.boost.org/doc/libs/1_46_1/libs/utility/utility.htm#Class_noncopyable
 [DSL]: http://en.wikipedia.org/wiki/Domain-specific_language
-[event table macros]: http://docs.wxwidgets.org/trunk/group__group__funcmacro__events.html
+[event table macros]: https://docs.wxwidgets.org/trunk/group__group__funcmacro__events.html
 [Connect()]: http://wxwidgets.blogspot.com/2007/01/in-praise-of-connect.html
 
 However in some cases there is really nothing that can be said in defense of
@@ -72,5 +72,5 @@ progress on it. And if you have any candidates for irritating macros to be dealt
 with next, please let us know!
 
 [another bug]: https://trac.wxwidgets.org/ticket/12808
-[wxNavigationEnabled]: http://docs.wxwidgets.org/trunk/classwx_navigation_enabled.html
+[wxNavigationEnabled]: https://docs.wxwidgets.org/trunk/classwx_navigation_enabled.html
 [CRTP]: http://en.wikipedia.org/wiki/Curiously_recurring_template_pattern

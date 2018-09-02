@@ -65,7 +65,7 @@ the other platforms too) called [wxNotificationMessage] and which is used by the
 small message in the upper right part of the window (such messages are often
 used in Maemo UI as notifications and also message box replacements).
 
-[wxNotificationMessage]: http://docs.wxwidgets.org/trunk/classwx_notification_message.html
+[wxNotificationMessage]: https://docs.wxwidgets.org/trunk/classwx_notification_message.html
 
 Of course, there are a lot of other things to do. For one, wxToolBar needs to be
 changed in the same way wxMenuBar was. Next, as Maemo replaces almost all of the

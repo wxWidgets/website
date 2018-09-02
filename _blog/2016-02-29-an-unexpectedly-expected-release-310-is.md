@@ -35,4 +35,4 @@ meanwhile, we hope that you'll enjoy the new release!
 [as planned]: /blog/2016/01/310-is-coming/
 [web site]: /news/2016/02/wxwidgets-3.1.0-released/
 [change log]: https://raw.githubusercontent.com/wxWidgets/wxWidgets/v3.1.0/docs/changes.txt
-[wxNativeWindow]: http://docs.wxwidgets.org/3.1.0/classwx_native_window.html
+[wxNativeWindow]: https://docs.wxwidgets.org/3.1.0/classwx_native_window.html

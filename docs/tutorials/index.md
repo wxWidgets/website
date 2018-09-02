@@ -13,7 +13,7 @@ page on the community wiki.
 <div class="list-group my-3">
   <li class="list-group-item">
     <h5 class="mb-1">
-      <a href="http://docs.wxwidgets.org/stable/overview_helloworld.html">
+      <a href="https://docs.wxwidgets.org/stable/overview_helloworld.html">
         'Hello world' in wxWidgets: A Very Short Tutorial
       </a>
     </h5>

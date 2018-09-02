@@ -60,5 +60,5 @@ one taking `int` flags which was added for 2.9.4 and now removed to avoid
 ambiguities with the other existing constructors), but there is no reason to
 prefer them to the new one.
 
-[wxFontInfo]: http://docs.wxwidgets.org/trunk/classwx_font_info.html
+[wxFontInfo]: https://docs.wxwidgets.org/trunk/classwx_font_info.html
 [named parameter idiom]: http://www.parashift.com/c++-faq/named-parameter-idiom.html

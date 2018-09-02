@@ -8,4 +8,4 @@ the tests section of its March 2007 issue which gives wxWidgets 9 out of 10 and
 special mention to [wxAUI][2].
 
 [1]: http://www.linuxpro.it/
-[2]: http://docs.wxwidgets.org/2.8/wx_wxauioverview.html
+[2]: https://docs.wxwidgets.org/2.8/wx_wxauioverview.html

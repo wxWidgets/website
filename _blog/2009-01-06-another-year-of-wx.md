@@ -31,7 +31,7 @@ as well as producing nicer results.
 
 [Trac]: https://trac.wxwidgets.org/
 [BuildBot]: http://buildbot.tt-solutions.com/wx/
-[documentation]: http://docs.wxwidgets.org/trunk/
+[documentation]: https://docs.wxwidgets.org/trunk/
 [Doxygen]: http://www.doxygen.org/
 
 By the way, you might have noticed that one of the goals of these changes was to
@@ -80,9 +80,9 @@ cleaned up [wxSocket] and [wxURL] code which became an acute embarrassment to
 all of us after a decade of bit-rotting and also fixed some, although by far not
 all, problems with [wxGrid] which also suffered from chronic lack of attention.
 
-[wxSocket]: http://docs.wxwidgets.org/trunk/classwx_socket.html
-[wxURL]: http://docs.wxwidgets.org/trunk/classwx_u_r_l.html
-[wxGrid]: http://docs.wxwidgets.org/trunk/classwx_grid.html
+[wxSocket]: https://docs.wxwidgets.org/trunk/classwx_socket.html
+[wxURL]: https://docs.wxwidgets.org/trunk/classwx_u_r_l.html
+[wxGrid]: https://docs.wxwidgets.org/trunk/classwx_grid.html
 
 Of course, all this doesn't mean that there were no new features added so let me
 list the most important ones:
@@ -119,18 +119,18 @@ list the most important ones:
 
 And I probably forget quite a few more.
 
-[wxPropertyGrid]: http://docs.wxwidgets.org/trunk/classwx_property_grid.html
-[wxDataViewCtrl]: http://docs.wxwidgets.org/trunk/classwx_data_view_ctrl.html
-[wxRichTextCtrl]: http://docs.wxwidgets.org/trunk/classwx_rich_text_ctrl.html
-[wxGrid]: http://docs.wxwidgets.org/trunk/classwx_grid.html
-[wxListCtrl]: http://docs.wxwidgets.org/trunk/classwx_list_ctrl.html
-[wxHeaderCtrl]: http://docs.wxwidgets.org/trunk/classwx_header_ctrl.html
-[wxRearrangeList]: http://docs.wxwidgets.org/trunk/classwx_rearrange_list.html
-[wxWrapSizer]: http://docs.wxwidgets.org/trunk/classwx_wrap_sizer.html
-[wxCalendarCtrl]: http://docs.wxwidgets.org/trunk/classwx_calendar_ctrl.html
-[wxMessageDialog]: http://docs.wxwidgets.org/trunk/classwx_message_dialog.html
-[wxStaticText]: http://docs.wxwidgets.org/trunk/classwx_static_text.html
-[wxGLCanvas]: http://docs.wxwidgets.org/trunk/classwx_g_l_canvas.html
+[wxPropertyGrid]: https://docs.wxwidgets.org/trunk/classwx_property_grid.html
+[wxDataViewCtrl]: https://docs.wxwidgets.org/trunk/classwx_data_view_ctrl.html
+[wxRichTextCtrl]: https://docs.wxwidgets.org/trunk/classwx_rich_text_ctrl.html
+[wxGrid]: https://docs.wxwidgets.org/trunk/classwx_grid.html
+[wxListCtrl]: https://docs.wxwidgets.org/trunk/classwx_list_ctrl.html
+[wxHeaderCtrl]: https://docs.wxwidgets.org/trunk/classwx_header_ctrl.html
+[wxRearrangeList]: https://docs.wxwidgets.org/trunk/classwx_rearrange_list.html
+[wxWrapSizer]: https://docs.wxwidgets.org/trunk/classwx_wrap_sizer.html
+[wxCalendarCtrl]: https://docs.wxwidgets.org/trunk/classwx_calendar_ctrl.html
+[wxMessageDialog]: https://docs.wxwidgets.org/trunk/classwx_message_dialog.html
+[wxStaticText]: https://docs.wxwidgets.org/trunk/classwx_static_text.html
+[wxGLCanvas]: https://docs.wxwidgets.org/trunk/classwx_g_l_canvas.html
 
 But while things have progressed quite a lot, we didn't manage to do everything
 we'd have liked to, of course (otherwise what would be doing this year?). My
@@ -141,7 +141,7 @@ one really stands out: a lot of people are asking for images support in
 [wxButton] and we really should support this as it's not even difficult to do so
 this will definitely be something to do in 2009.
 
-[wxButton]: http://docs.wxwidgets.org/trunk/classwx_button.html
+[wxButton]: https://docs.wxwidgets.org/trunk/classwx_button.html
 
 The two other small things we hope to see in this new year are the wxOSX
 completion and hopefully the 3.0 release. Let's see if this happens...

@@ -47,5 +47,5 @@ implementing it, it should be pretty simple to do by simply copying `wxButton`
 behaviour.
 
 [markup]: http://library.gnome.org/devel/pango/unstable/PangoMarkupFormat.html
-[wxButton]: http://docs.wxwidgets.org/trunk/classwx_button.html
-[wxStaticText]: http://docs.wxwidgets.org/trunk/classwx_static_text.html
+[wxButton]: https://docs.wxwidgets.org/trunk/classwx_button.html
+[wxStaticText]: https://docs.wxwidgets.org/trunk/classwx_static_text.html

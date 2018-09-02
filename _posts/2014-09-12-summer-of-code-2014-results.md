@@ -28,7 +28,7 @@ encourage others interested in working on the OSX implemention to get involved
 now that GSoC has ended. Here's an [overview of the features][4], and be sure
 to check out the new "taskbarbutton" sample.
 
-[3]: http://docs.wxwidgets.org/trunk/classwx_task_bar_button.html
+[3]: https://docs.wxwidgets.org/trunk/classwx_task_bar_button.html
 [4]: https://github.com/zhchbin/wxWidgets/wiki/SOC2014_TASKBAR
 
 **Chromium backend for wxWebView** - Haojian Wu has brought wxWidgets the

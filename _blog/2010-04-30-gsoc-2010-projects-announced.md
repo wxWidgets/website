@@ -32,6 +32,6 @@ Thanks once again to Google for organizing the Summer of Code and looking
 forward to it!
 
 [Google Summer of Code]: http://socghop.appspot.com/gsoc/program/home/google/gsoc2010
-[wxRichTextCtrl]: http://docs.wxwidgets.org/trunk/classwx_rich_text_ctrl.html
+[wxRichTextCtrl]: https://docs.wxwidgets.org/trunk/classwx_rich_text_ctrl.html
 [UI elements]: http://article.gmane.org/gmane.comp.lib.wxwidgets.devel/121319
 [wxQt]: http://svn.wxwidgets.org/viewvc/wx/wxWidgets/branches/wxQT/

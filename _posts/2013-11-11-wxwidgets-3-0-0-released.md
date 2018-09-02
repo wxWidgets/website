@@ -32,7 +32,7 @@ tracker. Have fun and good luck!
 [2]: https://sourceforge.net/downloads/wxwindows/3.0.0/binaries/
 [3]: http://tdm-gcc.tdragon.net/
 [4]: ftp://ftp.wxwidgets.org/pub/3.0.0/
-[5]: http://docs.wxwidgets.org/3.0.0/
+[5]: https://docs.wxwidgets.org/3.0.0/
 [6]: https://sourceforge.net/projects/wxwindows/files/3.0.0/changes.txt
-[7]: http://docs.wxwidgets.org/3.0.0/overview_changes_since28.html
+[7]: https://docs.wxwidgets.org/3.0.0/overview_changes_since28.html
 [8]: https://trac.wxwidgets.org/newticket

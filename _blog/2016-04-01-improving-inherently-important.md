@@ -64,9 +64,9 @@ endless! Unfortunately, the same can't be said about our resources, so we count
 on your help to make wxWidgets the best internationalized library of all time --
 and we're looking forward to your [contributions]!
 
-[centre]: http://docs.wxwidgets.org/3.1.0/classwx_window.html#a4a1819eeee3f2143cdde4f329ffde787
-[colour]: http://docs.wxwidgets.org/3.1.0/classwx_colour.html
-[grey]: http://docs.wxwidgets.org/3.1.0/brush_8h.html#a9fd61bfd0445d71e17e56d836098096f
+[centre]: https://docs.wxwidgets.org/3.1.0/classwx_window.html#a4a1819eeee3f2143cdde4f329ffde787
+[colour]: https://docs.wxwidgets.org/3.1.0/classwx_colour.html
+[grey]: https://docs.wxwidgets.org/3.1.0/brush_8h.html#a9fd61bfd0445d71e17e56d836098096f
 [exclusively]: https://en.wikipedia.org/wiki/United_Kingdom_withdrawal_from_the_European_Union
 [not British]: https://en.wikipedia.org/wiki/Scottish_independence_referendum,_2014
 [releasing 3.1.0]: /blog/2016/02/an-unexpectedly-expected-release-310-is/

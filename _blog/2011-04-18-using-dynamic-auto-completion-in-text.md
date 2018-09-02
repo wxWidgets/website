@@ -49,9 +49,9 @@ But even in the current state, you can easily define custom dynamic text
 completers and also use fixed lists of completion strings under all of the major
 platforms now.
 
-[wxTextEntry]: http://docs.wxwidgets.org/trunk/classwx_text_entry.html
-[wxTextCompleter]: http://docs.wxwidgets.org/trunk/classwx_text_completer.html
-[wxTextEntry::AutoComplete()]: http://docs.wxwidgets.org/trunk/classwx_text_entry.html#e8ca40185ba6bbaacb4715039d73342b
-[wxTextCompleterSimple]: http://docs.wxwidgets.org/trunk/classwx_text_completer_simple.html
+[wxTextEntry]: https://docs.wxwidgets.org/trunk/classwx_text_entry.html
+[wxTextCompleter]: https://docs.wxwidgets.org/trunk/classwx_text_completer.html
+[wxTextEntry::AutoComplete()]: https://docs.wxwidgets.org/trunk/classwx_text_entry.html#e8ca40185ba6bbaacb4715039d73342b
+[wxTextCompleterSimple]: https://docs.wxwidgets.org/trunk/classwx_text_completer_simple.html
 [GtkTreeModel]: http://developer.gnome.org/gtk/stable/GtkTreeModel.html
 [GtkEntryCompletion]: http://developer.gnome.org/gtk/stable/GtkEntryCompletion.html

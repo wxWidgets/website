@@ -46,4 +46,4 @@ sent us bug reports and please continue to do it!
 Thank you and happy New Year!
 
 [contribute to]: https://github.com/wxWidgets/website/pulls
-[wxPropertyGrid]: http://docs.wxwidgets.org/trunk/overview_propgrid.html
+[wxPropertyGrid]: https://docs.wxwidgets.org/trunk/overview_propgrid.html

@@ -133,7 +133,7 @@ wxWidgets helps you to cultivate it!
 
 P.S. But we'll still try to release 2.9.5 soon...
 
-[CallAfter()]: http://docs.wxwidgets.org/trunk/classwx_evt_handler.html#a63c7351618fd77330d80a250b3719519
-[wxLogMessage()]: http://docs.wxwidgets.org/trunk/group__group__funcmacro__log.html#ga249358701f3c2d410088ddf7a61d8564
-[tree control]: http://docs.wxwidgets.org/trunk/classwx_tree_ctrl.html
+[CallAfter()]: https://docs.wxwidgets.org/trunk/classwx_evt_handler.html#a63c7351618fd77330d80a250b3719519
+[wxLogMessage()]: https://docs.wxwidgets.org/trunk/group__group__funcmacro__log.html#ga249358701f3c2d410088ddf7a61d8564
+[tree control]: https://docs.wxwidgets.org/trunk/classwx_tree_ctrl.html
 [laziness]: http://c2.com/cgi/wiki?LazinessImpatienceHubris

@@ -18,7 +18,7 @@ have to do this the next time).
 So, without further ado, here is the full and unabridged true story \[\*\] of
 implementing [wxDatePickerCtrl] in wxOSX/Cocoa.
 
-[wxDatePickerCtrl]: http://docs.wxwidgets.org/trunk/classwx_date_picker_ctrl.html
+[wxDatePickerCtrl]: https://docs.wxwidgets.org/trunk/classwx_date_picker_ctrl.html
 
 To start with, you need to set up your wxWidgets development environment. For
 this you need to get wxWidgets sources, ideally from [svn] or its [git mirror].

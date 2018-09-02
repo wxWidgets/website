@@ -24,7 +24,7 @@ personally I had already done it a few times but having a standard class for
 this makes using it even easier, especially as it can also be defined in the XRC
 resources and so added to your existing dialogs very easily.
 
-[wxBannerWindow]: http://docs.wxwidgets.org/trunk/classwx_banner_window.html
+[wxBannerWindow]: https://docs.wxwidgets.org/trunk/classwx_banner_window.html
 
 ---
 
@@ -48,8 +48,8 @@ wxTreeCtrl and wxListCtrl and so it may also provide a simple solution if you're
 currently using one of those controls but need the extra features (multiple
 columns or hierarchical items) not available in it.
 
-[wxTreeListCtrl]: http://docs.wxwidgets.org/trunk/classwx_tree_list_ctrl.html
-[wxDataViewCtrl]: http://docs.wxwidgets.org/trunk/classwx_data_view_ctrl.html
+[wxTreeListCtrl]: https://docs.wxwidgets.org/trunk/classwx_tree_list_ctrl.html
+[wxDataViewCtrl]: https://docs.wxwidgets.org/trunk/classwx_data_view_ctrl.html
 [treelist]: http://svn.wxwidgets.org/viewvc/wx/wxWidgets/trunk/samples/treelist/treelist.cpp?view=markup
 
 ---
@@ -98,19 +98,19 @@ And then there were several enhancements to the existing classes:
     wxOSX after [this discussion].
 
 [has contributed]: https://trac.wxwidgets.org/changeset/68450
-[wxTextCtrl::PositionToCoords()]: http://docs.wxwidgets.org/trunk/classwx_text_ctrl.html#2d976679d30dfd1ff0adb177b9537880
-[wxMessageDialog]: http://docs.wxwidgets.org/trunk/classwx_message_dialog.html
-[wxMessageBox()]: http://docs.wxwidgets.org/trunk/group__group__funcmacro__dialog.html#gf8a6b7e1e34eae82d3d75e3721298b26
-[SetHelpLabel()]: http://docs.wxwidgets.org/trunk/classwx_message_dialog.html#85dd2dfd88baa9af9de185bae6642c0e
-[wxTextEntry::AutoCompleteDirectories()]: http://docs.wxwidgets.org/trunk/classwx_text_entry.html#b02338d68d51f103551454298578851c
-[AutoCompleteFileNames()]: http://docs.wxwidgets.org/trunk/classwx_text_entry.html#d40d7e35d8bb9c9ab8e4ffa1b801a5d5
-[wxFilePickerCtrl]: http://docs.wxwidgets.org/trunk/classwx_file_picker_ctrl.html
-[wxDirPickerCtrl]: http://docs.wxwidgets.org/trunk/classwx_dir_picker_ctrl.html
-[wxTopLevelWindow::MSWGetSystemMenu()]: http://docs.wxwidgets.org/trunk/classwx_top_level_window.html#503565e9c0a1f37a281b52e1d53029b6
+[wxTextCtrl::PositionToCoords()]: https://docs.wxwidgets.org/trunk/classwx_text_ctrl.html#2d976679d30dfd1ff0adb177b9537880
+[wxMessageDialog]: https://docs.wxwidgets.org/trunk/classwx_message_dialog.html
+[wxMessageBox()]: https://docs.wxwidgets.org/trunk/group__group__funcmacro__dialog.html#gf8a6b7e1e34eae82d3d75e3721298b26
+[SetHelpLabel()]: https://docs.wxwidgets.org/trunk/classwx_message_dialog.html#85dd2dfd88baa9af9de185bae6642c0e
+[wxTextEntry::AutoCompleteDirectories()]: https://docs.wxwidgets.org/trunk/classwx_text_entry.html#b02338d68d51f103551454298578851c
+[AutoCompleteFileNames()]: https://docs.wxwidgets.org/trunk/classwx_text_entry.html#d40d7e35d8bb9c9ab8e4ffa1b801a5d5
+[wxFilePickerCtrl]: https://docs.wxwidgets.org/trunk/classwx_file_picker_ctrl.html
+[wxDirPickerCtrl]: https://docs.wxwidgets.org/trunk/classwx_dir_picker_ctrl.html
+[wxTopLevelWindow::MSWGetSystemMenu()]: https://docs.wxwidgets.org/trunk/classwx_top_level_window.html#503565e9c0a1f37a281b52e1d53029b6
 [this thread]: http://thread.gmane.org/gmane.comp.lib.wxwidgets.devel/132110
 [here]: http://thread.gmane.org/gmane.comp.lib.wxwidgets.devel/132014
-[wxComboBox::IsTextEmpty()]: http://docs.wxwidgets.org/trunk/classwx_combo_box.html#7ea3095ed99ef8b1b70e29e1a5f3eab1
-[IsListEmpty()]: http://docs.wxwidgets.org/trunk/classwx_combo_box.html#8c5e9ee5cf37d5e2f43eb1f6311b4536
+[wxComboBox::IsTextEmpty()]: https://docs.wxwidgets.org/trunk/classwx_combo_box.html#7ea3095ed99ef8b1b70e29e1a5f3eab1
+[IsListEmpty()]: https://docs.wxwidgets.org/trunk/classwx_combo_box.html#8c5e9ee5cf37d5e2f43eb1f6311b4536
 [this discussion]: http://thread.gmane.org/gmane.comp.lib.wxwidgets.devel/132042
 
 ---

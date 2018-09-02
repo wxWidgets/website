@@ -68,8 +68,8 @@ improved in the new stuff.
 
 Thanks in advance for helping us to make wxWidgets 3.0 better!
 
-[wxStyledTextCtrl]: http://docs.wxwidgets.org/trunk/classwx_styled_text_ctrl.html
-[DontFollowLink()]: http://docs.wxwidgets.org/trunk/classwx_file_name.html#af1430dafaf1f522710b52f0a0bf0f060
-[Exists()]: http://docs.wxwidgets.org/trunk/classwx_file_name.html#ae85e9aa0c443761a0c380d770a42d672
-[wxSimplebook]: http://docs.wxwidgets.org/trunk/classwx_simplebook.html
-[embedding PNG]: http://docs.wxwidgets.org/trunk/group__group__funcmacro__gdi.html#ga30fc362d22b3045f58aed54fc808f203
+[wxStyledTextCtrl]: https://docs.wxwidgets.org/trunk/classwx_styled_text_ctrl.html
+[DontFollowLink()]: https://docs.wxwidgets.org/trunk/classwx_file_name.html#af1430dafaf1f522710b52f0a0bf0f060
+[Exists()]: https://docs.wxwidgets.org/trunk/classwx_file_name.html#ae85e9aa0c443761a0c380d770a42d672
+[wxSimplebook]: https://docs.wxwidgets.org/trunk/classwx_simplebook.html
+[embedding PNG]: https://docs.wxwidgets.org/trunk/group__group__funcmacro__gdi.html#ga30fc362d22b3045f58aed54fc808f203

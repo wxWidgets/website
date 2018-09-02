@@ -84,9 +84,9 @@ no bragging about moving in the right direction this time).
 And that's all for now, hopefully we'll have more meaty news next month with a
 flurry of commits which habitually accompany the end of release freeze period.
 
-[wxTextEntry::SetHint()]: http://docs.wxwidgets.org/trunk/classwx_text_entry.html#db61407dc8103df59c66cb5de3dd22a1
-[wxProtocolLog]: http://docs.wxwidgets.org/trunk/classwx_protocol_log.html
-[wxComboBox]: http://docs.wxwidgets.org/trunk/classwx_combo_box.html
-[wxString::ToCLong()]: http://docs.wxwidgets.org/trunk/classwx_string.html#2d7fb808fae67a4226ebeedf854a5a03
-[wxLocale::GetInfo()]: http://docs.wxwidgets.org/trunk/classwx_locale.html#cd6eccc8900847c0a29e7a4598c7d83f
+[wxTextEntry::SetHint()]: https://docs.wxwidgets.org/trunk/classwx_text_entry.html#db61407dc8103df59c66cb5de3dd22a1
+[wxProtocolLog]: https://docs.wxwidgets.org/trunk/classwx_protocol_log.html
+[wxComboBox]: https://docs.wxwidgets.org/trunk/classwx_combo_box.html
+[wxString::ToCLong()]: https://docs.wxwidgets.org/trunk/classwx_string.html#2d7fb808fae67a4226ebeedf854a5a03
+[wxLocale::GetInfo()]: https://docs.wxwidgets.org/trunk/classwx_locale.html#cd6eccc8900847c0a29e7a4598c7d83f
 [bug 9638]: https://trac.wxwidgets.org/ticket/9638

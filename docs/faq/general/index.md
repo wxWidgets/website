@@ -138,16 +138,16 @@ These are the possibilities so far:
 
 * See [www.scintilla.org](http://www.scintilla.org) for a very nice
   syntax-highlighting editor widget. wxWidgets includes an implementation of
-  this control named [wxStyledTextCtrl](http://docs.wxwidgets.org/stable/classwx_styled_text_ctrl.html).
+  this control named [wxStyledTextCtrl](https://docs.wxwidgets.org/stable/classwx_styled_text_ctrl.html).
 * If you only need to display marked-up information, rather than edit it, then
   wxHTML will suit your needs. wxHTML is built into wxWidgets - please see the
   reference manual for details, and samples/html.
-* There is also [wxRichTextCtrl](http://docs.wxwidgets.org/stable/classwx_rich_text_ctrl.html),
+* There is also [wxRichTextCtrl](https://docs.wxwidgets.org/stable/classwx_rich_text_ctrl.html),
   a generic control implemented on all platforms.
 * The wxTextCtrl class supports some less powerful control over styles using
-  [wxTextAttr](http://docs.wxwidgets.org/stable/classwx_text_attr.html).
+  [wxTextAttr](https://docs.wxwidgets.org/stable/classwx_text_attr.html).
 * And finally, a heavier solution is available by pulling in a full native
-  browser engine using [wxWebView](http://docs.wxwidgets.org/stable/classwx_web_view.html).
+  browser engine using [wxWebView](https://docs.wxwidgets.org/stable/classwx_web_view.html).
 
 <a name="exceptions"></a>
 
