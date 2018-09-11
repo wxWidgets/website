@@ -204,6 +204,7 @@ where special announcements for translators are announced.
   * Andrew V. Samoilov <<kai@cmail.ru>>
   * Dmitry Levichev <<d.levichev@gmail.com>>
   * Pavel Maryanov <<acid@jack.kiev.ua>>
+  * Alexander Kovalenko <<nktch@yandex.ru>>
 * Slovak (sk)
   * Ivan Masar <<helix84@centrum.sk>>
 * Slovenian (sl)
