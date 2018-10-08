@@ -166,8 +166,8 @@ that help supplement the official documentation, and [commercial support][10]
 is also available from several companies.
 
 [8]: https://forums.wxwidgets.org/
-[9]: /support/maillst2.htm
-[10]: /support/support.htm
+[9]: /support/mailing-lists/
+[10]: /support/commercial
 [11]: https://wiki.wxwidgets.org/
 
 
