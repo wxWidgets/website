@@ -1,5 +1,5 @@
 ---
-title: "Mac OS X FAQ"
+title: "macOS FAQ"
 ---
 
 See also [top-level FAQ page](/docs/faq/).
@@ -8,7 +8,7 @@ See also [top-level FAQ page](/docs/faq/).
 
 *   [Which Mac platforms are supported?](#macplat)
 *   [What compilers are supported?](#compilers)
-*   [What steps are required to build wxMac under Mac OS X?](#buildx)
+*   [What steps are required to build wxMac under macOS?](#buildx)
 *   [What can I do if I get conflicts between different installed versions of wxWidgets?](#conflicts)
 *   [What are the smart preprocessing errors with the Apple Developer Tools?](#smarterrors)
 *   [How does wxMac support the standard Apple About menu item and Help menu?](#aboutmenu)
@@ -19,9 +19,9 @@ See also [top-level FAQ page](/docs/faq/).
 
 ### Which Mac platforms are supported?
 
-wxWidgets can be used to develop and deliver applications on Mac OS X (or now
-known as just "OS X"). There's 3 unique ports of wxWidgets designed for Mac OS
-X: wxMac, wxOSX/Carbon, and wxOSX/Cocoa. Please see the
+wxWidgets can be used to develop and deliver applications on macOS  (previously known
+as Mac OS X or just "OS X"). There's 3 unique ports of wxWidgets designed for macOS:
+wxMac, wxOSX/Carbon, and wxOSX/Cocoa. Please see the
 [overview page](/about/) for a description of each.
 
 <a name="compilers"></a>
@@ -31,12 +31,12 @@ X: wxMac, wxOSX/Carbon, and wxOSX/Cocoa. Please see the
 The free Developer Tools from Apple are all you need to build wxMac or wxOSX.
 
 There are 3rd party IDEs (including many built specifically for use with
-wxWidgets) available for OS X as well, however, they all require using the GCC
+wxWidgets) available for macOS as well, however, they all require using the GCC
 compiler distributed by Apple with Developer Tools.
 
 <a name="buildx"></a>
 
-### What steps are required to build wxMac under Mac OS X?
+### What steps are required to build wxMac under macOS?
 
 First download and install the free Xcode IDE from Apple at
 [http://developer.apple.com](http://developer.apple.com)
@@ -57,7 +57,7 @@ For most development work, this is not an issue.  You can have many versions of
 wxWidgets on your computer at the same time without conflict.  You will only
 encounter this problem if you try to install wxWidgets into /usr/local/bin.
 
-Some versions of Mac OS X install an older version of wxMac than the one you
+Some versions of macOS install an older version of wxMac than the one you
 may be using for development. This can cause conflicts, such as link errors
 when building your applications. In this case, always ensure you are using the
 full path to `wx-config` in your project settings.
@@ -94,7 +94,7 @@ the right decisions:
   specific menu title.
 * The item Id of the _About_ menu is stored in 'wxApp::s_macAboutMenuItemID',
   it defaults to 'wxID_ABOUT', but can be changed as well to suit your needs.
-* The other items of the wxWidgets help menu are appended to the OS X _Help_
+* The other items of the wxWidgets help menu are appended to the macOS _Help_
   menu and the translation of Ids is handled transparently for your
   application.
 
@@ -102,7 +102,7 @@ the right decisions:
 
 ### How do I add an icon to my application?
 
-If you have Mac OS X, you have the icns editor somewhere in the Utilities
+If you have macOS, you have the icns editor somewhere in the Utilities
 folder. Create an icon using this tool and DeRez it, so that you have a .r file
 with a 'icns' resource with id (-16455). Include this .r file in your project
 and in the CodeWarrior Settings add a check mark under Linker:Output
@@ -113,8 +113,8 @@ Flags/Finder Flags/Has Custom Icon.
 ### Why can't I set focus to my wxMac application?
 
 This happens when you don't build your application as a bundle. You _must_
-create a bundle for OS X applications. Please look at the samples makefiles
-which build bundles under Mac OS X and read [this wiki topic][bundle] for more
+create a bundle for macOS applications. Please look at the samples makefiles
+which build bundles under macOS and read [this wiki topic][bundle] for more
 details.
 
 [bundle]: https://wiki.wxwidgets.org/WxMac_Issues#Building_a_MacOSX_application_bundle
