@@ -1,0 +1,13 @@
+- version: 3.1.1
+  channel: Development
+  released: February 19, 2018
+  bin_url_debian: http://codelite.org/LiteEditor/WxWidgets31Binaries#toc2
+  bin_url_fedora: http://codelite.org/LiteEditor/WxWidgets31Binaries#toc3
+  tdm_gcc_versions: 5.2 and 7.2
+- version: 3.0.4
+  channel: Stable
+  released: March 8th, 2018
+  stable_api_since: November 11th, 2013
+  bin_url_debian: http://codelite.org/LiteEditor/WxWidgets30Binaries#toc2
+  bin_url_fedora: http://codelite.org/LiteEditor/WxWidgets30Binaries#toc3
+  tdm_gcc_versions: 4.9 and 5.1

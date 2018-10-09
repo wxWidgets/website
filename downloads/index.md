@@ -1,6 +1,26 @@
 ---
 title: "Downloads"
 mirror: "https://github.com/wxWidgets/wxWidgets/releases/download"
+source_archives:
+  - description: "Windows ZIP"
+    prefix: "wxWidgets-"
+    postfix: ".zip"
+  - description: "Windows 7z"
+    prefix: "wxWidgets-"
+    postfix: ".7z"
+  - description: "Windows Installer"
+    prefix: "wxMSW-"
+    postfix: "-Setup.exe"
+  - description: "Source for Linux, macOS, etc"
+    prefix: "wxWidgets-"
+    postfix: ".tar.bz2"
+doc_downloads:
+  - description: "Manual (HTML) ZIP"
+    postfix: "-docs-html.zip"
+  - description: "Manual (HTML) BZIP"
+    postfix: "-docs-html.tar.bz2"
+  - description: "Manual (CHM)"
+    postfix: "-docs-chm.zip"
 ---
 
 <div class="alert alert-info">
@@ -21,27 +41,42 @@ the official wxGTK packages provided by each distribution, but newer packages
 are available below.
 
 
-## Latest Development Release: 3.1.1
+{% for release in site.data.releases %}
+## Latest {{ release.channel }} Release: {{ release.version }}
 
-<p class="text-muted mb-0">Released: February 19, 2018</p>
+<p class="text-muted mb-0">Released: {{ release.released }}</p>
+{% if release.stable_api_since %}
+<p class="text-muted mb-0">API Stable Since: {{ release.stable_api_since }}</p>
+{% endif %}
+
+{% assign release_id = release.version | replace: ".", "" %}
+{% assign release_info = site.data.release_assets[release_id] %}
+{% assign release_assets = release_info.assets  %}
+{% assign version = "v" | append: release.version %}
 
 <div class="row">
   <div class="col-sm-6">
     <div class="card my-3">
       <div class="card-body">
         <p class="card-title">Source Code</p>
-        <a href="{{ page.mirror }}/v3.1.1/wxWidgets-3.1.1.zip">Windows ZIP</a> (30 MiB)<br>
-        <a href="{{ page.mirror }}/v3.1.1/wxWidgets-3.1.1.7z">Windows 7Z</a> (16 MiB)<br>
-        <a href="{{ page.mirror }}/v3.1.1/wxMSW-3.1.1-Setup.exe">Windows Installer</a> (52 MiB)<br>
-        <a href="{{ page.mirror }}/v3.1.1/wxWidgets-3.1.1.tar.bz2">Source for Linux, OS X, etc</a> (20 MiB)<br>
+        {% for archive in page.source_archives %}
+          {% assign asset_filename = archive.prefix | append: release.version | append: archive.postfix %}
+          {% assign asset = release_assets | where: "name", asset_filename | first %}
+          
+          <a href="{{ asset.browser_download_url }}">{{ archive.description }}</a>
+          ({{ asset.size | times: 1.0 | divided_by: 1024 | divided_by: 1024 | ceil }} MiB)
+          <br>
+
+        {% endfor %}
+
         <p class="card-title mt-3">Binaries</p>
-        <a href="https://github.com/wxWidgets/wxWidgets/releases/tag/v3.1.1">wxMSW DLLs</a> for the selected compilers:
+        <a href="https://github.com/wxWidgets/wxWidgets/releases/tag/{{ version }}">wxMSW DLLs</a> for the selected compilers:
         <ul>
           <li>Visual C++ 2008-2017 (more details <a href="../blog/2012/08/how-to-use-294-wxmsw-binaries/">here</a>)</li>
-          <li>TDM-GCC 5.2 and 7.2</li>
+          <li>TDM-GCC {{ release.tdm_gcc_versions }}</li>
         </ul>
-        <a href="http://codelite.org/LiteEditor/WxWidgets31Binaries#toc2" target="_new">Ubuntu / Debian Packages</a><br>
-        <a href="http://codelite.org/LiteEditor/WxWidgets31Binaries#toc3" target="_new">Fedora / openSUSE Packages</a>
+        <a href="{{ release.bin_url_debian }}" target="_new">Ubuntu / Debian Packages</a><br>
+        <a href="{{ release.bin_url_fedora }}" target="_new">Fedora / openSUSE Packages</a>
       </div>
     </div>
   </div>
@@ -49,58 +84,25 @@ are available below.
     <div class="card my-3">
       <div class="card-body">
         <p class="card-title">Documentation</p>
-        <a href="https://github.com/wxWidgets/wxWidgets/blob/v3.1.1/docs/readme.txt">Readme</a><br>
-        <a href="https://github.com/wxWidgets/wxWidgets/blob/v3.1.1/docs/changes.txt">Changes</a><br>
+        <a href="https://github.com/wxWidgets/wxWidgets/blob/{{ version }}/docs/readme.txt">Readme</a><br>
+        <a href="https://github.com/wxWidgets/wxWidgets/blob/{{ version }}/docs/changes.txt">Changes</a><br>
         <p></p>
-        <a href="https://docs.wxwidgets.org/3.1.1/">Online Manual</a><br>
-        <a href="{{ page.mirror }}/v3.1.1/wxWidgets-3.1.1-docs-html.zip">Manual (HTML) ZIP</a> (35 MiB)<br>
-        <a href="{{ page.mirror }}/v3.1.1/wxWidgets-3.1.1-docs-html.tar.bz2">Manual (HTML) BZIP</a> (24 MiB)<br>
-        <a href="{{ page.mirror }}/v3.1.1/wxWidgets-3.1.1-docs-chm.zip">Manual (CHM)</a> (35 MiB)
+        <a href="https://docs.wxwidgets.org/{{ release.version }}/">Online Manual</a><br>
+
+        {% for doc in page.doc_downloads %}
+          {% assign asset_filename = "wxWidgets-" | append: release.version | append: doc.postfix %}
+          {% assign asset = release_assets | where: "name", asset_filename | first %}
+          
+          <a href="{{ asset.browser_download_url }}">{{ doc.description }}</a>
+          ({{ asset.size | times: 1.0 | divided_by: 1024 | divided_by: 1024 | ceil }} MiB)
+          <br>
+        {% endfor %}
       </div>
     </div>
   </div>
 </div>
 
-## Latest Stable Release: 3.0.4
-
-<p class="text-muted mb-0">Released: March 8th, 2018</p>
-<p class="text-muted mb-0">API Stable Since: November 11th, 2013</p>
-
-<div class="row">
-  <div class="col-sm-6">
-    <div class="card my-3">
-      <div class="card-body">
-        <p class="card-title">Source Code</p>
-        <a href="{{ page.mirror }}/v3.0.4/wxWidgets-3.0.4.zip">Windows ZIP</a> (31 MB)<br>
-        <a href="{{ page.mirror }}/v3.0.4/wxWidgets-3.0.4.7z">Windows 7Z</a> (16 MB)<br>
-        <a href="{{ page.mirror }}/v3.0.4/wxMSW-3.0.4-Setup.exe">Windows Installer</a> (47 MB)<br>
-        <a href="{{ page.mirror }}/v3.0.4/wxWidgets-3.0.4.tar.bz2">Source for Linux, OS X, etc</a> (20 MB)<br>
-        <p class="card-title mt-3">Binaries</p>
-        <a href="https://github.com/wxWidgets/wxWidgets/releases/tag/v3.0.4">wxMSW DLLs</a> for the selected compilers:
-        <ul>
-          <li>Visual C++ 2008-2017 (more details <a href="../blog/2012/08/how-to-use-294-wxmsw-binaries/">here</a>)</li>
-          <li>TDM-GCC 4.9 and 5.1</li>
-        </ul>
-        <a href="http://codelite.org/LiteEditor/WxWidgets30Binaries#toc2" target="_new">Ubuntu / Debian Packages</a><br>
-        <a href="http://codelite.org/LiteEditor/WxWidgets30Binaries#toc3" target="_new">Fedora / openSUSE Packages</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6">
-    <div class="card my-3">
-      <div class="card-body">
-        <p class="card-title">Documentation</p>
-        <a href="https://github.com/wxWidgets/wxWidgets/blob/v3.0.4/docs/readme.txt">Readme</a><br>
-        <a href="https://github.com/wxWidgets/wxWidgets/blob/v3.0.4/docs/changes.txt#L583-L632">Changes</a><br>
-        <p></p>
-        <a href="https://docs.wxwidgets.org/3.0.4/">Online Manual</a><br>
-        <a href="{{ page.mirror }}/v3.0.4/wxWidgets-3.0.4-docs-html.zip">Manual (HTML) ZIP</a> (33 MB)<br>
-        <a href="{{ page.mirror }}/v3.0.4/wxWidgets-3.0.4-docs-html.tar.bz2">Manual (HTML) BZIP</a> (23 MB)<br>
-        <a href="{{ page.mirror }}/v3.0.4/wxWidgets-3.0.4-docs-chm.zip">Manual (CHM)</a> (32 MB)
-      </div>
-    </div>
-  </div>
-</div>
+{% endfor %}
 
 ## Previous Stable Release: 2.8.12
 
