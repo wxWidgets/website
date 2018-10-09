@@ -21,6 +21,33 @@ doc_downloads:
     postfix: "-docs-html.tar.bz2"
   - description: "Manual (CHM)"
     postfix: "-docs-chm.zip"
+compilers:
+  - description: "Visual Studio 2008"
+    id: vc90
+  - description: "Visual Studio 2010"
+    id: vc100
+  - description: "Visual Studio 2012"
+    id: vc110
+  - description: "Visual Studio 2013"
+    id: vc120
+  - description: "Visual Studio 2015"
+    id: vc140
+  - description: "Visual Studio 2017"
+    id: vc141
+  - description: "MinGW-TDM 4.92"
+    id: gcc492TDM
+  - description: "MinGW-TDM 5.10"
+    id: gcc510TDM
+  - description: "MinGW-TDM 7.20"
+    id: gcc720
+architectures: [false, "x64"]
+binaries:
+  - description: "Development Files"
+    id: Dev
+  - description: "Release DLLs"
+    id: ReleaseDLL
+  - description: "Release DLLs PDB Files"
+    id: ReleasePDB
 ---
 
 <div class="alert alert-info">
@@ -70,11 +97,88 @@ are available below.
         {% endfor %}
 
         <p class="card-title mt-3">Binaries</p>
-        <a href="https://github.com/wxWidgets/wxWidgets/releases/tag/{{ version }}">wxMSW DLLs</a> for the selected compilers:
-        <ul>
-          <li>Visual C++ 2008-2017 (more details <a href="../blog/2012/08/how-to-use-294-wxmsw-binaries/">here</a>)</li>
-          <li>TDM-GCC {{ release.tdm_gcc_versions }}</li>
-        </ul>
+
+        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#mswModal{{ release_id }}">
+          Download Windows Binaries
+        </button> <br/>
+
+        wxMSW DLLs for the selected compilers are available.
+        For more details see <a href="../blog/2012/08/how-to-use-294-wxmsw-binaries/">here</a><br />
+
+<div class="modal fade" id="mswModal{{ release_id }}" tabindex="-1" role="dialog" aria-labelledby="mswModal{{ release_id }}Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="mswModal{{ release_id }}Label">Download Windows Binaries</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">        
+
+        {% assign asset_filename = "wxWidgets-" | append: release.version | append: "-headers.7z" %}
+        {% assign header_asset = release_assets | where: "name", asset_filename | first %}
+
+<div class="accordion" id="accordionMSW{{ release_id }}">
+        {% for compiler in page.compilers %}
+          {% assign asset_filename = "wxMSW-" | append: release.version | append: "_" | append: compiler.id | append: "_Dev.7z" %}
+          {% assign dev_asset = release_assets | where: "name", asset_filename | first %}
+
+          {% if dev_asset %}
+            {% assign cardID = release_id | append: compiler.id %}
+            <div class="card">
+              <div class="card-header" id="heading{{ cardID }}">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse{{ cardID }}" aria-expanded="false" aria-controls="collapse{{ cardID }}">
+                    {{ compiler.description }}
+                  </button>
+                </h5>
+              </div>
+
+              <div id="collapse{{ cardID }}" class="collapse" aria-labelledby="heading{{ cardID }}" data-parent="#accordionMSW{{ release_id}}">
+                <div class="card-body">
+                  <a href="{{ header_asset.browser_download_url }}">Header Files</a>
+                  ({{ header_asset.size | times: 1.0 | divided_by: 1024 | divided_by: 1024 | ceil }} MiB)
+                  <br />
+
+            {% for architecture in page.architectures %}
+              {% if architecture %}
+              {% assign architecture_postfix = "_" | append: architecture %}
+              {% else %}
+              {% assign architecture_postfix = "" %}
+              {% endif %}
+
+              {% for bin in page.binaries %}
+                {% assign asset_filename = "wxMSW-" | append: release.version | append: "_" | append: compiler.id | append: architecture_postfix | append: "_" | append: bin.id | append: ".7z" %}
+                {% assign asset = release_assets | where: "name", asset_filename | first %}
+                {% if asset %}
+                <a href="{{ asset.browser_download_url }}">{{ bin.description }}
+                {% if architecture == "x64" %}
+                64 Bit
+                {% endif%}
+                </a> 
+                ({{ asset.size | times: 1.0 | divided_by: 1024 | divided_by: 1024 | ceil }} MiB)
+                <br />
+                {% endif %}
+              {% endfor %}
+            {% endfor %}
+
+                </div>
+              </div>
+
+            </div>
+          {% endif %}
+        {% endfor %}
+</div>
+
+   </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+        <br />
         <a href="{{ release.bin_url_debian }}" target="_new">Ubuntu / Debian Packages</a><br>
         <a href="{{ release.bin_url_fedora }}" target="_new">Fedora / openSUSE Packages</a>
       </div>
