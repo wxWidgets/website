@@ -181,6 +181,10 @@ are available below.
         <br />
         <a href="{{ release.bin_url_debian }}" target="_new">Ubuntu / Debian Packages</a><br>
         <a href="{{ release.bin_url_fedora }}" target="_new">Fedora / openSUSE Packages</a>
+
+        <br />
+        <br />
+        <a href="{{ release_info.html_url }}">Release Information on Github</a>
       </div>
     </div>
   </div>
