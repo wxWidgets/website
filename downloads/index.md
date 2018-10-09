@@ -37,7 +37,7 @@ are available below.
         <p class="card-title mt-3">Binaries</p>
         <a href="https://github.com/wxWidgets/wxWidgets/releases/tag/v3.1.1">wxMSW DLLs</a> for the selected compilers:
         <ul>
-          <li>Visual C++ 2008-2017 (more details <a href="http://wxwidgets.blogspot.com/2012/08/how-to-use-294-wxmsw-binaries.html">here</a>)</li>
+          <li>Visual C++ 2008-2017 (more details <a href="../blog/2012/08/how-to-use-294-wxmsw-binaries/">here</a>)</li>
           <li>TDM-GCC 5.2 and 7.2</li>
         </ul>
         <a href="http://codelite.org/LiteEditor/WxWidgets31Binaries#toc2" target="_new">Ubuntu / Debian Packages</a><br>
@@ -78,7 +78,7 @@ are available below.
         <p class="card-title mt-3">Binaries</p>
         <a href="https://github.com/wxWidgets/wxWidgets/releases/tag/v3.0.4">wxMSW DLLs</a> for the selected compilers:
         <ul>
-          <li>Visual C++ 2008-2017 (more details <a href="http://wxwidgets.blogspot.com/2012/08/how-to-use-294-wxmsw-binaries.html">here</a>)</li>
+          <li>Visual C++ 2008-2017 (more details <a href="../blog/2012/08/how-to-use-294-wxmsw-binaries/">here</a>)</li>
           <li>TDM-GCC 4.9 and 5.1</li>
         </ul>
         <a href="http://codelite.org/LiteEditor/WxWidgets30Binaries#toc2" target="_new">Ubuntu / Debian Packages</a><br>
