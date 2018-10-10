@@ -84,8 +84,8 @@ are available below.
 <div class="row">
   <div class="col-sm-6">
     <div class="card my-3">
+      <div class="card-header">Source Code</div>
       <div class="card-body">
-        <p class="card-title">Source Code</p>
         {% for archive in page.source_archives %}
           {% assign asset_filename = archive.prefix | append: release.version | append: archive.postfix %}
           {% assign asset = release_assets | where: "name", asset_filename | first %}
@@ -95,11 +95,14 @@ are available below.
           <br>
 
         {% endfor %}
-
-        <p class="card-title mt-3">Binaries</p>
+      </div>
+    </div>
+    <div class="card my-3">
+      <div class="card-header">Binaries</div>
+      <div class="card-body">
 
         <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#mswModal{{ release_id }}">
-          Download Windows Binaries
+          <i class="fab fa-windows fa-fw"></i> Download Windows Binaries
         </button> <br/>
 
         wxMSW DLLs for the selected compilers are available.
@@ -108,17 +111,16 @@ are available below.
         <br />
         <a href="{{ release.bin_url_debian }}" target="_new">Ubuntu / Debian Packages</a><br>
         <a href="{{ release.bin_url_fedora }}" target="_new">Fedora / openSUSE Packages</a>
-
-        <br />
-        <br />
-        <a href="{{ release_info.html_url }}">Release Information on Github</a>
+      </div>
+      <div class="card-footer text-muted">
+        <i class="fab fa-github fa-fw"></i> <a href="{{ release_info.html_url }}">Release Information on GitHub</a>
       </div>
     </div>
   </div>
   <div class="col-sm-6">
     <div class="card my-3">
+      <div class="card-header">Documentation</div>
       <div class="card-body">
-        <p class="card-title">Documentation</p>
         <a href="https://github.com/wxWidgets/wxWidgets/blob/{{ version }}/docs/readme.txt">Readme</a><br>
         <a href="https://github.com/wxWidgets/wxWidgets/blob/{{ version }}/docs/changes.txt">Changes</a><br>
         <p></p>
@@ -221,22 +223,26 @@ are available below.
 <div class="row">
   <div class="col-sm-6">
     <div class="card my-3">
+      <div class="card-header">Source Code</div>
       <div class="card-body">
-        <p class="card-title">Source Code</p>
         wxAll: <a href="{{ page.mirror }}/v2.8.12/wxWidgets-2.8.12.tar.gz">GZIP</a> 19MB, <a href="{{ page.mirror }}/v2.8.12/wxWidgets-2.8.12.zip">ZIP</a> 23MB<br>
         wxMSW: <a href="{{ page.mirror }}/v2.8.12/wxMSW-2.8.12-Setup.exe">Installer</a> 13MB, <a href="{{ page.mirror }}/v2.8.12/wxMSW-2.8.12.zip">ZIP</a> 17MB<br>
         <a href="{{ page.mirror }}/v2.8.12/wxGTK-2.8.12.tar.gz">wxGTK</a> 13MB<br>
         <a href="{{ page.mirror }}/v2.8.12/wxMac-2.8.12.tar.gz">wxMac</a> 14MB (see <a href="https://wiki.wxwidgets.org/Development:_wxMac#Building_under_10.6_Snow_Leopard">10.6+ notes</a>)<br>
         <a href="{{ page.mirror }}/v2.8.12/wxX11-2.8.12.tar.gz">wxX11</a> 13MB<br>
-        <p class="card-title mt-3">Binaries</p>
+      </div>
+    </div>
+    <div class="card my-3">
+      <div class="card-header">Binaries</div>
+      <div class="card-body">
         <a href="http://wiki.wxpython.org/InstallingOnUbuntuOrDebian">Ubuntu / Debian Packages</a>
       </div>
     </div>
   </div>
   <div class="col-sm-6">
     <div class="card my-3">
+      <div class="card-header">Documentation</div>
       <div class="card-body">
-        <p class="card-title">Documentation</p>
         <a href="{{ page.mirror }}/v2.8.12/readme.txt">Readme</a><br>
         <a href="{{ page.mirror }}/v2.8.12/changes-2.8.12.txt">Changes</a><br>
         <p></p>
