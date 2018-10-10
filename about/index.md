@@ -4,7 +4,7 @@ title: "Overview"
 
 wxWidgets was started in 1992 by Julian Smart at the University of Edinburgh.
 Initially started as a project for creating applications that were portable
-across Unix and Windows, it has grown to support Mac OS X, GTK+, and many other
+across Unix and Windows, it has grown to support macOS, GTK+, and many other
 toolkits and platforms (see the [history page][12] for more details). The
 number of developers contributing to the project is now in the hundreds and the
 toolkit has a strong userbase that includes everyone from open source
@@ -38,15 +38,20 @@ wxWidgets currently supports the following platforms:
   version 2.6 or higher.
 * **wxMSW**: The port for 32-bit and 64-bit Windows variants including Windows
   XP, Vista, 7, 8 and 10.
-* **wxMac**: For delivering Carbon applications on Mac OS X 10.2 through 10.6.
-* **wxOSX/Carbon**: For delivering 32-bit Carbon-based applications on Mac OS X
-  10.5 and above.
 * **wxOSX/Cocoa**: For delivering 32-bit and 64-bit Cocoa-based applications on
-  Mac OS X 10.5 and above.
+  macOS 10.7 and above.
+* **wxQt**: wxQt is a port of wxWidgets using Qt libraries. It requires Qt 5 or later.
 * **wxX11**: A port for Linux and Unix variants targetting X11 displays using a
   generic widget set.
 * **wxMotif**: A port for Linux and Unix variants using OpenMotif or Lesstif
   widget sets.
+
+*Additionally* the following legacy platforms are supported by the current stable 3.0 release:
+
+* **wxMSW**: Legacy 32-bit Windows versions like Windows 95, Windows 98, Windows 2000
+* **wxMac**: For delivering Carbon applications on Mac OS X 10.2 through 10.6.
+* **wxOSX/Carbon**: For delivering 32-bit Carbon-based applications on Mac OS X
+  10.5 and above.
 
 
 ## Features and Functionality
@@ -115,7 +120,7 @@ the bulletin board alone.
 
 The benefits include the following:
 
-* Cost savings from writing code once that will run on Windows, Unix, Mac OS X,
+* Cost savings from writing code once that will run on Windows, Unix, macOS,
   and other platforms.
 * Customer satisfaction from delivering stable, fast, attractive applications
   with a native look and feel.
