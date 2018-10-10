@@ -40,7 +40,10 @@ compilers:
     id: vc140
   - description: "Visual Studio 2017"
     id: vc141
-architectures: [false, "x64"]
+architectures:
+  - description: "32-Bit (x86)"
+  - description: "64-Bit (x86_64)"
+    postfix: "_x64"
 binaries:
   - description: "Development Files"
     id: Dev
@@ -171,30 +174,24 @@ are available below.
 
               <div id="collapse{{ cardID }}" class="collapse {% if forloop.first %}show{% endif %}" aria-labelledby="heading{{ cardID }}" data-parent="#accordionMSW{{ release_id}}">
                 <div class="card-body">
-                  <a href="{{ header_asset.browser_download_url }}">Header Files</a>
-                  ({{ header_asset.size | times: 1.0 | divided_by: 1024 | divided_by: 1024 | ceil }} MiB)
-                  <br />
+                  <p class="card-text">
+                      <a href="{{ header_asset.browser_download_url }}">Header Files</a>
+                      ({{ header_asset.size | times: 1.0 | divided_by: 1024 | divided_by: 1024 | ceil }} MiB)
+                  </p>
 
             {% for architecture in page.architectures %}
-              {% if architecture %}
-              {% assign architecture_postfix = "_" | append: architecture %}
-              {% else %}
-              {% assign architecture_postfix = "" %}
-              {% endif %}
-
+              <h6 class="card-subtitle text-muted">{{ architecture.description }}</h6>
+              <p class="card-text ml-2">
               {% for bin in page.binaries %}
-                {% assign asset_filename = "wxMSW-" | append: release.version | append: "_" | append: compiler.id | append: architecture_postfix | append: "_" | append: bin.id | append: ".7z" %}
+                {% assign asset_filename = "wxMSW-" | append: release.version | append: "_" | append: compiler.id | append: architecture.postfix | append: "_" | append: bin.id | append: ".7z" %}
                 {% assign asset = release_assets | where: "name", asset_filename | first %}
                 {% if asset %}
-                <a href="{{ asset.browser_download_url }}">{{ bin.description }}
-                {% if architecture == "x64" %}
-                64 Bit
-                {% endif%}
-                </a> 
+                <a href="{{ asset.browser_download_url }}">{{ bin.description }}</a> 
                 ({{ asset.size | times: 1.0 | divided_by: 1024 | divided_by: 1024 | ceil }} MiB)
                 <br />
                 {% endif %}
               {% endfor %}
+              </p>
             {% endfor %}
 
                 </div>
