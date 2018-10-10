@@ -164,7 +164,7 @@ are available below.
           {% if dev_asset %}
             {% assign cardID = release_id | append: compiler.id %}
             <div class="card">
-              <div class="card-header" id="heading{{ cardID }}">
+              <div class="card-header p-0" id="heading{{ cardID }}">
                 <h5 class="mb-0">
                   <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse{{ cardID }}" aria-expanded="false" aria-controls="collapse{{ cardID }}">
                     {{ compiler.description }}
