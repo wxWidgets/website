@@ -22,6 +22,12 @@ doc_downloads:
   - description: "Manual (CHM)"
     postfix: "-docs-chm.zip"
 compilers:
+  - description: "MinGW-TDM 4.92"
+    id: gcc492TDM
+  - description: "MinGW-TDM 5.10"
+    id: gcc510TDM
+  - description: "MinGW-TDM 7.20"
+    id: gcc720
   - description: "Visual Studio 2008"
     id: vc90
   - description: "Visual Studio 2010"
@@ -34,12 +40,6 @@ compilers:
     id: vc140
   - description: "Visual Studio 2017"
     id: vc141
-  - description: "MinGW-TDM 4.92"
-    id: gcc492TDM
-  - description: "MinGW-TDM 5.10"
-    id: gcc510TDM
-  - description: "MinGW-TDM 7.20"
-    id: gcc720
 architectures: [false, "x64"]
 binaries:
   - description: "Development Files"
@@ -105,6 +105,38 @@ are available below.
         wxMSW DLLs for the selected compilers are available.
         For more details see <a href="../blog/2012/08/how-to-use-294-wxmsw-binaries/">here</a><br />
 
+        <br />
+        <a href="{{ release.bin_url_debian }}" target="_new">Ubuntu / Debian Packages</a><br>
+        <a href="{{ release.bin_url_fedora }}" target="_new">Fedora / openSUSE Packages</a>
+
+        <br />
+        <br />
+        <a href="{{ release_info.html_url }}">Release Information on Github</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card my-3">
+      <div class="card-body">
+        <p class="card-title">Documentation</p>
+        <a href="https://github.com/wxWidgets/wxWidgets/blob/{{ version }}/docs/readme.txt">Readme</a><br>
+        <a href="https://github.com/wxWidgets/wxWidgets/blob/{{ version }}/docs/changes.txt">Changes</a><br>
+        <p></p>
+        <a href="https://docs.wxwidgets.org/{{ release.version }}/">Online Manual</a><br>
+
+        {% for doc in page.doc_downloads %}
+          {% assign asset_filename = "wxWidgets-" | append: release.version | append: doc.postfix %}
+          {% assign asset = release_assets | where: "name", asset_filename | first %}
+          
+          <a href="{{ asset.browser_download_url }}">{{ doc.description }}</a>
+          ({{ asset.size | times: 1.0 | divided_by: 1024 | divided_by: 1024 | ceil }} MiB)
+          <br>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="modal fade" id="mswModal{{ release_id }}" tabindex="-1" role="dialog" aria-labelledby="mswModal{{ release_id }}Label" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -120,7 +152,7 @@ are available below.
         {% assign header_asset = release_assets | where: "name", asset_filename | first %}
 
 <div class="accordion" id="accordionMSW{{ release_id }}">
-        {% for compiler in page.compilers %}
+        {% for compiler in page.compilers reversed %}
           {% assign asset_filename = "wxMSW-" | append: release.version | append: "_" | append: compiler.id | append: "_Dev.7z" %}
           {% assign dev_asset = release_assets | where: "name", asset_filename | first %}
 
@@ -135,7 +167,7 @@ are available below.
                 </h5>
               </div>
 
-              <div id="collapse{{ cardID }}" class="collapse" aria-labelledby="heading{{ cardID }}" data-parent="#accordionMSW{{ release_id}}">
+              <div id="collapse{{ cardID }}" class="collapse {% if forloop.first %}show{% endif %}" aria-labelledby="heading{{ cardID }}" data-parent="#accordionMSW{{ release_id}}">
                 <div class="card-body">
                   <a href="{{ header_asset.browser_download_url }}">Header Files</a>
                   ({{ header_asset.size | times: 1.0 | divided_by: 1024 | divided_by: 1024 | ceil }} MiB)
@@ -174,37 +206,6 @@ are available below.
    </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-        <br />
-        <a href="{{ release.bin_url_debian }}" target="_new">Ubuntu / Debian Packages</a><br>
-        <a href="{{ release.bin_url_fedora }}" target="_new">Fedora / openSUSE Packages</a>
-
-        <br />
-        <br />
-        <a href="{{ release_info.html_url }}">Release Information on Github</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6">
-    <div class="card my-3">
-      <div class="card-body">
-        <p class="card-title">Documentation</p>
-        <a href="https://github.com/wxWidgets/wxWidgets/blob/{{ version }}/docs/readme.txt">Readme</a><br>
-        <a href="https://github.com/wxWidgets/wxWidgets/blob/{{ version }}/docs/changes.txt">Changes</a><br>
-        <p></p>
-        <a href="https://docs.wxwidgets.org/{{ release.version }}/">Online Manual</a><br>
-
-        {% for doc in page.doc_downloads %}
-          {% assign asset_filename = "wxWidgets-" | append: release.version | append: doc.postfix %}
-          {% assign asset = release_assets | where: "name", asset_filename | first %}
-          
-          <a href="{{ asset.browser_download_url }}">{{ doc.description }}</a>
-          ({{ asset.size | times: 1.0 | divided_by: 1024 | divided_by: 1024 | ceil }} MiB)
-          <br>
-        {% endfor %}
       </div>
     </div>
   </div>
