@@ -518,10 +518,8 @@ title: News Archive
 
 #### January 6th, 2004
 
-*   [wxH2Help][43] released. wxH2Help, by Thomas Kux, integrates wxWidgets 2.4
+*   wxH2Help released. wxH2Help, by Thomas Kux, integrates wxWidgets 2.4
     documentation into Visual Studio .NET 2002 and Visual Studio .NET 2003.
-
-[43]: http://biolpc22.york.ac.uk/pub/contrib/htmlhelp2/
 
 #### October 30th, 2003
 
@@ -1171,9 +1169,6 @@ wxWidgets 2 launch day!
     thread classes by Wolfram Gloger, updates to wxXt by Markus Holzem, a start
     at OLE control support by Norbert Grotz, an improved Winstall by Stefan
     Hammes, and wxPreferences by Bart Jourquin to simulate .ini files on UNIX.
-*   Check out the [Contributions FTP archive][74] for more.
-
-[74]: ftp://biolpc22.york.ac.uk/pub/contrib/
 
 #### May 8th 1997
 
@@ -1182,9 +1177,7 @@ wxWidgets 2 launch day!
 *   Another interesting link in the Applications page is WipeOut, a C++
     integrated development environment for Linux.
 *   Fixes to make wxWidgets 1.66F work with VC++ 5.0 are in the
-    [ports/msvc50][75] directory.
-
-[75]: ftp://biolpc22.york.ac.uk/pub/ports/msvc50
+    `ports/msvc50` directory.
 
 #### April 20th 1997
 

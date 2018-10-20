@@ -257,6 +257,5 @@ are available below.
 ## Other Downloads
 
 * [SourceForge.net Release Archive](https://sourceforge.net/projects/wxwindows/files/)
-* [York University (UK) Mirror](http://biolpc22.york.ac.uk/pub/)
 * [wxCode Add-on Repository](http://wxcode.sourceforge.net/)
 * [Logos](/downloads/logos/)
