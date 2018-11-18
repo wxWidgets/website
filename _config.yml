@@ -37,6 +37,9 @@ exclude:
   - node_modules
   - package.json
   - README.md
+  - tags
+  - tags.lock
+  - tags.temp
   - Vagrantfile
   - yarn.lock
 
