@@ -5,15 +5,6 @@ title: "Screenshots"
 This is a small taste of some of the applications built with wxWidgets.
 
 
-## QUILL
-
-QUILL is an administrative application built with wxWidgets and PostgreSQL.
-Its primary goal is to provide the small and medium businesses with a means
-to make quotes, orders, transportation documents, invoices etc. QUILL supports
-integrating external documents (PDF, XLS, or CAD/CAM drawings) and can be
-extended with extra modules, including even custom-built ones.
-
-
 ## CopperCube
 
 <div class="row thumbnails">
