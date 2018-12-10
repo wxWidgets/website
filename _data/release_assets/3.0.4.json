@@ -62,7 +62,7 @@
       "content_type": "application/x-executable",
       "state": "uploaded",
       "size": 52063264,
-      "download_count": 31114,
+      "download_count": 38699,
       "created_at": "2018-03-07T18:04:54Z",
       "updated_at": "2018-03-07T18:05:07Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4-Setup.exe"
@@ -96,7 +96,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 52881066,
-      "download_count": 653,
+      "download_count": 4911,
       "created_at": "2018-03-07T19:53:36Z",
       "updated_at": "2018-03-07T19:56:26Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_gcc492TDM_Dev.7z"
@@ -130,7 +130,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 9121046,
-      "download_count": 498,
+      "download_count": 4704,
       "created_at": "2018-03-07T19:32:45Z",
       "updated_at": "2018-03-07T19:34:21Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_gcc492TDM_ReleaseDLL.7z"
@@ -164,7 +164,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 57236842,
-      "download_count": 473,
+      "download_count": 4690,
       "created_at": "2018-03-07T19:56:33Z",
       "updated_at": "2018-03-07T19:59:48Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_gcc492TDM_x64_Dev.7z"
@@ -198,7 +198,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 9851326,
-      "download_count": 258,
+      "download_count": 4492,
       "created_at": "2018-03-07T19:49:49Z",
       "updated_at": "2018-03-07T19:51:43Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_gcc492TDM_x64_ReleaseDLL.7z"
@@ -232,7 +232,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 57093941,
-      "download_count": 810,
+      "download_count": 5220,
       "created_at": "2018-03-07T20:00:00Z",
       "updated_at": "2018-03-07T20:06:15Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_gcc510TDM_Dev.7z"
@@ -266,7 +266,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 9997017,
-      "download_count": 587,
+      "download_count": 4981,
       "created_at": "2018-03-07T19:52:00Z",
       "updated_at": "2018-03-07T19:53:46Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_gcc510TDM_ReleaseDLL.7z"
@@ -300,7 +300,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 61782327,
-      "download_count": 488,
+      "download_count": 4867,
       "created_at": "2018-03-07T20:06:27Z",
       "updated_at": "2018-03-07T20:11:05Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_gcc510TDM_x64_Dev.7z"
@@ -334,7 +334,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 11111127,
-      "download_count": 395,
+      "download_count": 4684,
       "created_at": "2018-03-07T19:54:12Z",
       "updated_at": "2018-03-07T19:56:10Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_gcc510TDM_x64_ReleaseDLL.7z"
@@ -368,7 +368,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 54643502,
-      "download_count": 326,
+      "download_count": 4594,
       "created_at": "2018-03-07T20:15:49Z",
       "updated_at": "2018-03-07T20:21:06Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_gcc720_Dev.7z"
@@ -402,7 +402,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 6973032,
-      "download_count": 273,
+      "download_count": 4519,
       "created_at": "2018-03-07T19:57:27Z",
       "updated_at": "2018-03-07T19:58:43Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_gcc720_ReleaseDLL.7z"
@@ -436,7 +436,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 55149425,
-      "download_count": 375,
+      "download_count": 4702,
       "created_at": "2018-03-07T20:01:31Z",
       "updated_at": "2018-03-07T20:13:47Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_gcc720_x64_Dev.7z"
@@ -470,7 +470,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 6493900,
-      "download_count": 312,
+      "download_count": 4605,
       "created_at": "2018-03-07T19:58:54Z",
       "updated_at": "2018-03-07T20:00:04Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_gcc720_x64_ReleaseDLL.7z"
@@ -504,7 +504,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 21495620,
-      "download_count": 240,
+      "download_count": 4507,
       "created_at": "2018-03-07T20:16:23Z",
       "updated_at": "2018-03-07T20:16:54Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc100_Dev.7z"
@@ -538,7 +538,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 3379639,
-      "download_count": 196,
+      "download_count": 4391,
       "created_at": "2018-03-07T20:16:23Z",
       "updated_at": "2018-03-07T20:16:56Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc100_ReleaseDLL.7z"
@@ -572,7 +572,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 11039268,
-      "download_count": 132,
+      "download_count": 4329,
       "created_at": "2018-03-07T20:16:24Z",
       "updated_at": "2018-03-07T20:17:01Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc100_ReleasePDB.7z"
@@ -606,7 +606,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 22366387,
-      "download_count": 146,
+      "download_count": 4350,
       "created_at": "2018-03-07T20:16:24Z",
       "updated_at": "2018-03-07T20:17:08Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc100_x64_Dev.7z"
@@ -640,7 +640,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 3968269,
-      "download_count": 125,
+      "download_count": 4308,
       "created_at": "2018-03-07T20:16:24Z",
       "updated_at": "2018-03-07T20:17:11Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc100_x64_ReleaseDLL.7z"
@@ -674,7 +674,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 11156722,
-      "download_count": 103,
+      "download_count": 4281,
       "created_at": "2018-03-07T20:16:24Z",
       "updated_at": "2018-03-07T20:17:14Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc100_x64_ReleasePDB.7z"
@@ -708,7 +708,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 23945743,
-      "download_count": 102,
+      "download_count": 4279,
       "created_at": "2018-03-07T20:16:25Z",
       "updated_at": "2018-03-07T20:17:23Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc110_Dev.7z"
@@ -742,7 +742,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 3303112,
-      "download_count": 92,
+      "download_count": 4259,
       "created_at": "2018-03-07T20:16:25Z",
       "updated_at": "2018-03-07T20:17:24Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc110_ReleaseDLL.7z"
@@ -776,7 +776,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 12773082,
-      "download_count": 80,
+      "download_count": 4228,
       "created_at": "2018-03-07T20:16:25Z",
       "updated_at": "2018-03-07T20:17:29Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc110_ReleasePDB.7z"
@@ -810,7 +810,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 25542571,
-      "download_count": 98,
+      "download_count": 4259,
       "created_at": "2018-03-07T20:16:25Z",
       "updated_at": "2018-03-07T20:17:37Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc110_x64_Dev.7z"
@@ -844,7 +844,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 3959670,
-      "download_count": 99,
+      "download_count": 4280,
       "created_at": "2018-03-07T20:16:25Z",
       "updated_at": "2018-03-07T20:17:40Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc110_x64_ReleaseDLL.7z"
@@ -878,7 +878,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 13350465,
-      "download_count": 82,
+      "download_count": 4255,
       "created_at": "2018-03-07T20:16:26Z",
       "updated_at": "2018-03-07T20:17:44Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc110_x64_ReleasePDB.7z"
@@ -912,7 +912,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 24119073,
-      "download_count": 184,
+      "download_count": 4368,
       "created_at": "2018-03-07T20:16:26Z",
       "updated_at": "2018-03-07T20:17:50Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc120_Dev.7z"
@@ -946,7 +946,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 3309281,
-      "download_count": 168,
+      "download_count": 4334,
       "created_at": "2018-03-07T20:16:26Z",
       "updated_at": "2018-03-07T20:17:52Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc120_ReleaseDLL.7z"
@@ -980,7 +980,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 12936677,
-      "download_count": 105,
+      "download_count": 4246,
       "created_at": "2018-03-07T20:16:26Z",
       "updated_at": "2018-03-07T20:17:56Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc120_ReleasePDB.7z"
@@ -1014,7 +1014,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 25640514,
-      "download_count": 137,
+      "download_count": 4332,
       "created_at": "2018-03-07T20:16:26Z",
       "updated_at": "2018-03-07T20:18:03Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc120_x64_Dev.7z"
@@ -1048,7 +1048,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 3971850,
-      "download_count": 135,
+      "download_count": 4291,
       "created_at": "2018-03-07T20:16:26Z",
       "updated_at": "2018-03-07T20:18:04Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc120_x64_ReleaseDLL.7z"
@@ -1082,7 +1082,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 13420981,
-      "download_count": 112,
+      "download_count": 4253,
       "created_at": "2018-03-07T20:16:27Z",
       "updated_at": "2018-03-07T20:18:09Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc120_x64_ReleasePDB.7z"
@@ -1116,7 +1116,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 25538833,
-      "download_count": 360,
+      "download_count": 4587,
       "created_at": "2018-03-07T20:16:27Z",
       "updated_at": "2018-03-07T20:18:17Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc140_Dev.7z"
@@ -1150,7 +1150,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 3229314,
-      "download_count": 289,
+      "download_count": 4478,
       "created_at": "2018-03-07T20:16:27Z",
       "updated_at": "2018-03-07T20:18:19Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc140_ReleaseDLL.7z"
@@ -1184,7 +1184,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 16208219,
-      "download_count": 179,
+      "download_count": 4354,
       "created_at": "2018-03-07T20:16:27Z",
       "updated_at": "2018-03-07T20:18:23Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc140_ReleasePDB.7z"
@@ -1218,7 +1218,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 26800441,
-      "download_count": 358,
+      "download_count": 4581,
       "created_at": "2018-03-07T20:16:27Z",
       "updated_at": "2018-03-07T20:18:30Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc140_x64_Dev.7z"
@@ -1252,7 +1252,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 3965008,
-      "download_count": 471,
+      "download_count": 4716,
       "created_at": "2018-03-07T20:16:28Z",
       "updated_at": "2018-03-07T20:18:32Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc140_x64_ReleaseDLL.7z"
@@ -1286,7 +1286,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 16793776,
-      "download_count": 200,
+      "download_count": 4368,
       "created_at": "2018-03-07T20:16:28Z",
       "updated_at": "2018-03-07T20:18:37Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc140_x64_ReleasePDB.7z"
@@ -1320,7 +1320,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 25693980,
-      "download_count": 603,
+      "download_count": 4956,
       "created_at": "2018-03-07T20:16:28Z",
       "updated_at": "2018-03-07T20:18:45Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc141_Dev.7z"
@@ -1354,7 +1354,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 3293931,
-      "download_count": 397,
+      "download_count": 4655,
       "created_at": "2018-03-07T20:16:28Z",
       "updated_at": "2018-03-07T20:18:47Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc141_ReleaseDLL.7z"
@@ -1388,7 +1388,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 16332774,
-      "download_count": 270,
+      "download_count": 4480,
       "created_at": "2018-03-07T20:16:28Z",
       "updated_at": "2018-03-07T20:18:52Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc141_ReleasePDB.7z"
@@ -1422,7 +1422,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 26844359,
-      "download_count": 569,
+      "download_count": 5050,
       "created_at": "2018-03-07T20:16:29Z",
       "updated_at": "2018-03-07T20:18:59Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc141_x64_Dev.7z"
@@ -1456,7 +1456,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 4038690,
-      "download_count": 472,
+      "download_count": 4849,
       "created_at": "2018-03-07T20:16:29Z",
       "updated_at": "2018-03-07T20:19:01Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc141_x64_ReleaseDLL.7z"
@@ -1490,7 +1490,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 16800566,
-      "download_count": 297,
+      "download_count": 4592,
       "created_at": "2018-03-07T20:16:29Z",
       "updated_at": "2018-03-07T20:19:06Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc141_x64_ReleasePDB.7z"
@@ -1524,7 +1524,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 21305775,
-      "download_count": 170,
+      "download_count": 4321,
       "created_at": "2018-03-07T20:16:22Z",
       "updated_at": "2018-03-07T20:16:29Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc90_Dev.7z"
@@ -1558,7 +1558,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 3239281,
-      "download_count": 131,
+      "download_count": 4264,
       "created_at": "2018-03-07T20:16:22Z",
       "updated_at": "2018-03-07T20:16:30Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc90_ReleaseDLL.7z"
@@ -1592,7 +1592,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 10954825,
-      "download_count": 101,
+      "download_count": 4211,
       "created_at": "2018-03-07T20:16:22Z",
       "updated_at": "2018-03-07T20:16:34Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc90_ReleasePDB.7z"
@@ -1626,7 +1626,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 22071881,
-      "download_count": 96,
+      "download_count": 4220,
       "created_at": "2018-03-07T20:16:23Z",
       "updated_at": "2018-03-07T20:16:41Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc90_x64_Dev.7z"
@@ -1660,7 +1660,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 4073910,
-      "download_count": 101,
+      "download_count": 4225,
       "created_at": "2018-03-07T20:16:23Z",
       "updated_at": "2018-03-07T20:16:43Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc90_x64_ReleaseDLL.7z"
@@ -1694,7 +1694,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 11010002,
-      "download_count": 89,
+      "download_count": 4223,
       "created_at": "2018-03-07T20:16:23Z",
       "updated_at": "2018-03-07T20:16:48Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxMSW-3.0.4_vc90_x64_ReleasePDB.7z"
@@ -1728,7 +1728,7 @@
       "content_type": "application/zip",
       "state": "uploaded",
       "size": 35339093,
-      "download_count": 20611,
+      "download_count": 26129,
       "created_at": "2018-03-07T18:05:31Z",
       "updated_at": "2018-03-07T18:05:43Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxWidgets-3.0.4-docs-chm.zip"
@@ -1762,7 +1762,7 @@
       "content_type": "application/x-bzip",
       "state": "uploaded",
       "size": 24122986,
-      "download_count": 10256,
+      "download_count": 14185,
       "created_at": "2018-03-07T18:05:31Z",
       "updated_at": "2018-03-07T18:05:50Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxWidgets-3.0.4-docs-html.tar.bz2"
@@ -1796,7 +1796,7 @@
       "content_type": "application/zip",
       "state": "uploaded",
       "size": 34978068,
-      "download_count": 20016,
+      "download_count": 25475,
       "created_at": "2018-03-07T18:05:32Z",
       "updated_at": "2018-03-07T18:05:59Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxWidgets-3.0.4-docs-html.zip"
@@ -1830,7 +1830,7 @@
       "content_type": "application/x-7z-compressed",
       "state": "uploaded",
       "size": 1410110,
-      "download_count": 1420,
+      "download_count": 6353,
       "created_at": "2018-03-07T18:05:32Z",
       "updated_at": "2018-03-07T18:05:59Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxWidgets-3.0.4-headers.7z"
@@ -1864,7 +1864,7 @@
       "content_type": "application/x-7z-compressed",
       "state": "uploaded",
       "size": 16037362,
-      "download_count": 23851,
+      "download_count": 30089,
       "created_at": "2018-03-07T18:05:32Z",
       "updated_at": "2018-03-07T18:06:05Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxWidgets-3.0.4.7z"
@@ -1898,7 +1898,7 @@
       "content_type": "application/x-bzip",
       "state": "uploaded",
       "size": 20204622,
-      "download_count": 29750,
+      "download_count": 37873,
       "created_at": "2018-03-07T18:05:32Z",
       "updated_at": "2018-03-07T18:06:12Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxWidgets-3.0.4.tar.bz2"
@@ -1932,7 +1932,7 @@
       "content_type": "application/zip",
       "state": "uploaded",
       "size": 31085828,
-      "download_count": 25448,
+      "download_count": 32226,
       "created_at": "2018-03-07T18:05:32Z",
       "updated_at": "2018-03-07T18:06:20Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.0.4/wxWidgets-3.0.4.zip"
