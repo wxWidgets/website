@@ -5,5 +5,5 @@
   channel: Stable
   released: March 8th, 2018
   stable_api_since: November 11th, 2013
-  bin_url_debian: http://codelite.org/LiteEditor/WxWidgets30Binaries#toc2
-  bin_url_fedora: http://codelite.org/LiteEditor/WxWidgets30Binaries#toc3
+  bin_url_debian: https://wiki.codelite.org/pmwiki.php/Main/WxWidgets30Binaries#toc2
+  bin_url_fedora: https://wiki.codelite.org/pmwiki.php/Main/WxWidgets30Binaries#toc3
