@@ -58,9 +58,9 @@ binaries:
 <div class="alert alert-info">
   <strong>Not using C++?</strong>
   Get wxWidgets from the
-  <a href="http://wxpython.org/download.php" class="alert-link" target="_new">wxPython</a>,
-  <a href="http://wxperl.eu/download.html" class="alert-link" target="_new">wxPerl</a>, or
-  <a href="http://wxnet.sourceforge.net/binary.html" class="alert-link" target="_new">wx.NET</a>
+  <a href="https://wxpython.org/pages/downloads/" class="alert-link" target="_new">wxPython</a>,
+  <a href="http://www.wxperl.it/p/download.html" class="alert-link" target="_new">wxPerl</a>, or
+  <a href="https://wiki.haskell.org/WxHaskell" class="alert-link" target="_new">wxHaskell</a>
   download sites.
 </div>
 
