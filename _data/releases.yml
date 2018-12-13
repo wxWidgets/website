@@ -1,6 +1,8 @@
 - version: 3.1.2
   channel: Development
   released: December 10, 2018
+  bin_url_debian: https://wiki.codelite.org/pmwiki.php/Main/WxWidgets31Binaries#toc2
+  bin_url_fedora: https://wiki.codelite.org/pmwiki.php/Main/WxWidgets31Binaries#toc3
 - version: 3.0.4
   channel: Stable
   released: March 8th, 2018
