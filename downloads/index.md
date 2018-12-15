@@ -74,11 +74,6 @@ that we can't provide binaries for all of them. On Linux, we recommend using
 the official wxGTK packages provided by each distribution, but newer packages
 are available below.
 
-<script>
-  // Provide release info to java script
-  var wxdl_releases = {{ site.data.releases | jsonify }};
-</script>
-
 {% for release in site.data.releases %}
 ## Latest {{ release.channel }} Release: {{ release.version }}
 
