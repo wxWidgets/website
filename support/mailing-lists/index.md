@@ -28,10 +28,9 @@ here.
 * To Post: <wx-users@googlegroups.com>
 * Subscribe: <wx-users+subscribe@googlegroups.com>
 * Unsubscribe: <wx-users+unsubscribe@googlegroups.com>
-* Archives: [Google Group][wx-users-group], [Gmane Archive][wx-users-gmane]
+* Archives: [Google Group][wx-users-group]
 
 [wx-users-group]: https://groups.google.com/forum/?fromgroups#!forum/wx-users
-[wx-users-gmane]: http://dir.gmane.org/gmane.comp.lib.wxwindows.general
 
 ### Developers List
 
@@ -43,10 +42,9 @@ email filters accordingly.
 * To Post: <wx-dev@googlegroups.com>
 * Subscribe: <wx-dev+subscribe@googlegroups.com>
 * Unsubscribe: <wx-dev+unsubscribe@googlegroups.com>
-* Archives: [Google Group][wx-dev-group], [Gmane Archive][wx-dev-gmane]
+* Archives: [Google Group][wx-dev-group]
 
 [wx-dev-group]: https://groups.google.com/forum/?fromgroups#!forum/wx-dev
-[wx-dev-gmane]: http://dir.gmane.org/gmane.comp.lib.wxwidgets.devel
 
 ### Discussion List
 
@@ -56,10 +54,9 @@ This list is not for technical discussions.
 * To Post: <wx-discuss@googlegroups.com>
 * Subscribe: <wx-discuss+subscribe@googlegroups.com>
 * Unsubscribe: <wx-discuss+unsubscribe@googlegroups.com>
-* Archives: [Google Group][wx-discuss-group], [Gmane Archive][wx-discuss-gmane]
+* Archives: [Google Group][wx-discuss-group]
 
 [wx-discuss-group]: https://groups.google.com/forum/?fromgroups#!forum/wx-discuss
-[wx-discuss-gmane]: http://dir.gmane.org/gmane.comp.lib.wxwidgets.discuss
 
 ### Announcement List
 

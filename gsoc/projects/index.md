@@ -154,8 +154,6 @@ it's currently only implemented on Windows and doesn't work for Vista and
 later systems right now, e.g. it's impossible to prevent the system from
 suspending in this way (which was used until Windows XP) any more. The goal of
 this project would be to update power management support for Windows Vista/7
-(which is simple to do, see
-[this thread](http://thread.gmane.org/gmane.comp.lib.wxwidgets.devel/120453))
 and, most importantly, also implement them for Linux and/or OS X. This will
 include devising an API which can be implemented on all platforms and actually
 implementing it for Windows and at least one of Linux/OS X (and ideally both).
