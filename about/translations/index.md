@@ -102,6 +102,8 @@ where special announcements for translators are announced.
   * William Jiang <<williamroot777@qq.com>>
 * Chinese (zh_TW)
   * pal.tw <<pal.tw@yahoo.com.tw>>
+* Croatian (hr)
+  * Milo Ivir <<mail@milotype.de>>
 * Czech (cs)
   * Vaclav Slavik <<vaclav.slavik@matfyz.cz>>
   * Herbert Breunung <<deirdre_skye@web.de>>
