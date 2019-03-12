@@ -25,6 +25,7 @@ $(document).ready(function(){
     "fr":"French",
     "gl_ES":"Galician",
     "hi":"Hindi",
+    "hr":"Croatian",
     "hu":"Hungarian",
     "id":"Indonesian",
     "it":"Italian",
