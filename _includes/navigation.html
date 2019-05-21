@@ -5,51 +5,25 @@
 </div>
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
   <ul class="navbar-nav mr-auto">
-    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+{% for item in site.data.navigation.toc %}
+  {% if item.type == 'normal' %}
+    <li class="nav-item"><a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
+  {% else %}
+    {% assign item_id = 'navbar' | append: item.title %}
     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkAbout" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkAbout">
-        <a class="dropdown-item" href="/about/">Overview</a>
-        <a class="dropdown-item" href="/about/screenshots/">Screenshots</a>
-        <a class="dropdown-item" href="/about/translations/">Translations</a>
-        <a class="dropdown-item" href="/about/team/">The Team</a>
-        <a class="dropdown-item" href="/about/licence/">License</a>
-        <a class="dropdown-item" href="/about/credits/">Credits</a>
-      </div>
-    </li>
-    <li class="nav-item"><a class="nav-link" href="/downloads/">Downloads</a></li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkDocumentation" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Documentation</a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkDocumentation">
-        <a class="dropdown-item" href="/docs/book/">The Book</a>
-        <a class="dropdown-item" href="/docs/">Reference Manuals</a>
-        <a class="dropdown-item" href="/docs/faq/">Frequently Asked Questions</a>
-        <a class="dropdown-item" href="https://wiki.wxwidgets.org/" target="_blank">Community Wiki</a>
-        <a class="dropdown-item" href="/docs/tutorials/">Tutorials</a>
-      </div>
-    </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkSupport" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Support</a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkSupport">
-        <a class="dropdown-item" href="https://trac.wxwidgets.org/" target="_blank">Issue Tracker</a>
+      <a class="nav-link dropdown-toggle" href="#" id="{{ item_id }}" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ item.title }}</a>
+      <div class="dropdown-menu" aria-labelledby="{{ item_id }}">
+    {% for pag in item.pages %}
+      {% if pag.title == nil %}
         <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="/support/mailing-lists/">Mailing Lists</a>
-        <a class="dropdown-item" href="https://forums.wxwidgets.org/" target="_blank">Forums</a>
-        <a class="dropdown-item" href="/support/irc/">IRC Channel</a>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="/support/commercial/">Commercial Support</a>
+      {% else %}
+        <a class="dropdown-item" href="{{ pag.url }}">{{ pag.title }}</a>
+      {% endif %}
+    {% endfor %}
       </div>
+  {% endif %}
     </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkDevelopers" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Developers</a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLinkDevelopers">
-        <a class="dropdown-item" href="/develop/">Resources</a>
-        <a class="dropdown-item" href="/develop/code-repository/">Code Repository</a>
-        <a class="dropdown-item" href="/develop/coding-guidelines/">Coding Guidelines</a>
-        <a class="dropdown-item" href="/blog/">Developer Blog</a>
-        <a class="dropdown-item" href="/gsoc/">Summer of Code</a>
-      </div>
-    </li>
+{% endfor %}
   </ul>
   <form class="form-inline" role="search" action="/search/">
     <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search" aria-label="Search">
