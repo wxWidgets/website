@@ -1,0 +1,87 @@
+toc:
+    - title: Home
+      type: normal
+      url: /
+
+    - title: About
+      type: dropdown
+      pages:
+        - title: Overview
+          url: /about/
+
+        - title: Screenshots
+          url: /about/screenshots/
+
+        - title: Translations
+          url: /about/translations/
+
+        - title: The Team
+          url: /about/team/
+
+        - title: License
+          url: /about/licence/
+
+        - title: Credits
+          url: /about/credits/
+
+    - title: Downloads
+      type: normal
+      url: /downloads/
+
+    - title: Documentation
+      type: dropdown
+      pages:
+        - title: The Book
+          url: /docs/book/
+
+        - title: Reference Manuals
+          url: /docs/
+
+        - title: Frequently Asked Questions
+          url: /docs/faq/
+
+        - title: Community Wiki
+          url: https://wiki.wxwidgets.org/
+
+        - title: Tutorials
+          url: /docs/tutorials/
+
+    - title: Support
+      type: dropdown
+      pages:
+        - title: Issue Tracker
+          url: https://trac.wxwidgets.org/
+
+        -
+
+        - title: Mailing Lists
+          url: /support/mailing-lists/
+
+        - title: Forums
+          url: https://forums.wxwidgets.org/
+
+        - title: IRC Channel
+          url: /support/irc/
+
+        -
+
+        - title: Commercial Support
+          url: /support/commercial/
+
+    - title: Developers
+      type: dropdown
+      pages:
+        - title: Resources
+          url: /develop/
+
+        - title: Code Repository
+          url: /develop/code-repository/
+
+        - title: Coding Guidelines
+          url: /develop/coding-guidelines/
+
+        - title: Developer Blog
+          url: /blog/
+
+        - title: Summer of Code
+          url: /gsoc/

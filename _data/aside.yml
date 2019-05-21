@@ -1,0 +1,44 @@
+cards:
+    - title: Quick Links
+      links:
+        - title: Hello World in wxWidgets
+          url: http://docs.wxwidgets.org/trunk/overview_helloworld.html
+          icon_type: star
+          icon_category: fas
+
+        - title: Online Manual
+          url: http://docs.wxwidgets.org/3.0/
+          icon_type: book
+          icon_category: fas
+
+        - title: Community Wiki
+          url: https://wiki.wxwidgets.org/
+          icon_type: info
+          icon_category: fas
+
+        - title: Report a Bug
+          url: https://trac.wxwidgets.org/newticket
+          icon_type: bug
+          icon_category: fas
+
+        - title: GitHub Repository
+          url: https://github.com/wxWidgets/wxWidgets
+          icon_type: github
+          icon_category: fab
+
+        - title: Development Roadmap
+          url: https://trac.wxwidgets.org/wiki/Roadmap
+          icon_type: forward
+          icon_category: fas
+
+    - title: Follow Us
+      links:
+        - title: News RSS Feed
+          url: /atom.xml
+          icon_type: rss
+          icon_category: fas
+
+        - title: Developer Blog
+          url: /blog/
+          icon_type: pencil-alt
+          icon_category: fas

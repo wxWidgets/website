@@ -1,42 +1,18 @@
+{% for card in site.data.aside.cards %}
 <div class="card border-primary mb-4">
-  <div class="card-header bg-primary text-light">Quick Links</div>
+  <div class="card-header bg-primary text-light">{{ card.title }}</div>
   <div class="card-body">
     <ul class="nav nav-pills flex-column">
-      <li class="nav-item"><a class="nav-link" href="https://docs.wxwidgets.org/trunk/overview_helloworld.html">
-        <i class="fas fa-star fa-fw"></i> Hello World in wxWidgets</a></li>
-      <li class="nav-item"><a class="nav-link" href="https://docs.wxwidgets.org/3.0/">
-        <i class="fas fa-book fa-fw"></i> Online Manual</a></li>
-      <li class="nav-item"><a class="nav-link" href="https://wiki.wxwidgets.org/">
-        <i class="fas fa-info fa-fw"></i> Community Wiki</a></li>
-      <li class="nav-item"><a class="nav-link" href="https://trac.wxwidgets.org/newticket">
-        <i class="fas fa-bug fa-fw"></i> Report a Bug</a></li>
-      <li class="nav-item"><a class="nav-link" href="https://github.com/wxWidgets/wxWidgets">
-        <i class="fab fa-github fa-fw"></i> GitHub Repository</a></li>
-      <li class="nav-item"><a class="nav-link" href="https://trac.wxwidgets.org/wiki/Roadmap">
-        <i class="fas fa-forward fa-fw"></i> Development Roadmap</a></li>
+    {% for item in card.links %}
+      <li class="nav-item"><a class="nav-link" href="{{ item.url }}" title="{{ item.title }}">
+        <i class="{{ item.icon_category }} fa-{{ item.icon_type }} fa-fw"></i> {{ item.title }}</a></li>
+    {% endfor %}
     </ul>
   </div>
 </div>
+{% endfor %}
 
 <div class="card border-primary mb-4 logos" style="display: none;">
   <div class="card-header bg-primary text-light">Solutions</div>
   <div class="card-body text-center"></div>
-</div>
-
-<div class="card border-primary mb-4">
-  <div class="card-header bg-primary text-light">Follow Us</div>
-  <div class="card-body">
-    <ul class="nav nav-pills flex-column">
-      <li class="nav-item">
-        <a class="nav-link" href="/atom.xml" title="News RSS Feed">
-          <i class="fas fa-rss fa-fw"></i> News RSS Feed
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/blog/" title="Developer Blog">
-          <i class="fas fa-pencil-alt fa-fw"></i> Developer Blog
-        </a>
-      </li>
-    </ul>
-  </div>
 </div>
