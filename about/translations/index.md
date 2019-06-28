@@ -101,6 +101,7 @@ where special announcements for translators are announced.
   * Huang Jiawei <<hjiawei@gmail.com>>
   * William Jiang <<williamroot777@qq.com>>
 * Chinese (zh_TW)
+  * Walter Cheuk <<wwycheuk@gmail.com>>
   * pal.tw <<pal.tw@yahoo.com.tw>>
 * Croatian (hr)
   * Milo Ivir <<mail@milotype.de>>
