@@ -129,8 +129,8 @@ All wxWidgets files should start with the following standard header:
 // Name:        src/common/foo.cpp
 // Purpose:     Implementation of wxFoo
 // Author:      Your Name <your@email.address>
-// Created:     2014-02-07
-// Copyright:   (c) 2014 wxWidgets development team
+// Created:     2019-02-07
+// Copyright:   (c) 2019 wxWidgets development team
 // Licence:     wxWindows licence
 /////////////////////////////////////////////////////////////////////////////
 ```
@@ -193,7 +193,7 @@ headers not included by `wx/wxprec.h` need to be included in any case.
 
 All public types and data must be declared with `WXDLLIMPEXP_XXX` in their
 declaration to be usable outside of the wxWidgets DLL. `XXX` here can be one
-of `BASE`, `CORE`, `ADV` and so on depending on the library the symbol is
+of `BASE`, `CORE` and so on depending on the library the symbol is
 exported from, see `include/wx/dlimpexp.h` for the full list. For example:
 
 ```cpp
@@ -525,7 +525,7 @@ removed if `Foo()` is virtual and overridden (because the names are mangled
 differently). So, _for arguments passed by value_ you shouldn't use `const`.
 
 Of course, it doesn't apply to functions such as
-`void PrintMessage(const char *text)` where `const` is mandatory.
+`void PrintMessage(const char* text)` where `const` is mandatory.
 
 
 <a name="null_not_zero"></a>
@@ -541,7 +541,7 @@ A related advice is to use `'\0'` instead of `0` in the expressions involving
 `char` types.
 
 Notice that `nullptr` can't be used in wxWidgets code as it must remain
-compatible with non-C++-11 compilers.
+compatible with non-C++11 compilers.
 
 
 <a name="use_override"></a>
@@ -660,12 +660,11 @@ the old style macro-based container classes.
 
 <a name="no_newlogicalops"></a>
 
-#### <i class="fas fa-check-square fa-fw"></i> Don't use new logical operators keywords
+#### <i class="fas fa-check-square fa-fw"></i> Don't use alternative operator representations
 
-While not widely known, C++ standard defines the following reserved words:
-`or`, `and`, `not`, `xor`, `bitand`, `bitor`, `compl`, `and_eq`, `or_eq`,
-`not_eq`, `or_eq` which can be used instead of the usual C operations `&&`,
-`||`, `~`, etc.
+C++ standard defines the following reserved words: `or`, `and`, `not`, `xor`, 
+`bitand`, `bitor`, `compl`, `and_eq`, `or_eq`, `not_eq`, `or_eq` 
+which can be used instead of the usual C operators `&&`, `||`, `~`, etc.
 
 Support for these operators varies among compilers and some of them don't
 support them at all while others require special options to enable their use.
@@ -928,11 +927,11 @@ documentation.
 
 <a name="endperiod"></a>
 
-#### <i class="fas fa-check-square fa-fw"></i> Always end a sentence with a period or other appropriate punctuation.
+#### <i class="fas fa-check-square fa-fw"></i> Always end a sentence with a period or other appropriate punctuation
 
 <a name="noellipsis"></a>
 
-#### <i class="fas fa-check-square fa-fw"></i> Never use "..." unless absolutely necessary.
+#### <i class="fas fa-check-square fa-fw"></i> Never use "..." unless absolutely necessary
 
 <a name="nopling"></a>
 
@@ -943,13 +942,13 @@ documentation).
 
 <a name="onespace"></a>
 
-#### <i class="fas fa-check-square fa-fw"></i> Use only one space after a period and before a new sentence.
+#### <i class="fas fa-check-square fa-fw"></i> Use only one space after a period and before a new sentence
 
 Don't add a lone space after a period if it's not going to be followed by
 another sentence.
 
 <a name="limitparenth"></a>
 
-#### <i class="fas fa-check-square fa-fw"></i> Don't use unnecessary parentheses in messages and documentation.
+#### <i class="fas fa-check-square fa-fw"></i> Don't use unnecessary parentheses in messages and documentation
 
 Instead, rearrange the sentence.
