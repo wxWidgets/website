@@ -53,6 +53,8 @@ binaries:
     id: ReleaseDLL
   - description: "Release DLLs PDB Files"
     id: ReleasePDB
+scripts:
+  - "downloads.js"
 ---
 
 <div class="alert alert-info">
@@ -71,7 +73,6 @@ convenience, but wxWidgets supports so many compilers on so many platforms,
 that we can't provide binaries for all of them. On Linux, we recommend using
 the official wxGTK packages provided by each distribution, but newer packages
 are available below.
-
 
 {% for release in site.data.releases %}
 ## Latest {{ release.channel }} Release: {{ release.version }}
@@ -95,8 +96,7 @@ are available below.
           {% assign asset_filename = archive.prefix | append: release.version | append: archive.postfix %}
           {% assign asset = release_assets | where: "name", asset_filename | first %}
           
-          <a href="{{ asset.browser_download_url }}">{{ archive.description }}</a>
-          ({{ asset.size | times: 1.0 | divided_by: 1024 | divided_by: 1024 | ceil }} MiB)
+          <a href="{{ asset.browser_download_url }}" class="wxdl_{{ asset.id }}">{{ archive.description }}</a>
           <br>
 
         {% endfor %}
@@ -135,8 +135,7 @@ are available below.
           {% assign asset_filename = "wxWidgets-" | append: release.version | append: doc.postfix %}
           {% assign asset = release_assets | where: "name", asset_filename | first %}
           
-          <a href="{{ asset.browser_download_url }}">{{ doc.description }}</a>
-          ({{ asset.size | times: 1.0 | divided_by: 1024 | divided_by: 1024 | ceil }} MiB)
+          <a href="{{ asset.browser_download_url }}" class="wxdl_{{ asset.id }}">{{ doc.description }}</a>
           <br>
         {% endfor %}
       </div>
@@ -177,8 +176,7 @@ are available below.
               <div id="collapse{{ cardID }}" class="collapse {% if forloop.first %}show{% endif %}" aria-labelledby="heading{{ cardID }}" data-parent="#accordionMSW{{ release_id}}">
                 <div class="card-body">
                   <p class="card-text">
-                      <a href="{{ header_asset.browser_download_url }}">Header Files</a>
-                      ({{ header_asset.size | times: 1.0 | divided_by: 1024 | divided_by: 1024 | ceil }} MiB)
+                      <a href="{{ header_asset.browser_download_url }}" class="wxdl_{{ header_asset.id }}">Header Files</a>
                   </p>
 
             {% for architecture in page.architectures %}
@@ -188,8 +186,7 @@ are available below.
                 {% assign asset_filename = "wxMSW-" | append: release.version | append: "_" | append: compiler.id | append: architecture.postfix | append: "_" | append: bin.id | append: ".7z" %}
                 {% assign asset = release_assets | where: "name", asset_filename | first %}
                 {% if asset %}
-                <a href="{{ asset.browser_download_url }}">{{ bin.description }}</a> 
-                ({{ asset.size | times: 1.0 | divided_by: 1024 | divided_by: 1024 | ceil }} MiB)
+                <a href="{{ asset.browser_download_url }}" class="wxdl_{{ asset.id }}">{{ bin.description }}</a> 
                 <br />
                 {% endif %}
               {% endfor %}

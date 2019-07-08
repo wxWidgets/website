@@ -13,3 +13,6 @@
 # Translations Build Files
 /_cron/locale/
 /about/translations/stats.js
+
+# Download stats files
+/downloads/downloads.json
