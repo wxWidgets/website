@@ -46,7 +46,7 @@ code, this document should be considered authoritative.
   * [Don't use exceptions](#no_exceptions)
   * [Don't use RTTI](#no_rtti)
   * [Don't use many standard library classes](#no_stl)
-  * [Don't use new logical operators keywords](#no_newlogicalops)
+  * [Don't use alternative operator representations](#no_altlogicalops)
 * Code Quality
   * [Turn on all warnings and eradicate them](#no_warnings)
   * [Avoid C style casts](#no_c_casts)
@@ -658,7 +658,7 @@ covering 99% of its features and which can be used instead -- and preferred to
 the old style macro-based container classes.
 
 
-<a name="no_newlogicalops"></a>
+<a name="no_altlogicalops"></a>
 
 #### <i class="fas fa-check-square fa-fw"></i> Don't use alternative operator representations
 
