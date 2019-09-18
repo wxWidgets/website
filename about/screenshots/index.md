@@ -5,6 +5,24 @@ title: "Screenshots"
 This is a small taste of some of the applications built with wxWidgets.
 
 
+## IvyBackup
+
+<div class="row thumbnails">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="ivybackup" href="ivybackup-msw.png" title="IvyBackup on Windows">
+      <img src="ivybackup-msw-thumb.png" class="img-thumbnail" alt="IvyBackup on Windows">
+    </a>
+  </div>
+</div>
+
+[IvyBackup][ivybackup] is backup software for Windows that is easy and
+intuitive to use. It saves you time, money and headaches. It protects your
+files from total or partial loss and ensures your files and documents are
+never left vulnerable.
+
+[ivybackup]: https://www.ivybackup.com/
+
+
 ## CopperCube
 
 <div class="row thumbnails">
