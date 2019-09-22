@@ -18,8 +18,8 @@ This is a small taste of some of the applications built with wxWidgets.
     </a>
   </div>
   <div class="col-6 col-sm-3">
-    <a data-fancybox="hollywood" href="hollywood-amiga.png" title="Hollywood on AmigaOS">
-      <img src="hollywood-amiga-thumb.png" class="img-thumbnail" alt="Hollywood on AmigaOS">
+    <a data-fancybox="hollywood" href="hollywood-amigaos.png" title="Hollywood on AmigaOS">
+      <img src="hollywood-amigaos-thumb.png" class="img-thumbnail" alt="Hollywood on AmigaOS">
     </a>
   </div>  
 </div>
