@@ -4,6 +4,33 @@ title: "Screenshots"
 
 This is a small taste of some of the applications built with wxWidgets.
 
+## Hollywood
+
+<div class="row thumbnails">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="hollywood" href="hollywood-msw.png" title="Hollywood on Windows">
+      <img src="hollywood-msw-thumb.png" class="img-thumbnail" alt="Hollywood on Windows">
+    </a>
+  </div>
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="hollywood" href="hollywood-linux.png" title="Hollywood on Linux">
+      <img src="hollywood-linux-thumb.png" class="img-thumbnail" alt="Hollywood on Linux">
+    </a>
+  </div>
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="hollywood" href="hollywood-amiga.png" title="Hollywood on AmigaOS">
+      <img src="hollywood-amiga-thumb.png" class="img-thumbnail" alt="Hollywood on AmigaOS">
+    </a>
+  </div>  
+</div>
+
+[Hollywood][hollywood] is a cross-platform programming language available for
+many different platforms. It comes with an inbuilt cross-compiler that can 
+deploy executables to over 15 different architectures, ranging from AmigaOS
+to Windows. Hollywood uses wxWidgets in its RapaGUI plugin which can be used to
+conveniently create graphical user interfaces from XML files in a platform-independent way. 
+
+[hollywood]: https://www.hollywood-mal.com/
 
 ## IvyBackup
 
