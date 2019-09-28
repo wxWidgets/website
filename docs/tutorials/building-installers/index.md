@@ -10,14 +10,7 @@ friendly manner, if appropriate giving options to install only certain modules,
 and you should also give the user an uninstall facility. It will take you less
 time than you might think (at least on Windows!) and will give your application
 a more professional look than if you merely bundled a zip file containing your
-application files. You can use a commercial product such as InstallShield,
-but there are several free offerings that will probably be adequate for your
-needs. Here are some free Windows installers. My personal favourite at present
-is Inno Setup combined with ScriptMaker. I can still automate the production
-of parts of the script (see the files in distrib/msw in the wxWidgets
-distribution) but use ScriptMaker to edit the parts that would be tedious to
-edit by hand.
-
+application files.
 
 ## Windows Installers
 
@@ -29,21 +22,11 @@ Here are some free Windows installers:
   with Pascal scripting
 * [NSIS](http://nsis.sourceforge.net) Nullsoft (SuperPiMP|Scriptable)
   Install System, originally written for installing Winamp
-* [ScriptMaker](http://www.tafweb-trainz.co.uk/tafwebsw/scriptmaker.html), a
-  very useful GUI adjunct to Inno Setup (unfortunately not maintained any more)
-* [Install Creator](http://www.clickteam.com/install-creator-2), has a free
-  version
-
-My personal favourite at present is Inno Setup combined with ScriptMaker. I can
-still automate the production of parts of the script (see the files in
-distrib/msw in the wxWidgets distribution) but use ScriptMaker to edit the
-parts that would be tedious to edit by hand.
+* [Install Creator](http://www.clickteam.com/install-creator-2), has a free version
 
 Note that you should install any DLLs that are needed by your application. You
 can determine the DLL dependencies of your application using Steve Miller's
-[Dependency Walker][walker].
-
-[walker]: http://www.dependencywalker.com
+[Dependency Walker](http://www.dependencywalker.com).
 
 ## Linux and Unix Installers
 
@@ -145,11 +128,9 @@ libraries on your user's machine.
 ### File Compression
 
 You can 'cheat' and make an executable smaller by using a file compressor, such
-as the excellent [UPX][uxp], which works on a variety of platforms. It can
+as the excellent [UPX](https://upx.github.io/), which works on a variety of platforms. It can
 shrink your app by 50% or so, but you need to be aware that multiple
 invocations of the same application will no longer share memory and will
 therefore be more RAM-hungry. Also debuggers will not recognise the compressed
 executable format, so your Unix users may be puzzled when trying to figure out
 the cause of a core dump.
-
-[uxp]: http://upx.sourceforge.net/
