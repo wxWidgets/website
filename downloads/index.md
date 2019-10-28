@@ -38,10 +38,8 @@ compilers:
     id: vc110
   - description: "Visual Studio 2013"
     id: vc120
-  - description: "Visual Studio 2015"
-    id: vc140
-  - description: "Visual Studio 2017"
-    id: vc141
+  - description: "Visual Studio 2015/2017/2019"
+    id: vc14x
 architectures:
   - description: "32-Bit (x86)"
   - description: "64-Bit (x86_64)"
