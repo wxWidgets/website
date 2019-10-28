@@ -26,9 +26,9 @@ compilers:
     id: gcc492TDM
   - description: "MinGW-TDM 5.10"
     id: gcc510TDM
-  - description: "MinGW-w64 7.20"
+  - description: "MinGW-w64 7.3"
     id: gcc730
-  - description: "MinGW-w64 8.10"
+  - description: "MinGW-w64 8.1"
     id: gcc810
   - description: "Visual Studio 2008"
     id: vc90
