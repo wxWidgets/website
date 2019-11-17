@@ -69,44 +69,7 @@ application installer.
 
 ## Mac OS X Installers
 
-Apple recommends that Mac OS X applications are installed simply by copying a
-folder containing the application files to the hard disk. For more complex
-installations, you can use OS X's Package Manager. For details, see
-[Installing your application][osx_installer] at the Apple developer's web site.
-
-[osx_installer]: http://developer.apple.com/techpubs/macosx/Essentials/SystemOverview/InstallIntegrate/Installing__Application.html
-
-For Classic (OS 9 and below), you can use [InstallerMaker][InstallerMaker] from
-Aladdin or [Installer VISE][vise] from Mindvision.
-
-[InstallerMaker]: http://www.stuffit.com/installermaker/
-[vise]: http://www.mindvision.com/index1.html
-
-Robert Roebling says:
-
-"I put the whole dir into Alladin StuffIt (which you need to buy) and make the
-wxSomething.sit file into a wxSomething.sit.bin file with Alladin later, since
-the latter step is required for Netscape users downloading such an archive."
-
-Brian Victor says:
-
-"I'd like to point out that you can also use Alladin's DropStuff, which is
-shareware, to create .sit archives.
-
-In OSX, it seems to be popular to create disk images of application bundle with
-directions to just drag the bundle into one's hard drive. Bundles make that
-really clean and easy. Usually these disk images are compressed with Stuffit or
-DropStuff.
-
-Also, Apple has its own packaging system for OSX, which helps take care of
-things like click-through licensing, getting administrator (i.e., root)
-privileges, and probably dependencies also. Such packages have a .dpkg suffix."
-
-The following is a list of known Mac installers.
-
-* [InstallAnywhere](http://www.zerog.com/products_ia.html) by Zero G
-* [InstallerMaker](http://www.stuffit.com/installermaker/) from Aladdin
-* [Installer VISE](http://www.mindvision.com/index1.html)
+Plese go [here](https://developer.apple.com/macos/distribution/) to learn how to best distribute your Mac OS X applications.
 
 
 ## Other Issues
