@@ -103,6 +103,7 @@ where special announcements for translators are announced.
 * Chinese (zh_TW)
   * Walter Cheuk <<wwycheuk@gmail.com>>
   * pal.tw <<pal.tw@yahoo.com.tw>>
+  * pan93412 <<pan93412@gmail.com>>
 * Croatian (hr)
   * Milo Ivir <<mail@milotype.de>>
 * Czech (cs)
