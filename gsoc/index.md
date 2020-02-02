@@ -89,14 +89,14 @@ and deadline in mind, good luck!
     <p>
       <ul>
         <li><strong>March 12 16:00 UTC</strong>: Student application period begins</li>
-        <li><strong>March 27 16:00 UTC</strong>: Student application deadline</li>
-        <li><strong>April 23 16:00 UTC</strong>: Accepted student proposals announced</li>
-        <li><strong>May 14</strong>: Coding officially begins!</li>
+        <li><strong>March 31 16:00 UTC</strong>: Student application deadline</li>
+        <li><strong>April 27 16:00 UTC</strong>: Accepted student proposals announced</li>
+        <li><strong>May 18</strong>: Coding officially begins!</li>
         <li><strong>June 15 16:00 UTC</strong>: Phase 1 Evaluation deadline</li>
-        <li><strong>July 13 16:00 UTC</strong>: Phase 2 Evaluation deadline</li>
-        <li><strong>August 6 - 14 16:00 UTC</strong>: Students submit their code, project summaries, and final evaluations of their mentors.</li>
+        <li><strong>July 17 16:00 UTC</strong>: Phase 2 Evaluation deadline</li>
+        <li><strong>August 7 - 24 16:00 UTC</strong>: Students submit their code, project summaries, and final evaluations of their mentors.</li>
         <li><strong>August 14 - 21 16:00 UTC</strong>: Mentors submit final student evaluations</li>
-        <li><strong>August 22</strong>: Final results of Google Summer of Code announced</li>
+        <li><strong>August 25</strong>: Final results of Google Summer of Code announced</li>
       </ul>
       <a href="https://developers.google.com/open-source/gsoc/timeline">Complete GSoC Timeline</a>
     </p>
