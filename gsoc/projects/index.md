@@ -16,6 +16,7 @@ first if you plan to do this.
 Notice that the projects are sorted roughly in order of their
 [importance](/gsoc/project-ratings):
 
+* **[Native SVG Rendering](#svg):** Native SVG rendering for images and icons.
 * **[wxiOS](#ios):** Continue the porting project started during GSoC 2011.
 * **[Power Management](#power-management):** Cross platform support for power
   management events.
@@ -65,6 +66,47 @@ background, so that if you are a...
   wxWebView-related projects.
 * Somebody else -- tell us what could be interesting for you!
 
+<a name="svg"></a>
+
+## <i class="fas fa-lightbulb fa-fw"></i> Native SVG rendering for images and icons
+
+wxWidgets currently uses bitmaps internally for graphical objects such as 
+toolbars and tree-like controls.
+
+The objective of this project is to implement a method of natively rendering
+Scaled Vector Graphics (SVG) under at least Windows and Linux (GTK). The SVG
+image will be rendered to a cached bitmap that can then be integrated with
+graphic functions across the library.
+
+The initial plan is to create a platform-specific wxSVGImage object which
+can be rendered to a normal wxWidgets device and/or graphics context - for
+example with a command such as wxDC::DrawSVG(wxSVGImage).
+
+Windows 10 provides a simple API for SVG rendering within Direct2D. Two methods
+::CreateSvgDocument and DrawSvgDocument may provide the appropriate back-end 
+within the wxWidgets MSW port.
+
+Similarly, Linux GTK provides internal SVG handling via the Librsvg library.
+This API can be used to render to a Cairo canvas which is essentially the 
+underlying wxWidgets GTK port's graphics context.
+
+
+[**Difficulty:**](../project-ratings) 6
+[**Importance:**](../project-ratings) 8
+
+#### Potential mentors
+
+To be confirmed
+
+#### Experience needed
+
+wxWidgets, some knowledge of MSW / GTK graphics API would be an advantage.
+
+#### See also
+
+* [Windows SVG API](https://docs.microsoft.com/en-us/windows/win32/api/d2d1_3/nn-d2d1_3-id2d1devicecontext5)
+* [GTK SVG API](https://developer.gnome.org/rsvg/stable/rsvg.html)
+* [Cairo and Librsvg](https://developer.gnome.org/rsvg/stable/rsvg-Using-RSVG-with-cairo.html)
 
 <a name="ios"></a>
 
