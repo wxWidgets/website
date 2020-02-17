@@ -95,6 +95,7 @@ where special announcements for translators are announced.
 * Catalan (ca)
   * Pau Bosch i Crespo <<paubcrespo@hotmail.com>>
   * Robert Millan <<rmh@aybabtu.com>>
+  * Eduard Ereza Martínez <<eduard@ereza.cat>>
 * Chinese (zh_CN)
   * mrfx <<mrfx@fm365.com>>
   * Liu XiaoXi <<liouxiao@hotmail.com>>
