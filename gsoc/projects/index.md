@@ -70,7 +70,7 @@ background, so that if you are a...
 
 ## <i class="fas fa-lightbulb fa-fw"></i> Native SVG rendering for images and icons
 
-wxWidgets currently uses bitmaps internally for graphical objects such as 
+wxWidgets currently uses bitmaps internally for graphical objects such as
 toolbars and tree-like controls.
 
 The objective of this project is to implement a method of natively rendering
@@ -78,16 +78,16 @@ Scaled Vector Graphics (SVG) under at least Windows and Linux (GTK). The SVG
 image will be rendered to a cached bitmap that can then be integrated with
 graphic functions across the library.
 
-The initial plan is to create a platform-specific wxSVGImage object which
+The initial plan is to create a platform-specific `wxSVGImage` object which
 can be rendered to a normal wxWidgets device and/or graphics context - for
-example with a command such as wxDC::DrawSVG(wxSVGImage).
+example with a command such as `wxDC::DrawSVG(wxSVGImage)`.
 
-Windows 10 provides a simple API for SVG rendering within Direct2D. Two methods
-::CreateSvgDocument and DrawSvgDocument may provide the appropriate back-end 
-within the wxWidgets MSW port.
+Windows 10 provides a simple API for SVG rendering within Direct2D. The
+functions `::CreateSvgDocument()` and `DrawSvgDocument()` may provide the
+appropriate back-end within the wxWidgets MSW port.
 
 Similarly, Linux GTK provides internal SVG handling via the Librsvg library.
-This API can be used to render to a Cairo canvas which is essentially the 
+This API can be used to render to a Cairo canvas which is essentially the
 underlying wxWidgets GTK port's graphics context.
 
 
