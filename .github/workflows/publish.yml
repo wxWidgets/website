@@ -1,0 +1,34 @@
+name: Publish Website
+
+on:
+  push:
+    branches:
+      - master
+  # schedule:
+  #   - cron:  '22 17 * * *'
+
+jobs:
+  publish:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: 'false'
+      - name: Install NPM Dependencies
+        run: yarn
+      - name: Compile Assets
+        run: yarn dist
+      - name: Install Jekyll
+        run: sudo gem install -N github-pages -v 180
+      - name: Build
+        run: jekyll build
+      - name: Upload
+        env:
+          REMOTE_KEY: ${{secrets.REMOTE_KEY}}
+          REMOTE_PATH: ${{secrets.REMOTE_PATH}}
+        run: |
+          mkdir "$HOME/.ssh"
+          echo "$REMOTE_KEY" > "$HOME/.ssh/remote_key"
+          chmod 600 "$HOME/.ssh/remote_key"
+          rsync -crz --delete -e "ssh -i $HOME/.ssh/remote_key -o StrictHostKeyChecking=no" _site/ "$REMOTE_PATH"
