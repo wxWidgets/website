@@ -2,6 +2,7 @@
 /.ruby-version
 /_site/
 /node_modules/
+/vendor
 *.log
 
 # Compiled Assets

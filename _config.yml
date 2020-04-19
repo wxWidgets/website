@@ -32,6 +32,8 @@ plugins:
   - jekyll-sitemap
 
 exclude:
+  - Gemfile
+  - Gemfile.lock
   - new_blog
   - new_post
   - node_modules
@@ -41,6 +43,7 @@ exclude:
   - tags.lock
   - tags.temp
   - Vagrantfile
+  - vendor
   - yarn.lock
 
 # Custom Settings

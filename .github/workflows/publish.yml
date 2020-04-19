@@ -4,26 +4,51 @@ on:
   push:
     branches:
       - master
-  # schedule:
-  #   - cron:  '22 17 * * *'
+  schedule:
+    - cron:  '22 17 * * *'
 
 jobs:
   publish:
     runs-on: ubuntu-18.04
+    env:
+      WX_SITE_DIR: ${{ github.workspace }}
     steps:
       - name: Checkout
         uses: actions/checkout@v2
         with:
           persist-credentials: 'false'
-      - name: Install NPM Dependencies
+      - name: Yarn Install
         run: yarn
       - name: Compile Assets
         run: yarn dist
-      - name: Install Jekyll
-        run: sudo gem install -N github-pages -v 204
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.6
+      - name: Bundle Cache
+        uses: actions/cache@v1
+        with:
+          path: vendor/bundle
+          key: bundle-ruby-2.6-ubuntu-18.04-${{ hashFiles('Gemfile.lock') }}
+          restore-keys: bundle-ruby-2.6-ubuntu-18.04-
+      - name: Bundle Install
+        run: |
+          bundle config path vendor/bundle
+          bundle install --jobs 4 --retry 3
+      - name: Update Release Info
+        run: ruby update_release_info.rb
+      - name: Update Download Stats
+        run: ruby update_release_info.rb
+      - name: Download Locales
+        run: svn checkout https://github.com/wxWidgets/wxWidgets/trunk/locale/ _cron/locale
+      - name: Update Translation Stats
+        run: _cron/update_translation_stats.sh
+      - name: Update wxXRC Schema
+        run: _cron/update_wxxrc_schema.sh
       - name: Build
-        run: jekyll build
+        run: bundle exec jekyll build
       - name: Upload
+        if: github.repository_owner == 'wxWidgets'
         env:
           REMOTE_KEY: ${{secrets.REMOTE_KEY}}
           REMOTE_PATH: ${{secrets.REMOTE_PATH}}
