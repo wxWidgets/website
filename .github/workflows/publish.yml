@@ -42,7 +42,7 @@ jobs:
       - name: Download Locales
         run: svn checkout https://github.com/wxWidgets/wxWidgets/trunk/locale/ _cron/locale
       - name: Update Translation Stats
-        run: _cron/update_translation_stats.sh
+        run: sudo apt install gettext && ./_cron/update_translation_stats.sh
       - name: Update wxXRC Schema
         run: _cron/update_wxxrc_schema.sh
       - name: Build
