@@ -20,7 +20,7 @@ jobs:
       - name: Compile Assets
         run: yarn dist
       - name: Install Jekyll
-        run: sudo gem install -N github-pages -v 180
+        run: sudo gem install -N github-pages -v 204
       - name: Build
         run: jekyll build
       - name: Upload
