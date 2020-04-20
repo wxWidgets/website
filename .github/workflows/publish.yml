@@ -38,7 +38,7 @@ jobs:
       - name: Update Release Info
         run: ruby update_release_info.rb
       - name: Update Download Stats
-        run: ruby update_release_info.rb
+        run: ruby _cron/update_download_stats.rb
       - name: Download Locales
         run: svn checkout https://github.com/wxWidgets/wxWidgets/trunk/locale/ _cron/locale
       - name: Update Translation Stats
