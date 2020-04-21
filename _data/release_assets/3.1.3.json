@@ -62,7 +62,7 @@
       "content_type": "application/x-msdownload",
       "state": "uploaded",
       "size": 55093821,
-      "download_count": 5,
+      "download_count": 21627,
       "created_at": "2019-10-27T18:02:43Z",
       "updated_at": "2019-10-27T18:04:15Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3-Setup.exe"
@@ -96,7 +96,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 62507287,
-      "download_count": 1,
+      "download_count": 3066,
       "created_at": "2019-10-27T21:15:56Z",
       "updated_at": "2019-10-27T21:22:49Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_gcc730_Dev.7z"
@@ -130,7 +130,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 6963724,
-      "download_count": 1,
+      "download_count": 2704,
       "created_at": "2019-10-27T21:15:01Z",
       "updated_at": "2019-10-27T21:15:42Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_gcc730_ReleaseDLL.7z"
@@ -164,7 +164,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 64286120,
-      "download_count": 1,
+      "download_count": 3130,
       "created_at": "2019-10-27T21:47:01Z",
       "updated_at": "2019-10-27T21:50:18Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_gcc730_x64_Dev.7z"
@@ -198,7 +198,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 7148650,
-      "download_count": 1,
+      "download_count": 2781,
       "created_at": "2019-10-27T21:46:17Z",
       "updated_at": "2019-10-27T21:46:54Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_gcc730_x64_ReleaseDLL.7z"
@@ -232,7 +232,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 64093705,
-      "download_count": 1,
+      "download_count": 3982,
       "created_at": "2019-10-28T05:46:49Z",
       "updated_at": "2019-10-28T05:54:13Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_gcc810_Dev.7z"
@@ -266,7 +266,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 6970893,
-      "download_count": 1,
+      "download_count": 3424,
       "created_at": "2019-10-28T05:44:54Z",
       "updated_at": "2019-10-28T05:45:44Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_gcc810_ReleaseDLL.7z"
@@ -300,7 +300,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 65866427,
-      "download_count": 1,
+      "download_count": 5491,
       "created_at": "2019-10-28T05:46:50Z",
       "updated_at": "2019-10-28T06:02:08Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_gcc810_x64_Dev.7z"
@@ -334,7 +334,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 7102934,
-      "download_count": 1,
+      "download_count": 4324,
       "created_at": "2019-10-28T05:45:02Z",
       "updated_at": "2019-10-28T05:46:12Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_gcc810_x64_ReleaseDLL.7z"
@@ -368,7 +368,7 @@
       "content_type": "application/x-7z-compressed",
       "state": "uploaded",
       "size": 25934257,
-      "download_count": 1,
+      "download_count": 2518,
       "created_at": "2019-10-27T23:18:12Z",
       "updated_at": "2019-10-27T23:18:18Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc100_Dev.7z"
@@ -402,7 +402,7 @@
       "content_type": "application/x-7z-compressed",
       "state": "uploaded",
       "size": 3774331,
-      "download_count": 1,
+      "download_count": 2475,
       "created_at": "2019-10-27T23:18:13Z",
       "updated_at": "2019-10-27T23:18:19Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc100_ReleaseDLL.7z"
@@ -436,7 +436,7 @@
       "content_type": "application/x-7z-compressed",
       "state": "uploaded",
       "size": 11732806,
-      "download_count": 1,
+      "download_count": 2426,
       "created_at": "2019-10-27T23:18:13Z",
       "updated_at": "2019-10-27T23:18:23Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc100_ReleasePDB.7z"
@@ -470,7 +470,7 @@
       "content_type": "application/x-7z-compressed",
       "state": "uploaded",
       "size": 27460793,
-      "download_count": 1,
+      "download_count": 2495,
       "created_at": "2019-10-27T23:18:13Z",
       "updated_at": "2019-10-27T23:18:29Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc100_x64_Dev.7z"
@@ -504,7 +504,7 @@
       "content_type": "application/x-7z-compressed",
       "state": "uploaded",
       "size": 4475721,
-      "download_count": 1,
+      "download_count": 2838,
       "created_at": "2019-10-27T23:18:13Z",
       "updated_at": "2019-10-27T23:18:31Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc100_x64_ReleaseDLL.7z"
@@ -538,7 +538,7 @@
       "content_type": "application/x-7z-compressed",
       "state": "uploaded",
       "size": 11863902,
-      "download_count": 1,
+      "download_count": 2430,
       "created_at": "2019-10-27T23:18:13Z",
       "updated_at": "2019-10-27T23:18:34Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc100_x64_ReleasePDB.7z"
@@ -572,7 +572,7 @@
       "content_type": "application/x-7z-compressed",
       "state": "uploaded",
       "size": 28557529,
-      "download_count": 1,
+      "download_count": 2419,
       "created_at": "2019-10-27T23:18:49Z",
       "updated_at": "2019-10-27T23:18:56Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc110_Dev.7z"
@@ -606,7 +606,7 @@
       "content_type": "application/x-7z-compressed",
       "state": "uploaded",
       "size": 3683110,
-      "download_count": 1,
+      "download_count": 2349,
       "created_at": "2019-10-27T23:18:49Z",
       "updated_at": "2019-10-27T23:18:58Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc110_ReleaseDLL.7z"
@@ -640,7 +640,7 @@
       "content_type": "application/x-7z-compressed",
       "state": "uploaded",
       "size": 13611144,
-      "download_count": 1,
+      "download_count": 2377,
       "created_at": "2019-10-27T23:18:49Z",
       "updated_at": "2019-10-27T23:19:09Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc110_ReleasePDB.7z"
@@ -674,7 +674,7 @@
       "content_type": "application/x-7z-compressed",
       "state": "uploaded",
       "size": 30569086,
-      "download_count": 1,
+      "download_count": 2401,
       "created_at": "2019-10-27T23:18:49Z",
       "updated_at": "2019-10-27T23:19:20Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc110_x64_Dev.7z"
@@ -708,7 +708,7 @@
       "content_type": "application/x-7z-compressed",
       "state": "uploaded",
       "size": 4448383,
-      "download_count": 1,
+      "download_count": 2389,
       "created_at": "2019-10-27T23:18:49Z",
       "updated_at": "2019-10-27T23:19:22Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc110_x64_ReleaseDLL.7z"
@@ -742,7 +742,7 @@
       "content_type": "application/x-7z-compressed",
       "state": "uploaded",
       "size": 14257036,
-      "download_count": 1,
+      "download_count": 2392,
       "created_at": "2019-10-27T23:18:49Z",
       "updated_at": "2019-10-27T23:19:27Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc110_x64_ReleasePDB.7z"
@@ -776,7 +776,7 @@
       "content_type": "application/x-7z-compressed",
       "state": "uploaded",
       "size": 28624276,
-      "download_count": 1,
+      "download_count": 2520,
       "created_at": "2019-10-27T23:19:44Z",
       "updated_at": "2019-10-27T23:19:51Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc120_Dev.7z"
@@ -810,7 +810,7 @@
       "content_type": "application/x-7z-compressed",
       "state": "uploaded",
       "size": 3688631,
-      "download_count": 1,
+      "download_count": 2463,
       "created_at": "2019-10-27T23:19:44Z",
       "updated_at": "2019-10-27T23:19:52Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc120_ReleaseDLL.7z"
@@ -844,7 +844,7 @@
       "content_type": "application/x-7z-compressed",
       "state": "uploaded",
       "size": 13857142,
-      "download_count": 1,
+      "download_count": 2376,
       "created_at": "2019-10-27T23:19:44Z",
       "updated_at": "2019-10-27T23:19:56Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc120_ReleasePDB.7z"
@@ -878,7 +878,7 @@
       "content_type": "application/x-7z-compressed",
       "state": "uploaded",
       "size": 30581592,
-      "download_count": 1,
+      "download_count": 2475,
       "created_at": "2019-10-27T23:19:44Z",
       "updated_at": "2019-10-27T23:20:03Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc120_x64_Dev.7z"
@@ -912,7 +912,7 @@
       "content_type": "application/x-7z-compressed",
       "state": "uploaded",
       "size": 4471936,
-      "download_count": 1,
+      "download_count": 2451,
       "created_at": "2019-10-27T23:19:44Z",
       "updated_at": "2019-10-27T23:20:05Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc120_x64_ReleaseDLL.7z"
@@ -946,7 +946,7 @@
       "content_type": "application/x-7z-compressed",
       "state": "uploaded",
       "size": 14444076,
-      "download_count": 1,
+      "download_count": 2390,
       "created_at": "2019-10-27T23:19:45Z",
       "updated_at": "2019-10-27T23:20:10Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc120_x64_ReleasePDB.7z"
@@ -980,7 +980,7 @@
       "content_type": "application/x-7z-compressed",
       "state": "uploaded",
       "size": 32226154,
-      "download_count": 2,
+      "download_count": 4811,
       "created_at": "2019-10-27T23:20:27Z",
       "updated_at": "2019-10-27T23:20:41Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc14x_Dev.7z"
@@ -1014,7 +1014,7 @@
       "content_type": "application/x-7z-compressed",
       "state": "uploaded",
       "size": 3600309,
-      "download_count": 2,
+      "download_count": 4167,
       "created_at": "2019-10-27T23:20:27Z",
       "updated_at": "2019-10-27T23:20:43Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc14x_ReleaseDLL.7z"
@@ -1048,7 +1048,7 @@
       "content_type": "application/x-7z-compressed",
       "state": "uploaded",
       "size": 19206014,
-      "download_count": 1,
+      "download_count": 3187,
       "created_at": "2019-10-27T23:20:27Z",
       "updated_at": "2019-10-27T23:20:49Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc14x_ReleasePDB.7z"
@@ -1082,7 +1082,7 @@
       "content_type": "application/x-7z-compressed",
       "state": "uploaded",
       "size": 34100813,
-      "download_count": 1,
+      "download_count": 8081,
       "created_at": "2019-10-27T23:20:27Z",
       "updated_at": "2019-10-27T23:21:01Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc14x_x64_Dev.7z"
@@ -1116,7 +1116,7 @@
       "content_type": "application/x-7z-compressed",
       "state": "uploaded",
       "size": 4470157,
-      "download_count": 1,
+      "download_count": 6400,
       "created_at": "2019-10-27T23:20:27Z",
       "updated_at": "2019-10-27T23:21:04Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc14x_x64_ReleaseDLL.7z"
@@ -1150,7 +1150,7 @@
       "content_type": "application/x-7z-compressed",
       "state": "uploaded",
       "size": 20170090,
-      "download_count": 1,
+      "download_count": 4291,
       "created_at": "2019-10-27T23:20:27Z",
       "updated_at": "2019-10-27T23:21:14Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc14x_x64_ReleasePDB.7z"
@@ -1184,7 +1184,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 25333676,
-      "download_count": 1,
+      "download_count": 2470,
       "created_at": "2019-10-27T23:08:36Z",
       "updated_at": "2019-10-27T23:08:42Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc90_Dev.7z"
@@ -1218,7 +1218,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 3590854,
-      "download_count": 1,
+      "download_count": 2492,
       "created_at": "2019-10-27T23:08:55Z",
       "updated_at": "2019-10-27T23:08:57Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc90_ReleaseDLL.7z"
@@ -1252,7 +1252,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 11493168,
-      "download_count": 1,
+      "download_count": 2464,
       "created_at": "2019-10-27T23:09:06Z",
       "updated_at": "2019-10-27T23:09:10Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc90_ReleasePDB.7z"
@@ -1286,7 +1286,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 26951399,
-      "download_count": 2,
+      "download_count": 2420,
       "created_at": "2019-10-27T23:10:49Z",
       "updated_at": "2019-10-27T23:10:56Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc90_x64_Dev.7z"
@@ -1320,7 +1320,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 4583696,
-      "download_count": 1,
+      "download_count": 2363,
       "created_at": "2019-10-27T23:11:27Z",
       "updated_at": "2019-10-27T23:11:29Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc90_x64_ReleaseDLL.7z"
@@ -1354,7 +1354,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 11610767,
-      "download_count": 1,
+      "download_count": 2329,
       "created_at": "2019-10-27T23:12:25Z",
       "updated_at": "2019-10-27T23:12:29Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3_vc90_x64_ReleasePDB.7z"
@@ -1388,7 +1388,7 @@
       "content_type": "application/x-zip-compressed",
       "state": "uploaded",
       "size": 37357568,
-      "download_count": 0,
+      "download_count": 6523,
       "created_at": "2019-10-27T18:02:44Z",
       "updated_at": "2019-10-27T18:07:14Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxWidgets-3.1.3-docs-chm.zip"
@@ -1422,7 +1422,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 25068930,
-      "download_count": 0,
+      "download_count": 11163,
       "created_at": "2019-10-27T18:02:45Z",
       "updated_at": "2019-10-27T18:07:57Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxWidgets-3.1.3-docs-html.tar.bz2"
@@ -1456,7 +1456,7 @@
       "content_type": "application/x-zip-compressed",
       "state": "uploaded",
       "size": 35842101,
-      "download_count": 0,
+      "download_count": 5401,
       "created_at": "2019-10-27T18:02:45Z",
       "updated_at": "2019-10-27T18:09:01Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxWidgets-3.1.3-docs-html.zip"
@@ -1490,7 +1490,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 1394782,
-      "download_count": 1,
+      "download_count": 8581,
       "created_at": "2019-10-27T18:02:45Z",
       "updated_at": "2019-10-27T18:09:04Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxWidgets-3.1.3-headers.7z"
@@ -1524,7 +1524,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 17130446,
-      "download_count": 4,
+      "download_count": 10767,
       "created_at": "2019-10-27T18:02:44Z",
       "updated_at": "2019-10-27T18:04:44Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxWidgets-3.1.3.7z"
@@ -1558,7 +1558,7 @@
       "content_type": "application/octet-stream",
       "state": "uploaded",
       "size": 21345268,
-      "download_count": 4,
+      "download_count": 35182,
       "created_at": "2019-10-27T18:02:44Z",
       "updated_at": "2019-10-27T18:05:20Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxWidgets-3.1.3.tar.bz2"
@@ -1592,7 +1592,7 @@
       "content_type": "application/x-zip-compressed",
       "state": "uploaded",
       "size": 32228891,
-      "download_count": 6,
+      "download_count": 20489,
       "created_at": "2019-10-27T18:02:44Z",
       "updated_at": "2019-10-27T18:06:12Z",
       "browser_download_url": "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxWidgets-3.1.3.zip"
@@ -1600,5 +1600,5 @@
   ],
   "tarball_url": "https://api.github.com/repos/wxWidgets/wxWidgets/tarball/v3.1.3",
   "zipball_url": "https://api.github.com/repos/wxWidgets/wxWidgets/zipball/v3.1.3",
-  "body": "Welcome to wxWidgets, a free and open source cross-platform C++ framework for writing advanced GUI applications using native controls.\r\n\r\nwxWidgets 3.1.3 is the latest release in the 3.1 development branch. This release is a \"development\" one as it makes (very few) incompatible API changes compared to 3.0 and does not guarantee the ABI stability, unlike the 3.0.x series. It is not inherently more buggy or less stable than the \"stable\" releases and you're encouraged to use it, including in production. If you're already using 3.0, upgrading shouldn't require any special effort, so please try it out.\r\n\r\nPlease see [**README**](https://raw.githubusercontent.com/wxWidgets/wxWidgets/v3.1.3/docs/readme.txt) for more information about this release and the [change log](https://raw.githubusercontent.com/wxWidgets/wxWidgets/v3.1.3/docs/changes.txt) for the details of the changes in it.\r\n\r\n\r\n## Source Files and Documentation\r\n\r\nIf you intend to build wxWidgets from sources (which is recommended), please do **NOT** download the files using the \"Source code\" links just above, which are automatically generated by GitHub and don't contain the submodules sources which are necessary for building wxWidgets.\r\n\r\nInstead, download one of [wxWidgets-3.1.3.zip](https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxWidgets-3.1.3.zip) or [wxWidgets-3.1.3.7z](https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxWidgets-3.1.3.7z), for much smaller size, for Microsoft Windows systems or [wxWidgets-3.1.3.tar.bz2](https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxWidgets-3.1.3.tar.bz2) for Unix ones, including macOS. These archives have exactly the same contents, but use the line endings appropriate for the corresponding platform.\r\n\r\nIn addition, we provide archives containing the documentation in either HTML or Microsoft CHM formats. Notice that the documentation is also [available online](https://docs.wxwidgets.org/3.1.3).\r\n\r\nFinally, Microsoft Windows users may download [Setup.exe file](https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3-Setup.exe) containing both sources and documentation, however please note that this file does _not_ contain any binaries, please see below for those.\r\n\r\nTo verify your download please use the following SHA-1 checksums:\r\n\r\n    393a91afb64ee989bf986677a4aa5597acf6ed6d  wxMSW-3.1.3-Setup.exe\r\n    b62a17569f2229eb60f5ebd1abfb2a551dea4969  wxWidgets-3.1.3-docs-chm.zip\r\n    13f374c4ddef7f5e5a1a209704a9b314469b00ff  wxWidgets-3.1.3-docs-html.tar.bz2\r\n    8ddaeb0ffd8478c90d7e2c5f241988704962952f  wxWidgets-3.1.3-docs-html.zip\r\n    d3b59e1b178f14b6f238f8bde70a29ba80a70990  wxWidgets-3.1.3-headers.7z\r\n    19b42dce10c93f90257c0c87af527bfa8d756a0a  wxWidgets-3.1.3.7z\r\n    18be15d7a9e5b733e647677d3e9bc476df727f73  wxWidgets-3.1.3.tar.bz2\r\n    40112ee7dc4262b46cc4475145db96488bcd64ff  wxWidgets-3.1.3.zip\r\n\r\n## Binaries\r\n\r\nWe provide pre-built binary files for the following compilers:\r\n\r\n* Microsoft Visual C++ compiler versions 9.0, 10.0, 11.0, 12.0, 14.0, 14.1 and 14.2 (corresponding to marketing product names of Microsoft Visual Studio 2008, 2010, 2012, 2013, 2015, 2017 and 2019 respectively).\r\n* TDM-GCC version 5.1 and MinGW-w64 versions 7.3 and 8.1 (with the default SJLJ exceptions propagation method, using C++11).\r\n\r\n### For Developers\r\n\r\nFor developing applications with wxWidgets you need to download the compiler-independent `wxWidgets-3.1.3_Headers.7z` file and one of `wxMSW-3.1.3-vcXXX_Dev.7z` or `wxMSW-3.1.3_gccXXX_Dev.7z` files depending on your compiler, its version and the target architecture (x86 if not specified or x64).\r\n\r\nUnpack both files into the same directory so that `include` and `lib` directories are at the same level after unpacking. You should be able to compile and link applications using wxWidgets in both debug and release modes but the debug symbols are provided only for debug libraries in this archive, see below for the release build debug symbols.\r\n\r\nNote that if you're setting up a new project using these binaries, the simplest way to do it is to use the provided `wxwidgets.props` file: for this, open the `View|Property Manager` menu item in the IDE, select \"Add Existing Property Sheet...\" from the project context menu and browse to this file in the file open dialog.\r\n\r\n### For End Users\r\n\r\nEnd users may download one of `wxMSW-3.1.3_vcXXX_ReleaseDLL.7z` or `wxMSW-3.1.3_gccXXX_ReleaseDLL.7z` files to get just the DLLs required for running the applications using wxWidgets.\r\n\r\n### For Debugging\r\n\r\n* Microsoft Visual C++ users: Files `wxMSW-3.1.3_vcXXX_ReleasePDB.7z` contain the debug symbols for the release build of the DLLs. Download them if you want to debug your own applications in release build or if you want to get meaningful information from mini-dumps retrieved from your users machines.\r\n* MinGW-TDM users: Currently the debug symbols are not available for the release build of the DLLs (only the debug versions of the DLLs contains the debug symbols).\r\n\r\n### Binary File Download Verification\r\n\r\nTo verify your download please use the following SHA-1 checksums:\r\n\r\n    3019a9fd73c11af66972a69724a8696be6ecdacc wxMSW-3.1.3_gcc730_Dev.7z\r\n    ab8cdb3ddcb487703ae47bc1b64684c50f9aeae3 wxMSW-3.1.3_gcc730_ReleaseDLL.7z\r\n    c1818ec0c7f9b7efc2d3bca3f925a786cc8d8e4c wxMSW-3.1.3_gcc730_x64_Dev.7z\r\n    21e7413e0e54d2b47937f16fd7392bc8e5da47a5 wxMSW-3.1.3_gcc730_x64_ReleaseDLL.7z\r\n    b3474ce639cbb3c79cd33b64b6f1ee9a07368c49 wxMSW-3.1.3_gcc810_Dev.7z\r\n    f4231b4b1209def45c46384ec0a5164cca3d55b9 wxMSW-3.1.3_gcc810_ReleaseDLL.7z\r\n    0f22e0c201a4a03730b57d6c455642e9aec80334 wxMSW-3.1.3_gcc810_x64_Dev.7z\r\n    77b344be951c73c0155144ab3d7fa5007ed2ad49 wxMSW-3.1.3_gcc810_x64_ReleaseDLL.7z\r\n    86ed78ddeed38eabd842025b3261e07e90d8d99a wxMSW-3.1.3_vc90_Dev.7z\r\n    19995a4088fc02d5739c14fce2f0b255d404ae69 wxMSW-3.1.3_vc90_ReleaseDLL.7z\r\n    42002a482fae61de9be906401a28703e0972542b wxMSW-3.1.3_vc90_ReleasePDB.7z\r\n    81e9fd12898fdb14bb171b7bc9a3678611663300 wxMSW-3.1.3_vc90_x64_Dev.7z\r\n    3aa783e68b713a0329b84222f127ff4a36d99b71 wxMSW-3.1.3_vc90_x64_ReleaseDLL.7z\r\n    ed37a9bc5804a13f9b6514a83161dd48826cc8c8 wxMSW-3.1.3_vc90_x64_ReleasePDB.7z\r\n    369d1aa19b572dbf2a17c98ab789cded6ce326bc wxMSW-3.1.3_vc100_Dev.7z\r\n    6dd7a977bebd033fdde6274caf2cd46d80cb1776 wxMSW-3.1.3_vc100_ReleaseDLL.7z\r\n    0734e55446fda6251cb5ffbc49d03a872fea2425 wxMSW-3.1.3_vc100_ReleasePDB.7z\r\n    31e7f0b3f23ed756932764414d53d34c1995ed79 wxMSW-3.1.3_vc100_x64_Dev.7z\r\n    26bb3d6013ca94c99bf0785cbde8d250de95bc8b wxMSW-3.1.3_vc100_x64_ReleaseDLL.7z\r\n    b25a2ee6d4318594f684a6acbb40bcaf30a951ec wxMSW-3.1.3_vc100_x64_ReleasePDB.7z\r\n    508c6afb3714eb9dba255cd8aa850241dc8c84fe wxMSW-3.1.3_vc110_Dev.7z\r\n    2c9d8d83618d0dd479f801f3f5f023bf5dd6295f wxMSW-3.1.3_vc110_ReleaseDLL.7z\r\n    06b13e82c312102aaff280695b66dde7884ae1b3 wxMSW-3.1.3_vc110_ReleasePDB.7z\r\n    0794d06b954f3e576a433ebf95dd0ce020d4bb31 wxMSW-3.1.3_vc110_x64_Dev.7z\r\n    563979b78e68a81a77e7cf9e0a95a225c73a8b34 wxMSW-3.1.3_vc110_x64_ReleaseDLL.7z\r\n    fcc4d6c93afca3b5084be838124af5cb89161d3f wxMSW-3.1.3_vc110_x64_ReleasePDB.7z\r\n    e739c677a4fa1be717ef5c8e8ea88f815407343a wxMSW-3.1.3_vc120_Dev.7z\r\n    1ab119814384ea620763d5bd3a9552093783680f wxMSW-3.1.3_vc120_ReleaseDLL.7z\r\n    217e5cd686f0b965d330145d923c220e39d04caa wxMSW-3.1.3_vc120_ReleasePDB.7z\r\n    9310a6c6b3bf0d351b896c66bf114d9fd4848dcd wxMSW-3.1.3_vc120_x64_Dev.7z\r\n    d0eb346fd6272886756008ab8fa291b69864dd16 wxMSW-3.1.3_vc120_x64_ReleaseDLL.7z\r\n    dc4923401b18315d5980ca80d1c71ff283809aa2 wxMSW-3.1.3_vc120_x64_ReleasePDB.7z\r\n    ac8056b9d265f8c6e846cf8407fd2492f4a90eaf wxMSW-3.1.3_vc14x_Dev.7z\r\n    fd0da34f5742d687f3f2571f149d4936eee2fa27 wxMSW-3.1.3_vc14x_ReleaseDLL.7z\r\n    330ed55efa53e49c2e34bb03d717019fd0917a51 wxMSW-3.1.3_vc14x_ReleasePDB.7z\r\n    d120398b90226c91dac1ff4b1ed4e68328d732ef wxMSW-3.1.3_vc14x_x64_Dev.7z\r\n    d84337ec77f8ce3f590def298a9e5564398ef5e5 wxMSW-3.1.3_vc14x_x64_ReleaseDLL.7z\r\n    18feb4265f807c8ee9071489755d53434f7c2ea3 wxMSW-3.1.3_vc14x_x64_ReleasePDB.7z\r\n\r\n\r\n## Reporting Problems\r\n\r\nPlease report bugs to the [issue tracker](https://trac.wxwidgets.org/newticket) or the [wx-users mailing list](http://groups.google.com/group/wx-users).\r\n"
+  "body": "Welcome to wxWidgets, a free and open source cross-platform C++ framework for writing advanced GUI applications using native controls.\r\n\r\nwxWidgets 3.1.3 is the latest release in the 3.1 development branch. This release is a \"development\" one as it makes (very few) incompatible API changes compared to 3.0 and does not guarantee the ABI stability, unlike the 3.0.x series. It is not inherently more buggy or less stable than the \"stable\" releases and you're encouraged to use it, including in production. If you're already using 3.0, upgrading shouldn't require any special effort, so please try it out.\r\n\r\nPlease see [**README**](https://raw.githubusercontent.com/wxWidgets/wxWidgets/v3.1.3/docs/readme.txt) for more information about this release and the [change log](https://raw.githubusercontent.com/wxWidgets/wxWidgets/v3.1.3/docs/changes.txt) for the details of the changes in it.\r\n\r\n\r\n## Source Files and Documentation\r\n\r\nIf you intend to build wxWidgets from sources (which is recommended), please do **NOT** download the files using the \"Source code\" links just above, which are automatically generated by GitHub and don't contain the submodules sources which are necessary for building wxWidgets.\r\n\r\nInstead, download one of [wxWidgets-3.1.3.zip](https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxWidgets-3.1.3.zip) or [wxWidgets-3.1.3.7z](https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxWidgets-3.1.3.7z), for much smaller size, for Microsoft Windows systems or [wxWidgets-3.1.3.tar.bz2](https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxWidgets-3.1.3.tar.bz2) for Unix ones, including macOS. These archives have exactly the same contents, but use the line endings appropriate for the corresponding platform.\r\n\r\nIn addition, we provide archives containing the documentation in either HTML or Microsoft CHM formats. Notice that the documentation is also [available online](https://docs.wxwidgets.org/3.1.3).\r\n\r\nFinally, Microsoft Windows users may download [Setup.exe file](https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.3/wxMSW-3.1.3-Setup.exe) containing both sources and documentation, however please note that this file does _not_ contain any binaries, please see below for those.\r\n\r\nTo verify your download please use the following SHA-1 checksums:\r\n\r\n    393a91afb64ee989bf986677a4aa5597acf6ed6d  wxMSW-3.1.3-Setup.exe\r\n    b62a17569f2229eb60f5ebd1abfb2a551dea4969  wxWidgets-3.1.3-docs-chm.zip\r\n    13f374c4ddef7f5e5a1a209704a9b314469b00ff  wxWidgets-3.1.3-docs-html.tar.bz2\r\n    8ddaeb0ffd8478c90d7e2c5f241988704962952f  wxWidgets-3.1.3-docs-html.zip\r\n    d3b59e1b178f14b6f238f8bde70a29ba80a70990  wxWidgets-3.1.3-headers.7z\r\n    19b42dce10c93f90257c0c87af527bfa8d756a0a  wxWidgets-3.1.3.7z\r\n    18be15d7a9e5b733e647677d3e9bc476df727f73  wxWidgets-3.1.3.tar.bz2\r\n    40112ee7dc4262b46cc4475145db96488bcd64ff  wxWidgets-3.1.3.zip\r\n\r\n## Binaries\r\n\r\nWe provide pre-built binary files for the following compilers:\r\n\r\n* Microsoft Visual C++ compiler versions 9.0, 10.0, 11.0, 12.0, 14.0, 14.1 and 14.2 (corresponding to marketing product names of Microsoft Visual Studio 2008, 2010, 2012, 2013, 2015, 2017 and 2019 respectively).\r\n* MinGW-w64 versions 7.3 and 8.1 (with the default SJLJ exceptions propagation method, using C++11).\r\n\r\n### For Developers\r\n\r\nFor developing applications with wxWidgets you need to download the compiler-independent `wxWidgets-3.1.3_Headers.7z` file and one of `wxMSW-3.1.3-vcXXX_Dev.7z` or `wxMSW-3.1.3_gccXXX_Dev.7z` files depending on your compiler, its version and the target architecture (x86 if not specified or x64).\r\n\r\nUnpack both files into the same directory so that `include` and `lib` directories are at the same level after unpacking. You should be able to compile and link applications using wxWidgets in both debug and release modes but the debug symbols are provided only for debug libraries in this archive, see below for the release build debug symbols.\r\n\r\nNote that if you're setting up a new project using these binaries, the simplest way to do it is to use the provided `wxwidgets.props` file: for this, open the `View|Property Manager` menu item in the IDE, select \"Add Existing Property Sheet...\" from the project context menu and browse to this file in the file open dialog.\r\n\r\n### For End Users\r\n\r\nEnd users may download one of `wxMSW-3.1.3_vcXXX_ReleaseDLL.7z` or `wxMSW-3.1.3_gccXXX_ReleaseDLL.7z` files to get just the DLLs required for running the applications using wxWidgets.\r\n\r\n### For Debugging\r\n\r\n* Microsoft Visual C++ users: Files `wxMSW-3.1.3_vcXXX_ReleasePDB.7z` contain the debug symbols for the release build of the DLLs. Download them if you want to debug your own applications in release build or if you want to get meaningful information from mini-dumps retrieved from your users machines.\r\n* MinGW-w64 users: Currently the debug symbols are not available for the release build of the DLLs (only the debug versions of the DLLs contains the debug symbols).\r\n\r\n### Binary File Download Verification\r\n\r\nTo verify your download please use the following SHA-1 checksums:\r\n\r\n    3019a9fd73c11af66972a69724a8696be6ecdacc wxMSW-3.1.3_gcc730_Dev.7z\r\n    ab8cdb3ddcb487703ae47bc1b64684c50f9aeae3 wxMSW-3.1.3_gcc730_ReleaseDLL.7z\r\n    c1818ec0c7f9b7efc2d3bca3f925a786cc8d8e4c wxMSW-3.1.3_gcc730_x64_Dev.7z\r\n    21e7413e0e54d2b47937f16fd7392bc8e5da47a5 wxMSW-3.1.3_gcc730_x64_ReleaseDLL.7z\r\n    b3474ce639cbb3c79cd33b64b6f1ee9a07368c49 wxMSW-3.1.3_gcc810_Dev.7z\r\n    f4231b4b1209def45c46384ec0a5164cca3d55b9 wxMSW-3.1.3_gcc810_ReleaseDLL.7z\r\n    0f22e0c201a4a03730b57d6c455642e9aec80334 wxMSW-3.1.3_gcc810_x64_Dev.7z\r\n    77b344be951c73c0155144ab3d7fa5007ed2ad49 wxMSW-3.1.3_gcc810_x64_ReleaseDLL.7z\r\n    86ed78ddeed38eabd842025b3261e07e90d8d99a wxMSW-3.1.3_vc90_Dev.7z\r\n    19995a4088fc02d5739c14fce2f0b255d404ae69 wxMSW-3.1.3_vc90_ReleaseDLL.7z\r\n    42002a482fae61de9be906401a28703e0972542b wxMSW-3.1.3_vc90_ReleasePDB.7z\r\n    81e9fd12898fdb14bb171b7bc9a3678611663300 wxMSW-3.1.3_vc90_x64_Dev.7z\r\n    3aa783e68b713a0329b84222f127ff4a36d99b71 wxMSW-3.1.3_vc90_x64_ReleaseDLL.7z\r\n    ed37a9bc5804a13f9b6514a83161dd48826cc8c8 wxMSW-3.1.3_vc90_x64_ReleasePDB.7z\r\n    369d1aa19b572dbf2a17c98ab789cded6ce326bc wxMSW-3.1.3_vc100_Dev.7z\r\n    6dd7a977bebd033fdde6274caf2cd46d80cb1776 wxMSW-3.1.3_vc100_ReleaseDLL.7z\r\n    0734e55446fda6251cb5ffbc49d03a872fea2425 wxMSW-3.1.3_vc100_ReleasePDB.7z\r\n    31e7f0b3f23ed756932764414d53d34c1995ed79 wxMSW-3.1.3_vc100_x64_Dev.7z\r\n    26bb3d6013ca94c99bf0785cbde8d250de95bc8b wxMSW-3.1.3_vc100_x64_ReleaseDLL.7z\r\n    b25a2ee6d4318594f684a6acbb40bcaf30a951ec wxMSW-3.1.3_vc100_x64_ReleasePDB.7z\r\n    508c6afb3714eb9dba255cd8aa850241dc8c84fe wxMSW-3.1.3_vc110_Dev.7z\r\n    2c9d8d83618d0dd479f801f3f5f023bf5dd6295f wxMSW-3.1.3_vc110_ReleaseDLL.7z\r\n    06b13e82c312102aaff280695b66dde7884ae1b3 wxMSW-3.1.3_vc110_ReleasePDB.7z\r\n    0794d06b954f3e576a433ebf95dd0ce020d4bb31 wxMSW-3.1.3_vc110_x64_Dev.7z\r\n    563979b78e68a81a77e7cf9e0a95a225c73a8b34 wxMSW-3.1.3_vc110_x64_ReleaseDLL.7z\r\n    fcc4d6c93afca3b5084be838124af5cb89161d3f wxMSW-3.1.3_vc110_x64_ReleasePDB.7z\r\n    e739c677a4fa1be717ef5c8e8ea88f815407343a wxMSW-3.1.3_vc120_Dev.7z\r\n    1ab119814384ea620763d5bd3a9552093783680f wxMSW-3.1.3_vc120_ReleaseDLL.7z\r\n    217e5cd686f0b965d330145d923c220e39d04caa wxMSW-3.1.3_vc120_ReleasePDB.7z\r\n    9310a6c6b3bf0d351b896c66bf114d9fd4848dcd wxMSW-3.1.3_vc120_x64_Dev.7z\r\n    d0eb346fd6272886756008ab8fa291b69864dd16 wxMSW-3.1.3_vc120_x64_ReleaseDLL.7z\r\n    dc4923401b18315d5980ca80d1c71ff283809aa2 wxMSW-3.1.3_vc120_x64_ReleasePDB.7z\r\n    ac8056b9d265f8c6e846cf8407fd2492f4a90eaf wxMSW-3.1.3_vc14x_Dev.7z\r\n    fd0da34f5742d687f3f2571f149d4936eee2fa27 wxMSW-3.1.3_vc14x_ReleaseDLL.7z\r\n    330ed55efa53e49c2e34bb03d717019fd0917a51 wxMSW-3.1.3_vc14x_ReleasePDB.7z\r\n    d120398b90226c91dac1ff4b1ed4e68328d732ef wxMSW-3.1.3_vc14x_x64_Dev.7z\r\n    d84337ec77f8ce3f590def298a9e5564398ef5e5 wxMSW-3.1.3_vc14x_x64_ReleaseDLL.7z\r\n    18feb4265f807c8ee9071489755d53434f7c2ea3 wxMSW-3.1.3_vc14x_x64_ReleasePDB.7z\r\n\r\n\r\n## Reporting Problems\r\n\r\nPlease report bugs to the [issue tracker](https://trac.wxwidgets.org/newticket) or the [wx-users mailing list](http://groups.google.com/group/wx-users).\r\n"
 }
