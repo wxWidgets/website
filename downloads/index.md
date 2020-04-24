@@ -74,6 +74,7 @@ are available below.
 
 {% for release in site.data.releases %}
 <a name="v{{ release.version }}"></a>
+<a name="v{{ release.version }}_msw"></a>
 <a name="{{ release.channel | downcase }}"></a>
 ## Latest {{ release.channel }} Release: {{ release.version }}
 

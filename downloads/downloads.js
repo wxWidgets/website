@@ -28,4 +28,13 @@ $(document).ready(function () {
         }
     });
 
+    // Look for hash in URL and open MSW binaries model if available
+    if (document.location.hash) {
+        var data = /^#v(.\..\..)_msw$/.exec(document.location.hash);
+
+        if (data && data.length > 1) {
+            var id = data[1].replace(/\./g, '');
+            $('#mswModal' + id).modal('show');
+        }
+    }
 });
