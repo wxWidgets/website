@@ -3,9 +3,9 @@
   released: October 28, 2019
   bin_url_debian: https://wiki.codelite.org/pmwiki.php/Main/WxWidgets31Binaries#toc2
   bin_url_fedora: https://wiki.codelite.org/pmwiki.php/Main/WxWidgets31Binaries#toc3
-- version: 3.0.4
+- version: 3.0.5
   channel: Stable
-  released: March 8th, 2018
+  released: April 27th, 2020
   stable_api_since: November 11th, 2013
   bin_url_debian: https://wiki.codelite.org/pmwiki.php/Main/WxWidgets30Binaries#toc2
   bin_url_fedora: https://wiki.codelite.org/pmwiki.php/Main/WxWidgets30Binaries#toc3
