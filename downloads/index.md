@@ -159,6 +159,7 @@ are available below.
         {% assign header_asset = release_assets | where: "name", asset_filename | first %}
 
 <div class="accordion" id="accordionMSW{{ release_id }}">
+        {% assign first_available_compiler = true %}
         {% for compiler in page.compilers reversed %}
           {% assign asset_filename = "wxMSW-" | append: release.version | append: "_" | append: compiler.id | append: "_Dev.7z" %}
           {% assign dev_asset = release_assets | where: "name", asset_filename | first %}
@@ -174,7 +175,7 @@ are available below.
                 </h5>
               </div>
 
-              <div id="collapse{{ cardID }}" class="collapse {% if forloop.first %}show{% endif %}" aria-labelledby="heading{{ cardID }}" data-parent="#accordionMSW{{ release_id}}">
+              <div id="collapse{{ cardID }}" class="collapse {% if first_available_compiler %}show{% endif %}" aria-labelledby="heading{{ cardID }}" data-parent="#accordionMSW{{ release_id}}">
                 <div class="card-body">
                   <p class="card-text">
                       <a href="{{ header_asset.browser_download_url }}" class="wxdl_{{ header_asset.id }}">Header Files</a>
@@ -198,6 +199,11 @@ are available below.
               </div>
 
             </div>
+
+            {% if first_available_compiler %}
+            {% assign first_available_compiler = false %}
+            {% endif %}
+
           {% endif %}
         {% endfor %}
 </div>
