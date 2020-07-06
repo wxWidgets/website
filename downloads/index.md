@@ -70,7 +70,7 @@ scripts:
   download sites.
 </div>
 
-When installing wxWidgets on Windows or OS X, we always recommend building the
+When installing wxWidgets on Windows or macOS, we always recommend building the
 library from source yourself, and only provide the source package for most
 platforms. On some platforms, we have provided a few pre-built binaries for
 convenience, but wxWidgets supports so many compilers on so many platforms,
@@ -269,6 +269,5 @@ are available below.
 
 ## Other Downloads
 
-* [SourceForge.net Release Archive](https://sourceforge.net/projects/wxwindows/files/)
-* [wxCode Add-on Repository](http://wxcode.sourceforge.net/)
+* [GitHub Release Archive](https://github.com/wxWidgets/wxWidgets/releases)
 * [Logos](/downloads/logos/)
