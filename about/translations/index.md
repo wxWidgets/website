@@ -177,6 +177,8 @@ wxWidgets translations. Here are the steps you should follow:
 * Norwegian Bokmal (nb)
   * Hans F. Nordhaug <<hans@nordhaug.priv.no>>
   * Hallgeir Holien <<haholien@gmail.com>>
+* Persian (fa_IR)
+  * Ali Asadi <<ali.asady@gmail.com>>
 * Polish (pl)
   * Mariusz Drozdowski <<schemedit@wp.pl>>
   * Piotr Mackowiak <<matis@linuxmail.org>>
