@@ -36,7 +36,7 @@ page on the community wiki.
   </li>
   <li class="list-group-item">
     <h5 class="mb-1">
-      <a href="http://zetcode.com/tutorials/wxwidgetstutorial/">
+      <a href="http://zetcode.com/gui/wxwidgets/">
         Intermediate wxWidgets Tutorial
       </a>
     </h5>
