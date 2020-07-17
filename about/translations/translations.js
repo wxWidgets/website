@@ -21,6 +21,7 @@ $(document).ready(function(){
     "el":"Greek",
     "es":"Spanish",
     "eu":"Basque",
+    "fa_IR":"Persian",
     "fi":"Finnish",
     "fr":"French",
     "gl_ES":"Galician",
