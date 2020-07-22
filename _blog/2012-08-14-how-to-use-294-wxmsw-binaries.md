@@ -10,6 +10,10 @@ blogger_id: tag:blogger.com,1999:blog-35681690.post-674840326215457843
 blogger_orig_url: http://wxwidgets.blogspot.com/2012/08/how-to-use-294-wxmsw-binaries.html
 ---
 
+## Please note that this post is out of date, see the [wxMSW binaries](https://docs.wxwidgets.org/3.1.4/plat_msw_binaries.html) section of the manual for the up-to-date instructions.
+
+---
+
 We have decided to experiment with providing binaries for wxWidgets releases.
 So, for the first time ever, 2.9.4 release includes [binaries] for a few
 different versions of Microsoft Visual C++ compiler.
