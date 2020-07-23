@@ -13,12 +13,12 @@ page on the community wiki.
 <div class="list-group my-3">
   <li class="list-group-item">
     <h5 class="mb-1">
-      <a href="https://docs.wxwidgets.org/stable/overview_helloworld.html">
+      <a href="https://docs.wxwidgets.org/trunk/overview_helloworld.html">
         'Hello world' in wxWidgets: A Very Short Tutorial
       </a>
     </h5>
     <p class="mb-0">
-      A tiny tutorial with code, by Robert Roebling.
+      A tiny tutorial with code from wxWidgets manual.
     </p>
   </li>
   <li class="list-group-item">
@@ -31,7 +31,10 @@ page on the community wiki.
       One of the most intimidating parts of wxWidgets is figuring out how
       sizers work. They are quite powerful, but sometimes unintuitive. This is
       intended as a guide to aid in understanding what all those parameters do.
-      By Brian Victor.
+      By Brian Victor. Please notice that this tutorial hasn't been updated to
+      use <a href="https://docs.wxwidgets.org/trunk/classwx_sizer_flags.html">wxSizerFlags</a>,
+      so while the concepts presented in it are still relevant, it doesn't use
+      the preferred API.
     </p>
   </li>
   <li class="list-group-item">
