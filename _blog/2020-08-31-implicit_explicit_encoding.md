@@ -92,7 +92,7 @@ As a side note, the new macro implies the old one: if you disable any implicit e
 
 ## Conclusion
 
-The `wxNO_UNSAFE_WXSTRING_CONV` macro tries to be an additional help to developers, who want to be extra-sure that their software will work well on any computer worldwide.
+The `wxNO_IMPLICIT_WXSTRING_ENCODING` macro tries to be an additional help to developers, who want to be extra-sure that their software will work well on any computer worldwide.
 
 In the intentions of the wxWidgets’ developers, this macro must not introduce any breakage to currently working code, when not activated.
 
