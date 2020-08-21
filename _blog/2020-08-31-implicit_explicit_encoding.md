@@ -9,6 +9,12 @@ tags:
 
 This blog post is about encoding and decoding non-ASCII characters in wxString's.
 
+---
+
+**TL;DR:** Define the macro `wxNO_IMPLICIT_WXSTRING_ENCODING` if you want your compiler to refuse to convert wxStrings to and from C strings, unless you explicitly indicate the encoding.
+
+---
+
 ## The dim and distant past
 
 A long time ago, when wxWidgets 2.8 ruled the world, developers had to choose between two different wxWidgets builds: "Unicode" and "ANSI". Anyone living (or exporting their software) out of the United States probably chose the Unicode build, because it allowed them to work with non-ASCII strings, containing accented letters, umlauts and other funny symbols foreign languages like to use.
