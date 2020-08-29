@@ -15,7 +15,7 @@ This blog post is about encoding and decoding non-ASCII characters in wxString's
 
 ---
 
-## The dim and distant past
+#### The dim and distant past
 
 A long time ago, when wxWidgets 2.8 ruled the world, developers had to choose between two different wxWidgets builds: "Unicode" and "ANSI". Anyone living (or exporting their software) out of the United States probably chose the Unicode build, because it allowed them to work with non-ASCII strings, containing accented letters, umlauts and other funny symbols foreign languages like to use.
 
@@ -28,7 +28,7 @@ The biggest downside of the Unicode build was that every literal string had to b
     
 The `wxT()` macro had two different meanings, depending on the current build. In ANSI builds, it was a no-op. In Unicode builds, it was equivalent to a `L`, indicating that the literal string was “wide”, i.e. based on `wchar_t` rather than `char`.
 
-## The closer past
+#### The closer past
 
 One of the great improvements of wxWidgets 3.0 over the previous versions, was that [Unicode builds were the default](https://docs.wxwidgets.org/3.1/overview_unicode.html#overview_unicode_support_default), but more important, the `wxT()` macro was not necessary any more and was declared obsolete.
 
@@ -40,7 +40,7 @@ Some users were in fact noticing that the same code was working well on a platfo
 
 The default behavior of the “automatic” encoding and decoding of wxString’s [was found to be "unsafe"](http://www.wxwidgets.org/blog/2017/02/safer-s/)  and a new macro was born to prevent problems: `wxNO_UNSAFE_WXSTRING_CONV`.
 
-## Encodings galore
+#### Encodings galore
 
 This chapter is about string encoding. You can skip it if you already know what Unicode, ASCII, ISO-8859-1 and UTF-8 are. You can also refer to the document "[Unicode support in wxWidgets](https://docs.wxwidgets.org/3.1/overview_unicode.html)" for more details on the Unicode Standard and how wxWidgets implement it.
 
@@ -60,7 +60,7 @@ Encodings, then, can be seen as ways to convert characters between the perfect w
 
 In wxWidgets, Unicode strings are represented as wide strings. The most expert readers would argue that `wchar_t` strings are also encoded, but we can ignore this detail as it should not affect us practically: wide strings are the closest we can get to the ideal Unicode world. The `wxMBConv` and derived classes are used to convert between wide and narrow strings. Following the terminology we just introduced, it is enough for us to understand that "encoding" means converting wide to narrow strings, and "decoding" means converting narrow to wide strings.
 
-## What’s my encoding and how do I choose it?
+#### What’s my encoding and how do I choose it?
 
 We will discuss decoding strings first, but the same logic will apply to encoding them.
 
@@ -86,7 +86,7 @@ As stated at the beginning of this paragraph, the same applies to encoding wxStr
 
 3. call method `wxString::mb_str()` without any parameters, i.e. requesting `wxConvLibC`.
 
-## Why do we need another macro?
+#### Why do we need another macro?
 
 wxWidgets 3.0 never took away from you the possibility to indicate encodings explicitly, or to use wide character strings for all your literals. But there may be many places where the conversions are done... implicitly, under the hood, with no notice.
 
@@ -96,7 +96,7 @@ You are free to use it, or not. By default it is not defined, so if you want to 
 
 As a side note, the new macro implies the old one: if you disable any implicit en/decoding, you are also disabling the unsafe ones.
 
-## Conclusion
+#### Conclusion
 
 The `wxNO_IMPLICIT_WXSTRING_ENCODING` macro tries to be an additional help to developers, who want to be extra-sure that their software will work well on any computer worldwide.
 
