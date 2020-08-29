@@ -30,7 +30,7 @@ The `wxT()` macro had two different meanings, depending on the current build. In
 
 ## The closer past
 
-One of the great improvements of wxWidgets 3.0 over the previous versions, was that Unicode builds were the default, but more important, the `wxT()` macro was not necessary any more and was declared obsolete.
+One of the great improvements of wxWidgets 3.0 over the previous versions, was that [Unicode builds were the default](https://docs.wxwidgets.org/3.1/overview_unicode.html#overview_unicode_support_default), but more important, the `wxT()` macro was not necessary any more and was declared obsolete.
 
 Finally, developers could use plain `const char *` for literal strings all over the place, with all their à’s, ü’s and ø’s, knowing that their compiler, wxWidgets and their operating system would know what to do.
 
@@ -42,7 +42,7 @@ The default behavior of the “automatic” encoding and decoding of wxString’
 
 ## Encodings galore
 
-This chapter is about string encodings. You can skip it if you already know what Unicode, ASCII, ISO-8859-1 and UTF-8 are.
+This chapter is about string encoding. You can skip it if you already know what Unicode, ASCII, ISO-8859-1 and UTF-8 are. You can also refer to the document "[Unicode support in wxWidgets](https://docs.wxwidgets.org/3.1/overview_unicode.html)" for more details on the Unicode Standard and how wxWidgets implement it.
 
 The main problem with "standard" (i.e. non-wide) strings in today’s globalized world, is that one char is "only" 8 bits, and therefore it cannot represent any symbol from any language being spoken today. The ASCII encoding, for example, does not contain any accented letters.
 
