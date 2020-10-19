@@ -210,6 +210,7 @@ wxWidgets translations. Here are the steps you should follow:
   * Alexander Kovalenko <<nktch@yandex.ru>>
 * Slovak (sk)
   * Ivan Masar <<helix84@centrum.sk>>
+  * jozef m <<jozef.m923@gmail.com>>
 * Slovenian (sl)
   * Roman Plevel <<roman.plevel@iskratr.si>>
   * Martin Srebotnjak <<miles@filmsi.net>>
