@@ -7,6 +7,7 @@ See also [top-level FAQ page](/docs/faq/).
 ### List of questions in this category
 
 *   [Who deletes all the windows I create?](#windelete)
+*   [Why does my button (or another control) get so big?](#tlwchildresize)
 *   [How to create and use custom events?](#custevent)
 *   [Why doesn't my code work when I create a window from a thread?](#guithread)
 *   [How can I set the TAB order of the controls?](#taborder)
@@ -36,6 +37,45 @@ automatically as well so in a typical situation you don't have to worry about
 freeing the sizers you create. Note, however, that if you `Remove()` a sizer
 from the window, it isn't automatically deleted any more and you are
 responsable for doing this.
+
+
+<a name="tlwchildresize"></a>
+
+### Why does my button (or another control) get so big?
+
+Surprisingly, button created in the following way:
+
+```cpp
+MyFrame::MyFrame() : wxFrame(NULL, wxID_ANY, "My Frame")
+{
+    auto button = new wxButton(this, wxID_ANY, "Hello, wxWidgets!",
+                               wxPoint(10, 10), wxSize(80, 30));
+}
+```
+
+will appear much bigger than its specified size of `80` by `30` pixels. In
+fact, it will fill in the entire frame area, irrespectively of how big it is.
+This happens because top level windows such as `wxFrame` resize their _uniqie_
+child to always fill all the available space by default and this is done so
+that the usual approach of creating a `wxPanel` inside the frame and then
+creating various controls inside this panel. Which also provides the best
+solution for the problem, which consists in doing this instead:
+
+```cpp
+MyFrame::MyFrame() : wxFrame(NULL, wxID_ANY, "My Frame")
+{
+    auto panel = new wxPanel(this);
+    auto button = new wxButton(panel, // Notice the change of parent.
+                               wxID_ANY, "Hello, wxWidgets!",
+                               wxPoint(10, 10), wxSize(80, 30));
+}
+```
+
+However please notice that using fixed sizes for the controls is strongly
+discouraged, as this won't work correctly on all platforms and on all the
+different screens, using different resolutions. Please use sizers (see
+`wxSizer` and related classes documentation) for positioning them instead.
+
 
 <a name="custevent"></a>
 
