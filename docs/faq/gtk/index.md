@@ -7,6 +7,7 @@ See also [top-level FAQ page](/docs/faq/).
 ### List of questions in this category
 
 *   [What is wxGTK?](#wxgtk)
+*   [Why entering accented letters or other non-ASCII characters doesn't work?](#xim)
 *   [Why doesn't reading floating point numbers work when using wxWidgets?](#locale)
 *   [Does wxGTK have GNOME support?](#gnome)
 *   [Can I statically link the GTK library?](#static)
@@ -20,6 +21,20 @@ See also [top-level FAQ page](/docs/faq/).
 wxGTK is a port of wxWidgets to the [GTK toolkit](http://www.gtk.org/). It is
 the default port used (if available) on all Linux and Unix platforms except for
 Mac OS X.
+
+<a name="xim"></a>
+
+### Why entering accented letters or other non-ASCII characters doesn't work?
+
+Please check that you don't use unsupported and obsolete XIM input method
+manager by doing `echo $GTK_IM_MODULE` in a terminal window. If this outputs
+"xim", please do `unset GTK_IM_MODULE` or install `ibus` package (exact name
+varies on the distribution used) and log out and in again, which should
+normally set `GTK_IM_MODULE=ibus`.
+
+Using XIM results in multiple problems with both input and appearance (e.g. it
+can result in noticeable flickering even when not using any non-ASCII
+characters at all), so please avoid using it.
 
 <a name="locale"></a>
 
