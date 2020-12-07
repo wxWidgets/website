@@ -1,5 +1,5 @@
 ---
-title: "GTK+ FAQ"
+title: "GTK FAQ"
 ---
 
 See also [top-level FAQ page](/docs/faq/).
@@ -9,7 +9,7 @@ See also [top-level FAQ page](/docs/faq/).
 *   [What is wxGTK?](#wxgtk)
 *   [Why doesn't reading floating point numbers work when using wxWidgets?](#locale)
 *   [Does wxGTK have GNOME support?](#gnome)
-*   [Can I statically link the GTK+ library?](#static)
+*   [Can I statically link the GTK library?](#static)
 *   [Why does my simple program using `EVT_CHAR` not work?](#charinframe)
 *   [How do I trace the cause of an X11 error such as BadMatch?](#debugging)
 
@@ -17,7 +17,7 @@ See also [top-level FAQ page](/docs/faq/).
 
 ### What is wxGTK?
 
-wxGTK is a port of wxWidgets to the [GTK+ toolkit](http://www.gtk.org/). It is
+wxGTK is a port of wxWidgets to the [GTK toolkit](http://www.gtk.org/). It is
 the default port used (if available) on all Linux and Unix platforms except for
 Mac OS X.
 
@@ -30,7 +30,7 @@ file, it may suddenly start returning just `123` instead of the correct value
 on some systems -- which is all the more mysterious as the same code in a
 standalone program works just fine.
 
-The explanation is that GTK+ changes the current locale on program startup. If
+The explanation is that GTK changes the current locale on program startup. If
 the decimal point character in the current locale is not the period (for
 example, it is comma in the French locale), all the standard C functions won't
 recognize the numbers such as above as floating point ones any more.
@@ -51,9 +51,9 @@ Other features may be supported in the future, probably as a separate library.
 
 <a name="static"></a>
 
-### Can I statically link the GTK+ library?
+### Can I statically link the GTK library?
 
-No, this is not possible. It leads to crashes in GTK+.
+No, this is not possible. It leads to crashes in GTK.
 
 <a name="charinframe"></a>
 
