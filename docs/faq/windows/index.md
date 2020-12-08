@@ -17,7 +17,6 @@ See also [top-level FAQ page](/docs/faq/).
 *   [Why are menu hotkeys or shortcuts not working in my application?](#shortcutproblem)
 *   [Is MS Active Accessibility supported?](#access)
 *   [Visual C++ gives errors about multiply defined symbols, what can I do?](#crtmismatch)
-*   [Why do I get compilation errors when using wxWidgets with DirectShow?](#directx)
 *   [How to get `HWND` of a wxWindow object?](#gethwnd)
 *   [How do I handle Windows messages in my wxWidgets program?](#handlewm)
 
@@ -150,24 +149,6 @@ you may also use the non MT-safe version as it is slightly smaller and faster.
 But the most important thing is to use the **same** CRT setting for all
 components of your project.
 
-<a name="directx"></a>
-
-### Why do I get compilation errors when using wxWidgets with DirectShow?
-
-If you get errors when including Microsoft DirectShow or DirectDraw headers,
-the following message from Peter Whaite could help:
-
-    > This causes compilation errors within DirectShow:
-    >
-    > wxutil.h(125) : error C2065: 'EXECUTE_ASSERT' : undeclared identifier
-    > amfilter.h(1099) : error C2065: 'ASSERT' : undeclared identifier
-
-    The reason for this is that __WXDEBUG__ is also used by the DXSDK (9.0
-    in my case) to '#pragma once' the contents of
-    DXSDK/Samples/C++/DirectShow/BaseClasses/wxdebug.h.  So if __WXDEBUG__
-    is defined, then wxdebug.h doesn't get included, and the assert macros
-    don't get defined.  You have to #undef __WXDEBUG__ before including the
-    directshow baseclass's `<streams.h>`.
 
 <a name="gethwnd"></a>
 
