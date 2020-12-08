@@ -147,14 +147,11 @@ These are the possibilities so far:
 
 ### How to use C++ exceptions with wxWidgets?
 
-wxWidgets library itself is unfortunately _not_ exception-safe nor does it use
-exceptions itself (as its initial version predates, by far, the addition of the
-exceptions to the C++ language). However, you can still use the exceptions in your
-own code and use the other libraries using the exceptions for the error reporting
-together with wxWidgets.
-
-See also description of `wxHandleFatalExceptions` function in the manual, where
-more information about exception handling in wxWidgets is provided.
+wxWidgets library itself is _not_ exception-safe nor does it use exceptions
+(as its initial version predates, by far, the addition of the exceptions to the C++
+language). However, it is exception-friendly, please see
+[C++ Exceptions Overview](https://docs.wxwidgets.org/stable/overview_exceptions.html)
+for more information.
 
 
 <a name="dev"></a>
