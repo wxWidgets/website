@@ -19,8 +19,6 @@ See also [top-level FAQ page](/docs/faq/).
 *   [How is wxWidgets distributed?](#distrib)
 *   [What is wxBase?](#base)
 *   [What is wxUniversal?](#univ)
-*   [What about Java?](#java)
-*   [What about .NET/Mono?](#dotnet)
 *   [How can I help the project?](#help)
 *   [How do I start a new port?](#newport)
 
@@ -63,7 +61,9 @@ academic or commercial developer.
 No official support, but the mailing list is very helpful and some people say
 that wxWidgets support is better than for much commercial software. The
 developers are keen to fix bugs as soon as possible, though obviously there are
-no guarantees.
+no guarantees. There is also also an active [user forum](https://forums.wxwidgets.org/)
+where wxWidgets users can get their questions answered and issues helped with by
+other wxWidgets users.
 
 <a name="users"></a>
 
@@ -86,30 +86,23 @@ Please see the [overview page](/about/) for the list of supported platforms.
 
 ### How does wxWidgets support platform-specific features?
 
-This is a hotly-debated topic amongst the developers. My own philosophy is to
-make wxWidgets as platform-independent as possible, but allow in a few classes
-(functions, window styles) that are platform-specific.
-For example, Windows metafiles and file system volumes/drives have their own
-classes on Windows, but nowhere else. Because these classes are provided and
-are wxWidgets-compatible, it doesn't take much coding effort for an application
-programmer to add support for some functionality that the user on a particular
-platform might otherwise miss. Also, some classes that started off as
-platform-specific, such as the MDI classes, have been emulated on other
-platforms. wxTaskBarIcon started as Windows-only but was eventually implemented
+wxWidgets philosophy is to make wxWidgets as platform-independent as possible,
+but allow in a few classes (functions, window styles) that are platform-specific.
+For example, Windows metafiles have their own classes on Windows, but nowhere else.
+Because these classes are provided and are wxWidgets-compatible, it doesn't take
+much coding effort for an application programmer to add support for some functionality
+that the user on a particular platform might otherwise miss. Also, some classes that
+started off as platform-specific, such as the MDI classes, have been emulated on other
+platforms. `wxTaskBarIcon` started as Windows-only but was eventually implemented
 for other ports too.
 
 In other words, wxWidgets is not a 'lowest common denominator' approach, but it
-will still be possible to write portable programs using the core API.
-Forbidding some platform-specific classes would be a stupid approach that would
-alienate many potential users, and encourage the perception that toolkits such
-as wxWidgets are not up to the demands of today's sophisticated applications.
-
-Currently resources such as bitmaps and icons are handled in a platform-
-specific way, but it is hoped to reduce this dependence in due course.
-
+is still be possible to write portable programs using the core API.
+Forbidding some platform-specific classes would be an incorrect approach that would
+alienate many potential users.
 Another reason why wxWidgets is not a 'lowest common denominator' toolkit is
 that some functionality missing on some platform has been provided using
-generic, platform-independent code, such as the wxTreeCtrl and wxListCtrl
+generic, platform-independent code, such as the `wxTreeCtrl` and `wxListCtrl`
 classes.
 
 <a name="stl"></a>
@@ -136,7 +129,7 @@ interoperability even further.
 
 These are the possibilities so far:
 
-* See [www.scintilla.org](http://www.scintilla.org) for a very nice
+* See [www.scintilla.org](https://www.scintilla.org) for a very nice
   syntax-highlighting editor widget. wxWidgets includes an implementation of
   this control named [wxStyledTextCtrl](https://docs.wxwidgets.org/stable/classwx_styled_text_ctrl.html).
 * If you only need to display marked-up information, rather than edit it, then
@@ -144,7 +137,8 @@ These are the possibilities so far:
   reference manual for details, and samples/html.
 * There is also [wxRichTextCtrl](https://docs.wxwidgets.org/stable/classwx_rich_text_ctrl.html),
   a generic control implemented on all platforms.
-* The wxTextCtrl class supports some less powerful control over styles using
+* The [wxTextCtrl](https://docs.wxwidgets.org/stable/classwx_text_ctrl.html) class supports 
+  some less powerful control over styles using
   [wxTextAttr](https://docs.wxwidgets.org/stable/classwx_text_attr.html).
 * And finally, a heavier solution is available by pulling in a full native
   browser engine using [wxWebView](https://docs.wxwidgets.org/stable/classwx_web_view.html).
@@ -181,7 +175,7 @@ We are using [git](/develop/code-repository/) to develop and maintain wxWidgets.
 This allows us to make alterations and publish them where others can update
 their source.
 
-To build source from git, see the BuildGit.txt file in the top-level wxWidgets
+To build source from git, see the README-GIT.md file in the top-level wxWidgets
 distribution directory.
 
 <a name="distrib"></a>
@@ -197,8 +191,8 @@ feeling adventurous, you may also check out the sources directly from the
 ### What is wxBase?
 
 wxBase is a subset of wxWidgets comprised by the non-GUI classes. It includes
-wxWidgets container and primitive data type classes (including wxString,
-wxDateTime and so on) and also useful wrappers for the operating system objects
+wxWidgets container and primitive data type classes (including `wxString`,
+`wxDateTime` and so on) and also useful wrappers for the operating system objects
 such as files, processes, threads, sockets and so on. With very minor
 exceptions wxBase may be used in exactly the same way as wxWidgets but it
 doesn't require a GUI to run and so is ideal for creating console mode
@@ -217,54 +211,6 @@ flexibility (for example, support for themes even under MS Windows). It also
 means that it is now much easier to port wxWidgets to a new platform as only
 the low-level classes must be ported which make for a small part of the
 library.
-
-<a name="java"></a>
-
-### What about Java?
-
-The Java honeymoon period is over :-) and people are realising that it cannot
-meet all their cross-platform development needs. We don't anticipate a major
-threat from Java, and the level of interest in wxWidgets is as high as ever.
-
-<a name="dotnet"></a>
-
-### What about .NET/Mono?
-
-Microsoft is spending a lot on promoting the .NET initiative, which is a set of
-languages, APIs and web service components for Windows. Ximian has started an
-open source version of .NET, mostly for Linux. C# is Microsoft's alternative to
-Java, supporting 'managed code', garbage collection and various other Java-like
-language features.
-
-Although this may be attractive to some developers, there is a variety of
-reasons why the .NET/Mono combination is unlikely to make wxWidgets redundant.
-Please note that the following comments are Julian Smart's opinions.
-
-1.  Not everyone wants or needs net services.
-2.  Mono Forms may only target Winelib (at least to begin with), so the end
-      result is not as native as wxWidgets (I'm aware there is GTK# for use
-      with the C# language).
-3.  C# is usually byte-compiled and therefore slower. Plus, .NET adds a
-      layer of overhead to the client computer that wxWidgets does not
-      require.
-4.  Mono hasn't proven its long-term viability yet (it's a complex system of
-      components); wxWidgets is ready now.
-5.  You may not wish to buy into Microsoft marketing spin and APIs.
-6.  Microsoft may at some point sue developers of non-Microsoft .NET
-      implementations. After all, platform-independence is not in Microsoft's
-      interest.
-7.  .NET might never be implemented on some platforms, especially Mac and
-      embedded variants of Linux.
-8.  wxPython and other language variants provide further reasons for
-      wxWidgets to continue.
-9.  The same issue exists for Qt: if Qt sales remain strong, it's a good
-      indication that the market for a C++ based approach is still there.
-      (Either that, or everyone's turning to wxWidgets!)
-
-There is nothing to stop folk from developing a C# version of the wxWidgets
-API. We already have bindings to Python, Perl, JavaScript, Lua, Basic, and
-Eiffel. Update: A [wx.NET](http://wxnet.sourceforge.net/) project is now in
-progress.
 
 <a name="help"></a>
 
@@ -299,18 +245,17 @@ files such as wx/defs.h, wx/wxchar.h for areas where you'll need to add to
 existing conditionals to set up wide character support and other issues. If the
 GUI runs on a Unix variant, define the `__UNIX__` variable in your makefile.
 
-Then you can start implementing the port, starting with wxWindow,
-wxTopLevelWindow, wxFrame, wxDialog so you can get the minimal sample running
+Then you can start implementing the port, starting with `wxWindow`,
+`wxTopLevelWindow`, `wxFrame`, `wxDialog `so you can get the minimal sample running
 as soon as possible.
 
-If GDI objects (wxPen, wxBrush, etc.) are not concepts in your native GUI, you
+If GDI objects (`wxPen`, `wxBrush`, etc.) are not concepts in your native GUI, you
 may wish to use very generic versions of some of these - see the wxX11 port.
 
 Consider using the wxUniversal widget set as a quick way to implement wxWidgets
 on your platform. You only need to define some basic classes such as device
 contexts, wxWindow, wxTopLevelWindow, GDI objects etc. and the actual widgets
-will be drawn for you. See wxX11, wxMGL, and wxMSW/Univ for sample wxUniversal
-ports.
+will be drawn for you. See wxX11 for a sample wxUniversal port.
 
 To begin with, you can use whatever makefiles or project files work for you.
 Look at existing makefiles to see what generic/common/Unix files need to be
@@ -318,9 +263,9 @@ included. Later, you'll want to integrate support for your port into configure
 (Unix-like systems and gcc under Windows), and bakefile (for other makefiles on
 Windows).
 
-Submit your port as patches via SourceForge; you might wish to separate it into
-one patch that touches common headers and source files, and another containing
+Submit your port as pull requests via GitHub; you might wish to separate it into
+one pull request that touches common headers and source files, and another containing
 the port-specific code, to make it much easier for us to review and apply the
-patches.
+changes.
 
 Good luck!
