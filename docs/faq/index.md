@@ -12,6 +12,7 @@ Welcome to the wxWidgets FAQ. Please select a category:
 * [Motif Specific Questions](/docs/faq/motif/)
 * [X11 Specific Questions](/docs/faq/x11/)
 
-For further information, please see the install.txt (per port), todo.txt (per
-port), and bugs.txt (all ports) files included with wxWidgets. The wxWiki also
-maintains [additional FAQs](https://wiki.wxwidgets.org/WxFAQ).
+For further information, please see the build and install instructions for the individual
+ports available in [Platform Details Overview](https://docs.wxwidgets.org/trunk/page_port.html).
+
+The wxWiki also maintains [additional FAQs](https://wiki.wxwidgets.org/WxFAQ).

@@ -54,8 +54,8 @@ MyFrame::MyFrame() : wxFrame(NULL, wxID_ANY, "My Frame")
 ```
 
 will appear much bigger than its specified size of `80` by `30` pixels. In
-fact, it will fill in the entire frame area, irrespectively of how big it is.
-This happens because top level windows such as `wxFrame` resize their _uniqie_
+fact, it will fill in the entire frame client area, irrespectively of how big it is.
+This happens because top level windows such as `wxFrame` resize their _unique_
 child to always fill all the available space by default and this is done so
 that the usual approach of creating a `wxPanel` inside the frame and then
 creating various controls inside this panel. Which also provides the best
@@ -82,8 +82,7 @@ different screens, using different resolutions. Please use sizers (see
 ### How to create and use custom events?
 
 Please look at the `event` wxWidgets sample source code, it shows how to do
-this among other things. Note that the way custom events are defined has
-changed in wxWidgets 2.3.1 as compared to the previous releases.
+this among other things.
 
 <a name="guithread"></a>
 
@@ -99,10 +98,9 @@ main thread asking it to do whatever is necessary.
 
 ### How can I set the TAB order of the controls?
 
-Starting from wxWidgets 2.8 you can call wxWindow::MoveBeforeInTabOrder() and
-MoveAfterInTabOrder() to change the position of a child window in the TAB
-chain. Notice that by default the TAB order is the same as the order of
-creation.
+You can call `wxWindow` methods `MoveBeforeInTabOrder()` and `MoveAfterInTabOrder()`
+to change the position of a child window in the TAB chain. Notice that
+by default the TAB order is the same as the order of creation.
 
 <a name="wxtmacro"></a>
 
@@ -141,11 +139,11 @@ Pressing `Esc` will close the dialog if and only if it has a button with
 
 ### How can I get rid of message boxes with error messages?
 
-These message boxes are probably due to calls to `wxLogError()` or other log
+These message boxes are probably shown due to calls to `wxLogError()` or other log
 functions from wxWidgets code. To completely suppress them you may use
-wxLogNull class, please see the manual for details. Do note, however, that a
+`wxLogNull` class, please see the manual for details. Do note, however, that a
 better solution is to avoid the error in the first place as suppressing these
-error message might hide other, important, ones.
+error messages might hide other, important, ones.
 
 <a name="makefile"></a>
 
@@ -165,8 +163,8 @@ program.
 
 ### XRC can't display non-ASCII characters correctly
 
-If you use the wxXRC_USE_LOCALE flag (which is on by default), strings from XRC
-files are translated using wxLocale. wxLocale assumes the strings are in ASCII
-- if the are not, wxXmlResource leaves them in UTF-8 encoding in ANSI builds of
+If you use the `wxXRC_USE_LOCALE` flag (which is on by default), strings from XRC
+files are translated using wxLocale. wxLocale assumes the strings are in ASCII -
+if they are not, `wxXmlResource` leaves them in UTF-8 encoding in ANSI builds of
 wxWidgets. Either don't use `wxXRC_USE_LOCALE` or use `translate="0"` attribute
 in XRC files.
