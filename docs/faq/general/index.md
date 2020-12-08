@@ -38,9 +38,9 @@ Software's [DialogBlocks](http://www.anthemion.co.uk/dialogblocks/) is one
 commercial example, but there are many others, see the wiki
 [tools](https://wiki.wxwidgets.org/Tools) page for some of them.
 
-You don't have to use C++ to use wxWidgets: there is a
-[Python interface](http://wxpython.org/) for wxWidgets, and also a
-[Perl interface](http://wxperl.sourceforge.net/).
+You don't have to use C++ to use wxWidgets: for example there is a
+[Python interface](https://wxpython.org/), a [Lua interface](https://github.com/pkulchenko/wxlua),
+and also an [Erlang interface](https://erlang.org/doc/apps/wx/index.html).
 
 <a name="licence"></a>
 
@@ -147,25 +147,15 @@ These are the possibilities so far:
 
 ### How to use C++ exceptions with wxWidgets?
 
-wxWidgets library itself is unfortunately _not_ exception-safe (as its initial
-version predates, by far, the addition of the exceptions to the C++ language).
-However you can still use the exceptions in your own code and use the other
-libraries using the exceptions for the error reporting together with wxWidgets.
+wxWidgets library itself is unfortunately _not_ exception-safe nor does it use
+exceptions itself (as its initial version predates, by far, the addition of the
+exceptions to the C++ language). However, you can still use the exceptions in your
+own code and use the other libraries using the exceptions for the error reporting
+together with wxWidgets.
 
-There are a few issues to keep in mind, though:
+See also description of `wxHandleFatalExceptions` function in the manual, where
+more information about exception handling in wxWidgets is provided.
 
-* You shouldn't let the exceptions propagate through wxWidgets code, in
-  particular you should always catch the exceptions thrown by the functions
-  called from an event handler in the handler itself and not let them propagate
-  upwards to wxWidgets.
-* You may need to ensure that the compiler support for the exceptions is
-  enabled as, considering that wxWidgets itself doesn't use the exceptions and
-  turning their support on results in the library size augmentation of 10% to
-  20%, it is turned off by default for a few compilers. Moreover, for gcc (or
-  at least its mingw version) you must also turn on the RTTI support to be able
-  to use the exceptions, so you should use the `--disable-no_rtti` and
-  `--disable-no_exceptions` options when configuring the library (note the
-  double negation).
 
 <a name="dev"></a>
 
