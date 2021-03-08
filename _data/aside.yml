@@ -2,12 +2,12 @@ cards:
     - title: Quick Links
       links:
         - title: Hello World in wxWidgets
-          url: http://docs.wxwidgets.org/trunk/overview_helloworld.html
+          url: https://docs.wxwidgets.org/trunk/overview_helloworld.html
           icon_type: star
           icon_category: fas
 
         - title: Online Manual
-          url: http://docs.wxwidgets.org/3.0/
+          url: https://docs.wxwidgets.org/3.0/
           icon_type: book
           icon_category: fas
 
