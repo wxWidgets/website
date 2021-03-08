@@ -14,11 +14,9 @@ Improve your application, while taking wxWidgets to new heights.
   Zeitlin.
 * [Advanced Concepts AG][ac]: Mac consultancy from Stefan Csomor, the brains
   behind the wxWidgets port to the Mac.
-* [Robin Dunn][rd], wxPython consultancy.
 
 [tt]: https://www.tt-solutions.com/
 [ac]: https://www.advanced.ch/
-[rd]: http://www.wxpros.com/
 
 Other consultants available for wxWidgets-related work:
 
