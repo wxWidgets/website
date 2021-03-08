@@ -7,11 +7,11 @@ If the documentation isn't enough and you need in-person help, you can try the
 channel is regularly filled with many people who are all very experienced with
 wxWidgets and are often willing to help.
 
-[1]: http://freenode.net/
+[1]: https://freenode.net/
 
 <div class="row my-4 justify-content-center">
   <div class="col-md-6">
-    <a href="http://webchat.freenode.net/?channels=%23wxwidgets&amp;uio=OT10cnVlJjExPTIxNQ6c" target="_new" class="btn btn-lg btn-outline-primary btn-block">
+    <a href="https://webchat.freenode.net/?channels=%23wxwidgets&amp;uio=OT10cnVlJjExPTIxNQ6c" target="_new" class="btn btn-lg btn-outline-primary btn-block">
       <i class="fas fa-globe fa-fw"></i> Launch Web Client
     </a>
     <a href="irc://irc.freenode.net/wxwidgets" class="btn btn-lg btn-outline-primary btn-block">
@@ -62,7 +62,7 @@ users know about the framework's internals.
 * Don't flood IRC channels. If you have more than a very few lines to paste,
   use a [pastebin].
 
-[pastebin]: http://pastebin.com/
+[pastebin]: https://pastebin.com/
 
 ### Be Patient
 

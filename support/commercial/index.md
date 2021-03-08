@@ -16,8 +16,8 @@ Improve your application, while taking wxWidgets to new heights.
   behind the wxWidgets port to the Mac.
 * [Robin Dunn][rd], wxPython consultancy.
 
-[tt]: http://www.tt-solutions.com/
-[ac]: http://www.advanced.ch/
+[tt]: https://www.tt-solutions.com/
+[ac]: https://www.advanced.ch/
 [rd]: http://www.wxpros.com/
 
 Other consultants available for wxWidgets-related work:
