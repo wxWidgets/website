@@ -30,7 +30,7 @@ here.
 * Unsubscribe: <wx-users+unsubscribe@googlegroups.com>
 * Archives: [Google Group][wx-users-group]
 
-[wx-users-group]: https://groups.google.com/forum/?fromgroups#!forum/wx-users
+[wx-users-group]: https://groups.google.com/g/wx-users
 
 ### Developers List
 
@@ -44,7 +44,7 @@ email filters accordingly.
 * Unsubscribe: <wx-dev+unsubscribe@googlegroups.com>
 * Archives: [Google Group][wx-dev-group]
 
-[wx-dev-group]: https://groups.google.com/forum/?fromgroups#!forum/wx-dev
+[wx-dev-group]: https://groups.google.com/g/wx-dev
 
 ### Discussion List
 
@@ -56,7 +56,7 @@ This list is not for technical discussions.
 * Unsubscribe: <wx-discuss+unsubscribe@googlegroups.com>
 * Archives: [Google Group][wx-discuss-group]
 
-[wx-discuss-group]: https://groups.google.com/forum/?fromgroups#!forum/wx-discuss
+[wx-discuss-group]: https://groups.google.com/g/wx-discuss
 
 ### Announcement List
 
@@ -68,7 +68,7 @@ list are moderated.
 * Unsubscribe: <wx-announce+unsubscribe@googlegroups.com>
 * Archives: [Google Group][wx-announce-group]
 
-[wx-announce-group]: https://groups.google.com/forum/?fromgroups#!forum/wx-announce
+[wx-announce-group]: https://groups.google.com/g/wx-announce
 
 ### Source Code Updates List
 
@@ -79,4 +79,4 @@ notifications of all changes in the wxWidgets source code repository.
 * Unsubscribe: <wx-commits-diffs+unsubscribe@googlegroups.com>
 * Archives: [Google Group][wx-commits-diffs-group]
 
-[wx-commits-diffs-group]: https://groups.google.com/forum/?fromgroups#!forum/wx-commits-diffs
+[wx-commits-diffs-group]: https://groups.google.com/g/wx-commits-diffs
