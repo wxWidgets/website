@@ -34,8 +34,8 @@ to show (a screenshot in general), please put it on the web somewhere and post
 a link. You can use free services like [Imgur] for screenshots, or [Pastebin]
 for large excerpts of code or log output.
 
-[Imgur]: http://imgur.com/
-[Pastebin]: http://pastebin.com/
+[Imgur]: https://imgur.com/
+[Pastebin]: https://pastebin.com/
 
 Generally, please ask your questions in a [smart way][catb]. Many, if not all,
 of the advices there are applicable to the wxWidgets mailing lists.
