@@ -1,6 +1,6 @@
-- version: 3.1.4
+- version: 3.1.5
   channel: Development
-  released: July 22, 2020
+  released: April 14, 2021
   bin_url_debian: https://wiki.codelite.org/pmwiki.php/Main/WxWidgets31Binaries#toc2
   bin_url_fedora: https://wiki.codelite.org/pmwiki.php/Main/WxWidgets31Binaries#toc3
 - version: 3.0.5
