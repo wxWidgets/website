@@ -34,6 +34,8 @@ compilers:
     id: gcc730
   - description: "MinGW-w64 8.1"
     id: gcc810
+  - description: "MSYS2 MinGW-w64 10.2"
+    id: gcc1020
   - description: "Visual Studio 2008"
     id: vc90
   - description: "Visual Studio 2010"
