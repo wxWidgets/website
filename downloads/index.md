@@ -124,7 +124,7 @@ are available below.
         </button> <br/>
 
         wxMSW DLLs for the selected compilers are available.
-        For more details see <a href="https://docs.wxwidgets.org/3.1.4/plat_msw_binaries.html">here</a><br />
+        For more details see <a href="https://docs.wxwidgets.org/3.1.5/plat_msw_binaries.html">here</a><br />
 
         <br />
         <a href="{{ release.bin_url_debian }}" target="_new">Ubuntu / Debian Packages</a><br>
