@@ -85,3 +85,8 @@ toc:
 
         - title: Summer of Code
           url: /gsoc/
+          
+    - title: Thanks
+      type: normal
+      url: /thanks/
+
