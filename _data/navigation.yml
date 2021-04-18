@@ -21,9 +21,6 @@ toc:
         - title: License
           url: /about/licence/
 
-        - title: Credits
-          url: /about/credits/
-
     - title: Downloads
       type: normal
       url: /downloads/
@@ -85,3 +82,8 @@ toc:
 
         - title: Summer of Code
           url: /gsoc/
+          
+    - title: Thanks
+      type: normal
+      url: /thanks/
+
