@@ -34,7 +34,7 @@ Many companies and individuals make significant contributions time and human res
 {: width="200px"}
 
 [MacStadium]: https://www.macstadium.com
-[MacStadiumLogo]: https://uploads-ssl.webflow.com/5ac3c046c82724970fc60918/5c019d917bba312af7553b49_MacStadium-developerlogo.png 
+[MacStadiumLogo]: MacStadium-developerlogo.png 
 {: width="200px"}
 
 [Travis]: https://www.travis-ci.org
