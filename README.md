@@ -38,7 +38,8 @@ will need to be restarted to process any changes.
     $ cd /vagrant
     $ yarn --no-bin-links
     $ yarn dist
-    $ jekyll serve --host 0.0.0.0
+    $ bundle
+    $ bundle exec jekyll serve --host 0.0.0.0
 
 Note that you only need to run `yarn dist` once per new checkout. Now you can
 edit content at verify your changes by pulling up the website running inside of
@@ -50,7 +51,7 @@ shared folder. If you find yourself working on changes that require frequent
 rebuilds, you should consider installing all dependencies locally so you can
 run Jekyll with automatic rebuilds:
 
-    $ jekyll serve --watch
+    $ bundle exec jekyll serve --watch
 
 [vb]: https://www.virtualbox.org/wiki/Downloads
 [vagrant]: https://www.vagrantup.com/downloads.html
