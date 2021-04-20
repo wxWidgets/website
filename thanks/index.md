@@ -84,21 +84,9 @@ HTML Help into the Visual Studio .NET help system for our use in 2003.
 
 ### Hosting
 
-Bryan Petty provides hosting for this website, the online user manuals, and the
-wxWiki.
+The stipends from our participation in [Google Summer of Code][GSoc] allow Bryan Petty to finance the hosting for this website, the online user manuals, wxTrac, the read-only SVN and the wxWiki. 
 
-We are grateful to Chris Elliott at York University for hosting our main FTP
-site which serves as a mirror of all main releases as well as the primary
-source of all daily builds.
-
-Robin Dunn has graciously provided hosting of the central Subversion (SVN)
-repository and issue tracker.
-
-### Mirrors
-
-Thanks to Yiorgos Adamopoulos, Cord Hockemeyer, Johan Hofvander, and Jobst
-Schmalenbach for maintaining mirror sites.
-
+[GSoC]: https://summerofcode.withgoogle.com
 
 ## Credits
 
