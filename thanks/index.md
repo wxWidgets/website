@@ -58,7 +58,7 @@ supporting the project.
 Thank you to [Microsoft][] for donating a copy of Visual C++ 6.0 to help
 wxWidgets compile on this version of the compiler (for a Virginia Tech course).
 
-[Microsoft]: http://www.microsoft.com/
+[Microsoft]: https://www.microsoft.com/
 
 Michael Bedward has made a donation to support the wxWidgets 2 for Motif port.
 
