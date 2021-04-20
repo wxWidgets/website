@@ -101,6 +101,14 @@ We would particularly like to thank the following for their contributions to
 wxWidgets, and the many others who have been involved in the project over the
 years. Apologies for any unintentional omissions from this list.
 
+#### wxWidgets 3
+
+Contributors (with several commits)
+
+Vadim Zeitlin, Artur Wieczorek, Paul Cornett, Maarten Bent, Tobias Taschner, Stefan Csomor, Cătălin Răceanu, Václav Slavík, Robin Dunn, Dimitri Schoolwerth, Graham Dawes, PB, New Pagodi, Ilya Sinitsyn, Jouk Jansen, Lauri Nurmi, Ian McInerney, Jay Nabonne, Julian Smart, Scott Talbert, ARATA Mizuki, Igor Korot, Tim Stahlhut, Pavel Tyunin, Andreas Falkenhahn, Liam Treacy, Bryan Petty, AliKet, Hartwig Wiesmann, Paul Kulchenko, Daniel Kulp, Steve Browne, Iwbnwif Yiw, John Roberts, Matthew Griffin, Sean D'Epagnier, Pavel Kalugin, Danny Scott, Arrigo Marchiori, Martin Ettl, Richard Smith, Troels Knakkergaard, Jorge Moraleda, Kvaz1r, Deamhan, Tim Kosse, Hertatijanto Hartono, Kolya Kosenko, Stefan Brüns, Olly Betts, Kevin B. McCarty, wangqr, Scott Furry, Tomay, Anton Triest, Blake Eryx, chris2oph, Samuel Dunn, Gary Allen, Rafael Kitover, Konstantin S. Matveyev, mimi89999, Jens Göpfert, Jeff Bland, Priit Laes, Frédéric Bron, Raul Tambre, Pavel O., dsr, Kinaou Hervé, Teodor Petrov, NikitaFeodonit, Marc-Philip, Markus Juergens, Martin Srebotnjak, Max Maisel, jensgoe, Xaviou, Roberto Perpuly, René Kijewski, Artur Sochirca
+
+#### wxWidgets 2 and 1
+
 Main Authors:
 
 * wxWidgets 2 for GTK+: Robert Roebling - Latin scholar, medic, Renaissance man
