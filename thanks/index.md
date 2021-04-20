@@ -137,18 +137,18 @@ Venturoli, David Webster, Xiaokun Zhu, Edward Zimmermann.
 
 ### Other Support
 
-We would like to thank [AIAI][7], University of Edinburgh (and in particular
+We would like to thank [Artificial Intelligence and its Applications Institute][AIAI], University of Edinburgh (and in particular
 Austin Tate and Robert Rae) for supporting the original work and giving
 permission to liberate the wxWidgets source.
 
-[7]: http://www.aiai.ed.ac.uk/
+[AIAI]: https://web.inf.ed.ac.uk/aiai
 
 We are very grateful to Mitch Kapor and Mitchell Baker who have given valuable
 advice, particularly about the wxWindows Software Foundation.
 
-Mike Lorenz of [VisionX][] set up our original domain name, www.wxwindows.org.
+[Mike Lorenz][] of VisionX set up our original domain name, www.wxwindows.org.
 
-[VisionX]: http://www.visionx.com/
+[Mike Lorenz]: https://mikelorenz.com
 
 
 
