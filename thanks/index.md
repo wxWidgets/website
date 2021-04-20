@@ -84,7 +84,7 @@ HTML Help into the Visual Studio .NET help system for our use in 2003.
 
 ### Hosting
 
-The stipends from our participation in [Google Summer of Code][GSoc] allow Bryan Petty to finance the hosting for this website, the online user manuals, wxTrac, the read-only SVN and the wxWiki. 
+The stipends from our participation in [Google Summer of Code][GSoC] allow Bryan Petty to finance the hosting for this website, the online user manuals, wxTrac, the read-only SVN and the wxWiki. 
 
 [GSoC]: https://summerofcode.withgoogle.com
 
