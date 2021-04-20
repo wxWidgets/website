@@ -97,9 +97,11 @@ would like to highlight just a few of those rockstars.
 
 ### Developers
 
-We would particularly like to thank the following for their contributions to
-wxWidgets, and the many others who have been involved in the project over the
+We would particularly like to thank the following for their [contributions to
+wxWidgets][github contributors], and the many others who have been involved in the project over the
 years. Apologies for any unintentional omissions from this list.
+
+[github contributors]: https://github.com/wxWidgets/wxWidgets/graphs/contributors
 
 #### wxWidgets 3
 
