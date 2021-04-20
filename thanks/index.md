@@ -137,7 +137,7 @@ Venturoli, David Webster, Xiaokun Zhu, Edward Zimmermann.
 
 ### Other Support
 
-We would like to thank [Artificial Intelligence and its Applications Institute][AIAI], University of Edinburgh (and in particular
+We would like to thank the [Artificial Intelligence and its Applications Institute][AIAI], University of Edinburgh (and in particular
 Austin Tate and Robert Rae) for supporting the original work and giving
 permission to liberate the wxWidgets source.
 
