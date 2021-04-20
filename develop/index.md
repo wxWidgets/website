@@ -40,31 +40,26 @@ title: "Developers"
   <div class="col-sm-6">
     <h3>Continuous Integration</h3>
     <p>
+      wxWidgets employs AppVeyor, Travis CI and GitHub Actions
+      to run automated builds and tests:
+    <p>
       <a href="https://ci.appveyor.com/project/wxWidgets/wxwidgets" target="_new">
-        <img alt="AppVeyor Build Status" src="https://img.shields.io/appveyor/ci/wxWidgets/wxWidgets/master.svg?label=Windows" />
+        <img alt="AppVeyor Build Status" src="https://img.shields.io/appveyor/build/wxWidgets/wxWidgets?label=AppVeyor&logo=appveyor" />
       </a>
       <a href="https://travis-ci.org/wxWidgets/wxWidgets" target="_new">
-        <img alt="Travis CI Build Status" src="https://img.shields.io/travis/wxWidgets/wxWidgets/master.svg?label=Linux" />
+        <img alt="Travis CI Build Status" src="https://img.shields.io/travis/wxWidgets/wxWidgets?label=TravisCI&logo=travis" />
+      </a>
+      <a href="https://github.com/wxWidgets/wxWidgets/actions" target="_new">
+        <img alt="GitHub Actions Status" src="https://img.shields.io/github/checks-status/wxWidgets/wxWidgets/master?label=GitHub&logo=github" />
       </a>
     </p>
     <p>
-      wxWidgets uses <a href="http://buildbot.net/trac" target="_new">Buildbot</a>
-      for automated testing. We have a number of build slaves building both
-      stable and development versions of the library in different
-      configurations for many platforms, please see
-      <a href="http://buildbot.tt-solutions.com/wx/" target="_new">the dashboard</a>
-      for the latest build results.
+      Additionally, OSS-Fuzz is used for fuzz testing:
     </p>
     <p>
-      Also, please consider setting up your own build slave as
-      <a href="https://wiki.wxwidgets.org/Development:_Buildbot#Setting_up_a_Slave" target="_new">explained here</a>
-      if the platform/architecture configuration you're interested in is not
-      represented yet. We are particularly interested in the slaves using
-      different Windows compiler versions.
-    </p>
-    <p>
-      Also check out our <a href="https://travis-ci.org/wxWidgets/wxWidgets" target="_new">Travis CI</a>
-      profile for per-commit automated test results.
+      <a href="https://bugs.chromium.org/p/oss-fuzz/issues/list?sort=-opened&can=1&q=proj:wxwidgets" target="_new">
+        <img alt="OSS-Fuzz Issues" src="https://oss-fuzz-build-logs.storage.googleapis.com/badges/wxwidgets.svg" />
+      </a>
     </p>
   </div>
 </div>
