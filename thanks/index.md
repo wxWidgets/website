@@ -53,7 +53,7 @@ development team. VMware is a superb solution for people who need to access
 more than one operating system simultaneously. A big thank you to VMware for
 supporting the project.
 
-[VMware]: http://www.vmware.com/
+[VMware]: https://www.vmware.com/
 
 Thank you to [Microsoft][] for donating a copy of Visual C++ 6.0 to help
 wxWidgets compile on this version of the compiler (for a Virginia Tech course).
@@ -154,4 +154,3 @@ Mike Lorenz of [VisionX][] set up our original domain name, www.wxwindows.org.
 
 
 {::options parse_block_html="false" /}
-
