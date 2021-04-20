@@ -80,7 +80,7 @@ HTML Help into the Visual Studio .NET help system for our use in 2003.
 * Alec Ross, Arcs Ltd.
 * Sandro Sigala, Roxantis
 
-[Seventh String Software]: http://www.seventhstring.com/
+[Seventh String Software]: https://www.seventhstring.com/
 
 ### Hosting
 
