@@ -124,7 +124,7 @@ Main Authors:
   physicist and wxWidgets hero
 * wxThread, wxSocket and multimedia classes: the deceptively young but talented
   Guilhem Lavaux
-* wxHTML: the highly dedicated Vaclav Slavik
+* wxHTML: the highly dedicated Václav Slavík
 
 Other Contributors:
 
