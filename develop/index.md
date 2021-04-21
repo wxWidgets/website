@@ -42,6 +42,7 @@ title: "Developers"
     <p>
       wxWidgets employs AppVeyor, Travis CI and GitHub Actions
       to run automated builds and tests:
+    </p>
     <p>
       <a href="https://ci.appveyor.com/project/wxWidgets/wxwidgets" target="_new">
         <img alt="AppVeyor Build Status" src="https://img.shields.io/appveyor/build/wxWidgets/wxWidgets?label=AppVeyor&logo=appveyor" />
