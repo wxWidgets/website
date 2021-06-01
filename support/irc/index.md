@@ -3,18 +3,18 @@ title: "IRC Channel"
 ---
 
 If the documentation isn't enough and you need in-person help, you can try the
-`#wxwidgets` channel on the [Freenode][1] IRC server (`irc.freenode.net`). This
+`#wxwidgets` channel on the [Libera][1] IRC server (`irc.libera.chat`). This
 channel is regularly filled with many people who are all very experienced with
 wxWidgets and are often willing to help.
 
-[1]: https://freenode.net/
+[1]: https://libera.chat/
 
 <div class="row my-4 justify-content-center">
   <div class="col-md-6">
-    <a href="https://webchat.freenode.net/?channels=%23wxwidgets&amp;uio=OT10cnVlJjExPTIxNQ6c" target="_new" class="btn btn-lg btn-outline-primary btn-block">
+    <a href="https://web.libera.chat/#wxwidgets" target="_new" class="btn btn-lg btn-outline-primary btn-block">
       <i class="fas fa-globe fa-fw"></i> Launch Web Client
     </a>
-    <a href="irc://irc.freenode.net/wxwidgets" class="btn btn-lg btn-outline-primary btn-block">
+    <a href="irc://irc.libera.chat/wxwidgets" class="btn btn-lg btn-outline-primary btn-block">
       <i class="fas fa-desktop fa-fw"></i> Launch Desktop Client
     </a>
   </div>
