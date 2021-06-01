@@ -127,8 +127,13 @@ are available below.
         For more details see <a href="https://docs.wxwidgets.org/3.1.5/plat_msw_binaries.html">here</a><br />
 
         <br />
-        <a href="{{ release.bin_url_debian }}" target="_new">Ubuntu / Debian Packages</a><br>
-        <a href="{{ release.bin_url_fedora }}" target="_new">Fedora / openSUSE Packages</a>
+        Thanks to <a href="https://codelite.org/">CodeLite</a> team, binaries for common Linux distributions
+        are also available, please see <a href="https://wiki.codelite.org/pmwiki.php/Main/Repositories">the instructions</a>
+        for using their repository, which contains packages for:
+        <ul>
+          <li><a href="{{ release.bin_url_debian }}" target="_new">Debian / Ubuntu</a></li>
+          <li><a href="{{ release.bin_url_fedora }}" target="_new">Fedora / openSUSE</a></li>
+        </ul>
       </div>
       <div class="card-footer text-muted">
         <i class="fab fa-github fa-fw"></i> <a href="{{ release_info.html_url }}">Release Information on GitHub</a>
