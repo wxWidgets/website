@@ -98,9 +98,10 @@ wxWidgets translations. Here are the steps you should follow:
   * Huang Jiawei <<hjiawei@gmail.com>>
   * William Jiang <<williamroot777@qq.com>>
 * Chinese (zh_TW)
+  * James Pan <<bojaypan@mail.ru>>
   * Walter Cheuk <<wwycheuk@gmail.com>>
   * pal.tw <<pal.tw@yahoo.com.tw>>
-  * pan93412 <<pan93412@gmail.com>>
+  * Yi-Jyun Pan <<pan93412@gmail.com>>
 * Croatian (hr)
   * Milo Ivir <<mail@milotype.de>>
 * Czech (cs)
