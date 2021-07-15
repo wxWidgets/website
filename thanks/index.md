@@ -11,7 +11,7 @@ Many companies and individuals make significant contributions of infrastructure,
 The wxWidgets project receives support through the donation of infrastructure from the companies listed below. 
 
 
-### Infrastructure Sponsors
+### Current Infrastructure Sponsors
 
 {::options parse_block_html="true" /}
 
@@ -25,9 +25,6 @@ The wxWidgets project receives support through the donation of infrastructure fr
 </div>
 <div class="row">
   <div class="col-sm-6 my-auto">
-[![TravisLogo]][Travis]
-  </div>
-  <div class="col-sm-6 my-auto">
 <h2 class="display-4">[AppVeyor][AppVeyor]{: class="text-reset"}</h2>
   </div>
 </div>
@@ -40,11 +37,21 @@ The wxWidgets project receives support through the donation of infrastructure fr
 [MacStadiumLogo]: MacStadium-developerlogo.png 
 {: width="200px"}
 
-[Travis]: https://www.travis-ci.org
+[AppVeyor]: https://www.appveyor.com
+
+### Former Infrastructure Sponsors
+
+{::options parse_block_html="true" /}
+
+<div class="row">
+  <div class="col-sm-6 my-auto">
+[![TravisLogo]][Travis]
+  </div>
+</div>
+
+[Travis]: https://www.travis-ci.com
 [TravisLogo]: TravisCI-Full-Color.png 
 {: width="214px"}
-
-[AppVeyor]: https://www.appveyor.com
 
 ### Software and Financial Donations
 

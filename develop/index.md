@@ -40,15 +40,11 @@ title: "Developers"
   <div class="col-sm-6">
     <h3>Continuous Integration</h3>
     <p>
-      wxWidgets employs AppVeyor, Travis CI and GitHub Actions
-      to run automated builds and tests:
+      wxWidgets employs AppVeyor and GitHub Actions to run automated builds and tests:
     </p>
     <p>
       <a href="https://ci.appveyor.com/project/wxWidgets/wxwidgets" target="_new">
         <img alt="AppVeyor Build Status" src="https://img.shields.io/appveyor/build/wxWidgets/wxWidgets?label=AppVeyor&logo=appveyor" />
-      </a>
-      <a href="https://travis-ci.org/wxWidgets/wxWidgets" target="_new">
-        <img alt="Travis CI Build Status" src="https://img.shields.io/travis/wxWidgets/wxWidgets?label=TravisCI&logo=travis" />
       </a>
       <a href="https://github.com/wxWidgets/wxWidgets/actions" target="_new">
         <img alt="GitHub Actions Status" src="https://img.shields.io/github/checks-status/wxWidgets/wxWidgets/master?label=GitHub&logo=github" />
