@@ -44,7 +44,7 @@ title: "Developers"
     </p>
     <p>
       <a href="https://ci.appveyor.com/project/wxWidgets/wxwidgets" target="_new">
-        <img alt="AppVeyor Build Status" src="https://img.shields.io/appveyor/build/wxWidgets/wxWidgets?label=AppVeyor&logo=appveyor" />
+        <img alt="AppVeyor Build Status" src="https://img.shields.io/appveyor/build/wxWidgets/wxWidgets/master?label=AppVeyor&logo=appveyor" />
       </a>
       <a href="https://github.com/wxWidgets/wxWidgets/actions" target="_new">
         <img alt="GitHub Actions Status" src="https://img.shields.io/github/checks-status/wxWidgets/wxWidgets/master?label=GitHub&logo=github" />
