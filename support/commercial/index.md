@@ -16,27 +16,4 @@ Improve your application, while taking wxWidgets to new heights.
   behind the wxWidgets port to the Mac.
 
 [tt]: https://www.tt-solutions.com/
-[ac]: https://www.advanced.ch/
-
-Other consultants available for wxWidgets-related work:
-
-* [Jens Schneeweiss][schneeweiss], technical support and custom development services.
-* [Alec Ross][ross], IT and wxWidgets training and consultancy.
-* [Koan Software][koan], consultancy in Windows, Windows CE and Linux (desktop and
-  embedded).
-* [Hajo Kirchoff][hajo], consultancy in Windows and wxWidgets.
-* [Markus Juergens][markus], consultant.
-* [Sologix][sologix] has experience in developing wxWidgets applications on all three
-  major desktop platforms (Windows, Mac OS X and Linux).
-* [Brian Wright][wright], documentation and online help.
-* [Pro-Tran][trans], translation services for .po and .html files (for all
-  languages).
-
-[schneeweiss]: http://www.schneeweiss.de/
-[ross]: http://www.a-train.co.uk/
-[koan]: http://www.koansoftware.com/
-[hajo]: http://www.litwindow.com/
-[markus]: http://www.be-enabled.de/
-[sologix]: http://www.sologix.net/
-[wright]: http://brianrwright.com/BrianRWright/Professional_Services/Professional.html
-[trans]: http://www.pro-tran.com/
+[ac]: https://www.advancedconcepts.ch/
