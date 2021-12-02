@@ -24,7 +24,7 @@
   },
   "license": "SEE LICENSE IN about/licence/index.md",
   "engines": {
-    "node": ">= 10.13.0"
+    "node": ">= 10.13.0 <16"
   },
   "dependencies": {
     "@fancyapps/fancybox": "^3.5.7",
