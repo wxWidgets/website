@@ -29,8 +29,8 @@ jobs:
         uses: actions/cache@v1
         with:
           path: vendor/bundle
-          key: bundle-ruby-2.6-ubuntu-18.04-${{ hashFiles('Gemfile.lock') }}
-          restore-keys: bundle-ruby-2.6-ubuntu-18.04-
+          key: bundle-ruby-2.6-ubuntu-20.04-${{ hashFiles('Gemfile.lock') }}
+          restore-keys: bundle-ruby-2.6-ubuntu-20.04-
       - name: Bundle Install
         run: |
           bundle config path vendor/bundle
