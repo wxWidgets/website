@@ -17,7 +17,7 @@ cards:
           icon_category: fas
 
         - title: Report a Bug
-          url: https://trac.wxwidgets.org/newticket
+          url: https://github.com/wxWidgets/wxWidgets/issues/new
           icon_type: bug
           icon_category: fas
 
@@ -27,7 +27,7 @@ cards:
           icon_category: fab
 
         - title: Development Roadmap
-          url: https://trac.wxwidgets.org/wiki/Roadmap
+          url: /develop/roadmap/
           icon_type: forward
           icon_category: fas
 
