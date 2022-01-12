@@ -127,8 +127,8 @@ your changes and the current version to check that it really corresponds to
 what you intended to change and correct any problems if you see them.
 
 If you don't use GitHub and don't want to create a GitHub account, you can
-still [make a patch](https://trac.wxwidgets.org/wiki/HowToSubmitPatches)
-and submit it via wxTrac instead, but please notice that pull requests are
+still [make a patch](/develop/how-to-submit-patches/)
+and send it by email instead, but please notice that pull requests are
 preferred for any non-trivial changes as they allow the code to pass the
 continuous integration checks.
 

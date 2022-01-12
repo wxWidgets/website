@@ -86,7 +86,7 @@ page on the community wiki.
 <div class="list-group my-3">
   <li class="list-group-item">
     <h5 class="mb-1">
-      <a href="https://trac.wxwidgets.org/wiki/HowToSubmitPatches">
+      <a href="/develop/how-to-submit-patches/">
         How to Submit Patches
       </a>
     </h5>

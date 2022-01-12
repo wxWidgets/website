@@ -9,7 +9,7 @@ title: "Developers"
       don't know how? We've written up a handy contributor guide that has the
       answers you're looking for:
     </p>
-    <a href="https://wiki.wxwidgets.org/Development:_How_To_Contribute" class="btn btn-lg btn-outline-primary btn-block">
+    <a href="/develop/how-to-contribute/" class="btn btn-lg btn-outline-primary btn-block">
       <i class="fas fa-code-branch fa-fw"></i> Contributor Guide
     </a>
   </div>
@@ -20,19 +20,17 @@ title: "Developers"
     <h3>Additional Guides</h3>
     <p>
       <ul>
-        <li><a href="https://trac.wxwidgets.org/wiki">Developer Wiki</a></li>
         <li><a href="/develop/code-repository/">Using Version Control</a></li>
-        <li><a href="https://trac.wxwidgets.org/wiki/HowToSubmitPatches">Writing Patches</a></li>
-        <li><a href="https://trac.wxwidgets.org/wiki/HowToSubmitTicket">Submitting Tickets</a></li>
-        <li><a href="https://trac.wxwidgets.org/wiki/Roadmap">Development Roadmap</a></li>
+        <li><a href="/develop/how-to-submit-patches/">Submitting Patches</a></li>
+        <li><a href="/develop/how-to-report-issues/">Reporting Issues</a></li>
+        <li><a href="/develop/roadmap/">Development Roadmap</a></li>
         <li><a href="/develop/coding-guidelines/">Coding Guidelines</a></li>
       </ul>
     </p>
     <h3>Developer Tools</h3>
     <p>
       <ul>
-        <li><a href="https://trac.wxwidgets.org/browser/">Browse Source Online (Trac)</a></li>
-        <li><a href="https://github.com/wxWidgets/">Browse Source Online (GitHub)</a></li>
+        <li><a href="https://github.com/wxWidgets/wxWidgets/">Browse Source Online (GitHub)</a></li>
         <li><a href="https://docs.wxwidgets.org/trunk/">Development Manual (rebuilt daily)</a></li>
       </ul>
     </p>

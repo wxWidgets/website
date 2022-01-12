@@ -47,7 +47,7 @@ toc:
       type: dropdown
       pages:
         - title: Issue Tracker
-          url: https://trac.wxwidgets.org/
+          url: https://github.com/wxWidgets/wxWidgets/issues
 
         -
 

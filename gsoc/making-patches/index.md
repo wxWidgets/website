@@ -10,11 +10,10 @@ see that you can, indeed, succeed as you will need to be able to work on
 wxWidgets sources during your GSoC project.
 
 To get a general understanding of how submitting patches works, please read
-our [patches HOWTO](https://trac.wxwidgets.org/wiki/HowToSubmitPatches). Next,
-you need to select a task to work on. While you could take any open ticket
-in our [Trac](https://trac.wxwidgets.org) installation, we have a special list
-of [simple bugs](https://trac.wxwidgets.org/query?status=accepted&status=confirmed&status=infoneeded&status=infoneeded_new&status=new&status=reopened&keywords=~simple) which are
-supposed to be easy to fix so we recommend that you look at one of those.
+our [patches HOWTO](/develop/how-to-submit-patches/). Next,
+you need to select a task to work on. Please search for open issues containing
+"simple" in our [issue tracker](https://github.com/wxWidgets/wxWidgets/issues) to
+seem some issues that are supposed to be easy to fix, so we recommend that you look at one of those.
 Please feel free to choose one of the bugs that either corresponds to your
 experience (e.g. if you are a Windows programmer you could additionally filter
 by wxMSW platform) or have some relationship with the project you plan to

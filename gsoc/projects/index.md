@@ -274,7 +274,7 @@ required.
 
 #### See also
 
-* [The corresponding wxTrac ticket](https://trac.wxwidgets.org/ticket/18000)
+* [The corresponding issue](https://github.com/wxWidgets/wxWidgets/issues/18000)
 * [PulseAudio documentation](https://freedesktop.org/software/pulseaudio/doxygen/index.html)
 
 <a name="webview-features"></a>
@@ -341,7 +341,7 @@ Any experience with using `IID_IWebBrowser` and WebKit would be helpful.
 
 #### See also
 
-* [Cookie Patch on Trac](https://trac.wxwidgets.org/ticket/14528)
+* [Issue with Cookie Patch](https://github.com/wxWidgets/wxWidgets/issues/14528)
 * [Download with WebkitGTK](http://stackoverflow.com/questions/11360453/how-to-download-with-gtk-webkit-and-webkitwebview)
 * [Download With IWebBrowser](http://stackoverflow.com/questions/13754185/custom-download-manager-iwebbrowser2)
 

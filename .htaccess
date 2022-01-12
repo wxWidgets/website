@@ -64,7 +64,7 @@ AddType application/relax-ng-compact-syntax .rnc
     RewriteRule ^docs/platform\.htm        https://wiki.wxwidgets.org/Supported_Platforms             [R=301,NC,L]
     RewriteRule ^docs/supported\.htm       https://wiki.wxwidgets.org/Development:_Supported_Classes  [R=301,NC,L]
     RewriteRule ^docs/technote/vc_ide\.htm https://wiki.wxwidgets.org/Microsoft_Visual_C%2B%2B_Guide  [R=301,NC,L]
-    RewriteRule ^develop/roadmap\.htm      https://trac.wxwidgets.org/wiki/Roadmap                    [R=301,NC,L]
+    RewriteRule ^develop/roadmap\.htm      /develop/roadmap/         [R=301,NC,L]
 
     RewriteRule ^downloads/builds\.htm  /develop/                    [R=301,NC,L]
     RewriteRule ^develop/standard\.htm  /develop/coding-guidelines/  [R=301,NC,L]
