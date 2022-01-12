@@ -11,7 +11,7 @@ wxWidgets sources during your GSoC project.
 
 To get a general understanding of how submitting patches works, please read
 our [patches HOWTO](/develop/how-to-submit-patches/). Next,
-you need to select a task to work on. Please search for open tickets containing
+you need to select a task to work on. Please search for open issues containing
 "simple" in our [issue tracker](https://github.com/wxWidgets/wxWidgets/issues) to
 seem some issues that are supposed to be easy to fix, so we recommend that you look at one of those.
 Please feel free to choose one of the bugs that either corresponds to your

@@ -16,7 +16,7 @@ The latest stable release, 3.0.5, was released on April 25th, 2020. We probably 
 
 ## Development branch and 3.2
 
-New development happens on 3.1 branch. The latest version is 3.1.5, released on April 14, 2021 and we plan to release one last 3.1.6 release in 3.1.x series in the beginning of 2021 with 3.2.0 hopefully following relatively soon.
+New development happens on 3.1 branch. The latest version is 3.1.5, released on April 14, 2021 and we plan to release one last 3.1.6 release in 3.1.x series in the beginning of 2022 with 3.2.0 hopefully following relatively soon.
 
 One of the big planned changes for this 3.2 is better support for high DPI displays, but there are, of course, many, many other fixes and improvements in it as well.
 

@@ -4,7 +4,7 @@ title: "How to Report an Issue"
 
 To create a new issue, you must have a [GitHub](https://github.com/) account. If you really can't open or use one, consider posting to [wx-users mailing list](/support/mailing-lists/), but creating the issue directly is strongly preferred.
 
-Please ***search*** to check if the bug or proposed enhancement is already submitted before reporting it. If you are not sure that you encountered the same bug, please open a new ticket and add mutual links to both tickets (`#1234` is automatically linked). 
+Please ***search*** to check if the bug or proposed enhancement is already submitted before reporting it. If you are not sure that you encountered the same bug, please open a new issue and add mutual links to both issues (`#1234` is automatically linked). 
 
 If you want to express interest in a bug that is already submitted, subscribe to it or add more details. Or even better, try to fix it.
 
@@ -76,7 +76,7 @@ Doing anything of the above is just a waste of time so please don't engage in it
 
 ## Final Note
 
-wxWidgets is a community project and we need your help. At the very least, if you see that the bug you reported in the past was fixed, but the ticket is still open, we will appreciate if you close it. You can easily find all the open bugs you reported by choosing your user name from "Author" dropdown.
+wxWidgets is a community project and we need your help. At the very least, if you see that the bug you reported in the past was fixed, but the issue is still open, we will appreciate if you close it. You can easily find all the open issues you reported by clicking on "Filter" dropdown and choosing "Your issues".
 
 And, of course, we really welcome other help with the existing bugs: for example, verifying that the bugs can still be reproduced, commenting on potential workarounds and so on.
 
