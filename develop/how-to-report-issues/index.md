@@ -54,12 +54,6 @@ Under Windows you should use a debug build and run the program under Microsoft V
 
 * Title: Please provide a meaningful title for your issue.
 
-* Priority: A special note about priority labels: you may choose to use lower priority for the bug but in general please ***do not set high*** priority, even if the bug is very important to you personally. We will increment the priority ourselves if the bug is deemed to be more serious than normal from wxWidgets point of view.
-
-* Version: Please use the appropriate label for the version. If you've tested multiple versions, please mention this in the main text.
-
-* Other labels: Please select any labels that are appropriate, but make sure to use the label corresponding to the port (e.g. "MSW" or "GTK") for which you're reporting the issue. If the bug is in the `base` sub-library, select `base`. Note that `build` label is for ticket related to bakefiles, `configure.in`, `wx-config`, etc, please use specific label for CMake. Finally, please use `regression` label for anything that used to work in a previous wxWidgets version but doesn't work any longer.
-
 * Description: Explain how to reproduce the problem in as much details as possible. Check if you can see it in the samples. If not, try to make a ***minimal*** modification, i.e. such that every change in it is really needed, to one of the samples to demonstrate it and attach this modification as a patch ([unified](https://en.wikipedia.org/wiki/Diff#Unified_format) format with extension `.diff` or `.patch` is strongly preferred). Alternatively, you can also attach a minimal complete application in a single `.cpp` file.
 
 ## Things To Do To Dissuade Us From Fixing a Bug
