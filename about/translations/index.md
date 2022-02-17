@@ -93,6 +93,7 @@ wxWidgets translations. Here are the steps you should follow:
   * Robert Millan <<rmh@aybabtu.com>>
   * Eduard Ereza Martínez <<eduard@ereza.cat>>
 * Chinese (zh_CN)
+  * James Pan <<bojaypan@mail.ru>>
   * mrfx <<mrfx@fm365.com>>
   * Liu XiaoXi <<liouxiao@hotmail.com>>
   * Huang Jiawei <<hjiawei@gmail.com>>
