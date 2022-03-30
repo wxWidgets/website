@@ -3,7 +3,7 @@ title: "Stop the War in Ukraine"
 ---
 
 We call for an immediate stop of the senseless and barbaric Russian aggression
-of Ukraine. Nothing can justify an unprovoked attack on another country,
+against Ukraine. Nothing can justify an unprovoked attack on another country,
 shelling of its cities and civilian population. 
 
 We stand with all the Ukrainians and, also, many Russians who are against this
