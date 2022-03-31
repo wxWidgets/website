@@ -38,8 +38,8 @@ wxWidgets currently supports the following platforms:
   version 2.6 or higher.
 * **wxMSW**: The port for 32-bit and 64-bit Windows variants including Windows
   XP, Vista, 7, 8 and 10.
-* **wxOSX/Cocoa**: For delivering 32-bit and 64-bit Cocoa-based applications on
-  macOS 10.7 and above.
+* **wxOSX/Cocoa**: For delivering Cocoa-based applications on macOS 10.10 and
+  above.
 * **wxQt**: wxQt is a port of wxWidgets using Qt libraries. It requires Qt 5 or later.
 * **wxX11**: A port for Linux and Unix variants targetting X11 displays using a
   generic widget set.
