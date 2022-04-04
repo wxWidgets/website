@@ -34,8 +34,12 @@ compilers:
     id: gcc730
   - description: "MinGW-w64 8.1"
     id: gcc810
+  - description: "TDM-GCC 10.3"
+    id: gcc1030TDM
   - description: "MSYS2 MinGW-w64 10.2"
     id: gcc1020
+  - description: "MSYS2 MinGW-w64 11.2"
+    id: gcc1120
   - description: "Visual Studio 2008"
     id: vc90
   - description: "Visual Studio 2010"
@@ -50,7 +54,7 @@ compilers:
     id: vc141
   - description: "Visual Studio 2019"
     id: vc142
-  - description: "Visual Studio 2015/2017/2019"
+  - description: "Visual Studio 2015/2017/2019/2022"
     id: vc14x
 architectures:
   - description: "32-Bit (x86)"
@@ -124,7 +128,7 @@ are available below.
         </button> <br/>
 
         wxMSW DLLs for the selected compilers are available.
-        For more details see <a href="https://docs.wxwidgets.org/3.1.5/plat_msw_binaries.html">here</a><br />
+        For more details see <a href="https://docs.wxwidgets.org/3.1.6/plat_msw_binaries.html">here</a><br />
 
         <br />
         Thanks to <a href="https://codelite.org/">CodeLite</a> team, binaries for common Linux distributions

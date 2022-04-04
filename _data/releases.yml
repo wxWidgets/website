@@ -1,8 +1,8 @@
-- version: 3.1.5
+- version: 3.1.6
   channel: Development
-  released: April 14, 2021
-  bin_url_debian: https://docs.codelite.org/wxWidgets/repo315/#ubuntu-and-debian
-  bin_url_fedora: https://docs.codelite.org/wxWidgets/repo315/#fedora-and-opensuse
+  released: April 4, 2022
+  bin_url_debian: https://docs.codelite.org/wxWidgets/repo316/#ubuntu-and-debian
+  bin_url_fedora: https://docs.codelite.org/wxWidgets/repo316/#fedora-and-opensuse
 - version: 3.0.5
   channel: Stable
   released: April 27th, 2020
