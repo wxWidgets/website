@@ -77,165 +77,165 @@ wxWidgets translations. Here are the steps you should follow:
 ## Translators
 
 * Afrikaans (af)
-  * Petri Jooste <<rkwjpj@puk.ac.za>>
-  * Friedel Wolff <<friedel@translate.org.za>>
+  * Petri Jooste <<rkwjpj -at- puk.ac.za>>
+  * Friedel Wolff <<friedel -at- translate.org.za>>
 * Albanian (sq)
-  * Besnik Bleta <<besnik@programeshqip.org>>
+  * Besnik Bleta <<besnik -at- programeshqip.org>>
 * Arabic (ar)
-  * Abdullah Abouzekry <<abouzekry@gmail.com>>
+  * Abdullah Abouzekry <<abouzekry -at- gmail.com>>
 * Aragonese (an)
-  * Jorge Pérez <<jorgtum@gmail.com>>
+  * Jorge Pérez <<jorgtum -at- gmail.com>>
 * Basque (eu)
-  * 3ARRANO Euskalgintza Taldea <<3arrano@euskalerria.org>>
-  * Xabier Aramendi <<azpidatziak@gmail.com>>
+  * 3ARRANO Euskalgintza Taldea <<3arrano -at- euskalerria.org>>
+  * Xabier Aramendi <<azpidatziak -at- gmail.com>>
 * Catalan (ca)
-  * Pau Bosch i Crespo <<paubcrespo@hotmail.com>>
-  * Robert Millan <<rmh@aybabtu.com>>
-  * Eduard Ereza Martínez <<eduard@ereza.cat>>
+  * Pau Bosch i Crespo <<paubcrespo -at- hotmail.com>>
+  * Robert Millan <<rmh -at- aybabtu.com>>
+  * Eduard Ereza Martínez <<eduard -at- ereza.cat>>
 * Chinese (zh_CN)
-  * James Pan <<bojaypan@mail.ru>>
-  * mrfx <<mrfx@fm365.com>>
-  * Liu XiaoXi <<liouxiao@hotmail.com>>
-  * Huang Jiawei <<hjiawei@gmail.com>>
-  * William Jiang <<williamroot777@qq.com>>
+  * James Pan <<bojaypan -at- mail.ru>>
+  * mrfx <<mrfx -at- fm365.com>>
+  * Liu XiaoXi <<liouxiao -at- hotmail.com>>
+  * Huang Jiawei <<hjiawei -at- gmail.com>>
+  * William Jiang <<williamroot777 -at- qq.com>>
 * Chinese (zh_TW)
-  * James Pan <<bojaypan@mail.ru>>
-  * Walter Cheuk <<wwycheuk@gmail.com>>
-  * pal.tw <<pal.tw@yahoo.com.tw>>
-  * Yi-Jyun Pan <<pan93412@gmail.com>>
+  * James Pan <<bojaypan -at- mail.ru>>
+  * Walter Cheuk <<wwycheuk -at- gmail.com>>
+  * pal.tw <<pal.tw -at- yahoo.com.tw>>
+  * Yi-Jyun Pan <<pan93412 -at- gmail.com>>
 * Croatian (hr)
-  * Milo Ivir <<mail@milotype.de>>
+  * Milo Ivir <<mail -at- milotype.de>>
 * Czech (cs)
-  * Vaclav Slavik <<vaclav.slavik@matfyz.cz>>
-  * Herbert Breunung <<deirdre_skye@web.de>>
-  * Zbyněk Schwarz <<zbynek.schwarz@gmail.com>>
+  * Vaclav Slavik <<vaclav.slavik -at- matfyz.cz>>
+  * Herbert Breunung <<deirdre_skye -at- web.de>>
+  * Zbyněk Schwarz <<zbynek.schwarz -at- gmail.com>>
 * Danish (da)
-  * Leif Jensen <<leif@danmos.dk>>
-  * Henrik Ræder Clausen <<henrik@fangorn.dk>>
-  * Morten Råbjerg Ulrich <<mulrich15@yahoo.dk>>
-  * Bue Vester-Andersen <<bue@vester-andersen.dk>>
+  * Leif Jensen <<leif -at- danmos.dk>>
+  * Henrik Ræder Clausen <<henrik -at- fangorn.dk>>
+  * Morten Råbjerg Ulrich <<mulrich15 -at- yahoo.dk>>
+  * Bue Vester-Andersen <<bue -at- vester-andersen.dk>>
   * scootergrisen
 * Dutch (nl)
-  * Patrick Hubers <<phubers@solve-i-t.com>>
-  * Gideon van Melle <<gvmelle@gmail.com>>
-  * Thomas De Rocker <<thomasderocker@hotmail.com>>
+  * Patrick Hubers <<phubers -at- solve-i-t.com>>
+  * Gideon van Melle <<gvmelle -at- gmail.com>>
+  * Thomas De Rocker <<thomasderocker -at- hotmail.com>>
 * Finnish (fi)
-  * Kaj G Backas <<kgb@compart.fi>>
-  * Lauri Nurmi <<lanurmi@iki.fi>>
-  * Jaakko Salli <<jmsalli79@hotmail.com>>
-  * Elias Julkunen <<elias.julkunen@gmail.com>>
-  * Jani Kinnunen <<jani.kinnunen@wippies.fi>>
+  * Kaj G Backas <<kgb -at- compart.fi>>
+  * Lauri Nurmi <<lanurmi -at- iki.fi>>
+  * Jaakko Salli <<jmsalli79 -at- hotmail.com>>
+  * Elias Julkunen <<elias.julkunen -at- gmail.com>>
+  * Jani Kinnunen <<jani.kinnunen -at- wippies.fi>>
 * French (fr)
-  * Stephane Junique <<stephane.junique@optics.kth.se>>
-  * Lionel Allorge <<lionel.allorge@lunerouge.com>>
-  * Gilles Guyot <<gilles.guyot@krypton.be>>
+  * Stephane Junique <<stephane.junique -at- optics.kth.se>>
+  * Lionel Allorge <<lionel.allorge -at- lunerouge.com>>
+  * Gilles Guyot <<gilles.guyot -at- krypton.be>>
 * Galician (gl_ES)
-  * Leandro Regueiro <<leandro.regueiro@gmail.com>>
-  * Adrián González Alba <<correoadrian82@hotmail.com>>
-  * Nuria Andión <<nandiez@gmail.com>>
+  * Leandro Regueiro <<leandro.regueiro -at- gmail.com>>
+  * Adrián González Alba <<correoadrian82 -at- hotmail.com>>
+  * Nuria Andión <<nandiez -at- gmail.com>>
 * German (de)
-  * Daniel Reith <<danr@gmx.de>>
-  * Gerhard Gruber <<sparhawk@aon.at>>
-  * Stefan Hedemann <<stefan@hedemann.de>>
-  * Dr. Detlev Reymann <<d.reymann@geisenheim.mnd.fh-wiesbaden.de>>
+  * Daniel Reith <<danr -at- gmx.de>>
+  * Gerhard Gruber <<sparhawk -at- aon.at>>
+  * Stefan Hedemann <<stefan -at- hedemann.de>>
+  * Dr. Detlev Reymann <<d.reymann -at- geisenheim.mnd.fh-wiesbaden.de>>
   * Mark Johnson
-  * Martin Jost <<martinnost@users.sf.net>>
-  * Herbert Breunung <<deirdre_skye@web.de>>
-  * Ch. Buck <<chbuck@gmail.com>>
-  * Max Christian Pohle <<webmaster@coderonline.de>>
-  * Thomas Krebs <<thomas.krebs@mecadtron.de>>
-  * Wolfgang Stöggl <<c72578@yahoo.de>>
+  * Martin Jost <<martinnost -at- users.sf.net>>
+  * Herbert Breunung <<deirdre_skye -at- web.de>>
+  * Ch. Buck <<chbuck -at- gmail.com>>
+  * Max Christian Pohle <<webmaster -at- coderonline.de>>
+  * Thomas Krebs <<thomas.krebs -at- mecadtron.de>>
+  * Wolfgang Stöggl <<c72578 -at- yahoo.de>>
 * Greek (el)
-  * Tsolakos Stavros <<tsolako1@otenet.gr>>
-  * Nassos Yiannopoulos <<nassosy@innerprocess.com>>
+  * Tsolakos Stavros <<tsolako1 -at- otenet.gr>>
+  * Nassos Yiannopoulos <<nassosy -at- innerprocess.com>>
 * Hindi (hi)
-  * Dhananjaya Sharma <<dysxhi@yahoo.co.in>>
-  * Priyank Bolia <<priyank.bolia@gmail.com>>
+  * Dhananjaya Sharma <<dysxhi -at- yahoo.co.in>>
+  * Priyank Bolia <<priyank.bolia -at- gmail.com>>
 * Hungarian (hu)
-  * Végh János Dr. <<janos_vegh@users.sourceforge.net>>
+  * Végh János Dr. <<janos_vegh -at- users.sourceforge.net>>
 * Indonesian (id)
-  * Bambang Purnomosidi D. P. <<bambang@3wsi.com>>
-  * Rahmat Bambang <<doplank@gmx.com>>
+  * Bambang Purnomosidi D. P. <<bambang -at- 3wsi.com>>
+  * Rahmat Bambang <<doplank -at- gmx.com>>
 * Italian (it)
-  * Roberto Boriotti <<roberto.boriotti@canon.it>>
-  * bovirus <<bovirus@libero.it>>
-  * Mattia Barbon <<mbarbon@cpan.org>>
-  * Marco Cavallini <<m.cavallini@koansoftware.com>>
-  * Stefano <<l.stickell@yahoo.it>>
+  * Roberto Boriotti <<roberto.boriotti -at- canon.it>>
+  * bovirus <<bovirus -at- libero.it>>
+  * Mattia Barbon <<mbarbon -at- cpan.org>>
+  * Marco Cavallini <<m.cavallini -at- koansoftware.com>>
+  * Stefano <<l.stickell -at- yahoo.it>>
 * Japanese (ja)
-  * James Bishop <<james.bishop1@tiscali.co.uk>>
-  * Hiroshi Saito <<saito@inetrt.skcapi.co.jp>>
-  * Suzumizaki-Kimitaka <<suzumizaki@free.japandesign.ne.jp>>
-  * Y. KABA. <<kaba@shall-systemservice.co.jp>>
+  * James Bishop <<james.bishop1 -at- tiscali.co.uk>>
+  * Hiroshi Saito <<saito -at- inetrt.skcapi.co.jp>>
+  * Suzumizaki-Kimitaka <<suzumizaki -at- free.japandesign.ne.jp>>
+  * Y. KABA. <<kaba -at- shall-systemservice.co.jp>>
 * Korean (ko_KR)
-  * Sungkee Jung <<dragoneyes.org@gmail.com>>
+  * Sungkee Jung <<dragoneyes.org -at- gmail.com>>
 * Latvian (lv)
-  * Jānis Eisaks <<jancs@dv.lv>>
+  * Jānis Eisaks <<jancs -at- dv.lv>>
 * Lithuanian (lt)
-  * Pieter <<pieter.clarysse@bricsys.com>>
+  * Pieter <<pieter.clarysse -at- bricsys.com>>
 * Malay (ms)
-  * Mahrazi Mohd Kamal <<mahrazi@gmail.com>>
+  * Mahrazi Mohd Kamal <<mahrazi -at- gmail.com>>
 * Nepali (ne)
-  * Him Prasad Gautam <<drishtibachak@gmail.com>>
+  * Him Prasad Gautam <<drishtibachak -at- gmail.com>>
 * Norwegian Bokmal (nb)
-  * Hans F. Nordhaug <<hans@nordhaug.priv.no>>
-  * Hallgeir Holien <<haholien@gmail.com>>
+  * Hans F. Nordhaug <<hans -at- nordhaug.priv.no>>
+  * Hallgeir Holien <<haholien -at- gmail.com>>
 * Persian (fa_IR)
-  * Ali Asadi <<ali.asady@gmail.com>>
+  * Ali Asadi <<ali.asady -at- gmail.com>>
 * Polish (pl)
-  * Mariusz Drozdowski <<schemedit@wp.pl>>
-  * Piotr Mackowiak <<matis@linuxmail.org>>
-  * Janusz Piwowarski <<jpiw@go2.pl>>
-  * ABX <<abx@abx.art.pl>>
-  * Michał Trzebiatowski <<hippie_1968@hotmail.com>>
+  * Mariusz Drozdowski <<schemedit -at- wp.pl>>
+  * Piotr Mackowiak <<matis -at- linuxmail.org>>
+  * Janusz Piwowarski <<jpiw -at- go2.pl>>
+  * ABX <<abx -at- abx.art.pl>>
+  * Michał Trzebiatowski <<hippie_1968 -at- hotmail.com>>
 * Portuguese (pt)
-  * Mario Pereira <<marionrpereira76@hotmail.com>>
-  * Antonio Cardoso Martins <<digiplan.pt@gmail.com>>
-  * Carlos Gonçalves <<mail@cgoncalves.info>>
-  * Manuela Silva <<manuela.silva@sky.com>>
+  * Mario Pereira <<marionrpereira76 -at- hotmail.com>>
+  * Antonio Cardoso Martins <<digiplan.pt -at- gmail.com>>
+  * Carlos Gonçalves <<mail -at- cgoncalves.info>>
+  * Manuela Silva <<manuela.silva -at- sky.com>>
 * Portuguese (pt_BR)
-  * E.A. Tacao <<e.a.tacao@terra.com.br>>
-  * José Eduardo de Carvalho Diniz <<jecdiniz@yahoo.com.br>>
-  * Adiel Mittmann <<adiel@inf.ufsc.br>>
-  * Allann Jones <<allanjos@gmail.com>>
-  * Felipe <<felipefplzx@gmail.com>>
+  * E.A. Tacao <<e.a.tacao -at- terra.com.br>>
+  * José Eduardo de Carvalho Diniz <<jecdiniz -at- yahoo.com.br>>
+  * Adiel Mittmann <<adiel -at- inf.ufsc.br>>
+  * Allann Jones <<allanjos -at- gmail.com>>
+  * Felipe <<felipefplzx -at- gmail.com>>
 * Romanian (ro)
-  * Manuel Ciosici <<manuelciosici@yahoo.com>>
-  * Cătălin Răceanu <<cata_sr@yahoo.com>>
-  * Adrian Hăisan <<adrian..haisan@gmail.com>>
+  * Manuel Ciosici <<manuelciosici -at- yahoo.com>>
+  * Cătălin Răceanu <<cata_sr -at- yahoo.com>>
+  * Adrian Hăisan <<adrian..haisan -at- gmail.com>>
 * Russian (ru)
-  * Dennis Prochko <<wolfsoft@mail.ru>>
-  * Roman Rolinsky <<rolinsky@mema.ucl.ac.be>>
-  * Vadim Zeitlin <<vadim@wxwidgets.org>>
-  * Andrew V. Samoilov <<kai@cmail.ru>>
-  * Dmitry Levichev <<d.levichev@gmail.com>>
-  * Pavel Maryanov <<acid@jack.kiev.ua>>
-  * Alexander Kovalenko <<nktch@yandex.ru>>
+  * Dennis Prochko <<wolfsoft -at- mail.ru>>
+  * Roman Rolinsky <<rolinsky -at- mema.ucl.ac.be>>
+  * Vadim Zeitlin <<vadim -at- wxwidgets.org>>
+  * Andrew V. Samoilov <<kai -at- cmail.ru>>
+  * Dmitry Levichev <<d.levichev -at- gmail.com>>
+  * Pavel Maryanov <<acid -at- jack.kiev.ua>>
+  * Alexander Kovalenko <<nktch -at- yandex.ru>>
 * Slovak (sk)
-  * Ivan Masar <<helix84@centrum.sk>>
-  * jozef m <<jozef.m923@gmail.com>>
+  * Ivan Masar <<helix84 -at- centrum.sk>>
+  * jozef m <<jozef.m923 -at- gmail.com>>
 * Slovenian (sl)
-  * Roman Plevel <<roman.plevel@iskratr.si>>
-  * Martin Srebotnjak <<miles@filmsi.net>>
+  * Roman Plevel <<roman.plevel -at- iskratr.si>>
+  * Martin Srebotnjak <<miles -at- filmsi.net>>
 * Spanish (es)
-  * Guillermo Rodriguez Garcia <<guille@iies.es>>
-  * JSJ <<jsj666@hotmail.com>>
-  * Francisco Vila <<francisco.vila@hispalinux.es>>
-  * Adrián González Alba <<correoadrian82@hotmail.com>>
-  * Miguel Giménez <<webmaster@solener.com>>
+  * Guillermo Rodriguez Garcia <<guille -at- iies.es>>
+  * JSJ <<jsj666 -at- hotmail.com>>
+  * Francisco Vila <<francisco.vila -at- hispalinux.es>>
+  * Adrián González Alba <<correoadrian82 -at- hotmail.com>>
+  * Miguel Giménez <<webmaster -at- solener.com>>
 * Swedish (sv)
-  * Jonas Rydberg <<jonas@drevo.se>>
-  * Kaj G Backas <<kgb@compart.fi>>
+  * Jonas Rydberg <<jonas -at- drevo.se>>
+  * Kaj G Backas <<kgb -at- compart.fi>>
 * Tamil (ta)
-  * DINAKAR T.D. <<td.dinkar@gmail.com>>
+  * DINAKAR T.D. <<td.dinkar -at- gmail.com>>
 * Turkish (tr)
-  * Hakki Dogusan <<dogusanh@dynaset.org>>
-  * Kaya Zeren <<kayazeren@gmail.com>>
+  * Hakki Dogusan <<dogusanh -at- dynaset.org>>
+  * Kaya Zeren <<kayazeren -at- gmail.com>>
 * Ukrainian (uk)
-  * Yuri Chornoivan <<yurchor@ukr.net>>
-  * Eugene Manko <<manko@salingshot.co.nz>>
-  * Ylia K <<k_ilya@ukr.net>>
+  * Yuri Chornoivan <<yurchor -at- ukr.net>>
+  * Eugene Manko <<manko -at- salingshot.co.nz>>
+  * Ylia K <<k_ilya -at- ukr.net>>
 * Valencian (Southern Catalan) (ca@valencia)
-  * Robert Millan <<rmh@aybabtu.com>>
+  * Robert Millan <<rmh -at- aybabtu.com>>
 * Vietnamese (vi)
-  * Tran Ngoc Quan <<vnwildman@gmail.com>>
+  * Tran Ngoc Quan <<vnwildman -at- gmail.com>>
