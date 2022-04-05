@@ -157,6 +157,7 @@ wxWidgets translations. Here are the steps you should follow:
   * Bambang Purnomosidi D. P. <<bambang@3wsi.com>>
   * Rahmat Bambang <<doplank@gmx.com>>
 * Italian (it)
+  * Roberto Boriotti <<roberto.boriotti@canon.it>>
   * bovirus <<bovirus@libero.it>>
   * Mattia Barbon <<mbarbon@cpan.org>>
   * Marco Cavallini <<m.cavallini@koansoftware.com>>
