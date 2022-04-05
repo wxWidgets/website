@@ -18,7 +18,7 @@ The latest stable release, 3.0.5, was released on April 25th, 2020. We probably 
 
 New development happens on 3.1 branch. The latest version is 3.1.6, released on April 4, 2022. It will be followed by 3.2.0, which will become the new stable branch, soon.
 
-The only remaining change that we still plan to implement before 3.2.0 release is the addition of the [new API for customizing native file dialogs][https://github.com/wxWidgets/wxWidgets/issues/14770].
+The only remaining change that we still plan to implement before 3.2.0 release is the addition of the [new API for customizing native file dialogs](https://github.com/wxWidgets/wxWidgets/issues/14770).
 
 ## Further plans
 
