@@ -103,6 +103,8 @@ wxWidgets translations. Here are the steps you should follow:
   * Walter Cheuk <<wwycheuk -at- gmail.com>>
   * pal.tw <<pal.tw -at- yahoo.com.tw>>
   * Yi-Jyun Pan <<pan93412 -at- gmail.com>>
+* Corsican (co)
+  * Patriccollu <<patriccollu -at- gmail.com >>
 * Croatian (hr)
   * Milo Ivir <<mail -at- milotype.de>>
 * Czech (cs)
