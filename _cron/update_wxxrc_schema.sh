@@ -1,12 +1,11 @@
 #!/bin/sh
 
-# Set WX_SITE_DIR before running this script.
+# This script relies on WX_SITE_DIR being set and wxWidgets sources
+# being available in its wxWidgets subdirectory.
 
-SOURCE="https://raw.githubusercontent.com/wxWidgets/wxWidgets/master/misc/schema"
+SOURCE_DIR="$WX_SITE_DIR/wxWidgets/misc/schema"
 DESTINATION="$WX_SITE_DIR/schemas/"
 
 mkdir -p "$DESTINATION"
-cd "$DESTINATION"
-curl -O "$SOURCE/xrc_schema.rnc"
-curl -O "$SOURCE/xrc_schema_builtin_only.rnc"
+cp "$SOURCE_DIR/xrc_schema.rnc" "$SOURCE_DIR/xrc_schema_builtin_only.rnc" "$DESTINATION"
 

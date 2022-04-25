@@ -14,10 +14,13 @@ jobs:
     env:
       WX_SITE_DIR: ${{ github.workspace }}
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+      - name: Checkout Website
+        uses: actions/checkout@v3
+      - name: Checkout wxWidgets
+        uses: actions/checkout@v3
         with:
-          persist-credentials: 'false'
+          repository: wxWidgets/wxWidgets
+          path: wxWidgets
       - name: Yarn Install
         run: yarn
       - name: Compile Assets
@@ -40,8 +43,6 @@ jobs:
         run: ruby update_release_info.rb
       - name: Update Download Stats
         run: ruby _cron/update_download_stats.rb
-      - name: Download Locales
-        run: svn checkout https://github.com/wxWidgets/wxWidgets/trunk/locale/ _cron/locale
       - name: Update Translation Stats
         run: sudo apt install gettext && ./_cron/update_translation_stats.sh
       - name: Update wxXRC Schema
