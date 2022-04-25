@@ -1,10 +1,10 @@
 #!/bin/sh
 
-# Set WX_SITE_DIR before running this script, and also run:
-# svn checkout https://github.com/wxWidgets/wxWidgets/trunk/locale/
+# This script relies on WX_SITE_DIR being set and wxWidgets sources
+# being available in its wxWidgets subdirectory.
 
 MSGFMT='msgfmt'
-CATALOGS_DIR="$WX_SITE_DIR/_cron/locale"
+CATALOGS_DIR="$WX_SITE_DIR/wxWidgets/locale"
 STATUS_FILE="$WX_SITE_DIR/about/translations/stats.js"
 
 cd $CATALOGS_DIR
