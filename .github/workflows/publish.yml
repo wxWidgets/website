@@ -6,6 +6,7 @@ on:
       - master
   schedule:
     - cron:  '22 7 * * *'
+  workflow_dispatch:
 
 jobs:
   publish:
@@ -48,7 +49,7 @@ jobs:
       - name: Build
         run: bundle exec jekyll build
       - name: Upload
-        if: github.repository_owner == 'wxWidgets'
+        if: github.repository_owner == 'wxWidgets' && github.ref == 'refs/heads/master'
         env:
           REMOTE_KEY: ${{secrets.REMOTE_KEY}}
           REMOTE_PATH: ${{secrets.REMOTE_PATH}}
