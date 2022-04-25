@@ -8,7 +8,6 @@ CATALOGS_DIR="$WX_SITE_DIR/_cron/locale"
 STATUS_FILE="$WX_SITE_DIR/about/translations/stats.js"
 
 cd $CATALOGS_DIR
-svn update > /dev/null 2>&1
 
 echo 'processTranslationStats({' > $STATUS_FILE
 
