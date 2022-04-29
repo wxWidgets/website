@@ -82,16 +82,6 @@ page on the community wiki.
       project in popular IDE Code::Blocks.
     </p>
   </li>
-  <li class="list-group-item">
-    <h5 class="mb-1">
-      <a href="http://www.litwindow.com/Knowhow/Intellisense/intellisense.html">
-        Intellisense and wxWidgets
-      </a>
-    </h5>
-    <p class="mb-0">
-      How to get MS Visual Studio Intellisense working with wxWidgets.
-    </p>
-  </li>
 </div>
 
 
