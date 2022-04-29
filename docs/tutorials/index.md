@@ -39,6 +39,19 @@ page on the community wiki.
   </li>
   <li class="list-group-item">
     <h5 class="mb-1">
+      <a href="http://www.informit.com/articles/article.asp?p=606222&amp;rl=1">
+        Programming C++ GUIs with the wxWidgets Library
+      </a>
+    </h5>
+    <p class="mb-0">
+      The wxWidgets library makes programming GUIs incredibly easy, far easier
+      than with most platform APIs. Jeff Cogswell shows how this handy C++
+      library can shorten your programming time with powerful classes that are
+      simple to use. Written by Jeff Cogswell.
+    </p>
+  </li>
+  <li class="list-group-item">
+    <h5 class="mb-1">
       <a href="http://zetcode.com/gui/wxwidgets/">
         Intermediate wxWidgets Tutorial
       </a>
@@ -67,19 +80,6 @@ page on the community wiki.
       show how to build wxWidgets using MinGW with various parameters affecting
       the resulting build. It also describes in detail setting-up a wxWidgets
       project in popular IDE Code::Blocks.
-    </p>
-  </li>
-  <li class="list-group-item">
-    <h5 class="mb-1">
-      <a href="http://www.informit.com/articles/article.asp?p=606222&amp;rl=1">
-        Programming C++ GUIs with the wxWidgets Library
-      </a>
-    </h5>
-    <p class="mb-0">
-      The wxWidgets library makes programming GUIs incredibly easy, far easier
-      than with most platform APIs. Jeff Cogswell shows how this handy C++
-      library can shorten your programming time with powerful classes that are
-      simple to use. Written by Jeff Cogswell.
     </p>
   </li>
   <li class="list-group-item">
