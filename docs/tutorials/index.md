@@ -55,6 +55,20 @@ page on the community wiki.
 ## IDE Setup/Configuration
 
 <div class="list-group my-3">
+<li class="list-group-item">
+    <h5 class="mb-1">
+      <a href="https://github.com/PBfordev/wxpbguide">
+        Starting with wxWidgets using MinGW and Code::Blocks
+      </a>
+    </h5>
+    <p class="mb-0">
+      The Microsoft Windows specific guide hopes to assist the readers with
+      decisions regarding which wxWidgets version and configuration to use and
+      show how to build wxWidgets using MinGW with various parameters affecting
+      the resulting build. It also describes in detail setting-up a wxWidgets
+      project in popular IDE Code::Blocks.
+    </p>
+  </li>
   <li class="list-group-item">
     <h5 class="mb-1">
       <a href="http://www.informit.com/articles/article.asp?p=606222&amp;rl=1">
