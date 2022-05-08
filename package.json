@@ -5,9 +5,9 @@
   "homepage": "https://www.wxwidgets.org/",
   "scripts": {
     "css": "node node_modules/npm-run-all/bin/run-s/index.js css-compile css-prefix css-minify",
-    "css-compile": "node node_modules/node-sass/bin/node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 _assets/scss/global.scss assets/css/global.css",
+    "css-compile": "node node_modules/sass/sass.js _assets/scss/global.scss assets/css/global.css",
     "css-prefix": "node node_modules/postcss-cli/index.js --use autoprefixer --replace \"assets/css/*.css\" \"!assets/css/*.min.css\"",
-    "css-minify": "node node_modules/clean-css-cli/bin/cleancss -O1 --source-map-inline-sources --output assets/css/global.min.css node_modules/bootstrap/dist/css/bootstrap.min.css \"node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css\" assets/css/global.css",
+    "css-minify": "node node_modules/clean-css-cli/bin/cleancss -O1 --source-map-inline-sources --output assets/css/global.min.css \"node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.css\" assets/css/global.css",
     "js": "node node_modules/npm-run-all/bin/run-s/index.js js-minify",
     "js-minify": "node node_modules/uglify-js/bin/uglifyjs --compress --mangle --comments \"/^!/\" --source-map \"includeSources,url=global.min.js.map\" --output assets/js/global.min.js node_modules/jquery/dist/jquery.min.js node_modules/popper.js/dist/umd/popper.js node_modules/bootstrap/dist/js/bootstrap.min.js \"node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js\" _assets/js/*.js",
     "dist": "node node_modules/npm-run-all/bin/run-p/index.js css js"
@@ -32,11 +32,11 @@
     "bootstrap": "^4.6.1",
     "clean-css-cli": "^5.4.2",
     "jquery": "~3.6.0",
-    "node-sass": ">=6.0.1",
     "npm-run-all": "^4.1.5",
     "popper.js": "^1.16.1",
     "postcss": "^8.4.4",
     "postcss-cli": "^9.0.2",
+    "sass": "^1.51.0",
     "uglify-js": "^3.9.1"
   }
 }
