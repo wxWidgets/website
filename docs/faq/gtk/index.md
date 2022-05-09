@@ -80,7 +80,22 @@ key event handlers for the panel, not the frame.
 
 <a name="debugging"></a>
 
-### How do I trace the cause of an X11 error such as BadMatch?
+### What can I do about GTK debug messages?
 
-When a fatal X11 error occurs, the application quits with no stack trace. To
-find out where the problem is, put a breakpoint on g_log (`b g_log` in gdb).
+Unfortunately programs using GTK often output scarily looking messages on the
+standard error stream, which is connected to the controlling terminal by
+default. Please be aware that most of these messages, even those using
+"CRITICAL" severity, are not actually harmful and can be just ignored.
+
+If these messages are annoying for the users of your application (although
+most users probably won't see them, as they wouldn't be running the program
+from the terminal), you can use `wxApp::GTKSuppressDiagnostics()` function to
+disable them.
+
+If you'd like to make sure these messages don't indicate some problem, you
+need to debug your program to see where exactly are they coming from. The
+simplest way to do it is to run the program under a debugger, such as gdb, and
+put a breakpoint on the function used for logging these message (`g_log` in
+GTK 2, `g_log_writer_standard_streams` in GTK 3) and then look at the stack to
+determine which wxGTK function results in them -- and possibly report an issue
+in wxGTK if the message actually indicates a problem.
