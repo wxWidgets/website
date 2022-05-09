@@ -18,9 +18,8 @@ See also [top-level FAQ page](/docs/faq/).
 
 ### What is wxGTK?
 
-wxGTK is a port of wxWidgets to the [GTK toolkit](http://www.gtk.org/). It is
-the default port used (if available) on all Linux and Unix platforms except for
-Mac OS X.
+wxGTK is a port of wxWidgets to the [GTK toolkit](https://www.gtk.org/). It is
+the default port used (if available) on all Linux and Unix platforms.
 
 <a name="xim"></a>
 
@@ -68,7 +67,7 @@ Other features may be supported in the future, probably as a separate library.
 
 ### Can I statically link the GTK library?
 
-No, this is not possible. It leads to crashes in GTK.
+No, this is not possible. This is not supported by GTK itself.
 
 <a name="charinframe"></a>
 
