@@ -86,9 +86,13 @@ To create a fresh News post, you can run:
 ```
 
 This will create the post file, and fill in all necessary YAML front matter.
-Then simply write your post in Markdown after the `---` marker. By default, the
-script will enable comments on your post. If this isn't desired, find `comments`
-in the YAML front matter, and change it from `true` to `false`.
+Then simply write your post in Markdown after the `---` marker.
+
+By default, the script will enable comments on your post. If this isn't desired,
+find `comments` in the YAML front matter, and change it from `true` to `false`.
+
+Also by default, new posts will be promoted on the home page. If this isn't
+desired, add `promoted: false` in the YAML front matter.
 
 For the blog posts, just use `./new_blog` instead of `new_post`, otherwise the
 behaviour is exactly the same.
