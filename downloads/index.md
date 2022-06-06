@@ -40,6 +40,8 @@ compilers:
     id: gcc1020
   - description: "MSYS2 MinGW-w64 11.2"
     id: gcc1120
+  - description: "MSYS2 MinGW-w64 12.1"
+    id: gcc1210
   - description: "Visual Studio 2008"
     id: vc90
   - description: "Visual Studio 2010"
@@ -128,7 +130,7 @@ are available below.
         </button> <br/>
 
         wxMSW DLLs for the selected compilers are available.
-        For more details see <a href="https://docs.wxwidgets.org/3.1.6/plat_msw_binaries.html">here</a><br />
+        For more details see <a href="https://docs.wxwidgets.org/3.1.7/plat_msw_binaries.html">here</a><br />
 
         <br />
         Thanks to <a href="https://codelite.org/">CodeLite</a> team, binaries for common Linux distributions
