@@ -11,14 +11,14 @@ Windows versions in some cases. To be more precise, `wxFileDialog` switched to
 using the old-looking dialog when its `SetExtraControlCreator()` function was
 called to add some custom controls to it, resulting in dialogs like this:
 
-<img src="custom_old.png" class="img-fluid" alt="Screenshot of old-style dialog">
+<img src="/blog/2022/06/custom-controls-in-file-dialogs-in-3.2.0/custom_old.png" class="img-fluid" alt="Screenshot of old-style dialog">
 
 [1]: https://github.com/wxWidgets/wxWidgets/issues/14770
 
 This will finally be fixed in wxWidgets 3.2.0 where the same dialogs now looks
 as expected:
 
-<img src="custom_new.png" class="img-fluid" alt="Screenshot of new-style dialog">
+<img src="/blog/2022/06/custom-controls-in-file-dialogs-in-3.2.0/custom_new.png" class="img-fluid" alt="Screenshot of new-style dialog">
 
 provided the new [SetCustomizeHook()][2] function is used to customize the
 dialog instead.
