@@ -502,7 +502,7 @@ pricing and free trials, bringing CFD within the reach of everyone.
 schematic diagrams and printed circuit board artwork. Available for Windows and
 Linux.
 
-[kicad]: http://iut-tice.ujf-grenoble.fr/kicad/index.html
+[kicad]: https://www.kicad.org/
 
 
 ## Kephra
