@@ -79,7 +79,7 @@ For anyone involved in writing translations for wxWidgets.
 * Unsubscribe: <wx-translators+unsubscribe@googlegroups.com>
 * Archives: [Google Group][wx-translators-group]
 
-[wx-translators-group]: https://groups.google.com/forum/?fromgroups#!forum/wx-translators
+[wx-translators-group]: https://groups.google.com/g/wx-translators
 
 ### Source Code Updates List
 
