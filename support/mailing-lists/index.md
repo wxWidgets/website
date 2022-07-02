@@ -70,6 +70,17 @@ list are moderated.
 
 [wx-announce-group]: https://groups.google.com/g/wx-announce
 
+### Translators List
+
+For anyone involved in writing translations for wxWidgets.
+
+* To Post: <wx-translators@googlegroups.com>
+* Subscribe: <wx-translators+subscribe@googlegroups.com>
+* Unsubscribe: <wx-translators+unsubscribe@googlegroups.com>
+* Archives: [Google Group][wx-translators-group]
+
+[wx-translators-group]: https://groups.google.com/forum/?fromgroups#!forum/wx-translators
+
 ### Source Code Updates List
 
 This list is for the convenience of any developers that wish to recieve

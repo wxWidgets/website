@@ -68,11 +68,15 @@ wxWidgets translations. Here are the steps you should follow:
 * Send the finished translation to [Vadim Zeitlin][5] and it will be added to
   the next wxWidgets release or snapshot.
 
+In addition, please consider subscribing to the [translators mailing list][6]
+where special announcements for translators are announced.
+
 [1]: https://raw.githubusercontent.com/wxWidgets/wxWidgets/master/locale/wxstd.pot
 [2]: http://www.loc.gov/standards/iso639-2/php/English_list.php
 [3]: http://www.iso.org/iso/prods-services/iso3166ma/02iso-3166-code-lists/country_names_and_code_elements
 [4]: http://www.poedit.net/
 [5]: mailto:vadim@wxwidgets.org
+[6]: /support/mailing-lists/
 
 ## Translators
 
