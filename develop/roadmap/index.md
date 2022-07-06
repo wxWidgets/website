@@ -10,16 +10,17 @@ Because of compatibility constraints, the releases in the stable branch generall
 
 Please notice that all dates given in the roadmap are ''very'' tentative. Due to the nature of open source projects there is no warranty that developers have enough time to make things happen as planned. Being a purely voluntary effort, wxWidgets development doesn't always advance as quickly as we'd like it too -- but your contributions are welcome to speed it up!
 
-## Current stable branch: 3.0.x
+## Current stable branch: 3.2.x
 
-The latest stable release, 3.0.5, was released on April 25th, 2020. We probably will make at least one other bug fix release in the 3.0.x series, which started with 3.0.0 back on November 11th, 2013.
+The latest stable release is 3.2.0, released on 2022-07-07. This is the first release in the new 3.2 branch and will be followed by a few more releases preserving API _and_ ABI compatibility, next of which will probably happen in the autumn of 2022.
 
-## Development branch and 3.2
+## Development branch and 3.3
 
-New development happens on 3.1 branch. The latest version is 3.1.7, released
-on June 6, 2022. This is the final release in 3.1.x series and the next
-planned release is 3.2.0 in July 2022, which will start the new stable 3.2
-branch.
+New development happens on the master branch. There are no concrete plans for the next release in this branch yet.
+
+## Old stable branch: 3.0.x
+
+The latest release in the previous stable branch, 3.0.5, was released on April 25th, 2020, and is compatible with 3.0.0 released back on November 11th, 2013.
 
 ## Further plans
 
