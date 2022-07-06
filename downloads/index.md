@@ -93,8 +93,8 @@ are available below.
 {% for release in site.data.releases %}
 <a name="v{{ release.version }}"></a>
 <a name="v{{ release.version }}_msw"></a>
-<a name="{{ release.channel | downcase }}"></a>
-## Latest {{ release.channel }} Release: {{ release.version }}
+<a name="{{ release.channel }}"></a>
+## {{ release.description }} Release: {{ release.version }}
 
 <p class="text-muted mb-0">Released: {{ release.released }}</p>
 {% if release.stable_api_since %}
@@ -130,7 +130,7 @@ are available below.
         </button> <br/>
 
         wxMSW DLLs for the selected compilers are available.
-        For more details see <a href="https://docs.wxwidgets.org/3.1.7/plat_msw_binaries.html">here</a><br />
+        For more details see <a href="https://docs.wxwidgets.org/3.2.0/plat_msw_binaries.html">here</a><br />
 
         <br />
         Thanks to <a href="https://codelite.org/">CodeLite</a> team, binaries for common Linux distributions
@@ -242,7 +242,7 @@ are available below.
 {% endfor %}
 
 <a name="v2.8.12"></a>
-## Previous Stable Release: 2.8.12
+## Ancient Stable Release: 2.8.12
 
 <p class="text-muted mb-0">Released: March 28th, 2011</p>
 <p class="text-muted mb-0">API Stable Since: December 11th, 2006</p>
