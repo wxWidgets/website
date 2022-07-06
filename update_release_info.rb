@@ -9,8 +9,12 @@ require 'json'
 require 'open-uri'
 
 # Remove current release asset information
-Dir['_data/release_assets/*.json'].each do |info_file_name|
-  File.delete(info_file_name)
+if Dir.exist?('_data/release_assets') then
+  Dir['_data/release_assets/*.json'].each do |info_file_name|
+    File.delete(info_file_name)
+  end
+else
+  Dir.mkdir('_data/release_assets')
 end
 
 # Download updated release asset information
