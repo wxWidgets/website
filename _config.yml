@@ -3,6 +3,8 @@
 url: https://www.wxwidgets.org
 permalink: /news/:year/:month/:title/
 
+future: true
+
 defaults:
   -
     scope:
