@@ -20,7 +20,7 @@ release_info.each do |release|
   asset_info_url = 'https://api.github.com/repos/wxWidgets/wxWidgets/releases/tags/v%s' % version
 
   puts 'Updating asset info for %s...' % version
-  download = open(asset_info_url)
+  download = URI.open(asset_info_url)
   data = JSON.parse(download.read)
   File.open('_data/release_assets/%s.json' % version, 'w+') do |f| 
     f.write(JSON.pretty_generate(data))
