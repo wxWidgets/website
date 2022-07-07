@@ -37,7 +37,7 @@ wxWidgets currently supports the following platforms:
 * **wxGTK**: The recommended port for Linux and other Unix variants, using GTK+
   version 2.6 or higher.
 * **wxMSW**: The port for 32-bit and 64-bit Windows variants including Windows
-  XP, Vista, 7, 8 and 10.
+  XP, Vista, 7, 8, 10 and 11.
 * **wxOSX/Cocoa**: For delivering Cocoa-based applications on macOS 10.10 and
   above.
 * **wxQt**: wxQt is a port of wxWidgets using Qt libraries. It requires Qt 5 or later.
@@ -46,7 +46,7 @@ wxWidgets currently supports the following platforms:
 * **wxMotif**: A port for Linux and Unix variants using OpenMotif or Lesstif
   widget sets.
 
-*Additionally* the following legacy platforms are supported by the current stable 3.0 release:
+*Additionally* the following legacy platforms are supported by the old stable 3.0 release:
 
 * **wxMSW**: Legacy 32-bit Windows versions like Windows 95, Windows 98, Windows 2000
 * **wxMac**: For delivering Carbon applications on Mac OS X 10.2 through 10.6.
@@ -83,7 +83,7 @@ basic message box to a print preview window. Other areas include:
 You may find it helpful to browse the [reference manual][1] to get a feel for
 supported functionality.
 
-[1]: https://docs.wxwidgets.org/trunk/page_class_cat.html
+[1]: https://docs.wxwidgets.org/latest/page_class_cat.html
 
 
 ## The wxWidgets License
