@@ -11,9 +11,10 @@ the manual is also available, built nightly.
 
 <div class="row my-3 justify-content-md-center">
   <div class="col-md-6">
+    <p><a href="https://docs.wxwidgets.org/3.2/" class="btn btn-outline-primary btn-lg btn-block" role="button">3.2 Online Manual</a></p>
     <p><a href="https://docs.wxwidgets.org/3.0/" class="btn btn-outline-primary btn-lg btn-block" role="button">3.0 Online Manual</a></p>
     <p><a href="https://docs.wxwidgets.org/2.8/" class="btn btn-outline-primary btn-lg btn-block" role="button">2.8 Online Manual</a></p>
-    <p><a href="https://docs.wxwidgets.org/trunk/" class="btn btn-outline-primary btn-lg btn-block" role="button">Development Manual</a></p>
+    <p><a href="https://docs.wxwidgets.org/latest/" class="btn btn-outline-primary btn-lg btn-block" role="button">Development Manual</a></p>
   </div>
 </div>
 

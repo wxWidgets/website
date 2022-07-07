@@ -31,7 +31,7 @@ title: "Developers"
     <p>
       <ul>
         <li><a href="https://github.com/wxWidgets/wxWidgets/">Browse Source Online (GitHub)</a></li>
-        <li><a href="https://docs.wxwidgets.org/trunk/">Development Manual (rebuilt daily)</a></li>
+        <li><a href="https://docs.wxwidgets.org/latest/">Development Manual (rebuilt daily)</a></li>
       </ul>
     </p>
   </div>

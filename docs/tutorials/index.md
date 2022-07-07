@@ -13,7 +13,7 @@ page on the community wiki.
 <div class="list-group my-3">
   <li class="list-group-item">
     <h5 class="mb-1">
-      <a href="https://docs.wxwidgets.org/trunk/overview_helloworld.html">
+      <a href="https://docs.wxwidgets.org/latest/overview_helloworld.html">
         'Hello world' in wxWidgets: A Very Short Tutorial
       </a>
     </h5>
@@ -32,7 +32,7 @@ page on the community wiki.
       sizers work. They are quite powerful, but sometimes unintuitive. This is
       intended as a guide to aid in understanding what all those parameters do.
       By Brian Victor. Please notice that this tutorial hasn't been updated to
-      use <a href="https://docs.wxwidgets.org/trunk/classwx_sizer_flags.html">wxSizerFlags</a>,
+      use <a href="https://docs.wxwidgets.org/latest/classwx_sizer_flags.html">wxSizerFlags</a>,
       so while the concepts presented in it are still relevant, it doesn't use
       the preferred API.
     </p>
