@@ -134,7 +134,7 @@ are available below.
 
         <br />
         Thanks to <a href="https://codelite.org/">CodeLite</a> team, binaries for common Linux distributions
-        are also available, please see <a href="https://docs.codelite.org/wxWidgets/repo315/">the instructions</a>
+        are also available, please see <a href="https://docs.codelite.org/wxWidgets/repo320/">the instructions</a>
         for using their repository, which contains packages for:
         <ul>
           <li><a href="{{ release.bin_url_debian }}" target="_new">Debian / Ubuntu</a></li>
