@@ -139,6 +139,8 @@ where special announcements for translators are announced.
   * Leandro Regueiro <<leandro.regueiro -at- gmail.com>>
   * Adrián González Alba <<correoadrian82 -at- hotmail.com>>
   * Nuria Andión <<nandiez -at- gmail.com>>
+* Georgian (ka)
+  * Temuri Doghonadze <<temuri.doghonadze -at- gmail.com>>
 * German (de)
   * Daniel Reith <<danr -at- gmx.de>>
   * Gerhard Gruber <<sparhawk -at- aon.at>>
