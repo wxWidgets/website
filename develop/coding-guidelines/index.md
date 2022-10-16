@@ -39,8 +39,8 @@ code, this document should be considered authoritative.
   * [Use `//` for most comments](#comments_style)
   * [Don't use `void` for functions without arguments](#no_void_param)
   * [Don't use `const` for non pointer/reference arguments](#no_const_int)
-  * [Use `NULL` rather than `0`](#null_not_zero)
-  * [Use `wxOVERRIDE` for overridden virtual methods](#use_override)
+  * [Use `nullptr` rather than `0`](#null_not_zero)
+  * [Use `override` for overridden virtual methods](#use_override)
   * [Use `wxFALLTHROUGH` in `switch` statements](#use_fallthrough)
 * Restrictions on C++ Features
   * [Don't use exceptions](#no_exceptions)
@@ -174,10 +174,6 @@ headers not included by `wx/wxprec.h` need to be included in any case.
 
 ```cpp
 #include "wx/wxprec.h"
-
-#ifdef __BORLANDC__
-#pragma hdrstop
-#endif
 
 #ifndef WX_PRECOMP
 #include "wx/msgdlg.h" // This header is normally included from wx/wx.h
@@ -530,25 +526,20 @@ Of course, it doesn't apply to functions such as
 
 <a name="null_not_zero"></a>
 
-#### <i class="fas fa-check-square fa-fw"></i> Use `NULL` rather than `0`
+#### <i class="fas fa-check-square fa-fw"></i> Use `nullptr` rather than `0`
 
-We have chosen to use the standard `NULL` macro in the expressions involving
-the pointers instead of just the constant `0`. Although both are perfectly
-equivalent in this context, we feel that using `NULL` provides better
-readability and stands out better.
+Always use `nullptr` in the expressions involving the pointers instead of
+just the constant `0`.
 
 A related advice is to use `'\0'` instead of `0` in the expressions involving
 `char` types.
 
-Notice that `nullptr` can't be used in wxWidgets code as it must remain
-compatible with non-C++11 compilers.
-
 
 <a name="use_override"></a>
 
-#### <i class="fas fa-check-square fa-fw"></i> Use `wxOVERRIDE` for overridden virtual methods
+#### <i class="fas fa-check-square fa-fw"></i> Use `override` for overridden virtual methods
 
-When overriding a virtual method of the base class, use `wxOVERRIDE` in its
+When overriding a virtual method of the base class, use `override` in its
 declaration like this:
 
 ```cpp
@@ -561,16 +552,13 @@ public:
 class Derived : public Base
 {
 public:
-        void DoSomething() wxOVERRIDE;
+        void DoSomething() override;
 };
 ```
 
-`wxOVERRIDE` macro will be expanded into `override` keyword if the compiler
-supports it (i.e. C++11) or nothing otherwise.
-
-Notice that the `virtual` keyword is redundant as `wxOVERRIDE` already
+Notice that the `virtual` keyword is redundant as `override` already
 identifies the method as being virtual, so it can be omitted, even in most of
-the existing code both keywords are used together as `wxOVERRIDE` is a
+the existing code both keywords are used together as `override` is a
 relatively recent addition and was just added to the existing method
 declarations.
 
@@ -599,8 +587,8 @@ switch ( keycode )
 }
 ```
 
-The use of this macro allows to enable warnings given by some compilers
-(notably Clang) about unintentional fall through, which is a common bug.
+The use of this macro allows to enable warnings given by newer compilers
+about unintentional fall through, which is a common bug.
 
 
 ### Restrictions on C++ features
