@@ -175,10 +175,6 @@ headers not included by `wx/wxprec.h` need to be included in any case.
 ```cpp
 #include "wx/wxprec.h"
 
-#ifdef __BORLANDC__
-#pragma hdrstop
-#endif
-
 #ifndef WX_PRECOMP
 #include "wx/msgdlg.h" // This header is normally included from wx/wx.h
 #endif
