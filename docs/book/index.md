@@ -33,27 +33,39 @@ started, compiling both the wxWidgets library and your own first wxWidgets
 applications.
 
 
-## Where to Buy
+## Digital PDF Download
 
 <div class="float-right ml-2 mb-2">
-  <a href="http://www.amazon.com/gp/product/0131473816">
+  <a href="Cross-Platform GUI Programming with wxWidgets.pdf">
     <img src="wxbook.jpg" class="img-thumbnail" alt="Cross-Platform GUI Programming with wxWidgets">
   </a>
-  <a class="btn btn-lg btn-block btn-primary mt-2" href="http://www.amazon.com/gp/product/0131473816">Buy on Amazon.com</a>
+  <a class="btn btn-lg btn-block btn-primary mt-2" href="Cross-Platform GUI Programming with wxWidgets.pdf">Download PDF</a>
 </div>
 
-The wxWidgets book is available to be read online by subscribing to
-[Safari Books Online][2].
+Like all books in the Bruce Perens' Open Source Series, this book is licensed
+under the Open Publication License, and is available as a [free PDF][pdf]. This
+does not include any CD-ROM contents included in the paperback though.
 
-[2]: http://www.safaribooksonline.com/
+The wxWidgets book is also available to be read online by subscribing to
+[O’Reilly][2].
 
-In addition to Amazon, the book can be ordered from:
+[pdf]: Cross-Platform GUI Programming with wxWidgets.pdf
+[2]: https://www.oreilly.com/library/view/cross-platform-gui-programming/0131473816/
 
-* [Blackwell's](http://www.blackwell.co.uk/), UK
-* [Barnes and Noble](http://www.barnesandnoble.com/), US
 
-We will be monitoring where else the book is available. The authors do not
-currently sell the book directly.
+## Where to Buy as Paperback
+
+The book is out of print, and can be difficult to find new, but many used copies
+can still be found as well. Here's a quick list of retailers that have been
+known to have copies available:
+
+* [Amazon.com](https://www.amazon.com/gp/product/0131473816)
+* [AbeBooks](https://www.abebooks.com/9780131473812/Cross-Platform-Gui-Programming-wxWidgets-Smart-0131473816/plp)
+* [Alibris](https://www.alibris.com/booksearch?keyword=9780131473812)
+* [Biblio](https://biblio.co.nz/9780131473812)
+* [Valore](https://www.valorebooks.com/textbooks/cross-platform-gui-programming-with-wxwidgets/9780131473812)
+
+The authors do not currently sell the book directly.
 
 Thank you for your support!
 
