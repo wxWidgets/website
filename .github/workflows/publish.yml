@@ -44,7 +44,9 @@ jobs:
       - name: Update Download Stats
         run: ruby _cron/update_download_stats.rb
       - name: Update Translation Stats
-        run: sudo apt install gettext && ./_cron/update_translation_stats.sh
+        run: |
+          sudo apt-get install -qq gettext
+          ./_cron/update_translation_stats.sh
       - name: Update wxXRC Schema
         run: _cron/update_wxxrc_schema.sh
       - name: Build
