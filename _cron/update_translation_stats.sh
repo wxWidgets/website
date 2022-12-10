@@ -9,6 +9,8 @@ STATUS_FILE="$WX_SITE_DIR/about/translations/stats.js"
 
 cd $CATALOGS_DIR
 
+rm -f $STATUS_FILE
+
 echo 'processTranslationStats({' > $STATUS_FILE
 
 for i in ${CATALOGS_DIR}/*.po ; do
