@@ -218,6 +218,8 @@ where special announcements for translators are announced.
   * Dmitry Levichev <<d.levichev -at- gmail.com>>
   * Pavel Maryanov <<acid -at- jack.kiev.ua>>
   * Alexander Kovalenko <<nktch -at- yandex.ru>>
+* Serbian (sr)
+  * Nikola Jović <<wwenikola123 -at- gmail.com>>
 * Slovak (sk)
   * Ivan Masar <<helix84 -at- centrum.sk>>
   * jozef m <<jozef.m923 -at- gmail.com>>
