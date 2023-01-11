@@ -28,7 +28,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.0
+          ruby-version: '3.0'
           bundler-cache: true
       - name: Update Release Info
         run: ruby update_release_info.rb
