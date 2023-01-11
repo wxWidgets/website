@@ -17,4 +17,5 @@
 /about/translations/stats.js
 
 # Download stats files
+/_data/release_assets/*.json
 /downloads/downloads.json

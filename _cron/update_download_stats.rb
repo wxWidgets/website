@@ -15,7 +15,7 @@ release_info.each do |release|
   version = release['version']
   asset_info_url = 'https://api.github.com/repos/wxWidgets/wxWidgets/releases/tags/v%s' % version
 
-  download = open(asset_info_url)
+  download = URI.open(asset_info_url)
   data = JSON.parse(download.read)
 
   # Only a subset of data from github is required

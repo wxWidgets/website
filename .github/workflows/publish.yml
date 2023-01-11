@@ -10,7 +10,7 @@ on:
 
 jobs:
   publish:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     env:
       WX_SITE_DIR: ${{ github.workspace }}
     steps:
@@ -28,17 +28,8 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.6
-      - name: Bundle Cache
-        uses: actions/cache@v3
-        with:
-          path: vendor/bundle
-          key: bundle-ruby-2.6-ubuntu-20.04-${{ hashFiles('Gemfile.lock') }}
-          restore-keys: bundle-ruby-2.6-ubuntu-20.04-
-      - name: Bundle Install
-        run: |
-          bundle config path vendor/bundle
-          bundle install --jobs 4 --retry 3
+          ruby-version: 3.0
+          bundler-cache: true
       - name: Update Release Info
         run: ruby update_release_info.rb
       - name: Update Download Stats
