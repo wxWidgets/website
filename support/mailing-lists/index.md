@@ -46,18 +46,6 @@ email filters accordingly.
 
 [wx-dev-group]: https://groups.google.com/g/wx-dev
 
-### Discussion List
-
-This is a list for anyone to discuss the wxWidgets project, its future, etc.
-This list is not for technical discussions.
-
-* To Post: <wx-discuss@googlegroups.com>
-* Subscribe: <wx-discuss+subscribe@googlegroups.com>
-* Unsubscribe: <wx-discuss+unsubscribe@googlegroups.com>
-* Archives: [Google Group][wx-discuss-group]
-
-[wx-discuss-group]: https://groups.google.com/g/wx-discuss
-
 ### Announcement List
 
 A low-traffic list for announcements including releases. Messages sent to this
@@ -91,3 +79,18 @@ notifications of all changes in the wxWidgets source code repository.
 * Archives: [Google Group][wx-commits-diffs-group]
 
 [wx-commits-diffs-group]: https://groups.google.com/g/wx-commits-diffs
+
+### Discussion List (not actively used)
+
+A very low-traffic list that is mostly unused; please post to wx-users
+instead.
+
+This is a list for anyone to discuss the wxWidgets project, its future, etc.
+This list is not for technical discussions.
+
+* To Post: <wx-discuss@googlegroups.com>
+* Subscribe: <wx-discuss+subscribe@googlegroups.com>
+* Unsubscribe: <wx-discuss+unsubscribe@googlegroups.com>
+* Archives: [Google Group][wx-discuss-group]
+
+[wx-discuss-group]: https://groups.google.com/g/wx-discuss
