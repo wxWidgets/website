@@ -51,4 +51,4 @@ jobs:
           mkdir "$HOME/.ssh"
           echo "$REMOTE_KEY" > "$HOME/.ssh/remote_key"
           chmod 600 "$HOME/.ssh/remote_key"
-          rsync -crz --delete -e "ssh -i $HOME/.ssh/remote_key -o StrictHostKeyChecking=no" _site/ "$REMOTE_PATH"
+          rsync -crz --delete -e "ssh -i $HOME/.ssh/remote_key -o LogLevel=error -o StrictHostKeyChecking=no" _site/ "$REMOTE_PATH"
