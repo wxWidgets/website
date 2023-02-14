@@ -107,6 +107,7 @@ are available below.
 {% assign release_info = site.data.release_assets[release_id] %}
 {% assign release_assets = release_info.assets  %}
 {% assign version = "v" | append: release.version %}
+{% assign release_version_bin = release.version | split: "." |  slice: 0, 3 | join: "." %}
 
 <div class="row">
   <div class="col-sm-6">
@@ -186,7 +187,7 @@ are available below.
 <div class="accordion" id="accordionMSW{{ release_id }}">
         {% assign first_available_compiler = true %}
         {% for compiler in page.compilers reversed %}
-          {% assign asset_filename = "wxMSW-" | append: release.version | append: "_" | append: compiler.id | append: "_Dev.7z" %}
+          {% assign asset_filename = "wxMSW-" | append: release_version_bin | append: "_" | append: compiler.id | append: "_Dev.7z" %}
           {% assign dev_asset = release_assets | where: "name", asset_filename | first %}
 
           {% if dev_asset %}
@@ -210,7 +211,7 @@ are available below.
               <h6 class="card-subtitle text-muted">{{ architecture.description }}</h6>
               <p class="card-text ml-2">
               {% for bin in page.binaries %}
-                {% assign asset_filename = "wxMSW-" | append: release.version | append: "_" | append: compiler.id | append: architecture.postfix | append: "_" | append: bin.id | append: ".7z" %}
+                {% assign asset_filename = "wxMSW-" | append: release_version_bin | append: "_" | append: compiler.id | append: architecture.postfix | append: "_" | append: bin.id | append: ".7z" %}
                 {% assign asset = release_assets | where: "name", asset_filename | first %}
                 {% if asset %}
                 <a href="{{ asset.browser_download_url }}" class="wxdl_{{ asset.id }}">{{ bin.description }}</a> 
