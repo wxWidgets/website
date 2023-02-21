@@ -499,8 +499,8 @@ pricing and free trials, bringing CFD within the reach of everyone.
 </div>
 
 [KiCad][kicad] is an open source (GPL) application for designing electronic
-schematic diagrams and printed circuit board artwork. Available for Windows and
-Linux.
+schematic diagrams and printed circuit board artwork. Available for Windows,
+Linux, and Mac.
 
 [kicad]: https://www.kicad.org/
 
