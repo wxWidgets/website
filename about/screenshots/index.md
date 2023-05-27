@@ -4,6 +4,65 @@ title: "Screenshots"
 
 This is a small taste of some of the applications built with wxWidgets.
 
+
+## CopperCube
+
+<div class="row thumbnails">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="coppercube" href="coppercube-msw.jpg" title="CopperCube on Windows">
+      <img src="coppercube-msw-thumb.jpg" class="img-thumbnail" alt="CopperCube on Windows">
+    </a>
+  </div>
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="coppercube" href="coppercube-editor.jpg" title="CopperCube Editor">
+      <img src="coppercube-editor-thumb.jpg" class="img-thumbnail" alt="CopperCube Editor">
+    </a>
+  </div>
+</div>
+
+[CopperCube][coppercube], by Ambiera, is an editor for creating 3D apps, games
+and 3D websites. Import or create your 3D models, set camera controllers,
+materials, behaviors, click 'publish' and your app is ready. Create everything
+from simple model viewers to full 3D games as WebGL websites, Flash .swfs, Mac
+OS, Windows, or Android apps, all without programming.
+
+[coppercube]: http://www.ambiera.com/coppercube/
+
+
+## RocketCake
+
+<div class="row thumbnails">
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="rocketcake" href="rocketcake-msw-1.png" title="RocketCake on Windows">
+      <img src="rocketcake-msw-1-thumb.png" class="img-thumbnail" alt="RocketCake on Windows">
+    </a>
+  </div>
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="rocketcake" href="rocketcake-msw-2.png" title="RocketCake on Windows">
+      <img src="rocketcake-msw-2-thumb.png" class="img-thumbnail" alt="RocketCake on Windows">
+    </a>
+  </div>
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="rocketcake" href="rocketcake-mac-1.png" title="RocketCake on Mac OS X">
+      <img src="rocketcake-mac-1-thumb.png" class="img-thumbnail" alt="RocketCake on Mac OS X">
+    </a>
+  </div>
+  <div class="col-6 col-sm-3">
+    <a data-fancybox="rocketcake" href="rocketcake-mac-2.png" title="RocketCake on Mac OS X">
+      <img src="rocketcake-mac-2-thumb.png" class="img-thumbnail" alt="RocketCake on Mac OS X">
+    </a>
+  </div>
+</div>
+
+[RocketCake][rocketcake], by Ambiera, is a free web editor for creating
+responsive websites. For beginners and professional web developers. No
+programming needed. Rocket Cake has built in support for all important HTML
+elements: image galleries, slideshows, resizable containers, stylish buttons,
+gradients, HTML 5 video, audio, and more.
+
+[rocketcake]: http://www.ambiera.com/rocketcake/
+
+
 ## Hollywood
 
 <div class="row thumbnails">
@@ -27,6 +86,7 @@ conveniently create graphical user interfaces from XML files in a platform-indep
 
 [hollywood]: https://www.hollywood-mal.com/
 
+
 ## IvyBackup
 
 <div class="row thumbnails">
@@ -43,49 +103,6 @@ files from total or partial loss and ensures your files and documents are
 never left vulnerable.
 
 [ivybackup]: https://www.ivybackup.com/
-
-
-## CopperCube
-
-<div class="row thumbnails">
-  <div class="col-6 col-sm-3">
-    <a data-fancybox="coppercube" href="coppercube-msw.jpg" title="CopperCube on Windows">
-      <img src="coppercube-msw-thumb.jpg" class="img-thumbnail" alt="CopperCube on Windows">
-    </a>
-  </div>
-  <div class="col-6 col-sm-3">
-    <a data-fancybox="coppercube" href="coppercube-mac.jpg" title="CopperCube on Mac OS X">
-      <img src="coppercube-mac-thumb.jpg" class="img-thumbnail" alt="CopperCube on Mac OS X">
-    </a>
-  </div>
-</div>
-
-[CopperCube][coppercube], by Ambiera, is an editor for creating 3D apps, games
-and 3D websites. Import or create your 3D models, set camera controllers,
-materials, behaviors, click 'publish' and your app is ready. Create everything
-from simple model viewers to full 3D games as WebGL websites, Flash .swfs, Mac
-OS, Windows, or Android apps, all without programming.
-
-[coppercube]: http://www.ambiera.com/coppercube/
-
-
-## RocketCake
-
-<div class="row thumbnails">
-  <div class="col-6 col-sm-3">
-    <a data-fancybox="rocketcake" href="rocketcake-msw.jpg" title="RocketCake on Windows">
-      <img src="rocketcake-msw-thumb.jpg" class="img-thumbnail" alt="RocketCake on Windows">
-    </a>
-  </div>
-</div>
-
-[RocketCake][rocketcake], by Ambiera, is a free web editor for creating
-responsive websites. For beginners and professional web developers. No
-programming needed. Rocket Cake has built in support for all important HTML
-elements: image galleries, slideshows, resizable containers, stylish buttons,
-gradients, HTML 5 video, audio, and more.
-
-[rocketcake]: http://www.ambiera.com/rocketcake/
 
 
 ## ZepMan
