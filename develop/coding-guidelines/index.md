@@ -9,6 +9,11 @@ have to deal with all the platforms that the library itself supports, notably
 there is usually absolutely no reason to avoid the use of exceptions or the
 standard library in the application code.
 
+Please notice that these guidelines apply for wxWidgets version 3.3 and newer;
+older versions still do not allow using Modern C++ (i.e., C++11 and newer) nor
+using any standard container (e.g., vector) or smart pointer (e.g., unique_ptr)
+classes.
+
 Also notice that some parts of the existing code may not follow these
 guidelines, because it could have been written before the guidelines were put
 in place. However this is not a reason to not follow them for any new code. In
@@ -43,9 +48,9 @@ code, this document should be considered authoritative.
   * [Use `override` for overridden virtual methods](#use_override)
   * [Use `wxFALLTHROUGH` in `switch` statements](#use_fallthrough)
 * Restrictions on C++ Features
+  * [Don't use C++14 or newer](#cpp_standard)
   * [Don't use exceptions](#no_exceptions)
   * [Don't use RTTI](#no_rtti)
-  * [Don't use many standard library classes](#no_stl)
   * [Don't use alternative operator representations](#no_altlogicalops)
 * Code Quality
   * [Turn on all warnings and eradicate them](#no_warnings)
@@ -593,6 +598,13 @@ about unintentional fall through, which is a common bug.
 
 ### Restrictions on C++ features
 
+<a name="cpp_standard"></a>
+
+#### <i class="fas fa-check-square fa-fw"></i> Don't use C++14 or newer
+
+Unfortunately, wxWidgets has to support ancient GCC versions, so the only
+Modern C++ allowed is what C++11 offers.
+
 <a name="no_exceptions"></a>
 
 #### <i class="fas fa-check-square fa-fw"></i> Don't use exceptions
@@ -632,19 +644,6 @@ used as they don't require any run-time support.
 
 
 <a name="no_stl"></a>
-
-#### <i class="fas fa-check-square fa-fw"></i> Don't use many standard library classes
-
-To allow creation of self-contained applications which don't depend on C++
-standard library, wxWidgets still supports being built in a way which avoids
-all standard library dependencies.
-
-This means that the standard container, string, stream and other classes
-should not be used inside the library itself. The most commonly used standard
-library class is probably `std::vector<>` and wxWidgets provides `wxVector<>`
-covering 99% of its features and which can be used instead -- and preferred to
-the old style macro-based container classes.
-
 
 <a name="no_altlogicalops"></a>
 
