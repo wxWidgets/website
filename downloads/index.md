@@ -8,7 +8,7 @@ source_archives:
   - description: "Windows 7z"
     prefix: "wxWidgets-"
     postfix: ".7z"
-  - description: "Windows Installer"
+  - description: "Windows Installer (does <b>not</b> contain binaries)"
     prefix: "wxMSW-"
     postfix: "-Setup.exe"
   - description: "Source for Linux, macOS, etc"
@@ -128,12 +128,15 @@ are available below.
       <div class="card-header">Binaries</div>
       <div class="card-body">
 
+        DLLs for the selected compilers are available, please read
+        <a href="https://docs.wxwidgets.org/3.2.1/plat_msw_binaries.html">the instructions</a>
+        explaining how to use them.<br />
+
+        <br />
+
         <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#mswModal{{ release_id }}">
           <i class="fab fa-windows fa-fw"></i> Download Windows Binaries
         </button> <br/>
-
-        wxMSW DLLs for the selected compilers are available.
-        For more details see <a href="https://docs.wxwidgets.org/3.2.1/plat_msw_binaries.html">here</a><br />
 
         <br />
         Thanks to <a href="https://codelite.org/">CodeLite</a> team, binaries for common Linux distributions
