@@ -146,6 +146,8 @@ are available below.
           <li><a href="{{ release.bin_url_debian }}" target="_new">Debian / Ubuntu</a></li>
           <li><a href="{{ release.bin_url_fedora }}" target="_new">Fedora / openSUSE</a></li>
         </ul>
+
+        wxWidgets is also on <a href="https://anaconda.org/conda-forge/wxwidgets"> <img src="https://anaconda.org/conda-forge/wxwidgets/badges/version.svg" /> </a>
       </div>
       <div class="card-footer text-muted">
         <i class="fab fa-github fa-fw"></i> <a href="{{ release_info.html_url }}">Release Information on GitHub</a>
