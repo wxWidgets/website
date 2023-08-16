@@ -63,7 +63,7 @@ code, this document should be considered authoritative.
   * [Use debugging macros](#debug_macros)
 * Message and Documentation Conventions
   * [Use well-formed language for messages](#wellformed)
-  * [Always starts a sentence with a capital letter](#startcapital)
+  * [Always start a sentence with a capital letter](#startcapital)
   * [Always end a sentence with a period or other appropriate punctuation](#endperiod)
   * [Never use "..." unless absolutely necessary](#noellipsis)
   * [Avoid "!" wherever possible](#nopling)
@@ -910,7 +910,7 @@ documentation.
 
 <a name="startcapital"></a>
 
-#### <i class="fas fa-check-square fa-fw"></i> Always starts a sentence with a capital letter
+#### <i class="fas fa-check-square fa-fw"></i> Always start a sentence with a capital letter
 
 <a name="endperiod"></a>
 
