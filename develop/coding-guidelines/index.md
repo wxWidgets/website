@@ -622,7 +622,10 @@ e.g. `false` for functions returning `bool` or `NULL` for the functions
 returning pointers to objects. The special case of constructors, which have no
 return value, is typically handled by providing an `IsOk()` method indicating
 whether the object was constructed successfully and, for all
-`wxWindow`-derived classes, also by using [two-step construction](#twostep_ctor).
+`wxWindow`-derived classes, also by providing a default constructor (which
+never fails) and a function called, by convention, `Create()` performing the
+same initialization as is done by the non-default ctor, but returning a
+boolean value indicating whether it succeeded or failed.
 
 
 <a name="no_rtti"></a>
