@@ -174,6 +174,7 @@ where special announcements for translators are announced.
   * Hiroshi Saito <<saito -at- inetrt.skcapi.co.jp>>
   * Suzumizaki-Kimitaka <<suzumizaki -at- free.japandesign.ne.jp>>
   * Y. KABA. <<kaba -at- shall-systemservice.co.jp>>
+  * Ryo Nakano <<ryonakaknock3 -at- gmail.com>>
 * Korean (ko_KR)
   * Sungkee Jung <<dragoneyes.org -at- gmail.com>>
 * Latvian (lv)
