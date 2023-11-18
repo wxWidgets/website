@@ -9,13 +9,14 @@ depending on the nature of your post.
 In order to post to any of the mailing lists, you will need to subscribe. To do
 this, you can either send an empty email to the subscription address given or
 subscribe from the Google Groups web interface. Subscribing by email does not
-require a Google account.
+require a Google account. If you have trouble subscribing, please contact
+[mailing list administrator][ml-admin] and ask to be added to the list directly.
 
 To ensure a quick and helpful response, be sure to read the advice given in the
 [mailing list posting guide][1] before writing your post.
 
 [1]: /support/mailing-lists/guide/
-
+[ml-admin]: mailto:listmaster@wxwidgets.org
 
 ## Available Mailing Lists
 
