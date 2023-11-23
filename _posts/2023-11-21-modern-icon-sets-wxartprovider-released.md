@@ -10,6 +10,8 @@ All SVG icons are hardcoded into headers such that no external files are needed 
 
 Hopefully this can be useful to people who want to make their existing wxWidgets applications access modern icon sets with limited effort.
 
+![Screenshots of the wxMaterialDesignArtProvider sample browser in macOS and Windows](wxMaterialDesignArtProvider_browser.png)
+
 [1]: https://github.com/perazz
 [2]: https://github.com/perazz/wxMaterialDesignArtProvider
 [3]: https://github.com/marella/material-design-icons
