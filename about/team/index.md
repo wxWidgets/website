@@ -22,8 +22,7 @@ suggested changes if anything here is missing or outdated.
   He runs [Advanced Concepts AG](http://www.advanced.ch/), a Swiss software
   consultancy specialising in medical software.
 
-* [Paul Cornett](mailto:wxml-paul@bullseye.com) - Paul is the maintainer of
-  wxGTK.
+* Paul Cornett - Paul is the maintainer of wxGTK.
 
 * [Robin Dunn](mailto:robin@alldunn.com) - Robin works on the very popular
   [wxPython](http://wxpython.org/) project, which allows using wxWidgets from
