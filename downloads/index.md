@@ -44,6 +44,8 @@ compilers:
     id: gcc1210
   - description: "MSYS2 MinGW-w64 12.2"
     id: gcc1220
+  - description: "MSYS2 MinGW-w64 13.2"
+    id: gcc1320
   - description: "Visual Studio 2008"
     id: vc90
   - description: "Visual Studio 2010"
