@@ -16,7 +16,7 @@ The latest stable release is 3.2.5, released on 2024-05-12. This is the sixth re
 
 ## Development branch and 3.3
 
-New development happens on the master branch. There are no concrete plans for the next release in this branch yet.
+New development happens on the master branch. We hope to make the first 3.3.0 release, which will turn into the next stable 3.4 later, some time in 2024.
 
 ## Old stable branch: 3.0.x
 
