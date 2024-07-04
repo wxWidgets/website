@@ -1,0 +1,28 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/jekyll
+{
+	"name": "Jekyll",
+	"image": "mcr.microsoft.com/devcontainers/jekyll:2-bookworm",
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {}
+	},
+	"forwardPorts": [4000],
+	"containerEnv": {
+		"WX_SITE_DIR": "${containerWorkspaceFolder}"
+	},
+	"postCreateCommand": {
+		"bootstrap": "./.devcontainer/postCreateCommand.sh",
+		"assets": "yarn && yarn dist",
+		"jekyll": "bundle exec jekyll serve"
+	},
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"files.eol": "\n"
+			},
+			"extensions": [
+				"shopify.ruby-lsp"
+			]
+		}
+	}
+}
