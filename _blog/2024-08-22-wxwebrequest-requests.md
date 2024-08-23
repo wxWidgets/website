@@ -18,7 +18,7 @@ However, ever since it was added, there were requests to add an even simpler
 way to use it in blocking, or synchronous, way, when this is affordable, for
 example in simple console applications or in background threads of a GUI
 application. And this is finally possible with
-[wxWebRequestSync][webrequest-sunc], which can be used as simply as
+[wxWebRequestSync][webrequest-sync], which can be used as simply as
 
 ```cpp
 wxWebRequestSync request = wxWebSessionSync::GetDefault().CreateRequest("https://www.wxwidgets.org");
