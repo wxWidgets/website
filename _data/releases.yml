@@ -1,7 +1,7 @@
-- version: 3.2.6
+- version: 3.2.7
   description: Latest Stable
   channel: stable
-  released: September 9th, 2024
+  released: March 20th, 2025
   stable_api_since: July 7, 2022
   bin_url_debian: https://docs.codelite.org/wxWidgets/repo320/#ubuntu-and-debian
   bin_url_fedora: https://docs.codelite.org/wxWidgets/repo320/#fedora-and-opensuse
