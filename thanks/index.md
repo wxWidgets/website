@@ -27,6 +27,9 @@ The wxWidgets project receives support through the donation of infrastructure fr
   <div class="col-sm-6 my-auto">
 <h2 class="display-4">[AppVeyor][AppVeyor]{: class="text-reset"}</h2>
   </div>
+  <div class="col-sm-6 my-auto">
+[![CircleCILogo]][CircleCI]
+  </div>
 </div>
 
 [GitHub]: https://github.com
@@ -38,6 +41,10 @@ The wxWidgets project receives support through the donation of infrastructure fr
 {: width="200px"}
 
 [AppVeyor]: https://www.appveyor.com
+
+[CircleCI]: https://circleci.com
+[CircleCILogo]: CircleCI_Logo.png 
+{: width="200px"}
 
 ### Former Infrastructure Sponsors
 

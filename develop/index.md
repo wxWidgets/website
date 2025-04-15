@@ -38,7 +38,7 @@ title: "Developers"
   <div class="col-sm-6">
     <h3>Continuous Integration</h3>
     <p>
-      wxWidgets employs AppVeyor and GitHub Actions to run automated builds and tests:
+      wxWidgets employs AppVeyor, GitHub Actions and CircleCI to run automated builds and tests:
     </p>
     <p>
       <a href="https://ci.appveyor.com/project/wxWidgets/wxwidgets" target="_new">
@@ -46,6 +46,9 @@ title: "Developers"
       </a>
       <a href="https://github.com/wxWidgets/wxWidgets/actions" target="_new">
         <img alt="GitHub Actions Status" src="https://img.shields.io/github/checks-status/wxWidgets/wxWidgets/master?label=GitHub&logo=github" />
+      </a>
+      <a href="https://app.circleci.com/pipelines/github/wxWidgets/wxWidgets" target="_new">
+        <img alt="CircleCI Build Status" src="https://circleci.com/gh/wxWidgets/wxWidgets.svg?style=svg" />
       </a>
     </p>
     <p>
