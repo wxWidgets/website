@@ -14,7 +14,7 @@ following the instructions below.
 The instructions here about Git are very brief and cover only the most common
 operations. For more information, please see the references below:
 
-* See [BuildGit.txt](https://github.com/wxWidgets/wxWidgets/blob/47c0aed3222360f22cd35e8cad307457e51299c2/BuildGit.txt)
+* See [README-GIT.md](https://github.com/wxWidgets/wxWidgets/blob/master/README-GIT.md)
   file in the top-level wxWidgets distribution directory.
 * [Git book](https://git-scm.com/book/en/v2): Pro Git book online.
 
@@ -39,7 +39,7 @@ here).
 The command above checks out the wxWidgets master branch, corresponding to the
 latest development version. To check out a different branch, you can use
 
-    git checkout WX_3_0_BRANCH
+    git checkout 3.2
 
 You can find a full listing of all branches
 [here](https://github.com/wxWidgets/wxWidgets/branches).
@@ -65,9 +65,9 @@ Git tags give you the ability to checkout any specific version of wxWidgets
 that has been tagged either for a release, or as identification markers for a
 significant change. These work exactly the same as checking out branches.
 
-For example, to checkout wxWidgets 2.8.12 from Git, use the following command:
+For example, to checkout wxWidgets 3.2.6 from Git, use the following command:
 
-    git checkout WX_2_8_12
+    git checkout v3.2.6
 
 You can find a list of all tags available for checkout
 [here](https://github.com/wxWidgets/wxWidgets/tags).
