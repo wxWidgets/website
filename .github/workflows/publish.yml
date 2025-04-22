@@ -8,6 +8,17 @@ on:
     - cron:  '22 7 * * *'
   workflow_dispatch:
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
   publish:
     runs-on: ubuntu-22.04
@@ -40,15 +51,10 @@ jobs:
           ./_cron/update_translation_stats.sh
       - name: Update wxXRC Schema
         run: _cron/update_wxxrc_schema.sh
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
       - name: Build
         run: bundle exec jekyll build
       - name: Upload
-        if: github.repository_owner == 'wxWidgets' && github.ref == 'refs/heads/master'
-        env:
-          REMOTE_KEY: ${{secrets.REMOTE_KEY}}
-          REMOTE_PATH: ${{secrets.REMOTE_PATH}}
-        run: |
-          mkdir "$HOME/.ssh"
-          echo "$REMOTE_KEY" > "$HOME/.ssh/remote_key"
-          chmod 600 "$HOME/.ssh/remote_key"
-          rsync -crz --delete -e "ssh -i $HOME/.ssh/remote_key -o LogLevel=error -o StrictHostKeyChecking=no" _site/ "$REMOTE_PATH"
+        uses: actions/upload-pages-artifact@v3
