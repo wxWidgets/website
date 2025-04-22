@@ -8,4 +8,5 @@ DESTINATION="$WX_SITE_DIR/schemas/"
 
 mkdir -p "$DESTINATION"
 cp "$SOURCE_DIR/xrc_schema.rnc" "$SOURCE_DIR/xrc_schema_builtin_only.rnc" "$DESTINATION"
-
+cp "$SOURCE_DIR/xrc_schema.rnc" "$WX_SITE_DIR/wxxrc"
+cp "$SOURCE_DIR/xrc_schema_builtin_only.rnc" "$WX_SITE_DIR/wxxrc_std"
