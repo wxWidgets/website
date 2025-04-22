@@ -3,7 +3,7 @@
 var sponsors = [
 	[
 		'Writer\'s Café - a place to be creative',
-		'http://www.writerscafe.co.uk/',
+		'http://www.anthemion.co.uk/writerscafe/',
 		'writerscafe.gif'
 	],
 	[
