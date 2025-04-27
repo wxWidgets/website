@@ -4,6 +4,7 @@
 /_site/
 /node_modules/
 /vendor
+/wxWidgets/
 *.log
 
 # Compiled Assets
@@ -19,3 +20,7 @@
 # Download stats files
 /_data/release_assets/*.json
 /downloads/downloads.json
+
+# XRC Schemas copied from wxWidgets repo
+/schemas/xrc_schema_builtin_only.rnc
+/schemas/xrc_schema.rnc
