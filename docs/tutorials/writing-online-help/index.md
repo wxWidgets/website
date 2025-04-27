@@ -134,7 +134,7 @@ There is a variety of freeware, shareware and commercial tools for this
 purpose, some of which generate both HTML and WinHelp RTF.
 
 An example of a commercial tool is Julian Smart's
-[HelpBlocks](http://www.helpblocks.com), available for Windows and Linux and
+[HelpBlocks](http://www.anthemion.co.uk/helpblocks/), available for Windows and Linux and
 making it easy to write and preview HTML pages that can be converted to
 wxWidgets HTML Help and MS HTML Help formats.
 
@@ -159,7 +159,7 @@ latex2pdf converter.
 
 A short list of tools:
 
-* [HelpBlocks](http://www.helpblocks.com) by Julian Smart of Anthemion Software
+* [HelpBlocks](http://www.anthemion.co.uk/helpblocks/) by Julian Smart of Anthemion Software
 * Doc2Help
 * RoboHelp
 

@@ -3,13 +3,8 @@
 var sponsors = [
 	[
 		'Writer\'s Café - a place to be creative',
-		'http://www.writerscafe.co.uk/',
+		'http://www.anthemion.co.uk/writerscafe/',
 		'writerscafe.gif'
-	],
-	[
-		'Try HelpBlocks, a great HTML Help editor',
-		'http://www.helpblocks.com/',
-		'helpblocks.gif'
 	],
 	[
 		'DialogBlocks - dialogs unlimited',
