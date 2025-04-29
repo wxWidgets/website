@@ -48,6 +48,8 @@ compilers:
     id: gcc1320
   - description: "MSYS2 MinGW-w64 14.2"
     id: gcc1420
+  - description: "MSYS2 MinGW-w64 15.1"
+    id: gcc1510
   - description: "Visual Studio 2008"
     id: vc90
   - description: "Visual Studio 2010"
